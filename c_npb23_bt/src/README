@@ -1,0 +1,25 @@
+* 各ファイルの出所
+
+ - bt.c
+ -- NPB23-omp-C/BT/bt.cからコピーしてきた
+ -- tmp1, tmp2, tmp3をローカル変数にした
+ -- ファイル入出力をコメントアウトした
+ --- デフォルト値で計算されるのでOK
+
+ - header.h
+ -- NPB23-omp-C/BT/header.hからコピーしてきた
+ -- グローバルスコープの#pragmaをコメントアウトした
+
+ - npbparams.h
+ -- NPB23-omp-C/でmake bt CLASS=Aとして生成
+ -- NPB23-omp-C/BT/npbparams.hをコピーしてきた
+ -- CCの名前やオプションなどは生成時のもので、特に意味がない
+ -- CLASS={S,W,A}のものも一応用意した(npbparams.h.CLASS-*)
+ -- Wは並列化すると正答が得られず
+
+ - npb-C.h, c_print_results.c, wtime.h, wtime.c, c_timers.c
+ -- NPB23-omp-C/common/からコピーしてきた
+ -- 変更なし
+
+ - argv_stub.h
+ -- evalで定番のファイルをコピーしてきた

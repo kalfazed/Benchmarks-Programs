@@ -1,0 +1,1155 @@
+ 
+ [MINORU] Fortran Compiler Middle Path
+ Narita Kasahara Kimura Lab. 1992-2009
+
+#######    qrfe    #######
+#######  entry2sub #######
+####### C Blocking #######
+Type_table 9 is changed to 15 on member E2
+Type_table 10 is changed to 15 on member E2
+Type_table 10 is unified into 15
+Type_table 9 is unified into 15
+#####   call graph  ######
+#####   call graph  ######
+rb in 706 is changed to loop
+rb in 709 is changed to loop
+rb in 712 is changed to loop
+rb in 756 is changed to loop
+rb in 758 is changed to loop
+rb in 774 is changed to loop
+rb in 776 is changed to loop
+rb in 791 is changed to loop
+rb in 793 is changed to loop
+rb in 808 is changed to loop
+rb in 810 is changed to loop
+rb in 825 is changed to loop
+rb in 827 is changed to loop
+rb in 842 is changed to loop
+rb in 844 is changed to loop
+rb in 868 is changed to loop
+rb in 869 is changed to loop
+rb in 870 is changed to loop
+rb in 886 is changed to loop
+rb in 887 is changed to loop
+rb in 888 is changed to loop
+rb in 319 is changed to loop
+rb in 320 is changed to loop
+rb in 321 is changed to loop
+rb in 333 is changed to loop
+rb in 336 is changed to loop
+rb in 339 is changed to loop
+rb in 360 is changed to loop
+rb in 408 is changed to loop
+rb in 432 is changed to loop
+rb in 435 is changed to loop
+rb in 438 is changed to loop
+rb in 459 is changed to loop
+rb in 507 is changed to loop
+rb in 532 is changed to loop
+rb in 535 is changed to loop
+rb in 538 is changed to loop
+rb in 559 is changed to loop
+rb in 607 is changed to loop
+rb in 631 is changed to loop
+rb in 632 is changed to loop
+rb in 633 is changed to loop
+rb in 198 is changed to loop
+rb in 199 is changed to loop
+rb in 200 is changed to loop
+rb in 1782 is changed to loop
+rb in 1783 is changed to loop
+rb in 1784 is changed to loop
+rb in 1805 is changed to loop
+rb in 1806 is changed to loop
+rb in 1807 is changed to loop
+rb in 1819 is changed to loop
+rb in 1820 is changed to loop
+rb in 1821 is changed to loop
+rb in 1880 is changed to loop
+rb in 1881 is changed to loop
+rb in 1892 is changed to loop
+rb in 1893 is changed to loop
+rb in 1903 is changed to loop
+rb in 1904 is changed to loop
+rb in 1905 is changed to loop
+rb in 1918 is changed to loop
+rb in 1919 is changed to loop
+rb in 1930 is changed to loop
+rb in 1931 is changed to loop
+rb in 1944 is changed to loop
+rb in 1945 is changed to loop
+rb in 1946 is changed to loop
+rb in 2000 is changed to loop
+rb in 2001 is changed to loop
+rb in 2012 is changed to loop
+rb in 2013 is changed to loop
+rb in 2023 is changed to loop
+rb in 2024 is changed to loop
+rb in 2025 is changed to loop
+rb in 2038 is changed to loop
+rb in 2039 is changed to loop
+rb in 2050 is changed to loop
+rb in 2051 is changed to loop
+rb in 2064 is changed to loop
+rb in 2065 is changed to loop
+rb in 2066 is changed to loop
+rb in 2121 is changed to loop
+rb in 2122 is changed to loop
+rb in 2133 is changed to loop
+rb in 2134 is changed to loop
+rb in 2144 is changed to loop
+rb in 2145 is changed to loop
+rb in 2146 is changed to loop
+rb in 2159 is changed to loop
+rb in 2160 is changed to loop
+rb in 2171 is changed to loop
+rb in 2172 is changed to loop
+rb in 2182 is changed to loop
+rb in 2183 is changed to loop
+rb in 2185 is changed to loop
+rb in 241 is changed to loop
+rb in 243 is changed to loop
+rb in 245 is changed to loop
+rb in 280 is changed to loop
+rb in 281 is changed to loop
+rb in 282 is changed to loop
+rb in 916 is changed to loop
+rb in 917 is changed to loop
+rb in 918 is changed to loop
+rb in 1011 is changed to loop
+rb in 1201 is changed to loop
+rb in 1202 is changed to loop
+rb in 1203 is changed to loop
+rb in 1303 is changed to loop
+rb in 1304 is changed to loop
+rb in 1305 is changed to loop
+rb in 1496 is changed to loop
+rb in 1497 is changed to loop
+rb in 1498 is changed to loop
+rb in 1597 is changed to loop
+rb in 1598 is changed to loop
+rb in 1599 is changed to loop
+rb in 2751 is changed to loop
+rb in 2752 is changed to loop
+rb in 2771 is changed to loop
+rb in 2772 is changed to loop
+rb in 2801 is changed to loop
+rb in 2802 is changed to loop
+rb in 2715 is changed to loop
+rb in 2716 is changed to loop
+rb in 3391 is changed to loop
+rb in 3392 is changed to loop
+rb in 3411 is changed to loop
+rb in 3412 is changed to loop
+rb in 3442 is changed to loop
+rb in 3443 is changed to loop
+rb in 3355 is changed to loop
+rb in 3356 is changed to loop
+rb in 3552 is changed to loop
+rb in 3553 is changed to loop
+rb in 3573 is changed to loop
+rb in 3574 is changed to loop
+rb in 3608 is changed to loop
+rb in 3609 is changed to loop
+rb in 3512 is changed to loop
+rb in 3513 is changed to loop
+####  output Minoru_Q ####
+#####   call graph  ######
+## specify char length ###
+##### insert ioctl qr ####
+###### Structuring  ######
+#####   call graph  ######
+##remove redundant common#
+#######   inline   #######
+#####   call graph  ######
+#########  subid  ########
+#### Expand & Private ####
+#### Set main PG & PE ####
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+#####   call graph  ######
+#### Control flow ana1 ###
+# flow-sensitive ptr ana #
+#####   call graph  ######
+#### def/use analysis ####
+#### set loop bounder ####
+## argument def/use ana ##
+### dataflow  analysis ###
+### loop index renaming ##
+#####   call graph  ######
+##### array symbolic #####
+###### array in out ######
+##### in/out analysis1 ###
+##### make dda data1 #####
+####### do loop dda ######
+#####   call graph  ######
+#### cost computation ####
+## Pseudo program costs ##
+### Check Vpp Directive ##
+##### Remaking HMDF ######
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+#### Control flow ana ####
+#########  subid  ########
+# flow-sensitive ptr ana #
+#####   call graph  ######
+###### def/use ana #######
+#### set loop bounder ####
+## argument def/use ana ##
+### dataflow analysis ####
+##### array symbolic #####
+##### in/out analysis ####
+##### make dda data ######
+####### do loop dda ######
+#### Make pseudo MTG #####
+## add Lad by hmdf info ##
+#flow-insensitive ptr ana#
+#####   call graph  ######
+### ARG DEF USE ###
+### DETECT WRITE SHARE ###
+
+
+--- write sharing statistics ---
+
+### RESOLVE WRITE SHARE ##
+## Cluster 189 : (0 -->, --> 111)
+ Module 115<<binvrhs>>  V96<<r>> 
+ Module 112<<matvec_sub>>  V97<<bvec>> 
+ Module 112<<matvec_sub>>  V96<<avec>> 
+ Module 114<<binvcrhs>>  V97<<r>> 
+## Cluster 188 : (0 -->, --> 112)
+ Module 115<<binvrhs>>  V95<<lhs>> 
+ Module 113<<matmul_sub>>  V97<<cblock>> 
+ Module 113<<matmul_sub>>  V96<<bblock>> 
+ Module 113<<matmul_sub>>  V95<<ablock>> 
+ Module 112<<matvec_sub>>  V95<<ablock>> 
+ Module 114<<binvcrhs>>  V96<<c>> 
+ Module 114<<binvcrhs>>  V95<<lhs>> 
+## Cluster 187 : (0 -->, --> 0)
+ Module 113<<matmul_sub>>  I3<<1_cblock>> 
+## Cluster 186 : (0 -->, --> 0)
+ Module 113<<matmul_sub>>  I2<<1_bblock>> 
+## Cluster 182 : (0 -->, --> 0)
+ Module 112<<matvec_sub>>  I3<<1_bvec>> 
+## Cluster 178 : (0 -->, --> 0)
+ Module 114<<binvcrhs>>  I2<<1_c>> 
+## Cluster 174 : (0 -->, --> 157)
+ Module 100<<exact_solution>>  V98<<dtemp>> 
+## Cluster 173 : (0 -->, --> 170)
+ Module 98<<rhs_norm>>  V95<<rms>> 
+## Cluster 171 : (0 -->, --> 169)
+ Module 97<<error_norm>>  V95<<rms>> 
+## Cluster 170 : (173 -->, --> 0)
+ Module 98<<rhs_norm>>  I1<<1_rms>> 
+ Module 108<<verify>>  A60<<xcr>> 
+## Cluster 169 : (171 -->, --> 0)
+ Module 97<<error_norm>>  I1<<1_rms>> 
+ Module 108<<verify>>  A59<<xce>> 
+## Cluster 168 : (0 -->, --> 156)
+ Module 108<<verify>>  V97<<verified>> 
+## Cluster 167 : (0 -->, --> 155)
+ Module 108<<verify>>  V96<<class>> 
+## Cluster 157 : (174 -->, --> 0)
+ Module 100<<exact_solution>>  I1<<1_dtemp>> 
+ Module 101<<initialize>>  A57<<Pface>> 
+ Module 101<<initialize>>  A58<<temp>> 
+ Module 101<<initialize>>  A59<<temp>> 
+ Module 101<<initialize>>  A60<<temp>> 
+ Module 101<<initialize>>  A61<<temp>> 
+ Module 101<<initialize>>  A62<<temp>> 
+ Module 101<<initialize>>  A63<<temp>> 
+ Module 99<<exact_rhs>>  A56<<dtemp>> 
+ Module 99<<exact_rhs>>  A57<<dtemp>> 
+ Module 99<<exact_rhs>>  A58<<dtemp>> 
+ Module 97<<error_norm>>  A55<<u_exact>> 
+## Cluster 156 : (168 -->, --> 0)
+ Module 108<<verify>>  I2<<1_verified>> 
+ Module 0<<*MAIN*>>  V104<<verified>> 
+## Cluster 155 : (167 -->, --> 0)
+ Module 108<<verify>>  I1<<1_class>> 
+ Module 0<<*MAIN*>>  V105<<class>> 
+## Cluster 154 : (0 -->, --> 0)
+ Module 108<<verify>>  A54<<.35fake>> 
+ Module 0<<*MAIN*>>  A54<<.35fake>> 
+## Cluster 153 : (0 -->, --> 0)
+ Module 108<<verify>>  A53<<.34fake>> 
+ Module 0<<*MAIN*>>  A53<<.34fake>> 
+## Cluster 152 : (0 -->, --> 0)
+ Module 108<<verify>>  A52<<.33fake>> 
+ Module 0<<*MAIN*>>  A52<<.33fake>> 
+## Cluster 151 : (0 -->, --> 0)
+ Module 108<<verify>>  A51<<.32fake>> 
+ Module 0<<*MAIN*>>  A51<<.32fake>> 
+## Cluster 150 : (0 -->, --> 0)
+ Module 108<<verify>>  A50<<.31fake>> 
+ Module 0<<*MAIN*>>  A50<<.31fake>> 
+## Cluster 149 : (0 -->, --> 0)
+ Module 108<<verify>>  A49<<.30fake>> 
+ Module 0<<*MAIN*>>  A49<<.30fake>> 
+## Cluster 148 : (0 -->, --> 0)
+ Module 108<<verify>>  A48<<.29fake>> 
+ Module 0<<*MAIN*>>  A48<<.29fake>> 
+## Cluster 147 : (0 -->, --> 0)
+ Module 108<<verify>>  A47<<.28fake>> 
+ Module 0<<*MAIN*>>  A47<<.28fake>> 
+## Cluster 146 : (0 -->, --> 0)
+ Module 108<<verify>>  A46<<.27fake>> 
+ Module 0<<*MAIN*>>  A46<<.27fake>> 
+## Cluster 145 : (0 -->, --> 0)
+ Module 108<<verify>>  A45<<.26fake>> 
+ Module 0<<*MAIN*>>  A45<<.26fake>> 
+## Cluster 144 : (0 -->, --> 0)
+ Module 108<<verify>>  A44<<.25fake>> 
+ Module 0<<*MAIN*>>  A44<<.25fake>> 
+## Cluster 143 : (0 -->, --> 0)
+ Module 108<<verify>>  A43<<.24fake>> 
+ Module 0<<*MAIN*>>  A43<<.24fake>> 
+## Cluster 142 : (0 -->, --> 0)
+ Module 108<<verify>>  A42<<.23fake>> 
+ Module 0<<*MAIN*>>  A42<<.23fake>> 
+## Cluster 141 : (0 -->, --> 0)
+ Module 108<<verify>>  A41<<.22fake>> 
+ Module 0<<*MAIN*>>  A41<<.22fake>> 
+## Cluster 140 : (0 -->, --> 0)
+ Module 108<<verify>>  A40<<.21fake>> 
+ Module 0<<*MAIN*>>  A40<<.21fake>> 
+## Cluster 139 : (0 -->, --> 0)
+ Module 108<<verify>>  A39<<.20fake>> 
+ Module 0<<*MAIN*>>  A39<<.20fake>> 
+## Cluster 138 : (0 -->, --> 0)
+ Module 108<<verify>>  A38<<.19fake>> 
+ Module 0<<*MAIN*>>  A38<<.19fake>> 
+## Cluster 137 : (0 -->, --> 0)
+ Module 108<<verify>>  A37<<.18fake>> 
+ Module 0<<*MAIN*>>  A37<<.18fake>> 
+## Cluster 136 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A36<<.17fake>> 
+## Cluster 135 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A35<<.16fake>> 
+## Cluster 134 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A34<<.15fake>> 
+## Cluster 133 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A33<<.14fake>> 
+## Cluster 132 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A32<<.13fake>> 
+## Cluster 131 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A31<<.12fake>> 
+## Cluster 130 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A30<<.11fake>> 
+## Cluster 129 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A29<<.10fake>> 
+## Cluster 128 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A28<<.9fake>> 
+## Cluster 127 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A27<<.8fake>> 
+## Cluster 126 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A26<<.7fake>> 
+## Cluster 125 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A25<<.6fake>> 
+## Cluster 124 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A24<<.5fake>> 
+## Cluster 123 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A23<<.4fake>> 
+## Cluster 122 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A22<<.3fake>> 
+## Cluster 121 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A21<<.2fake>> 
+## Cluster 120 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A20<<.1fake>> 
+## Cluster 119 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A19<<.0fake>> 
+## Cluster 118 : (0 -->, --> 0)
+ Module 105<<lhsz>>  A18<<njac>> 
+ Module 104<<lhsy>>  A18<<njac>> 
+ Module 103<<lhsx>>  A18<<njac>> 
+ Module 119<<z_solve>>  A18<<njac>> 
+ Module 116<<y_solve>>  A18<<njac>> 
+ Module 109<<x_solve>>  A18<<njac>> 
+ Module 96<<adi>>  A18<<njac>> 
+ Module 0<<*MAIN*>>  A18<<njac>> 
+## Cluster 117 : (0 -->, --> 0)
+ Module 105<<lhsz>>  A17<<fjac>> 
+ Module 104<<lhsy>>  A17<<fjac>> 
+ Module 103<<lhsx>>  A17<<fjac>> 
+ Module 119<<z_solve>>  A17<<fjac>> 
+ Module 116<<y_solve>>  A17<<fjac>> 
+ Module 109<<x_solve>>  A17<<fjac>> 
+ Module 96<<adi>>  A17<<fjac>> 
+ Module 0<<*MAIN*>>  A17<<fjac>> 
+## Cluster 116 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  A16<<buf>> 
+ Module 0<<*MAIN*>>  A16<<buf>> 
+## Cluster 115 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  A15<<ue>> 
+ Module 0<<*MAIN*>>  A15<<ue>> 
+## Cluster 114 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  A14<<q>> 
+ Module 0<<*MAIN*>>  A14<<q>> 
+## Cluster 113 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  A13<<cuf>> 
+ Module 0<<*MAIN*>>  A13<<cuf>> 
+## Cluster 112 : (188 -->, --> 0)
+ Module 115<<binvrhs>>  I1<<1_lhs>> 
+ Module 113<<matmul_sub>>  I1<<1_ablock>> 
+ Module 112<<matvec_sub>>  I1<<1_ablock>> 
+ Module 114<<binvcrhs>>  I1<<1_lhs>> 
+ Module 120<<z_backsubstitute>>  A12<<lhs>> 
+ Module 121<<z_solve_cell>>  A12<<lhs>> 
+ Module 117<<y_backsubstitute>>  A12<<lhs>> 
+ Module 118<<y_solve_cell>>  A12<<lhs>> 
+ Module 110<<x_backsubstitute>>  A12<<lhs>> 
+ Module 111<<x_solve_cell>>  A12<<lhs>> 
+ Module 105<<lhsz>>  A12<<lhs>> 
+ Module 104<<lhsy>>  A12<<lhs>> 
+ Module 103<<lhsx>>  A12<<lhs>> 
+ Module 119<<z_solve>>  A12<<lhs>> 
+ Module 116<<y_solve>>  A12<<lhs>> 
+ Module 109<<x_solve>>  A12<<lhs>> 
+ Module 96<<adi>>  A12<<lhs>> 
+ Module 102<<lhsinit>>  A12<<lhs>> 
+ Module 0<<*MAIN*>>  A12<<lhs>> 
+## Cluster 111 : (189 -->, --> 0)
+ Module 115<<binvrhs>>  I2<<1_r>> 
+ Module 112<<matvec_sub>>  I2<<1_avec>> 
+ Module 114<<binvcrhs>>  I3<<1_r>> 
+ Module 120<<z_backsubstitute>>  A11<<rhs>> 
+ Module 121<<z_solve_cell>>  A11<<rhs>> 
+ Module 117<<y_backsubstitute>>  A11<<rhs>> 
+ Module 118<<y_solve_cell>>  A11<<rhs>> 
+ Module 110<<x_backsubstitute>>  A11<<rhs>> 
+ Module 111<<x_solve_cell>>  A11<<rhs>> 
+ Module 98<<rhs_norm>>  A11<<rhs>> 
+ Module 119<<z_solve>>  A11<<rhs>> 
+ Module 116<<y_solve>>  A11<<rhs>> 
+ Module 109<<x_solve>>  A11<<rhs>> 
+ Module 106<<compute_rhs>>  A11<<rhs>> 
+ Module 95<<add>>  A11<<rhs>> 
+ Module 108<<verify>>  A11<<rhs>> 
+ Module 96<<adi>>  A11<<rhs>> 
+ Module 0<<*MAIN*>>  A11<<rhs>> 
+## Cluster 110 : (0 -->, --> 0)
+ Module 105<<lhsz>>  A10<<u>> 
+ Module 104<<lhsy>>  A10<<u>> 
+ Module 103<<lhsx>>  A10<<u>> 
+ Module 97<<error_norm>>  A10<<u>> 
+ Module 119<<z_solve>>  A10<<u>> 
+ Module 116<<y_solve>>  A10<<u>> 
+ Module 109<<x_solve>>  A10<<u>> 
+ Module 106<<compute_rhs>>  A10<<u>> 
+ Module 95<<add>>  A10<<u>> 
+ Module 108<<verify>>  A10<<u>> 
+ Module 96<<adi>>  A10<<u>> 
+ Module 101<<initialize>>  A10<<u>> 
+ Module 0<<*MAIN*>>  A10<<u>> 
+## Cluster 109 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A9<<forcing>> 
+ Module 108<<verify>>  A9<<forcing>> 
+ Module 96<<adi>>  A9<<forcing>> 
+ Module 99<<exact_rhs>>  A9<<forcing>> 
+ Module 0<<*MAIN*>>  A9<<forcing>> 
+## Cluster 108 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A8<<square>> 
+ Module 108<<verify>>  A8<<square>> 
+ Module 96<<adi>>  A8<<square>> 
+ Module 0<<*MAIN*>>  A8<<square>> 
+## Cluster 107 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A7<<rho_i>> 
+ Module 108<<verify>>  A7<<rho_i>> 
+ Module 96<<adi>>  A7<<rho_i>> 
+ Module 0<<*MAIN*>>  A7<<rho_i>> 
+## Cluster 106 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A6<<qs>> 
+ Module 108<<verify>>  A6<<qs>> 
+ Module 96<<adi>>  A6<<qs>> 
+ Module 0<<*MAIN*>>  A6<<qs>> 
+## Cluster 105 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A5<<ws>> 
+ Module 108<<verify>>  A5<<ws>> 
+ Module 96<<adi>>  A5<<ws>> 
+ Module 0<<*MAIN*>>  A5<<ws>> 
+## Cluster 104 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A4<<vs>> 
+ Module 108<<verify>>  A4<<vs>> 
+ Module 96<<adi>>  A4<<vs>> 
+ Module 0<<*MAIN*>>  A4<<vs>> 
+## Cluster 103 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A3<<us>> 
+ Module 108<<verify>>  A3<<us>> 
+ Module 96<<adi>>  A3<<us>> 
+ Module 0<<*MAIN*>>  A3<<us>> 
+## Cluster 102 : (0 -->, --> 0)
+ Module 100<<exact_solution>>  A2<<ce>> 
+ Module 97<<error_norm>>  A2<<ce>> 
+ Module 108<<verify>>  A2<<ce>> 
+ Module 99<<exact_rhs>>  A2<<ce>> 
+ Module 101<<initialize>>  A2<<ce>> 
+ Module 107<<set_constants>>  A2<<ce>> 
+ Module 0<<*MAIN*>>  A2<<ce>> 
+## Cluster 101 : (0 -->, --> 0)
+ Module 120<<z_backsubstitute>>  A1<<grid_points>> 
+ Module 121<<z_solve_cell>>  A1<<grid_points>> 
+ Module 117<<y_backsubstitute>>  A1<<grid_points>> 
+ Module 118<<y_solve_cell>>  A1<<grid_points>> 
+ Module 110<<x_backsubstitute>>  A1<<grid_points>> 
+ Module 111<<x_solve_cell>>  A1<<grid_points>> 
+ Module 105<<lhsz>>  A1<<grid_points>> 
+ Module 104<<lhsy>>  A1<<grid_points>> 
+ Module 103<<lhsx>>  A1<<grid_points>> 
+ Module 98<<rhs_norm>>  A1<<grid_points>> 
+ Module 97<<error_norm>>  A1<<grid_points>> 
+ Module 119<<z_solve>>  A1<<grid_points>> 
+ Module 116<<y_solve>>  A1<<grid_points>> 
+ Module 109<<x_solve>>  A1<<grid_points>> 
+ Module 106<<compute_rhs>>  A1<<grid_points>> 
+ Module 95<<add>>  A1<<grid_points>> 
+ Module 108<<verify>>  A1<<grid_points>> 
+ Module 96<<adi>>  A1<<grid_points>> 
+ Module 99<<exact_rhs>>  A1<<grid_points>> 
+ Module 102<<lhsinit>>  A1<<grid_points>> 
+ Module 101<<initialize>>  A1<<grid_points>> 
+ Module 107<<set_constants>>  A1<<grid_points>> 
+ Module 0<<*MAIN*>>  A1<<grid_points>> 
+## Cluster 100 : (99 -->, --> 0)
+ Module 0<<*MAIN*>>  I2<<2_argv>> 
+## Cluster 99 : (98 -->, --> 100)
+ Module 0<<*MAIN*>>  I1<<1_argv>> 
+## Cluster 98 : (0 -->, --> 99)
+ Module 0<<*MAIN*>>  V96<<argv>> 
+## Cluster 97 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V94<<con16>> 
+ Module 0<<*MAIN*>>  V94<<con16>> 
+## Cluster 96 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V93<<con43>> 
+ Module 104<<lhsy>>  V93<<con43>> 
+ Module 103<<lhsx>>  V93<<con43>> 
+ Module 119<<z_solve>>  V93<<con43>> 
+ Module 116<<y_solve>>  V93<<con43>> 
+ Module 109<<x_solve>>  V93<<con43>> 
+ Module 106<<compute_rhs>>  V93<<con43>> 
+ Module 108<<verify>>  V93<<con43>> 
+ Module 96<<adi>>  V93<<con43>> 
+ Module 107<<set_constants>>  V93<<con43>> 
+ Module 0<<*MAIN*>>  V93<<con43>> 
+## Cluster 95 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V92<<c2iv>> 
+ Module 0<<*MAIN*>>  V92<<c2iv>> 
+## Cluster 94 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V91<<c3c4tz3>> 
+ Module 0<<*MAIN*>>  V91<<c3c4tz3>> 
+## Cluster 93 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V90<<c3c4ty3>> 
+ Module 0<<*MAIN*>>  V90<<c3c4ty3>> 
+## Cluster 92 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V89<<c3c4tx3>> 
+ Module 0<<*MAIN*>>  V89<<c3c4tx3>> 
+## Cluster 91 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V88<<comz6>> 
+ Module 0<<*MAIN*>>  V88<<comz6>> 
+## Cluster 90 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V87<<comz5>> 
+ Module 0<<*MAIN*>>  V87<<comz5>> 
+## Cluster 89 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V86<<comz4>> 
+ Module 0<<*MAIN*>>  V86<<comz4>> 
+## Cluster 88 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V85<<comz1>> 
+ Module 0<<*MAIN*>>  V85<<comz1>> 
+## Cluster 87 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V84<<c2dttz1>> 
+ Module 0<<*MAIN*>>  V84<<c2dttz1>> 
+## Cluster 86 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V83<<c2dtty1>> 
+ Module 0<<*MAIN*>>  V83<<c2dtty1>> 
+## Cluster 85 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V82<<c2dttx1>> 
+ Module 0<<*MAIN*>>  V82<<c2dttx1>> 
+## Cluster 84 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V81<<dttz2>> 
+ Module 0<<*MAIN*>>  V81<<dttz2>> 
+## Cluster 83 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V80<<dttz1>> 
+ Module 0<<*MAIN*>>  V80<<dttz1>> 
+## Cluster 82 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V79<<dtty2>> 
+ Module 0<<*MAIN*>>  V79<<dtty2>> 
+## Cluster 81 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V78<<dtty1>> 
+ Module 0<<*MAIN*>>  V78<<dtty1>> 
+## Cluster 80 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V77<<dttx2>> 
+ Module 0<<*MAIN*>>  V77<<dttx2>> 
+## Cluster 79 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V76<<dttx1>> 
+ Module 0<<*MAIN*>>  V76<<dttx1>> 
+## Cluster 78 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V75<<dtdssp>> 
+ Module 0<<*MAIN*>>  V75<<dtdssp>> 
+## Cluster 77 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V74<<c5dssp>> 
+ Module 0<<*MAIN*>>  V74<<c5dssp>> 
+## Cluster 76 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V73<<c4dssp>> 
+ Module 0<<*MAIN*>>  V73<<c4dssp>> 
+## Cluster 75 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V72<<c5>> 
+ Module 0<<*MAIN*>>  V72<<c5>> 
+## Cluster 74 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V71<<c4>> 
+ Module 119<<z_solve>>  V71<<c4>> 
+ Module 96<<adi>>  V71<<c4>> 
+ Module 107<<set_constants>>  V71<<c4>> 
+ Module 0<<*MAIN*>>  V71<<c4>> 
+## Cluster 73 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V70<<c3>> 
+ Module 119<<z_solve>>  V70<<c3>> 
+ Module 96<<adi>>  V70<<c3>> 
+ Module 107<<set_constants>>  V70<<c3>> 
+ Module 0<<*MAIN*>>  V70<<c3>> 
+## Cluster 72 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V69<<c2>> 
+ Module 104<<lhsy>>  V69<<c2>> 
+ Module 103<<lhsx>>  V69<<c2>> 
+ Module 119<<z_solve>>  V69<<c2>> 
+ Module 116<<y_solve>>  V69<<c2>> 
+ Module 109<<x_solve>>  V69<<c2>> 
+ Module 106<<compute_rhs>>  V69<<c2>> 
+ Module 108<<verify>>  V69<<c2>> 
+ Module 96<<adi>>  V69<<c2>> 
+ Module 99<<exact_rhs>>  V69<<c2>> 
+ Module 107<<set_constants>>  V69<<c2>> 
+ Module 0<<*MAIN*>>  V69<<c2>> 
+## Cluster 71 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V68<<c1>> 
+ Module 104<<lhsy>>  V68<<c1>> 
+ Module 103<<lhsx>>  V68<<c1>> 
+ Module 119<<z_solve>>  V68<<c1>> 
+ Module 116<<y_solve>>  V68<<c1>> 
+ Module 109<<x_solve>>  V68<<c1>> 
+ Module 106<<compute_rhs>>  V68<<c1>> 
+ Module 108<<verify>>  V68<<c1>> 
+ Module 96<<adi>>  V68<<c1>> 
+ Module 99<<exact_rhs>>  V68<<c1>> 
+ Module 107<<set_constants>>  V68<<c1>> 
+ Module 0<<*MAIN*>>  V68<<c1>> 
+## Cluster 70 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V67<<conz1>> 
+ Module 0<<*MAIN*>>  V67<<conz1>> 
+## Cluster 69 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V66<<c1345>> 
+ Module 104<<lhsy>>  V66<<c1345>> 
+ Module 103<<lhsx>>  V66<<c1345>> 
+ Module 119<<z_solve>>  V66<<c1345>> 
+ Module 116<<y_solve>>  V66<<c1345>> 
+ Module 109<<x_solve>>  V66<<c1345>> 
+ Module 96<<adi>>  V66<<c1345>> 
+ Module 107<<set_constants>>  V66<<c1345>> 
+ Module 0<<*MAIN*>>  V66<<c1345>> 
+## Cluster 68 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V65<<c3c4>> 
+ Module 104<<lhsy>>  V65<<c3c4>> 
+ Module 103<<lhsx>>  V65<<c3c4>> 
+ Module 119<<z_solve>>  V65<<c3c4>> 
+ Module 116<<y_solve>>  V65<<c3c4>> 
+ Module 109<<x_solve>>  V65<<c3c4>> 
+ Module 96<<adi>>  V65<<c3c4>> 
+ Module 107<<set_constants>>  V65<<c3c4>> 
+ Module 0<<*MAIN*>>  V65<<c3c4>> 
+## Cluster 67 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V64<<c1c5>> 
+ Module 0<<*MAIN*>>  V64<<c1c5>> 
+## Cluster 66 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V63<<c1c2>> 
+ Module 0<<*MAIN*>>  V63<<c1c2>> 
+## Cluster 65 : (0 -->, --> 0)
+ Module 97<<error_norm>>  V62<<dnzm1>> 
+ Module 108<<verify>>  V62<<dnzm1>> 
+ Module 99<<exact_rhs>>  V62<<dnzm1>> 
+ Module 101<<initialize>>  V62<<dnzm1>> 
+ Module 107<<set_constants>>  V62<<dnzm1>> 
+ Module 0<<*MAIN*>>  V62<<dnzm1>> 
+## Cluster 64 : (0 -->, --> 0)
+ Module 97<<error_norm>>  V61<<dnym1>> 
+ Module 108<<verify>>  V61<<dnym1>> 
+ Module 99<<exact_rhs>>  V61<<dnym1>> 
+ Module 101<<initialize>>  V61<<dnym1>> 
+ Module 107<<set_constants>>  V61<<dnym1>> 
+ Module 0<<*MAIN*>>  V61<<dnym1>> 
+## Cluster 63 : (0 -->, --> 0)
+ Module 97<<error_norm>>  V60<<dnxm1>> 
+ Module 108<<verify>>  V60<<dnxm1>> 
+ Module 99<<exact_rhs>>  V60<<dnxm1>> 
+ Module 101<<initialize>>  V60<<dnxm1>> 
+ Module 107<<set_constants>>  V60<<dnxm1>> 
+ Module 0<<*MAIN*>>  V60<<dnxm1>> 
+## Cluster 62 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V59<<dz5tz1>> 
+ Module 108<<verify>>  V59<<dz5tz1>> 
+ Module 96<<adi>>  V59<<dz5tz1>> 
+ Module 99<<exact_rhs>>  V59<<dz5tz1>> 
+ Module 107<<set_constants>>  V59<<dz5tz1>> 
+ Module 0<<*MAIN*>>  V59<<dz5tz1>> 
+## Cluster 61 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V58<<dz4tz1>> 
+ Module 108<<verify>>  V58<<dz4tz1>> 
+ Module 96<<adi>>  V58<<dz4tz1>> 
+ Module 99<<exact_rhs>>  V58<<dz4tz1>> 
+ Module 107<<set_constants>>  V58<<dz4tz1>> 
+ Module 0<<*MAIN*>>  V58<<dz4tz1>> 
+## Cluster 60 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V57<<dz3tz1>> 
+ Module 108<<verify>>  V57<<dz3tz1>> 
+ Module 96<<adi>>  V57<<dz3tz1>> 
+ Module 99<<exact_rhs>>  V57<<dz3tz1>> 
+ Module 107<<set_constants>>  V57<<dz3tz1>> 
+ Module 0<<*MAIN*>>  V57<<dz3tz1>> 
+## Cluster 59 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V56<<dz2tz1>> 
+ Module 108<<verify>>  V56<<dz2tz1>> 
+ Module 96<<adi>>  V56<<dz2tz1>> 
+ Module 99<<exact_rhs>>  V56<<dz2tz1>> 
+ Module 107<<set_constants>>  V56<<dz2tz1>> 
+ Module 0<<*MAIN*>>  V56<<dz2tz1>> 
+## Cluster 58 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V55<<dz1tz1>> 
+ Module 108<<verify>>  V55<<dz1tz1>> 
+ Module 96<<adi>>  V55<<dz1tz1>> 
+ Module 99<<exact_rhs>>  V55<<dz1tz1>> 
+ Module 107<<set_constants>>  V55<<dz1tz1>> 
+ Module 0<<*MAIN*>>  V55<<dz1tz1>> 
+## Cluster 57 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V54<<zzcon5>> 
+ Module 108<<verify>>  V54<<zzcon5>> 
+ Module 96<<adi>>  V54<<zzcon5>> 
+ Module 99<<exact_rhs>>  V54<<zzcon5>> 
+ Module 107<<set_constants>>  V54<<zzcon5>> 
+ Module 0<<*MAIN*>>  V54<<zzcon5>> 
+## Cluster 56 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V53<<zzcon4>> 
+ Module 108<<verify>>  V53<<zzcon4>> 
+ Module 96<<adi>>  V53<<zzcon4>> 
+ Module 99<<exact_rhs>>  V53<<zzcon4>> 
+ Module 107<<set_constants>>  V53<<zzcon4>> 
+ Module 0<<*MAIN*>>  V53<<zzcon4>> 
+## Cluster 55 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V52<<zzcon3>> 
+ Module 108<<verify>>  V52<<zzcon3>> 
+ Module 96<<adi>>  V52<<zzcon3>> 
+ Module 99<<exact_rhs>>  V52<<zzcon3>> 
+ Module 107<<set_constants>>  V52<<zzcon3>> 
+ Module 0<<*MAIN*>>  V52<<zzcon3>> 
+## Cluster 54 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V51<<zzcon2>> 
+ Module 108<<verify>>  V51<<zzcon2>> 
+ Module 96<<adi>>  V51<<zzcon2>> 
+ Module 99<<exact_rhs>>  V51<<zzcon2>> 
+ Module 107<<set_constants>>  V51<<zzcon2>> 
+ Module 0<<*MAIN*>>  V51<<zzcon2>> 
+## Cluster 53 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  V50<<zzcon1>> 
+ Module 107<<set_constants>>  V50<<zzcon1>> 
+ Module 0<<*MAIN*>>  V50<<zzcon1>> 
+## Cluster 52 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V49<<dy5ty1>> 
+ Module 108<<verify>>  V49<<dy5ty1>> 
+ Module 96<<adi>>  V49<<dy5ty1>> 
+ Module 99<<exact_rhs>>  V49<<dy5ty1>> 
+ Module 107<<set_constants>>  V49<<dy5ty1>> 
+ Module 0<<*MAIN*>>  V49<<dy5ty1>> 
+## Cluster 51 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V48<<dy4ty1>> 
+ Module 108<<verify>>  V48<<dy4ty1>> 
+ Module 96<<adi>>  V48<<dy4ty1>> 
+ Module 99<<exact_rhs>>  V48<<dy4ty1>> 
+ Module 107<<set_constants>>  V48<<dy4ty1>> 
+ Module 0<<*MAIN*>>  V48<<dy4ty1>> 
+## Cluster 50 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V47<<dy3ty1>> 
+ Module 108<<verify>>  V47<<dy3ty1>> 
+ Module 96<<adi>>  V47<<dy3ty1>> 
+ Module 99<<exact_rhs>>  V47<<dy3ty1>> 
+ Module 107<<set_constants>>  V47<<dy3ty1>> 
+ Module 0<<*MAIN*>>  V47<<dy3ty1>> 
+## Cluster 49 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V46<<dy2ty1>> 
+ Module 108<<verify>>  V46<<dy2ty1>> 
+ Module 96<<adi>>  V46<<dy2ty1>> 
+ Module 99<<exact_rhs>>  V46<<dy2ty1>> 
+ Module 107<<set_constants>>  V46<<dy2ty1>> 
+ Module 0<<*MAIN*>>  V46<<dy2ty1>> 
+## Cluster 48 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V45<<dy1ty1>> 
+ Module 108<<verify>>  V45<<dy1ty1>> 
+ Module 96<<adi>>  V45<<dy1ty1>> 
+ Module 99<<exact_rhs>>  V45<<dy1ty1>> 
+ Module 107<<set_constants>>  V45<<dy1ty1>> 
+ Module 0<<*MAIN*>>  V45<<dy1ty1>> 
+## Cluster 47 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V44<<yycon5>> 
+ Module 108<<verify>>  V44<<yycon5>> 
+ Module 96<<adi>>  V44<<yycon5>> 
+ Module 99<<exact_rhs>>  V44<<yycon5>> 
+ Module 107<<set_constants>>  V44<<yycon5>> 
+ Module 0<<*MAIN*>>  V44<<yycon5>> 
+## Cluster 46 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V43<<yycon4>> 
+ Module 108<<verify>>  V43<<yycon4>> 
+ Module 96<<adi>>  V43<<yycon4>> 
+ Module 99<<exact_rhs>>  V43<<yycon4>> 
+ Module 107<<set_constants>>  V43<<yycon4>> 
+ Module 0<<*MAIN*>>  V43<<yycon4>> 
+## Cluster 45 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V42<<yycon3>> 
+ Module 108<<verify>>  V42<<yycon3>> 
+ Module 96<<adi>>  V42<<yycon3>> 
+ Module 99<<exact_rhs>>  V42<<yycon3>> 
+ Module 107<<set_constants>>  V42<<yycon3>> 
+ Module 0<<*MAIN*>>  V42<<yycon3>> 
+## Cluster 44 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V41<<yycon2>> 
+ Module 108<<verify>>  V41<<yycon2>> 
+ Module 96<<adi>>  V41<<yycon2>> 
+ Module 99<<exact_rhs>>  V41<<yycon2>> 
+ Module 107<<set_constants>>  V41<<yycon2>> 
+ Module 0<<*MAIN*>>  V41<<yycon2>> 
+## Cluster 43 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  V40<<yycon1>> 
+ Module 107<<set_constants>>  V40<<yycon1>> 
+ Module 0<<*MAIN*>>  V40<<yycon1>> 
+## Cluster 42 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V39<<dx5tx1>> 
+ Module 108<<verify>>  V39<<dx5tx1>> 
+ Module 96<<adi>>  V39<<dx5tx1>> 
+ Module 99<<exact_rhs>>  V39<<dx5tx1>> 
+ Module 107<<set_constants>>  V39<<dx5tx1>> 
+ Module 0<<*MAIN*>>  V39<<dx5tx1>> 
+## Cluster 41 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V38<<dx4tx1>> 
+ Module 108<<verify>>  V38<<dx4tx1>> 
+ Module 96<<adi>>  V38<<dx4tx1>> 
+ Module 99<<exact_rhs>>  V38<<dx4tx1>> 
+ Module 107<<set_constants>>  V38<<dx4tx1>> 
+ Module 0<<*MAIN*>>  V38<<dx4tx1>> 
+## Cluster 40 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V37<<dx3tx1>> 
+ Module 108<<verify>>  V37<<dx3tx1>> 
+ Module 96<<adi>>  V37<<dx3tx1>> 
+ Module 99<<exact_rhs>>  V37<<dx3tx1>> 
+ Module 107<<set_constants>>  V37<<dx3tx1>> 
+ Module 0<<*MAIN*>>  V37<<dx3tx1>> 
+## Cluster 39 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V36<<dx2tx1>> 
+ Module 108<<verify>>  V36<<dx2tx1>> 
+ Module 96<<adi>>  V36<<dx2tx1>> 
+ Module 99<<exact_rhs>>  V36<<dx2tx1>> 
+ Module 107<<set_constants>>  V36<<dx2tx1>> 
+ Module 0<<*MAIN*>>  V36<<dx2tx1>> 
+## Cluster 38 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V35<<dx1tx1>> 
+ Module 108<<verify>>  V35<<dx1tx1>> 
+ Module 96<<adi>>  V35<<dx1tx1>> 
+ Module 99<<exact_rhs>>  V35<<dx1tx1>> 
+ Module 107<<set_constants>>  V35<<dx1tx1>> 
+ Module 0<<*MAIN*>>  V35<<dx1tx1>> 
+## Cluster 37 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V34<<xxcon5>> 
+ Module 108<<verify>>  V34<<xxcon5>> 
+ Module 96<<adi>>  V34<<xxcon5>> 
+ Module 99<<exact_rhs>>  V34<<xxcon5>> 
+ Module 107<<set_constants>>  V34<<xxcon5>> 
+ Module 0<<*MAIN*>>  V34<<xxcon5>> 
+## Cluster 36 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V33<<xxcon4>> 
+ Module 108<<verify>>  V33<<xxcon4>> 
+ Module 96<<adi>>  V33<<xxcon4>> 
+ Module 99<<exact_rhs>>  V33<<xxcon4>> 
+ Module 107<<set_constants>>  V33<<xxcon4>> 
+ Module 0<<*MAIN*>>  V33<<xxcon4>> 
+## Cluster 35 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V32<<xxcon3>> 
+ Module 108<<verify>>  V32<<xxcon3>> 
+ Module 96<<adi>>  V32<<xxcon3>> 
+ Module 99<<exact_rhs>>  V32<<xxcon3>> 
+ Module 107<<set_constants>>  V32<<xxcon3>> 
+ Module 0<<*MAIN*>>  V32<<xxcon3>> 
+## Cluster 34 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V31<<xxcon2>> 
+ Module 108<<verify>>  V31<<xxcon2>> 
+ Module 96<<adi>>  V31<<xxcon2>> 
+ Module 99<<exact_rhs>>  V31<<xxcon2>> 
+ Module 107<<set_constants>>  V31<<xxcon2>> 
+ Module 0<<*MAIN*>>  V31<<xxcon2>> 
+## Cluster 33 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  V30<<xxcon1>> 
+ Module 107<<set_constants>>  V30<<xxcon1>> 
+ Module 0<<*MAIN*>>  V30<<xxcon1>> 
+## Cluster 32 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V29<<dzmax>> 
+ Module 0<<*MAIN*>>  V29<<dzmax>> 
+## Cluster 31 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V28<<dymax>> 
+ Module 0<<*MAIN*>>  V28<<dymax>> 
+## Cluster 30 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V27<<dxmax>> 
+ Module 0<<*MAIN*>>  V27<<dxmax>> 
+## Cluster 29 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V26<<dt>> 
+ Module 104<<lhsy>>  V26<<dt>> 
+ Module 103<<lhsx>>  V26<<dt>> 
+ Module 119<<z_solve>>  V26<<dt>> 
+ Module 116<<y_solve>>  V26<<dt>> 
+ Module 109<<x_solve>>  V26<<dt>> 
+ Module 106<<compute_rhs>>  V26<<dt>> 
+ Module 108<<verify>>  V26<<dt>> 
+ Module 96<<adi>>  V26<<dt>> 
+ Module 107<<set_constants>>  V26<<dt>> 
+ Module 0<<*MAIN*>>  V26<<dt>> 
+## Cluster 28 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V25<<dssp>> 
+ Module 108<<verify>>  V25<<dssp>> 
+ Module 96<<adi>>  V25<<dssp>> 
+ Module 99<<exact_rhs>>  V25<<dssp>> 
+ Module 107<<set_constants>>  V25<<dssp>> 
+ Module 0<<*MAIN*>>  V25<<dssp>> 
+## Cluster 27 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V24<<dz5>> 
+ Module 119<<z_solve>>  V24<<dz5>> 
+ Module 96<<adi>>  V24<<dz5>> 
+ Module 107<<set_constants>>  V24<<dz5>> 
+ Module 0<<*MAIN*>>  V24<<dz5>> 
+## Cluster 26 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V23<<dz4>> 
+ Module 119<<z_solve>>  V23<<dz4>> 
+ Module 96<<adi>>  V23<<dz4>> 
+ Module 107<<set_constants>>  V23<<dz4>> 
+ Module 0<<*MAIN*>>  V23<<dz4>> 
+## Cluster 25 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V22<<dz3>> 
+ Module 119<<z_solve>>  V22<<dz3>> 
+ Module 96<<adi>>  V22<<dz3>> 
+ Module 107<<set_constants>>  V22<<dz3>> 
+ Module 0<<*MAIN*>>  V22<<dz3>> 
+## Cluster 24 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V21<<dz2>> 
+ Module 119<<z_solve>>  V21<<dz2>> 
+ Module 96<<adi>>  V21<<dz2>> 
+ Module 107<<set_constants>>  V21<<dz2>> 
+ Module 0<<*MAIN*>>  V21<<dz2>> 
+## Cluster 23 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V20<<dz1>> 
+ Module 119<<z_solve>>  V20<<dz1>> 
+ Module 96<<adi>>  V20<<dz1>> 
+ Module 107<<set_constants>>  V20<<dz1>> 
+ Module 0<<*MAIN*>>  V20<<dz1>> 
+## Cluster 22 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V19<<dy5>> 
+ Module 116<<y_solve>>  V19<<dy5>> 
+ Module 96<<adi>>  V19<<dy5>> 
+ Module 107<<set_constants>>  V19<<dy5>> 
+ Module 0<<*MAIN*>>  V19<<dy5>> 
+## Cluster 21 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V18<<dy4>> 
+ Module 116<<y_solve>>  V18<<dy4>> 
+ Module 96<<adi>>  V18<<dy4>> 
+ Module 107<<set_constants>>  V18<<dy4>> 
+ Module 0<<*MAIN*>>  V18<<dy4>> 
+## Cluster 20 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V17<<dy3>> 
+ Module 116<<y_solve>>  V17<<dy3>> 
+ Module 96<<adi>>  V17<<dy3>> 
+ Module 107<<set_constants>>  V17<<dy3>> 
+ Module 0<<*MAIN*>>  V17<<dy3>> 
+## Cluster 19 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V16<<dy2>> 
+ Module 116<<y_solve>>  V16<<dy2>> 
+ Module 96<<adi>>  V16<<dy2>> 
+ Module 107<<set_constants>>  V16<<dy2>> 
+ Module 0<<*MAIN*>>  V16<<dy2>> 
+## Cluster 18 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V15<<dy1>> 
+ Module 116<<y_solve>>  V15<<dy1>> 
+ Module 96<<adi>>  V15<<dy1>> 
+ Module 107<<set_constants>>  V15<<dy1>> 
+ Module 0<<*MAIN*>>  V15<<dy1>> 
+## Cluster 17 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V14<<dx5>> 
+ Module 109<<x_solve>>  V14<<dx5>> 
+ Module 96<<adi>>  V14<<dx5>> 
+ Module 107<<set_constants>>  V14<<dx5>> 
+ Module 0<<*MAIN*>>  V14<<dx5>> 
+## Cluster 16 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V13<<dx4>> 
+ Module 109<<x_solve>>  V13<<dx4>> 
+ Module 96<<adi>>  V13<<dx4>> 
+ Module 107<<set_constants>>  V13<<dx4>> 
+ Module 0<<*MAIN*>>  V13<<dx4>> 
+## Cluster 15 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V12<<dx3>> 
+ Module 109<<x_solve>>  V12<<dx3>> 
+ Module 96<<adi>>  V12<<dx3>> 
+ Module 107<<set_constants>>  V12<<dx3>> 
+ Module 0<<*MAIN*>>  V12<<dx3>> 
+## Cluster 14 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V11<<dx2>> 
+ Module 109<<x_solve>>  V11<<dx2>> 
+ Module 96<<adi>>  V11<<dx2>> 
+ Module 107<<set_constants>>  V11<<dx2>> 
+ Module 0<<*MAIN*>>  V11<<dx2>> 
+## Cluster 13 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V10<<dx1>> 
+ Module 109<<x_solve>>  V10<<dx1>> 
+ Module 96<<adi>>  V10<<dx1>> 
+ Module 107<<set_constants>>  V10<<dx1>> 
+ Module 0<<*MAIN*>>  V10<<dx1>> 
+## Cluster 12 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V9<<tz3>> 
+ Module 0<<*MAIN*>>  V9<<tz3>> 
+## Cluster 11 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V8<<tz2>> 
+ Module 119<<z_solve>>  V8<<tz2>> 
+ Module 106<<compute_rhs>>  V8<<tz2>> 
+ Module 108<<verify>>  V8<<tz2>> 
+ Module 96<<adi>>  V8<<tz2>> 
+ Module 99<<exact_rhs>>  V8<<tz2>> 
+ Module 107<<set_constants>>  V8<<tz2>> 
+ Module 0<<*MAIN*>>  V8<<tz2>> 
+## Cluster 10 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V7<<tz1>> 
+ Module 119<<z_solve>>  V7<<tz1>> 
+ Module 96<<adi>>  V7<<tz1>> 
+ Module 107<<set_constants>>  V7<<tz1>> 
+ Module 0<<*MAIN*>>  V7<<tz1>> 
+## Cluster 9 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V6<<ty3>> 
+ Module 0<<*MAIN*>>  V6<<ty3>> 
+## Cluster 8 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V5<<ty2>> 
+ Module 116<<y_solve>>  V5<<ty2>> 
+ Module 106<<compute_rhs>>  V5<<ty2>> 
+ Module 108<<verify>>  V5<<ty2>> 
+ Module 96<<adi>>  V5<<ty2>> 
+ Module 99<<exact_rhs>>  V5<<ty2>> 
+ Module 107<<set_constants>>  V5<<ty2>> 
+ Module 0<<*MAIN*>>  V5<<ty2>> 
+## Cluster 7 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V4<<ty1>> 
+ Module 116<<y_solve>>  V4<<ty1>> 
+ Module 96<<adi>>  V4<<ty1>> 
+ Module 107<<set_constants>>  V4<<ty1>> 
+ Module 0<<*MAIN*>>  V4<<ty1>> 
+## Cluster 6 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V3<<tx3>> 
+ Module 0<<*MAIN*>>  V3<<tx3>> 
+## Cluster 5 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V2<<tx2>> 
+ Module 109<<x_solve>>  V2<<tx2>> 
+ Module 106<<compute_rhs>>  V2<<tx2>> 
+ Module 108<<verify>>  V2<<tx2>> 
+ Module 96<<adi>>  V2<<tx2>> 
+ Module 99<<exact_rhs>>  V2<<tx2>> 
+ Module 107<<set_constants>>  V2<<tx2>> 
+ Module 0<<*MAIN*>>  V2<<tx2>> 
+## Cluster 4 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V1<<tx1>> 
+ Module 109<<x_solve>>  V1<<tx1>> 
+ Module 96<<adi>>  V1<<tx1>> 
+ Module 107<<set_constants>>  V1<<tx1>> 
+ Module 0<<*MAIN*>>  V1<<tx1>> 
+## Cluster 3 : (0 -->, --> 0)
+ Module 115<<binvrhs>>  FILE 
+ Module 113<<matmul_sub>>  FILE 
+ Module 112<<matvec_sub>>  FILE 
+ Module 114<<binvcrhs>>  FILE 
+ Module 120<<z_backsubstitute>>  FILE 
+ Module 121<<z_solve_cell>>  FILE 
+ Module 117<<y_backsubstitute>>  FILE 
+ Module 118<<y_solve_cell>>  FILE 
+ Module 110<<x_backsubstitute>>  FILE 
+ Module 111<<x_solve_cell>>  FILE 
+ Module 105<<lhsz>>  FILE 
+ Module 104<<lhsy>>  FILE 
+ Module 103<<lhsx>>  FILE 
+ Module 100<<exact_solution>>  FILE 
+ Module 98<<rhs_norm>>  FILE 
+ Module 97<<error_norm>>  FILE 
+ Module 119<<z_solve>>  FILE 
+ Module 116<<y_solve>>  FILE 
+ Module 109<<x_solve>>  FILE 
+ Module 106<<compute_rhs>>  FILE 
+ Module 95<<add>>  FILE 
+ Module 108<<verify>>  FILE 
+ Module 96<<adi>>  FILE 
+ Module 99<<exact_rhs>>  FILE 
+ Module 102<<lhsinit>>  FILE 
+ Module 101<<initialize>>  FILE 
+ Module 107<<set_constants>>  FILE 
+ Module 0<<*MAIN*>>  FILE 
+## Cluster 2 : (0 -->, --> 0)
+ Module 115<<binvrhs>>  UNINIT 
+ Module 113<<matmul_sub>>  UNINIT 
+ Module 112<<matvec_sub>>  UNINIT 
+ Module 114<<binvcrhs>>  UNINIT 
+ Module 120<<z_backsubstitute>>  UNINIT 
+ Module 121<<z_solve_cell>>  UNINIT 
+ Module 117<<y_backsubstitute>>  UNINIT 
+ Module 118<<y_solve_cell>>  UNINIT 
+ Module 110<<x_backsubstitute>>  UNINIT 
+ Module 111<<x_solve_cell>>  UNINIT 
+ Module 105<<lhsz>>  UNINIT 
+ Module 104<<lhsy>>  UNINIT 
+ Module 103<<lhsx>>  UNINIT 
+ Module 100<<exact_solution>>  UNINIT 
+ Module 98<<rhs_norm>>  UNINIT 
+ Module 97<<error_norm>>  UNINIT 
+ Module 119<<z_solve>>  UNINIT 
+ Module 116<<y_solve>>  UNINIT 
+ Module 109<<x_solve>>  UNINIT 
+ Module 106<<compute_rhs>>  UNINIT 
+ Module 95<<add>>  UNINIT 
+ Module 108<<verify>>  UNINIT 
+ Module 96<<adi>>  UNINIT 
+ Module 99<<exact_rhs>>  UNINIT 
+ Module 102<<lhsinit>>  UNINIT 
+ Module 101<<initialize>>  UNINIT 
+ Module 107<<set_constants>>  UNINIT 
+ Module 0<<*MAIN*>>  UNINIT 
+## Cluster 1 : (0 -->, --> 0)
+ Module 115<<binvrhs>>  UNKNOWN 
+ Module 113<<matmul_sub>>  UNKNOWN 
+ Module 112<<matvec_sub>>  UNKNOWN 
+ Module 114<<binvcrhs>>  UNKNOWN 
+ Module 120<<z_backsubstitute>>  UNKNOWN 
+ Module 121<<z_solve_cell>>  UNKNOWN 
+ Module 117<<y_backsubstitute>>  UNKNOWN 
+ Module 118<<y_solve_cell>>  UNKNOWN 
+ Module 110<<x_backsubstitute>>  UNKNOWN 
+ Module 111<<x_solve_cell>>  UNKNOWN 
+ Module 105<<lhsz>>  UNKNOWN 
+ Module 104<<lhsy>>  UNKNOWN 
+ Module 103<<lhsx>>  UNKNOWN 
+ Module 100<<exact_solution>>  UNKNOWN 
+ Module 98<<rhs_norm>>  UNKNOWN 
+ Module 97<<error_norm>>  UNKNOWN 
+ Module 119<<z_solve>>  UNKNOWN 
+ Module 116<<y_solve>>  UNKNOWN 
+ Module 109<<x_solve>>  UNKNOWN 
+ Module 106<<compute_rhs>>  UNKNOWN 
+ Module 95<<add>>  UNKNOWN 
+ Module 108<<verify>>  UNKNOWN 
+ Module 96<<adi>>  UNKNOWN 
+ Module 99<<exact_rhs>>  UNKNOWN 
+ Module 102<<lhsinit>>  UNKNOWN 
+ Module 101<<initialize>>  UNKNOWN 
+ Module 107<<set_constants>>  UNKNOWN 
+ Module 0<<*MAIN*>>  UNKNOWN 
+### dump of per object write-sharing cluster
+--- remaining write sharing ---
+--- remaining write sharing ---
+### reanalyze ###
+#####   call graph  ######
+Command terminated by signal 2
+26.53user 0.72system 0:27.37elapsed 99%CPU (0avgtext+0avgdata 1646024maxresident)k
+0inputs+1376outputs (0major+532127minor)pagefaults 0swaps

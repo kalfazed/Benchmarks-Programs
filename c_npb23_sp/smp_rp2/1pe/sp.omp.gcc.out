@@ -1,0 +1,49 @@
+
+
+ NAS Parallel Benchmarks 2.3 OpenMP C version - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults Size:  12x 12x 12
+ Iterations: 100   dt:   0.015000
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Verification being performed for class S
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0 2.7470315451353e-02 2.7470315451339e-02 4.9887725113650e-13
+           1 1.0360746705294e-02 1.0360746705285e-02 8.0384239139019e-13
+           2 1.6235745065080e-02 1.6235745065096e-02 9.6909269417733e-13
+           3 1.5840557224453e-02 1.5840557224456e-02 1.4039376675265e-13
+           4 3.4849040609387e-02 3.4849040609362e-02 6.8992623488691e-13
+ Comparison of RMS-norms of solution error
+           0 2.7289258557384e-05 2.7289258557377e-05 2.4160804690112e-13
+           1 1.0364446640849e-05 1.0364446640837e-05 1.1336872533083e-12
+           2 1.6154798287141e-05 1.6154798287166e-05 1.5618528306141e-12
+           3 1.5750704994474e-05 1.5750704994480e-05 3.6246009727785e-13
+           4 3.4177666183409e-05 3.4177666183391e-05 5.4463625307180e-13
+ Verification Successful
+
+
+ SP Benchmark Completed
+ Class           =                        S
+ Size            =               12x 12x 12
+ Iterations      =                      100
+ Threads         =                        1
+ Time in seconds =                     0.34
+ Mop/s total     =                   280.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      2.3
+ Compile date    =              05 Nov 2011
+
+ Compile options:
+    CC           = gcc
+    CLINK        = gcc
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -O3 -pg
+    CLINKFLAGS   = -lm
+    RAND         = (none)

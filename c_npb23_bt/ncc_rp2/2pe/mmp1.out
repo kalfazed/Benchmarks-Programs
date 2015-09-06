@@ -1,0 +1,4339 @@
+ 
+ [MINORU] Fortran Compiler Middle Path
+ Narita Kasahara Kimura Lab. 1992-2009
+
+#######    qrfe    #######
+#######  entry2sub #######
+####### C Blocking #######
+Type_table 9 is changed to 15 on member E2
+Type_table 10 is changed to 15 on member E2
+Type_table 10 is unified into 15
+Type_table 9 is unified into 15
+#####   call graph  ######
+#####   call graph  ######
+rb in 706 is changed to loop
+rb in 709 is changed to loop
+rb in 712 is changed to loop
+rb in 756 is changed to loop
+rb in 758 is changed to loop
+rb in 774 is changed to loop
+rb in 776 is changed to loop
+rb in 791 is changed to loop
+rb in 793 is changed to loop
+rb in 808 is changed to loop
+rb in 810 is changed to loop
+rb in 825 is changed to loop
+rb in 827 is changed to loop
+rb in 842 is changed to loop
+rb in 844 is changed to loop
+rb in 868 is changed to loop
+rb in 869 is changed to loop
+rb in 870 is changed to loop
+rb in 886 is changed to loop
+rb in 887 is changed to loop
+rb in 888 is changed to loop
+rb in 319 is changed to loop
+rb in 320 is changed to loop
+rb in 321 is changed to loop
+rb in 333 is changed to loop
+rb in 336 is changed to loop
+rb in 339 is changed to loop
+rb in 360 is changed to loop
+rb in 408 is changed to loop
+rb in 432 is changed to loop
+rb in 435 is changed to loop
+rb in 438 is changed to loop
+rb in 459 is changed to loop
+rb in 507 is changed to loop
+rb in 532 is changed to loop
+rb in 535 is changed to loop
+rb in 538 is changed to loop
+rb in 559 is changed to loop
+rb in 607 is changed to loop
+rb in 631 is changed to loop
+rb in 632 is changed to loop
+rb in 633 is changed to loop
+rb in 198 is changed to loop
+rb in 199 is changed to loop
+rb in 200 is changed to loop
+rb in 1782 is changed to loop
+rb in 1783 is changed to loop
+rb in 1784 is changed to loop
+rb in 1805 is changed to loop
+rb in 1806 is changed to loop
+rb in 1807 is changed to loop
+rb in 1819 is changed to loop
+rb in 1820 is changed to loop
+rb in 1821 is changed to loop
+rb in 1880 is changed to loop
+rb in 1881 is changed to loop
+rb in 1892 is changed to loop
+rb in 1893 is changed to loop
+rb in 1903 is changed to loop
+rb in 1904 is changed to loop
+rb in 1905 is changed to loop
+rb in 1918 is changed to loop
+rb in 1919 is changed to loop
+rb in 1930 is changed to loop
+rb in 1931 is changed to loop
+rb in 1944 is changed to loop
+rb in 1945 is changed to loop
+rb in 1946 is changed to loop
+rb in 2000 is changed to loop
+rb in 2001 is changed to loop
+rb in 2012 is changed to loop
+rb in 2013 is changed to loop
+rb in 2023 is changed to loop
+rb in 2024 is changed to loop
+rb in 2025 is changed to loop
+rb in 2038 is changed to loop
+rb in 2039 is changed to loop
+rb in 2050 is changed to loop
+rb in 2051 is changed to loop
+rb in 2064 is changed to loop
+rb in 2065 is changed to loop
+rb in 2066 is changed to loop
+rb in 2121 is changed to loop
+rb in 2122 is changed to loop
+rb in 2133 is changed to loop
+rb in 2134 is changed to loop
+rb in 2144 is changed to loop
+rb in 2145 is changed to loop
+rb in 2146 is changed to loop
+rb in 2159 is changed to loop
+rb in 2160 is changed to loop
+rb in 2171 is changed to loop
+rb in 2172 is changed to loop
+rb in 2182 is changed to loop
+rb in 2183 is changed to loop
+rb in 2185 is changed to loop
+rb in 241 is changed to loop
+rb in 243 is changed to loop
+rb in 245 is changed to loop
+rb in 280 is changed to loop
+rb in 281 is changed to loop
+rb in 282 is changed to loop
+rb in 916 is changed to loop
+rb in 917 is changed to loop
+rb in 918 is changed to loop
+rb in 1011 is changed to loop
+rb in 1201 is changed to loop
+rb in 1202 is changed to loop
+rb in 1203 is changed to loop
+rb in 1303 is changed to loop
+rb in 1304 is changed to loop
+rb in 1305 is changed to loop
+rb in 1496 is changed to loop
+rb in 1497 is changed to loop
+rb in 1498 is changed to loop
+rb in 1597 is changed to loop
+rb in 1598 is changed to loop
+rb in 1599 is changed to loop
+rb in 2751 is changed to loop
+rb in 2752 is changed to loop
+rb in 2771 is changed to loop
+rb in 2772 is changed to loop
+rb in 2801 is changed to loop
+rb in 2802 is changed to loop
+rb in 2715 is changed to loop
+rb in 2716 is changed to loop
+rb in 3391 is changed to loop
+rb in 3392 is changed to loop
+rb in 3411 is changed to loop
+rb in 3412 is changed to loop
+rb in 3442 is changed to loop
+rb in 3443 is changed to loop
+rb in 3355 is changed to loop
+rb in 3356 is changed to loop
+rb in 3552 is changed to loop
+rb in 3553 is changed to loop
+rb in 3573 is changed to loop
+rb in 3574 is changed to loop
+rb in 3608 is changed to loop
+rb in 3609 is changed to loop
+rb in 3512 is changed to loop
+rb in 3513 is changed to loop
+####  output Minoru_Q ####
+#####   call graph  ######
+## specify char length ###
+##### insert ioctl qr ####
+###### Structuring  ######
+#####   call graph  ######
+##remove redundant common#
+#######   inline   #######
+#####   call graph  ######
+#########  subid  ########
+#### Expand & Private ####
+#### Set main PG & PE ####
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+#####   call graph  ######
+#### Control flow ana1 ###
+# flow-sensitive ptr ana #
+#####   call graph  ######
+#### def/use analysis ####
+#### set loop bounder ####
+## argument def/use ana ##
+### dataflow  analysis ###
+### loop index renaming ##
+#####   call graph  ######
+##### array symbolic #####
+###### array in out ######
+##### in/out analysis1 ###
+##### make dda data1 #####
+####### do loop dda ######
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+i2(V98)
+i2(V98)
+i2(V98)
+i2(V98)
+i2(V98)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+#####   call graph  ######
+###### block cyclic ######
+#### cost computation ####
+## Pseudo program costs ##
+### Check Vpp Directive ##
+##### Remaking HMDF ######
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+#### Control flow ana ####
+#########  subid  ########
+# flow-sensitive ptr ana #
+#####   call graph  ######
+###### def/use ana #######
+#### set loop bounder ####
+## argument def/use ana ##
+### dataflow analysis ####
+##### array symbolic #####
+##### in/out analysis ####
+##### make dda data ######
+####### do loop dda ######
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+i2(V98)
+i2(V98)
+i2(V98)
+i2(V98)
+i2(V98)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+#### Make pseudo MTG #####
+## add Lad by hmdf info ##
+#flow-insensitive ptr ana#
+#####   call graph  ######
+### DETECT WRITE SHARE ###
+
+--- parallel_section_lists ---
+initialize#101.block1.doall1 :  LOOP 
+initialize#101.block1.doall2 :  LOOP 
+initialize#101.block1.doall4 :  LOOP 
+initialize#101.block1.doall6 :  LOOP 
+initialize#101.block1.doall8 :  LOOP 
+initialize#101.block1.doall10 :  LOOP 
+initialize#101.block1.doall12 :  LOOP 
+initialize#101.block1.doall14 :  LOOP 
+lhsinit#102.block1.doall1 :  LOOP 
+lhsinit#102.block1.doall2 :  LOOP 
+exact_rhs#99.block1.doall1 :  LOOP 
+exact_rhs#99.block1.doall5 :  LOOP 
+verify#108.block1.doall5 :  LOOP 
+verify#108.block1.doall7 :  LOOP 
+verify#108.block1.doall54 :  LOOP 
+add#95.block1.doall1 :  LOOP 
+compute_rhs#106.block1.doall1 :  LOOP 
+compute_rhs#106.block1.doall2 :  LOOP 
+compute_rhs#106.block1.doall3 :  LOOP 
+compute_rhs#106.block1.doall5 :  LOOP 
+compute_rhs#106.block1.doall7 :  LOOP 
+compute_rhs#106.block1.doall8 :  LOOP 
+compute_rhs#106.block1.doall10 :  LOOP 
+compute_rhs#106.block1.doall12 :  LOOP 
+compute_rhs#106.block1.doall13 :  LOOP 
+compute_rhs#106.block1.doall15 :  LOOP 
+compute_rhs#106.block1.doall17 :  LOOP 
+compute_rhs#106.block1.doall18 :  LOOP 
+compute_rhs#106.block1.doall20 :  LOOP 
+compute_rhs#106.block1.doall22 :  LOOP 
+compute_rhs#106.block1.doall23 :  LOOP 
+compute_rhs#106.block1.doall25 :  LOOP 
+compute_rhs#106.block1.doall27 :  LOOP 
+compute_rhs#106.block1.doall28 :  LOOP 
+compute_rhs#106.block1.doall30 :  LOOP 
+compute_rhs#106.block1.doall32 :  LOOP 
+compute_rhs#106.block1.doall33 :  LOOP 
+lhsx#103.block1.doall1 :  LOOP 
+lhsy#104.block1.doall1 :  LOOP 
+lhsy#104.block1.doall2 :  LOOP 
+lhsz#105.block1.doall1 :  LOOP 
+lhsz#105.block1.doall2 :  LOOP 
+x_solve_cell#111.block1.doall2 :  LOOP 
+x_solve_cell#111.block1.doall4 :  LOOP 
+x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+x_backsubstitute#110.block1.loop1.doall1 :  LOOP 
+y_solve_cell#118.block1.doall2 :  LOOP 
+y_solve_cell#118.block1.doall4 :  LOOP 
+y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+y_backsubstitute#117.block1.loop1.doall1 :  LOOP 
+z_solve_cell#121.block1.doall2 :  LOOP 
+z_solve_cell#121.block1.doall4 :  LOOP 
+z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+z_backsubstitute#120.block1.doall1 :  LOOP 
+
+
+--- in detect write sharing one section ---
+initialize#101.block1.doall1 :  LOOP 
+A10<<u>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C13<<11>>
+C2<<0>> : C13<<11>>
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C2,C13,C3);
+
+--- detected write sharing list in loop  ---
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+initialize#101.block1.doall2 :  LOOP 
+A57<<Pface>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C4<<2>>
+C2<<0>> : C3<<1>>
+
+
+A10<<u>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V111<<i>> : V111<<i>>
+
+
+
+!do(V111,C2,T99,C3);
+
+--- detected write sharing list in loop  ---
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall2 :  LOOP 
+
+--- in detect write sharing one section ---
+initialize#101.block1.doall4 :  LOOP 
+A58<<temp>>
+C2<<0>> : C6<<4>>
+
+
+A10<<u>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+V114<<j>> : V114<<j>>
+C2<<0>> : C2<<0>>
+
+
+
+!do(V114,C2,T102,C3);
+
+--- detected write sharing list in loop  ---
+ A10<<u>> dim : 2 (align$) in initialize#101.block1.doall4 :  LOOP 
+
+--- in detect write sharing one section ---
+initialize#101.block1.doall6 :  LOOP 
+A59<<temp>>
+C2<<0>> : C6<<4>>
+
+
+A10<<u>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+V117<<j>> : V117<<j>>
+??? : ???
+
+
+
+!do(V117,C2,T104,C3);
+
+--- detected write sharing list in loop  ---
+ A10<<u>> dim : 2 (align$) in initialize#101.block1.doall6 :  LOOP 
+
+--- in detect write sharing one section ---
+initialize#101.block1.doall8 :  LOOP 
+A60<<temp>>
+C2<<0>> : C6<<4>>
+
+
+A10<<u>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : C2<<0>>
+V120<<i>> : V120<<i>>
+
+
+
+!do(V120,C2,T106,C3);
+
+--- detected write sharing list in loop  ---
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall8 :  LOOP 
+
+--- in detect write sharing one section ---
+initialize#101.block1.doall10 :  LOOP 
+A61<<temp>>
+C2<<0>> : C6<<4>>
+
+
+A10<<u>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+??? : ???
+V123<<i>> : V123<<i>>
+
+
+
+!do(V123,C2,T108,C3);
+
+--- detected write sharing list in loop  ---
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall10 :  LOOP 
+
+--- in detect write sharing one section ---
+initialize#101.block1.doall12 :  LOOP 
+A62<<temp>>
+C2<<0>> : C6<<4>>
+
+
+A10<<u>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C2<<0>>
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V126<<i>> : V126<<i>>
+
+
+
+!do(V126,C2,T110,C3);
+
+--- detected write sharing list in loop  ---
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall12 :  LOOP 
+
+--- in detect write sharing one section ---
+initialize#101.block1.doall14 :  LOOP 
+A63<<temp>>
+C2<<0>> : C6<<4>>
+
+
+A10<<u>>
+C2<<0>> : C6<<4>>
+??? : ???
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V129<<i>> : V129<<i>>
+
+
+
+!do(V129,C2,T112,C3);
+
+--- detected write sharing list in loop  ---
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall14 :  LOOP 
+
+--- in detect write sharing one section ---
+lhsinit#102.block1.doall1 :  LOOP 
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C4<<2>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C2,T13,C3);
+
+--- detected write sharing list in loop  ---
+ A12<<lhs>> dim : 5 (align$) in lhsinit#102.block1.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+lhsinit#102.block1.doall2 :  LOOP 
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : C3<<1>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V103<<i>> : V103<<i>>
+
+
+
+!do(V103,C2,T16,C3);
+
+--- detected write sharing list in loop  ---
+ A12<<lhs>> dim : 5 (align$) in lhsinit#102.block1.doall2 :  LOOP 
+
+--- in detect write sharing one section ---
+exact_rhs#99.block1.doall1 :  LOOP 
+A9<<forcing>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V100<<i>> : V100<<i>>
+
+
+
+!do(V100,C2,T560,C3);
+
+--- detected write sharing list in loop  ---
+ A9<<forcing>> dim : 3 (align$) in exact_rhs#99.block1.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+exact_rhs#99.block1.doall5 :  LOOP 
+A9<<forcing>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V142<<i>> : V142<<i>>
+
+
+
+!do(V142,C3,T575,C3);
+
+--- detected write sharing list in loop  ---
+ A9<<forcing>> dim : 3 (align$) in exact_rhs#99.block1.doall5 :  LOOP 
+
+--- in detect write sharing one section ---
+verify#108.block1.doall5 :  LOOP 
+A60<<xcr>>
+V100<<m>> : V100<<m>>
+
+
+
+!do(V100,C2,C6,C3);
+
+--- detected write sharing list in loop  ---
+ A60<<xcr>> dim : 0 (align$) in verify#108.block1.doall5 :  LOOP 
+
+--- in detect write sharing one section ---
+verify#108.block1.doall7 :  LOOP 
+A55<<xcrref>>
+V124<<m>> : V124<<m>>
+
+
+A56<<xceref>>
+V124<<m>> : V124<<m>>
+
+
+
+!do(V124,C2,C6,C3);
+
+--- detected write sharing list in loop  ---
+ A55<<xcrref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+ A56<<xceref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+
+--- in detect write sharing one section ---
+verify#108.block1.doall54 :  LOOP 
+A57<<xcrdif>>
+V125<<m>> : V125<<m>>
+
+
+A58<<xcedif>>
+V125<<m>> : V125<<m>>
+
+
+
+!do(V125,C2,C6,C3);
+
+--- detected write sharing list in loop  ---
+ A57<<xcrdif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+ A58<<xcedif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+
+--- in detect write sharing one section ---
+add#95.block1.doall1 :  LOOP 
+A10<<u>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C3,T11,C3);
+
+--- detected write sharing list in loop  ---
+ A10<<u>> dim : 3 (align$) in add#95.block1.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall1 :  LOOP 
+A7<<rho_i>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V95<<i>> : V95<<i>>
+
+
+A3<<us>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V95<<i>> : V95<<i>>
+
+
+A4<<vs>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V95<<i>> : V95<<i>>
+
+
+A5<<ws>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V95<<i>> : V95<<i>>
+
+
+A8<<square>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V95<<i>> : V95<<i>>
+
+
+A6<<qs>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C2,T722,C3);
+
+--- detected write sharing list in loop  ---
+ A7<<rho_i>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A3<<us>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A4<<vs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A5<<ws>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A8<<square>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A6<<qs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall2 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V111<<i>> : V111<<i>>
+
+
+
+!do(V111,C2,T725,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall2 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall3 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V114<<i>> : V114<<i>>
+
+
+
+!do(V114,C3,T728,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall3 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall5 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V117<<j>> : V117<<j>>
+C3<<1>> : C3<<1>>
+
+
+
+!do(V117,C3,T731,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall5 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall7 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V120<<j>> : V120<<j>>
+C4<<2>> : C4<<2>>
+
+
+
+!do(V120,C3,T733,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall7 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall8 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V124<<i>> : V124<<i>>
+
+
+
+!do(V124,C5,T735,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall8 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall10 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V127<<j>> : V127<<j>>
+??? : ???
+
+
+
+!do(V127,C3,T738,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall10 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall12 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V130<<j>> : V130<<j>>
+??? : ???
+
+
+
+!do(V130,C3,T740,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall12 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall13 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V133<<i>> : V133<<i>>
+
+
+
+!do(V133,C3,T742,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall13 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall15 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C3<<1>> : C3<<1>>
+V136<<i>> : V136<<i>>
+
+
+
+!do(V136,C3,T745,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall15 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall17 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C4<<2>> : C4<<2>>
+V139<<i>> : V139<<i>>
+
+
+
+!do(V139,C3,T747,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall17 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall18 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C5<<3>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+V143<<i>> : V143<<i>>
+
+
+
+!do(V143,C3,T749,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall18 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall20 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+??? : ???
+V146<<i>> : V146<<i>>
+
+
+
+!do(V146,C3,T752,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall20 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall22 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+??? : ???
+V149<<i>> : V149<<i>>
+
+
+
+!do(V149,C3,T754,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall22 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall23 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V152<<i>> : V152<<i>>
+
+
+
+!do(V152,C3,T756,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall23 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall25 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : C3<<1>>
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V155<<i>> : V155<<i>>
+
+
+
+!do(V155,C3,T759,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall25 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall27 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V158<<i>> : V158<<i>>
+
+
+
+!do(V158,C3,T761,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall27 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall28 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C5<<3>> : (A1<<grid_points>>[C4<<2>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V162<<i>> : V162<<i>>
+
+
+
+!do(V162,C3,T763,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall28 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall30 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+??? : ???
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V165<<i>> : V165<<i>>
+
+
+
+!do(V165,C3,T766,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall30 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall32 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+??? : ???
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V168<<i>> : V168<<i>>
+
+
+
+!do(V168,C3,T768,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall32 :  LOOP 
+
+--- in detect write sharing one section ---
+compute_rhs#106.block1.doall33 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V172<<j>> : V172<<j>>
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C118<<-2>>)
+
+
+
+!do(V172,C3,T770,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall33 :  LOOP 
+
+--- in detect write sharing one section ---
+lhsx#103.block1.doall1 :  LOOP 
+A17<<fjac>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V96<<j>> : V96<<j>>
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]-C3<<1>>)
+
+
+A18<<njac>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V96<<j>> : V96<<j>>
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]-C3<<1>>)
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V96<<j>> : V96<<j>>
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C118<<-2>>)
+
+
+
+!do(V96,C3,T490,C3);
+ element size is matched to cache line : Module 103<<lhsx>>  A17<<fjac>>  element size is matched to cache line : Module 103<<lhsx>>  A18<<njac>> 
+--- detected write sharing list in loop  ---
+ A12<<lhs>> dim : 4 (align$) in lhsx#103.block1.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+lhsy#104.block1.doall1 :  LOOP 
+A17<<fjac>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V95<<i>> : V95<<i>>
+
+
+A18<<njac>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]-C3<<1>>)
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C3,T496,C3);
+ element size is matched to cache line : Module 104<<lhsy>>  A17<<fjac>>  element size is matched to cache line : Module 104<<lhsy>>  A18<<njac>> 
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+lhsy#104.block1.doall2 :  LOOP 
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V103<<i>> : V103<<i>>
+
+
+
+!do(V103,C3,T499,C3);
+
+--- detected write sharing list in loop  ---
+ A12<<lhs>> dim : 5 (align$) in lhsy#104.block1.doall2 :  LOOP 
+
+--- in detect write sharing one section ---
+lhsz#105.block1.doall1 :  LOOP 
+A17<<fjac>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V95<<i>> : V95<<i>>
+
+
+A18<<njac>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C3<<1>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C3,T497,C3);
+ element size is matched to cache line : Module 105<<lhsz>>  A17<<fjac>>  element size is matched to cache line : Module 105<<lhsz>>  A18<<njac>> 
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+lhsz#105.block1.doall2 :  LOOP 
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V103<<i>> : V103<<i>>
+
+
+
+!do(V103,C3,T500,C3);
+
+--- detected write sharing list in loop  ---
+ A12<<lhs>> dim : 5 (align$) in lhsz#105.block1.doall2 :  LOOP 
+
+--- in detect write sharing one section ---
+x_solve_cell#111.block1.doall2 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V96<<j>> : V96<<j>>
+C2<<0>> : C2<<0>>
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V96<<j>> : V96<<j>>
+C2<<0>> : C2<<0>>
+
+
+
+!do(V96,C3,T45,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.doall2 :  LOOP 
+
+--- in detect write sharing one section ---
+x_solve_cell#111.block1.doall4 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V102<<j>> : V102<<j>>
+??? : ???
+
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V102<<j>> : V102<<j>>
+V95<<i>> : V95<<i>>
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V102<<j>> : V102<<j>>
+??? : ???
+
+C3<<1>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : C3<<1>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V102<<j>> : V102<<j>>
+V95<<i>> : V95<<i>>
+
+
+
+!do(V102,C3,T49,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+
+--- in detect write sharing one section ---
+x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V100<<j>> : V100<<j>>
+(V95<<i>>-C3<<1>>) : V95<<i>>
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C5<<3>> : C5<<3>>
+C4<<2>> : ((A1<<grid_points>>[C4<<2>>]*C4<<2>>)+C123<<-4>>)
+(V100<<j>>*C4<<2>>) : (V100<<j>>*C4<<2>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+(V100<<j>>*C4<<2>>) : (V100<<j>>*C4<<2>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+(V100<<j>>*C4<<2>>) : (F58[(V100<<j>>*C4<<2>>),(V100<<j>>-C3<<1>>)]intfunc)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+(F51[(V100<<j>>*C4<<2>>),(V100<<j>>+C3<<1>>)]intfunc) : (V100<<j>>*C4<<2>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+(F51[(V100<<j>>*C4<<2>>),V100<<j>>]intfunc) : (F58[(V100<<j>>*C4<<2>>),V100<<j>>]intfunc)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : (F58[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>-C3<<1>>)]intfunc)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+(F51[(V100<<j>>*C4<<2>>),V100<<j>>]intfunc) : (F58[(V100<<j>>*C4<<2>>),V100<<j>>]intfunc)
+(F51[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>+C3<<1>>)]intfunc) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V100<<j>> : V100<<j>>
+V95<<i>> : V95<<i>>
+
+
+
+!do(V100,C3,T47,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+x_backsubstitute#110.block1.loop1.doall1 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V96<<j>> : V96<<j>>
+V95<<i>> : V95<<i>>
+
+
+
+!do(V96,C3,T11,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 2 (align$) in x_backsubstitute#110.block1.loop1.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+y_solve_cell#118.block1.doall2 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C2<<0>> : C2<<0>>
+V95<<i>> : V95<<i>>
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+C2<<0>> : C2<<0>>
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C3,T45,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in y_solve_cell#118.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.doall2 :  LOOP 
+
+--- in detect write sharing one section ---
+y_solve_cell#118.block1.doall4 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+??? : ???
+V102<<i>> : V102<<i>>
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+??? : ???
+V102<<i>> : V102<<i>>
+
+
+
+!do(V102,C3,T49,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in y_solve_cell#118.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.doall4 :  LOOP 
+
+--- in detect write sharing one section ---
+y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+(V96<<j>>-C3<<1>>) : V96<<j>>
+V100<<i>> : V100<<i>>
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C5<<3>> : C5<<3>>
+C4<<2>> : ((A1<<grid_points>>[C4<<2>>]*C4<<2>>)+C123<<-4>>)
+((V96<<j>>*C4<<2>>)-C3<<1>>) : ((V96<<j>>*C4<<2>>)-C3<<1>>)
+(V100<<i>>*C4<<2>>) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+((V96<<j>>*C4<<2>>)-C3<<1>>) : ((V96<<j>>*C4<<2>>)-C3<<1>>)
+(V100<<i>>*C4<<2>>) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+((V96<<j>>*C4<<2>>)-C3<<1>>) : (F58[((V96<<j>>*C4<<2>>)-C3<<1>>),(V96<<j>>-C3<<1>>)]intfunc)
+(V100<<i>>*C4<<2>>) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+(F51[((V96<<j>>*C4<<2>>)-C3<<1>>),(V96<<j>>+C3<<1>>)]intfunc) : ((V96<<j>>*C4<<2>>)-C3<<1>>)
+(V100<<i>>*C4<<2>>) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+(F51[((V96<<j>>*C4<<2>>)-C3<<1>>),V96<<j>>]intfunc) : (F58[((V96<<j>>*C4<<2>>)-C3<<1>>),V96<<j>>]intfunc)
+(V100<<i>>*C4<<2>>) : (F58[(V100<<i>>*C4<<2>>),(V100<<i>>-C3<<1>>)]intfunc)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+??? : ???
+(F51[((V96<<j>>*C4<<2>>)-C3<<1>>),V96<<j>>]intfunc) : (F58[((V96<<j>>*C4<<2>>)-C3<<1>>),V96<<j>>]intfunc)
+(F51[(V100<<i>>*C4<<2>>),(V100<<i>>+C3<<1>>)]intfunc) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : C4<<2>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V96<<j>> : V96<<j>>
+V100<<i>> : V100<<i>>
+
+
+
+!do(V100,C3,T47,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+y_backsubstitute#117.block1.loop1.doall1 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C3<<1>> : (A1<<grid_points>>[C4<<2>>]+C118<<-2>>)
+V96<<j>> : V96<<j>>
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C3,T11,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in y_backsubstitute#117.block1.loop1.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+z_solve_cell#121.block1.doall2 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C2<<0>>
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V95<<i>> : V95<<i>>
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : C4<<2>>
+C2<<0>> : C2<<0>>
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C3,T45,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in z_solve_cell#121.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.doall2 :  LOOP 
+
+--- in detect write sharing one section ---
+z_solve_cell#121.block1.doall4 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+??? : ???
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V102<<i>> : V102<<i>>
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C4<<2>>
+??? : ???
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V102<<i>> : V102<<i>>
+
+
+
+!do(V102,C3,T49,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in z_solve_cell#121.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.doall4 :  LOOP 
+
+--- in detect write sharing one section ---
+z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+(V97<<k>>-C3<<1>>) : V97<<k>>
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V100<<i>> : V100<<i>>
+
+
+A12<<lhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C5<<3>> : C5<<3>>
+((V97<<k>>*C4<<2>>)-C3<<1>>) : ((V97<<k>>*C4<<2>>)-C3<<1>>)
+C4<<2>> : ((A1<<grid_points>>[C3<<1>>]*C4<<2>>)+C123<<-4>>)
+(V100<<i>>*C4<<2>>) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+((V97<<k>>*C4<<2>>)-C3<<1>>) : (F58[((V97<<k>>*C4<<2>>)-C3<<1>>),(V97<<k>>-C3<<1>>)]intfunc)
+C4<<2>> : ((A1<<grid_points>>[C3<<1>>]*C4<<2>>)+C123<<-4>>)
+(V100<<i>>*C4<<2>>) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+(F51[((V97<<k>>*C4<<2>>)-C3<<1>>),(V97<<k>>+C3<<1>>)]intfunc) : ((V97<<k>>*C4<<2>>)-C3<<1>>)
+C4<<2>> : ((A1<<grid_points>>[C3<<1>>]*C4<<2>>)+C123<<-4>>)
+(V100<<i>>*C4<<2>>) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+(F51[((V97<<k>>*C4<<2>>)-C3<<1>>),V97<<k>>]intfunc) : (F58[((V97<<k>>*C4<<2>>)-C3<<1>>),V97<<k>>]intfunc)
+??? : ???
+(V100<<i>>*C4<<2>>) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+(F51[((V97<<k>>*C4<<2>>)-C3<<1>>),V97<<k>>]intfunc) : (F58[((V97<<k>>*C4<<2>>)-C3<<1>>),V97<<k>>]intfunc)
+??? : ???
+(V100<<i>>*C4<<2>>) : (F58[(V100<<i>>*C4<<2>>),(V100<<i>>-C3<<1>>)]intfunc)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C4<<2>> : C4<<2>>
+(F51[((V97<<k>>*C4<<2>>)-C3<<1>>),V97<<k>>]intfunc) : (F58[((V97<<k>>*C4<<2>>)-C3<<1>>),V97<<k>>]intfunc)
+??? : ???
+(F51[(V100<<i>>*C4<<2>>),(V100<<i>>+C3<<1>>)]intfunc) : (V100<<i>>*C4<<2>>)
+
+C2<<0>> : C6<<4>>
+C2<<0>> : C6<<4>>
+C3<<1>> : C4<<2>>
+V97<<k>> : V97<<k>>
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V100<<i>> : V100<<i>>
+
+
+
+!do(V100,C3,T47,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+
+--- in detect write sharing one section ---
+z_backsubstitute#120.block1.doall1 :  LOOP 
+A11<<rhs>>
+C2<<0>> : C6<<4>>
+C2<<0>> : (A1<<grid_points>>[C4<<2>>]-C4<<2>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C118<<-2>>)
+V95<<i>> : V95<<i>>
+
+
+
+!do(V95,C3,T11,C3);
+
+--- detected write sharing list in loop  ---
+ A11<<rhs>> dim : 3 (align$) in z_backsubstitute#120.block1.doall1 :  LOOP 
+
+--- write sharing statistics ---
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall1 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall2 :  LOOP 
+ A10<<u>> dim : 2 (align$) in initialize#101.block1.doall4 :  LOOP 
+ A10<<u>> dim : 2 (align$) in initialize#101.block1.doall6 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall8 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall10 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall12 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall14 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in lhsinit#102.block1.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in lhsinit#102.block1.doall2 :  LOOP 
+ A9<<forcing>> dim : 3 (align$) in exact_rhs#99.block1.doall1 :  LOOP 
+ A9<<forcing>> dim : 3 (align$) in exact_rhs#99.block1.doall5 :  LOOP 
+ A60<<xcr>> dim : 0 (align$) in verify#108.block1.doall5 :  LOOP 
+ A55<<xcrref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+ A56<<xceref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+ A57<<xcrdif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+ A58<<xcedif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+ A10<<u>> dim : 3 (align$) in add#95.block1.doall1 :  LOOP 
+ A7<<rho_i>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A3<<us>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A4<<vs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A5<<ws>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A8<<square>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A6<<qs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall2 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall3 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall5 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall7 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall8 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall10 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall12 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall13 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall15 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall17 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall18 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall20 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall22 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall23 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall25 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall27 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall28 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall30 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall32 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall33 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in lhsx#103.block1.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in lhsy#104.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in lhsz#105.block1.doall2 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.doall2 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_backsubstitute#110.block1.loop1.doall1 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in y_solve_cell#118.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.doall2 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in y_solve_cell#118.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.doall4 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in y_backsubstitute#117.block1.loop1.doall1 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in z_solve_cell#121.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.doall2 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in z_solve_cell#121.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.doall4 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in z_backsubstitute#120.block1.doall1 :  LOOP 
+
+### RESOLVE WRITE SHARE ##
+## Cluster 191 : (0 -->, --> 111)
+ Module 115<<binvrhs>>  V96<<r>> 
+ Module 112<<matvec_sub>>  V97<<bvec>> 
+ Module 112<<matvec_sub>>  V96<<avec>> 
+ Module 114<<binvcrhs>>  V97<<r>> 
+## Cluster 190 : (0 -->, --> 112)
+ Module 115<<binvrhs>>  V95<<lhs>> 
+ Module 113<<matmul_sub>>  V97<<cblock>> 
+ Module 113<<matmul_sub>>  V96<<bblock>> 
+ Module 113<<matmul_sub>>  V95<<ablock>> 
+ Module 112<<matvec_sub>>  V95<<ablock>> 
+ Module 114<<binvcrhs>>  V96<<c>> 
+ Module 114<<binvcrhs>>  V95<<lhs>> 
+## Cluster 189 : (0 -->, --> 0)
+ Module 113<<matmul_sub>>  I3<<1_cblock>> 
+## Cluster 188 : (0 -->, --> 0)
+ Module 113<<matmul_sub>>  I2<<1_bblock>> 
+## Cluster 184 : (0 -->, --> 0)
+ Module 112<<matvec_sub>>  I3<<1_bvec>> 
+## Cluster 180 : (0 -->, --> 0)
+ Module 114<<binvcrhs>>  I2<<1_c>> 
+## Cluster 176 : (0 -->, --> 172)
+ Module 124<<exact_solution_c2>>  V98<<dtemp>> 
+## Cluster 175 : (0 -->, --> 164)
+ Module 123<<exact_solution_c1>>  V98<<dtemp>> 
+## Cluster 174 : (0 -->, --> 157)
+ Module 100<<exact_solution>>  V98<<dtemp>> 
+## Cluster 173 : (0 -->, --> 170)
+ Module 98<<rhs_norm>>  V95<<rms>> 
+## Cluster 172 : (176 -->, --> 0)
+ Module 124<<exact_solution_c2>>  I1<<1_dtemp>> 
+ Module 97<<error_norm>>  A55<<u_exact>> 
+## Cluster 171 : (0 -->, --> 169)
+ Module 97<<error_norm>>  V95<<rms>> 
+## Cluster 170 : (173 -->, --> 0)
+ Module 98<<rhs_norm>>  I1<<1_rms>> 
+ Module 108<<verify>>  A60<<xcr>> 
+## Cluster 169 : (171 -->, --> 0)
+ Module 97<<error_norm>>  I1<<1_rms>> 
+ Module 108<<verify>>  A59<<xce>> 
+## Cluster 168 : (0 -->, --> 156)
+ Module 108<<verify>>  V97<<verified>> 
+## Cluster 167 : (0 -->, --> 155)
+ Module 108<<verify>>  V96<<class>> 
+## Cluster 164 : (175 -->, --> 0)
+ Module 123<<exact_solution_c1>>  I1<<1_dtemp>> 
+ Module 99<<exact_rhs>>  A56<<dtemp>> 
+ Module 99<<exact_rhs>>  A57<<dtemp>> 
+ Module 99<<exact_rhs>>  A58<<dtemp>> 
+## Cluster 157 : (174 -->, --> 0)
+ Module 100<<exact_solution>>  I1<<1_dtemp>> 
+ Module 101<<initialize>>  A57<<Pface>> 
+ Module 101<<initialize>>  A58<<temp>> 
+ Module 101<<initialize>>  A59<<temp>> 
+ Module 101<<initialize>>  A60<<temp>> 
+ Module 101<<initialize>>  A61<<temp>> 
+ Module 101<<initialize>>  A62<<temp>> 
+ Module 101<<initialize>>  A63<<temp>> 
+## Cluster 156 : (168 -->, --> 0)
+ Module 108<<verify>>  I2<<1_verified>> 
+ Module 0<<*MAIN*>>  V104<<verified>> 
+## Cluster 155 : (167 -->, --> 0)
+ Module 108<<verify>>  I1<<1_class>> 
+ Module 0<<*MAIN*>>  V105<<class>> 
+## Cluster 154 : (0 -->, --> 0)
+ Module 108<<verify>>  A54<<.35fake>> 
+ Module 0<<*MAIN*>>  A54<<.35fake>> 
+## Cluster 153 : (0 -->, --> 0)
+ Module 108<<verify>>  A53<<.34fake>> 
+ Module 0<<*MAIN*>>  A53<<.34fake>> 
+## Cluster 152 : (0 -->, --> 0)
+ Module 108<<verify>>  A52<<.33fake>> 
+ Module 0<<*MAIN*>>  A52<<.33fake>> 
+## Cluster 151 : (0 -->, --> 0)
+ Module 108<<verify>>  A51<<.32fake>> 
+ Module 0<<*MAIN*>>  A51<<.32fake>> 
+## Cluster 150 : (0 -->, --> 0)
+ Module 108<<verify>>  A50<<.31fake>> 
+ Module 0<<*MAIN*>>  A50<<.31fake>> 
+## Cluster 149 : (0 -->, --> 0)
+ Module 108<<verify>>  A49<<.30fake>> 
+ Module 0<<*MAIN*>>  A49<<.30fake>> 
+## Cluster 148 : (0 -->, --> 0)
+ Module 108<<verify>>  A48<<.29fake>> 
+ Module 0<<*MAIN*>>  A48<<.29fake>> 
+## Cluster 147 : (0 -->, --> 0)
+ Module 108<<verify>>  A47<<.28fake>> 
+ Module 0<<*MAIN*>>  A47<<.28fake>> 
+## Cluster 146 : (0 -->, --> 0)
+ Module 108<<verify>>  A46<<.27fake>> 
+ Module 0<<*MAIN*>>  A46<<.27fake>> 
+## Cluster 145 : (0 -->, --> 0)
+ Module 108<<verify>>  A45<<.26fake>> 
+ Module 0<<*MAIN*>>  A45<<.26fake>> 
+## Cluster 144 : (0 -->, --> 0)
+ Module 108<<verify>>  A44<<.25fake>> 
+ Module 0<<*MAIN*>>  A44<<.25fake>> 
+## Cluster 143 : (0 -->, --> 0)
+ Module 108<<verify>>  A43<<.24fake>> 
+ Module 0<<*MAIN*>>  A43<<.24fake>> 
+## Cluster 142 : (0 -->, --> 0)
+ Module 108<<verify>>  A42<<.23fake>> 
+ Module 0<<*MAIN*>>  A42<<.23fake>> 
+## Cluster 141 : (0 -->, --> 0)
+ Module 108<<verify>>  A41<<.22fake>> 
+ Module 0<<*MAIN*>>  A41<<.22fake>> 
+## Cluster 140 : (0 -->, --> 0)
+ Module 108<<verify>>  A40<<.21fake>> 
+ Module 0<<*MAIN*>>  A40<<.21fake>> 
+## Cluster 139 : (0 -->, --> 0)
+ Module 108<<verify>>  A39<<.20fake>> 
+ Module 0<<*MAIN*>>  A39<<.20fake>> 
+## Cluster 138 : (0 -->, --> 0)
+ Module 108<<verify>>  A38<<.19fake>> 
+ Module 0<<*MAIN*>>  A38<<.19fake>> 
+## Cluster 137 : (0 -->, --> 0)
+ Module 108<<verify>>  A37<<.18fake>> 
+ Module 0<<*MAIN*>>  A37<<.18fake>> 
+## Cluster 136 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A36<<.17fake>> 
+## Cluster 135 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A35<<.16fake>> 
+## Cluster 134 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A34<<.15fake>> 
+## Cluster 133 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A33<<.14fake>> 
+## Cluster 132 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A32<<.13fake>> 
+## Cluster 131 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A31<<.12fake>> 
+## Cluster 130 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A30<<.11fake>> 
+## Cluster 129 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A29<<.10fake>> 
+## Cluster 128 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A28<<.9fake>> 
+## Cluster 127 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A27<<.8fake>> 
+## Cluster 126 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A26<<.7fake>> 
+## Cluster 125 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A25<<.6fake>> 
+## Cluster 124 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A24<<.5fake>> 
+## Cluster 123 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A23<<.4fake>> 
+## Cluster 122 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A22<<.3fake>> 
+## Cluster 121 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A21<<.2fake>> 
+## Cluster 120 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A20<<.1fake>> 
+## Cluster 119 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A19<<.0fake>> 
+## Cluster 118 : (0 -->, --> 0)
+ Module 105<<lhsz>>  A18<<njac>> 
+ Module 104<<lhsy>>  A18<<njac>> 
+ Module 103<<lhsx>>  A18<<njac>> 
+ Module 119<<z_solve>>  A18<<njac>> 
+ Module 116<<y_solve>>  A18<<njac>> 
+ Module 109<<x_solve>>  A18<<njac>> 
+ Module 96<<adi>>  A18<<njac>> 
+ Module 0<<*MAIN*>>  A18<<njac>> 
+## Cluster 117 : (0 -->, --> 0)
+ Module 105<<lhsz>>  A17<<fjac>> 
+ Module 104<<lhsy>>  A17<<fjac>> 
+ Module 103<<lhsx>>  A17<<fjac>> 
+ Module 119<<z_solve>>  A17<<fjac>> 
+ Module 116<<y_solve>>  A17<<fjac>> 
+ Module 109<<x_solve>>  A17<<fjac>> 
+ Module 96<<adi>>  A17<<fjac>> 
+ Module 0<<*MAIN*>>  A17<<fjac>> 
+## Cluster 116 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  A16<<buf>> 
+ Module 0<<*MAIN*>>  A16<<buf>> 
+## Cluster 115 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  A15<<ue>> 
+ Module 0<<*MAIN*>>  A15<<ue>> 
+## Cluster 114 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  A14<<q>> 
+ Module 0<<*MAIN*>>  A14<<q>> 
+## Cluster 113 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  A13<<cuf>> 
+ Module 0<<*MAIN*>>  A13<<cuf>> 
+## Cluster 112 : (190 -->, --> 0)
+ Module 115<<binvrhs>>  I1<<1_lhs>> 
+ Module 113<<matmul_sub>>  I1<<1_ablock>> 
+ Module 112<<matvec_sub>>  I1<<1_ablock>> 
+ Module 114<<binvcrhs>>  I1<<1_lhs>> 
+ Module 120<<z_backsubstitute>>  A12<<lhs>> 
+ Module 121<<z_solve_cell>>  A12<<lhs>> 
+ Module 117<<y_backsubstitute>>  A12<<lhs>> 
+ Module 118<<y_solve_cell>>  A12<<lhs>> 
+ Module 110<<x_backsubstitute>>  A12<<lhs>> 
+ Module 111<<x_solve_cell>>  A12<<lhs>> 
+ Module 105<<lhsz>>  A12<<lhs>> 
+ Module 104<<lhsy>>  A12<<lhs>> 
+ Module 103<<lhsx>>  A12<<lhs>> 
+ Module 119<<z_solve>>  A12<<lhs>> 
+ Module 116<<y_solve>>  A12<<lhs>> 
+ Module 109<<x_solve>>  A12<<lhs>> 
+ Module 96<<adi>>  A12<<lhs>> 
+ Module 102<<lhsinit>>  A12<<lhs>> 
+ Module 0<<*MAIN*>>  A12<<lhs>> 
+## Cluster 111 : (191 -->, --> 0)
+ Module 115<<binvrhs>>  I2<<1_r>> 
+ Module 112<<matvec_sub>>  I2<<1_avec>> 
+ Module 114<<binvcrhs>>  I3<<1_r>> 
+ Module 120<<z_backsubstitute>>  A11<<rhs>> 
+ Module 121<<z_solve_cell>>  A11<<rhs>> 
+ Module 117<<y_backsubstitute>>  A11<<rhs>> 
+ Module 118<<y_solve_cell>>  A11<<rhs>> 
+ Module 110<<x_backsubstitute>>  A11<<rhs>> 
+ Module 111<<x_solve_cell>>  A11<<rhs>> 
+ Module 98<<rhs_norm>>  A11<<rhs>> 
+ Module 119<<z_solve>>  A11<<rhs>> 
+ Module 116<<y_solve>>  A11<<rhs>> 
+ Module 109<<x_solve>>  A11<<rhs>> 
+ Module 106<<compute_rhs>>  A11<<rhs>> 
+ Module 95<<add>>  A11<<rhs>> 
+ Module 108<<verify>>  A11<<rhs>> 
+ Module 96<<adi>>  A11<<rhs>> 
+ Module 0<<*MAIN*>>  A11<<rhs>> 
+## Cluster 110 : (0 -->, --> 0)
+ Module 105<<lhsz>>  A10<<u>> 
+ Module 104<<lhsy>>  A10<<u>> 
+ Module 103<<lhsx>>  A10<<u>> 
+ Module 97<<error_norm>>  A10<<u>> 
+ Module 119<<z_solve>>  A10<<u>> 
+ Module 116<<y_solve>>  A10<<u>> 
+ Module 109<<x_solve>>  A10<<u>> 
+ Module 106<<compute_rhs>>  A10<<u>> 
+ Module 95<<add>>  A10<<u>> 
+ Module 108<<verify>>  A10<<u>> 
+ Module 96<<adi>>  A10<<u>> 
+ Module 101<<initialize>>  A10<<u>> 
+ Module 0<<*MAIN*>>  A10<<u>> 
+## Cluster 109 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A9<<forcing>> 
+ Module 108<<verify>>  A9<<forcing>> 
+ Module 96<<adi>>  A9<<forcing>> 
+ Module 99<<exact_rhs>>  A9<<forcing>> 
+ Module 0<<*MAIN*>>  A9<<forcing>> 
+## Cluster 108 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A8<<square>> 
+ Module 108<<verify>>  A8<<square>> 
+ Module 96<<adi>>  A8<<square>> 
+ Module 0<<*MAIN*>>  A8<<square>> 
+## Cluster 107 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A7<<rho_i>> 
+ Module 108<<verify>>  A7<<rho_i>> 
+ Module 96<<adi>>  A7<<rho_i>> 
+ Module 0<<*MAIN*>>  A7<<rho_i>> 
+## Cluster 106 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A6<<qs>> 
+ Module 108<<verify>>  A6<<qs>> 
+ Module 96<<adi>>  A6<<qs>> 
+ Module 0<<*MAIN*>>  A6<<qs>> 
+## Cluster 105 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A5<<ws>> 
+ Module 108<<verify>>  A5<<ws>> 
+ Module 96<<adi>>  A5<<ws>> 
+ Module 0<<*MAIN*>>  A5<<ws>> 
+## Cluster 104 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A4<<vs>> 
+ Module 108<<verify>>  A4<<vs>> 
+ Module 96<<adi>>  A4<<vs>> 
+ Module 0<<*MAIN*>>  A4<<vs>> 
+## Cluster 103 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  A3<<us>> 
+ Module 108<<verify>>  A3<<us>> 
+ Module 96<<adi>>  A3<<us>> 
+ Module 0<<*MAIN*>>  A3<<us>> 
+## Cluster 102 : (0 -->, --> 0)
+ Module 124<<exact_solution_c2>>  A2<<ce>> 
+ Module 123<<exact_solution_c1>>  A2<<ce>> 
+ Module 100<<exact_solution>>  A2<<ce>> 
+ Module 97<<error_norm>>  A2<<ce>> 
+ Module 108<<verify>>  A2<<ce>> 
+ Module 99<<exact_rhs>>  A2<<ce>> 
+ Module 101<<initialize>>  A2<<ce>> 
+ Module 107<<set_constants>>  A2<<ce>> 
+ Module 0<<*MAIN*>>  A2<<ce>> 
+## Cluster 101 : (0 -->, --> 0)
+ Module 120<<z_backsubstitute>>  A1<<grid_points>> 
+ Module 121<<z_solve_cell>>  A1<<grid_points>> 
+ Module 117<<y_backsubstitute>>  A1<<grid_points>> 
+ Module 118<<y_solve_cell>>  A1<<grid_points>> 
+ Module 110<<x_backsubstitute>>  A1<<grid_points>> 
+ Module 111<<x_solve_cell>>  A1<<grid_points>> 
+ Module 105<<lhsz>>  A1<<grid_points>> 
+ Module 104<<lhsy>>  A1<<grid_points>> 
+ Module 103<<lhsx>>  A1<<grid_points>> 
+ Module 98<<rhs_norm>>  A1<<grid_points>> 
+ Module 97<<error_norm>>  A1<<grid_points>> 
+ Module 119<<z_solve>>  A1<<grid_points>> 
+ Module 116<<y_solve>>  A1<<grid_points>> 
+ Module 109<<x_solve>>  A1<<grid_points>> 
+ Module 106<<compute_rhs>>  A1<<grid_points>> 
+ Module 95<<add>>  A1<<grid_points>> 
+ Module 108<<verify>>  A1<<grid_points>> 
+ Module 96<<adi>>  A1<<grid_points>> 
+ Module 99<<exact_rhs>>  A1<<grid_points>> 
+ Module 102<<lhsinit>>  A1<<grid_points>> 
+ Module 101<<initialize>>  A1<<grid_points>> 
+ Module 107<<set_constants>>  A1<<grid_points>> 
+ Module 0<<*MAIN*>>  A1<<grid_points>> 
+## Cluster 100 : (99 -->, --> 0)
+ Module 0<<*MAIN*>>  I2<<2_argv>> 
+## Cluster 99 : (98 -->, --> 100)
+ Module 0<<*MAIN*>>  I1<<1_argv>> 
+## Cluster 98 : (0 -->, --> 99)
+ Module 0<<*MAIN*>>  V96<<argv>> 
+## Cluster 97 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V94<<con16>> 
+ Module 0<<*MAIN*>>  V94<<con16>> 
+## Cluster 96 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V93<<con43>> 
+ Module 104<<lhsy>>  V93<<con43>> 
+ Module 103<<lhsx>>  V93<<con43>> 
+ Module 119<<z_solve>>  V93<<con43>> 
+ Module 116<<y_solve>>  V93<<con43>> 
+ Module 109<<x_solve>>  V93<<con43>> 
+ Module 106<<compute_rhs>>  V93<<con43>> 
+ Module 108<<verify>>  V93<<con43>> 
+ Module 96<<adi>>  V93<<con43>> 
+ Module 107<<set_constants>>  V93<<con43>> 
+ Module 0<<*MAIN*>>  V93<<con43>> 
+## Cluster 95 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V92<<c2iv>> 
+ Module 0<<*MAIN*>>  V92<<c2iv>> 
+## Cluster 94 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V91<<c3c4tz3>> 
+ Module 0<<*MAIN*>>  V91<<c3c4tz3>> 
+## Cluster 93 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V90<<c3c4ty3>> 
+ Module 0<<*MAIN*>>  V90<<c3c4ty3>> 
+## Cluster 92 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V89<<c3c4tx3>> 
+ Module 0<<*MAIN*>>  V89<<c3c4tx3>> 
+## Cluster 91 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V88<<comz6>> 
+ Module 0<<*MAIN*>>  V88<<comz6>> 
+## Cluster 90 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V87<<comz5>> 
+ Module 0<<*MAIN*>>  V87<<comz5>> 
+## Cluster 89 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V86<<comz4>> 
+ Module 0<<*MAIN*>>  V86<<comz4>> 
+## Cluster 88 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V85<<comz1>> 
+ Module 0<<*MAIN*>>  V85<<comz1>> 
+## Cluster 87 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V84<<c2dttz1>> 
+ Module 0<<*MAIN*>>  V84<<c2dttz1>> 
+## Cluster 86 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V83<<c2dtty1>> 
+ Module 0<<*MAIN*>>  V83<<c2dtty1>> 
+## Cluster 85 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V82<<c2dttx1>> 
+ Module 0<<*MAIN*>>  V82<<c2dttx1>> 
+## Cluster 84 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V81<<dttz2>> 
+ Module 0<<*MAIN*>>  V81<<dttz2>> 
+## Cluster 83 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V80<<dttz1>> 
+ Module 0<<*MAIN*>>  V80<<dttz1>> 
+## Cluster 82 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V79<<dtty2>> 
+ Module 0<<*MAIN*>>  V79<<dtty2>> 
+## Cluster 81 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V78<<dtty1>> 
+ Module 0<<*MAIN*>>  V78<<dtty1>> 
+## Cluster 80 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V77<<dttx2>> 
+ Module 0<<*MAIN*>>  V77<<dttx2>> 
+## Cluster 79 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V76<<dttx1>> 
+ Module 0<<*MAIN*>>  V76<<dttx1>> 
+## Cluster 78 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V75<<dtdssp>> 
+ Module 0<<*MAIN*>>  V75<<dtdssp>> 
+## Cluster 77 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V74<<c5dssp>> 
+ Module 0<<*MAIN*>>  V74<<c5dssp>> 
+## Cluster 76 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V73<<c4dssp>> 
+ Module 0<<*MAIN*>>  V73<<c4dssp>> 
+## Cluster 75 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V72<<c5>> 
+ Module 0<<*MAIN*>>  V72<<c5>> 
+## Cluster 74 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V71<<c4>> 
+ Module 119<<z_solve>>  V71<<c4>> 
+ Module 96<<adi>>  V71<<c4>> 
+ Module 107<<set_constants>>  V71<<c4>> 
+ Module 0<<*MAIN*>>  V71<<c4>> 
+## Cluster 73 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V70<<c3>> 
+ Module 119<<z_solve>>  V70<<c3>> 
+ Module 96<<adi>>  V70<<c3>> 
+ Module 107<<set_constants>>  V70<<c3>> 
+ Module 0<<*MAIN*>>  V70<<c3>> 
+## Cluster 72 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V69<<c2>> 
+ Module 104<<lhsy>>  V69<<c2>> 
+ Module 103<<lhsx>>  V69<<c2>> 
+ Module 119<<z_solve>>  V69<<c2>> 
+ Module 116<<y_solve>>  V69<<c2>> 
+ Module 109<<x_solve>>  V69<<c2>> 
+ Module 106<<compute_rhs>>  V69<<c2>> 
+ Module 108<<verify>>  V69<<c2>> 
+ Module 96<<adi>>  V69<<c2>> 
+ Module 99<<exact_rhs>>  V69<<c2>> 
+ Module 107<<set_constants>>  V69<<c2>> 
+ Module 0<<*MAIN*>>  V69<<c2>> 
+## Cluster 71 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V68<<c1>> 
+ Module 104<<lhsy>>  V68<<c1>> 
+ Module 103<<lhsx>>  V68<<c1>> 
+ Module 119<<z_solve>>  V68<<c1>> 
+ Module 116<<y_solve>>  V68<<c1>> 
+ Module 109<<x_solve>>  V68<<c1>> 
+ Module 106<<compute_rhs>>  V68<<c1>> 
+ Module 108<<verify>>  V68<<c1>> 
+ Module 96<<adi>>  V68<<c1>> 
+ Module 99<<exact_rhs>>  V68<<c1>> 
+ Module 107<<set_constants>>  V68<<c1>> 
+ Module 0<<*MAIN*>>  V68<<c1>> 
+## Cluster 70 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V67<<conz1>> 
+ Module 0<<*MAIN*>>  V67<<conz1>> 
+## Cluster 69 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V66<<c1345>> 
+ Module 104<<lhsy>>  V66<<c1345>> 
+ Module 103<<lhsx>>  V66<<c1345>> 
+ Module 119<<z_solve>>  V66<<c1345>> 
+ Module 116<<y_solve>>  V66<<c1345>> 
+ Module 109<<x_solve>>  V66<<c1345>> 
+ Module 96<<adi>>  V66<<c1345>> 
+ Module 107<<set_constants>>  V66<<c1345>> 
+ Module 0<<*MAIN*>>  V66<<c1345>> 
+## Cluster 68 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V65<<c3c4>> 
+ Module 104<<lhsy>>  V65<<c3c4>> 
+ Module 103<<lhsx>>  V65<<c3c4>> 
+ Module 119<<z_solve>>  V65<<c3c4>> 
+ Module 116<<y_solve>>  V65<<c3c4>> 
+ Module 109<<x_solve>>  V65<<c3c4>> 
+ Module 96<<adi>>  V65<<c3c4>> 
+ Module 107<<set_constants>>  V65<<c3c4>> 
+ Module 0<<*MAIN*>>  V65<<c3c4>> 
+## Cluster 67 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V64<<c1c5>> 
+ Module 0<<*MAIN*>>  V64<<c1c5>> 
+## Cluster 66 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V63<<c1c2>> 
+ Module 0<<*MAIN*>>  V63<<c1c2>> 
+## Cluster 65 : (0 -->, --> 0)
+ Module 97<<error_norm>>  V62<<dnzm1>> 
+ Module 108<<verify>>  V62<<dnzm1>> 
+ Module 99<<exact_rhs>>  V62<<dnzm1>> 
+ Module 101<<initialize>>  V62<<dnzm1>> 
+ Module 107<<set_constants>>  V62<<dnzm1>> 
+ Module 0<<*MAIN*>>  V62<<dnzm1>> 
+## Cluster 64 : (0 -->, --> 0)
+ Module 97<<error_norm>>  V61<<dnym1>> 
+ Module 108<<verify>>  V61<<dnym1>> 
+ Module 99<<exact_rhs>>  V61<<dnym1>> 
+ Module 101<<initialize>>  V61<<dnym1>> 
+ Module 107<<set_constants>>  V61<<dnym1>> 
+ Module 0<<*MAIN*>>  V61<<dnym1>> 
+## Cluster 63 : (0 -->, --> 0)
+ Module 97<<error_norm>>  V60<<dnxm1>> 
+ Module 108<<verify>>  V60<<dnxm1>> 
+ Module 99<<exact_rhs>>  V60<<dnxm1>> 
+ Module 101<<initialize>>  V60<<dnxm1>> 
+ Module 107<<set_constants>>  V60<<dnxm1>> 
+ Module 0<<*MAIN*>>  V60<<dnxm1>> 
+## Cluster 62 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V59<<dz5tz1>> 
+ Module 108<<verify>>  V59<<dz5tz1>> 
+ Module 96<<adi>>  V59<<dz5tz1>> 
+ Module 99<<exact_rhs>>  V59<<dz5tz1>> 
+ Module 107<<set_constants>>  V59<<dz5tz1>> 
+ Module 0<<*MAIN*>>  V59<<dz5tz1>> 
+## Cluster 61 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V58<<dz4tz1>> 
+ Module 108<<verify>>  V58<<dz4tz1>> 
+ Module 96<<adi>>  V58<<dz4tz1>> 
+ Module 99<<exact_rhs>>  V58<<dz4tz1>> 
+ Module 107<<set_constants>>  V58<<dz4tz1>> 
+ Module 0<<*MAIN*>>  V58<<dz4tz1>> 
+## Cluster 60 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V57<<dz3tz1>> 
+ Module 108<<verify>>  V57<<dz3tz1>> 
+ Module 96<<adi>>  V57<<dz3tz1>> 
+ Module 99<<exact_rhs>>  V57<<dz3tz1>> 
+ Module 107<<set_constants>>  V57<<dz3tz1>> 
+ Module 0<<*MAIN*>>  V57<<dz3tz1>> 
+## Cluster 59 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V56<<dz2tz1>> 
+ Module 108<<verify>>  V56<<dz2tz1>> 
+ Module 96<<adi>>  V56<<dz2tz1>> 
+ Module 99<<exact_rhs>>  V56<<dz2tz1>> 
+ Module 107<<set_constants>>  V56<<dz2tz1>> 
+ Module 0<<*MAIN*>>  V56<<dz2tz1>> 
+## Cluster 58 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V55<<dz1tz1>> 
+ Module 108<<verify>>  V55<<dz1tz1>> 
+ Module 96<<adi>>  V55<<dz1tz1>> 
+ Module 99<<exact_rhs>>  V55<<dz1tz1>> 
+ Module 107<<set_constants>>  V55<<dz1tz1>> 
+ Module 0<<*MAIN*>>  V55<<dz1tz1>> 
+## Cluster 57 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V54<<zzcon5>> 
+ Module 108<<verify>>  V54<<zzcon5>> 
+ Module 96<<adi>>  V54<<zzcon5>> 
+ Module 99<<exact_rhs>>  V54<<zzcon5>> 
+ Module 107<<set_constants>>  V54<<zzcon5>> 
+ Module 0<<*MAIN*>>  V54<<zzcon5>> 
+## Cluster 56 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V53<<zzcon4>> 
+ Module 108<<verify>>  V53<<zzcon4>> 
+ Module 96<<adi>>  V53<<zzcon4>> 
+ Module 99<<exact_rhs>>  V53<<zzcon4>> 
+ Module 107<<set_constants>>  V53<<zzcon4>> 
+ Module 0<<*MAIN*>>  V53<<zzcon4>> 
+## Cluster 55 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V52<<zzcon3>> 
+ Module 108<<verify>>  V52<<zzcon3>> 
+ Module 96<<adi>>  V52<<zzcon3>> 
+ Module 99<<exact_rhs>>  V52<<zzcon3>> 
+ Module 107<<set_constants>>  V52<<zzcon3>> 
+ Module 0<<*MAIN*>>  V52<<zzcon3>> 
+## Cluster 54 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V51<<zzcon2>> 
+ Module 108<<verify>>  V51<<zzcon2>> 
+ Module 96<<adi>>  V51<<zzcon2>> 
+ Module 99<<exact_rhs>>  V51<<zzcon2>> 
+ Module 107<<set_constants>>  V51<<zzcon2>> 
+ Module 0<<*MAIN*>>  V51<<zzcon2>> 
+## Cluster 53 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  V50<<zzcon1>> 
+ Module 107<<set_constants>>  V50<<zzcon1>> 
+ Module 0<<*MAIN*>>  V50<<zzcon1>> 
+## Cluster 52 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V49<<dy5ty1>> 
+ Module 108<<verify>>  V49<<dy5ty1>> 
+ Module 96<<adi>>  V49<<dy5ty1>> 
+ Module 99<<exact_rhs>>  V49<<dy5ty1>> 
+ Module 107<<set_constants>>  V49<<dy5ty1>> 
+ Module 0<<*MAIN*>>  V49<<dy5ty1>> 
+## Cluster 51 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V48<<dy4ty1>> 
+ Module 108<<verify>>  V48<<dy4ty1>> 
+ Module 96<<adi>>  V48<<dy4ty1>> 
+ Module 99<<exact_rhs>>  V48<<dy4ty1>> 
+ Module 107<<set_constants>>  V48<<dy4ty1>> 
+ Module 0<<*MAIN*>>  V48<<dy4ty1>> 
+## Cluster 50 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V47<<dy3ty1>> 
+ Module 108<<verify>>  V47<<dy3ty1>> 
+ Module 96<<adi>>  V47<<dy3ty1>> 
+ Module 99<<exact_rhs>>  V47<<dy3ty1>> 
+ Module 107<<set_constants>>  V47<<dy3ty1>> 
+ Module 0<<*MAIN*>>  V47<<dy3ty1>> 
+## Cluster 49 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V46<<dy2ty1>> 
+ Module 108<<verify>>  V46<<dy2ty1>> 
+ Module 96<<adi>>  V46<<dy2ty1>> 
+ Module 99<<exact_rhs>>  V46<<dy2ty1>> 
+ Module 107<<set_constants>>  V46<<dy2ty1>> 
+ Module 0<<*MAIN*>>  V46<<dy2ty1>> 
+## Cluster 48 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V45<<dy1ty1>> 
+ Module 108<<verify>>  V45<<dy1ty1>> 
+ Module 96<<adi>>  V45<<dy1ty1>> 
+ Module 99<<exact_rhs>>  V45<<dy1ty1>> 
+ Module 107<<set_constants>>  V45<<dy1ty1>> 
+ Module 0<<*MAIN*>>  V45<<dy1ty1>> 
+## Cluster 47 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V44<<yycon5>> 
+ Module 108<<verify>>  V44<<yycon5>> 
+ Module 96<<adi>>  V44<<yycon5>> 
+ Module 99<<exact_rhs>>  V44<<yycon5>> 
+ Module 107<<set_constants>>  V44<<yycon5>> 
+ Module 0<<*MAIN*>>  V44<<yycon5>> 
+## Cluster 46 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V43<<yycon4>> 
+ Module 108<<verify>>  V43<<yycon4>> 
+ Module 96<<adi>>  V43<<yycon4>> 
+ Module 99<<exact_rhs>>  V43<<yycon4>> 
+ Module 107<<set_constants>>  V43<<yycon4>> 
+ Module 0<<*MAIN*>>  V43<<yycon4>> 
+## Cluster 45 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V42<<yycon3>> 
+ Module 108<<verify>>  V42<<yycon3>> 
+ Module 96<<adi>>  V42<<yycon3>> 
+ Module 99<<exact_rhs>>  V42<<yycon3>> 
+ Module 107<<set_constants>>  V42<<yycon3>> 
+ Module 0<<*MAIN*>>  V42<<yycon3>> 
+## Cluster 44 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V41<<yycon2>> 
+ Module 108<<verify>>  V41<<yycon2>> 
+ Module 96<<adi>>  V41<<yycon2>> 
+ Module 99<<exact_rhs>>  V41<<yycon2>> 
+ Module 107<<set_constants>>  V41<<yycon2>> 
+ Module 0<<*MAIN*>>  V41<<yycon2>> 
+## Cluster 43 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  V40<<yycon1>> 
+ Module 107<<set_constants>>  V40<<yycon1>> 
+ Module 0<<*MAIN*>>  V40<<yycon1>> 
+## Cluster 42 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V39<<dx5tx1>> 
+ Module 108<<verify>>  V39<<dx5tx1>> 
+ Module 96<<adi>>  V39<<dx5tx1>> 
+ Module 99<<exact_rhs>>  V39<<dx5tx1>> 
+ Module 107<<set_constants>>  V39<<dx5tx1>> 
+ Module 0<<*MAIN*>>  V39<<dx5tx1>> 
+## Cluster 41 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V38<<dx4tx1>> 
+ Module 108<<verify>>  V38<<dx4tx1>> 
+ Module 96<<adi>>  V38<<dx4tx1>> 
+ Module 99<<exact_rhs>>  V38<<dx4tx1>> 
+ Module 107<<set_constants>>  V38<<dx4tx1>> 
+ Module 0<<*MAIN*>>  V38<<dx4tx1>> 
+## Cluster 40 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V37<<dx3tx1>> 
+ Module 108<<verify>>  V37<<dx3tx1>> 
+ Module 96<<adi>>  V37<<dx3tx1>> 
+ Module 99<<exact_rhs>>  V37<<dx3tx1>> 
+ Module 107<<set_constants>>  V37<<dx3tx1>> 
+ Module 0<<*MAIN*>>  V37<<dx3tx1>> 
+## Cluster 39 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V36<<dx2tx1>> 
+ Module 108<<verify>>  V36<<dx2tx1>> 
+ Module 96<<adi>>  V36<<dx2tx1>> 
+ Module 99<<exact_rhs>>  V36<<dx2tx1>> 
+ Module 107<<set_constants>>  V36<<dx2tx1>> 
+ Module 0<<*MAIN*>>  V36<<dx2tx1>> 
+## Cluster 38 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V35<<dx1tx1>> 
+ Module 108<<verify>>  V35<<dx1tx1>> 
+ Module 96<<adi>>  V35<<dx1tx1>> 
+ Module 99<<exact_rhs>>  V35<<dx1tx1>> 
+ Module 107<<set_constants>>  V35<<dx1tx1>> 
+ Module 0<<*MAIN*>>  V35<<dx1tx1>> 
+## Cluster 37 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V34<<xxcon5>> 
+ Module 108<<verify>>  V34<<xxcon5>> 
+ Module 96<<adi>>  V34<<xxcon5>> 
+ Module 99<<exact_rhs>>  V34<<xxcon5>> 
+ Module 107<<set_constants>>  V34<<xxcon5>> 
+ Module 0<<*MAIN*>>  V34<<xxcon5>> 
+## Cluster 36 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V33<<xxcon4>> 
+ Module 108<<verify>>  V33<<xxcon4>> 
+ Module 96<<adi>>  V33<<xxcon4>> 
+ Module 99<<exact_rhs>>  V33<<xxcon4>> 
+ Module 107<<set_constants>>  V33<<xxcon4>> 
+ Module 0<<*MAIN*>>  V33<<xxcon4>> 
+## Cluster 35 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V32<<xxcon3>> 
+ Module 108<<verify>>  V32<<xxcon3>> 
+ Module 96<<adi>>  V32<<xxcon3>> 
+ Module 99<<exact_rhs>>  V32<<xxcon3>> 
+ Module 107<<set_constants>>  V32<<xxcon3>> 
+ Module 0<<*MAIN*>>  V32<<xxcon3>> 
+## Cluster 34 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V31<<xxcon2>> 
+ Module 108<<verify>>  V31<<xxcon2>> 
+ Module 96<<adi>>  V31<<xxcon2>> 
+ Module 99<<exact_rhs>>  V31<<xxcon2>> 
+ Module 107<<set_constants>>  V31<<xxcon2>> 
+ Module 0<<*MAIN*>>  V31<<xxcon2>> 
+## Cluster 33 : (0 -->, --> 0)
+ Module 99<<exact_rhs>>  V30<<xxcon1>> 
+ Module 107<<set_constants>>  V30<<xxcon1>> 
+ Module 0<<*MAIN*>>  V30<<xxcon1>> 
+## Cluster 32 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V29<<dzmax>> 
+ Module 0<<*MAIN*>>  V29<<dzmax>> 
+## Cluster 31 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V28<<dymax>> 
+ Module 0<<*MAIN*>>  V28<<dymax>> 
+## Cluster 30 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V27<<dxmax>> 
+ Module 0<<*MAIN*>>  V27<<dxmax>> 
+## Cluster 29 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V26<<dt>> 
+ Module 104<<lhsy>>  V26<<dt>> 
+ Module 103<<lhsx>>  V26<<dt>> 
+ Module 119<<z_solve>>  V26<<dt>> 
+ Module 116<<y_solve>>  V26<<dt>> 
+ Module 109<<x_solve>>  V26<<dt>> 
+ Module 106<<compute_rhs>>  V26<<dt>> 
+ Module 108<<verify>>  V26<<dt>> 
+ Module 96<<adi>>  V26<<dt>> 
+ Module 107<<set_constants>>  V26<<dt>> 
+ Module 0<<*MAIN*>>  V26<<dt>> 
+## Cluster 28 : (0 -->, --> 0)
+ Module 106<<compute_rhs>>  V25<<dssp>> 
+ Module 108<<verify>>  V25<<dssp>> 
+ Module 96<<adi>>  V25<<dssp>> 
+ Module 99<<exact_rhs>>  V25<<dssp>> 
+ Module 107<<set_constants>>  V25<<dssp>> 
+ Module 0<<*MAIN*>>  V25<<dssp>> 
+## Cluster 27 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V24<<dz5>> 
+ Module 119<<z_solve>>  V24<<dz5>> 
+ Module 96<<adi>>  V24<<dz5>> 
+ Module 107<<set_constants>>  V24<<dz5>> 
+ Module 0<<*MAIN*>>  V24<<dz5>> 
+## Cluster 26 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V23<<dz4>> 
+ Module 119<<z_solve>>  V23<<dz4>> 
+ Module 96<<adi>>  V23<<dz4>> 
+ Module 107<<set_constants>>  V23<<dz4>> 
+ Module 0<<*MAIN*>>  V23<<dz4>> 
+## Cluster 25 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V22<<dz3>> 
+ Module 119<<z_solve>>  V22<<dz3>> 
+ Module 96<<adi>>  V22<<dz3>> 
+ Module 107<<set_constants>>  V22<<dz3>> 
+ Module 0<<*MAIN*>>  V22<<dz3>> 
+## Cluster 24 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V21<<dz2>> 
+ Module 119<<z_solve>>  V21<<dz2>> 
+ Module 96<<adi>>  V21<<dz2>> 
+ Module 107<<set_constants>>  V21<<dz2>> 
+ Module 0<<*MAIN*>>  V21<<dz2>> 
+## Cluster 23 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V20<<dz1>> 
+ Module 119<<z_solve>>  V20<<dz1>> 
+ Module 96<<adi>>  V20<<dz1>> 
+ Module 107<<set_constants>>  V20<<dz1>> 
+ Module 0<<*MAIN*>>  V20<<dz1>> 
+## Cluster 22 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V19<<dy5>> 
+ Module 116<<y_solve>>  V19<<dy5>> 
+ Module 96<<adi>>  V19<<dy5>> 
+ Module 107<<set_constants>>  V19<<dy5>> 
+ Module 0<<*MAIN*>>  V19<<dy5>> 
+## Cluster 21 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V18<<dy4>> 
+ Module 116<<y_solve>>  V18<<dy4>> 
+ Module 96<<adi>>  V18<<dy4>> 
+ Module 107<<set_constants>>  V18<<dy4>> 
+ Module 0<<*MAIN*>>  V18<<dy4>> 
+## Cluster 20 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V17<<dy3>> 
+ Module 116<<y_solve>>  V17<<dy3>> 
+ Module 96<<adi>>  V17<<dy3>> 
+ Module 107<<set_constants>>  V17<<dy3>> 
+ Module 0<<*MAIN*>>  V17<<dy3>> 
+## Cluster 19 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V16<<dy2>> 
+ Module 116<<y_solve>>  V16<<dy2>> 
+ Module 96<<adi>>  V16<<dy2>> 
+ Module 107<<set_constants>>  V16<<dy2>> 
+ Module 0<<*MAIN*>>  V16<<dy2>> 
+## Cluster 18 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V15<<dy1>> 
+ Module 116<<y_solve>>  V15<<dy1>> 
+ Module 96<<adi>>  V15<<dy1>> 
+ Module 107<<set_constants>>  V15<<dy1>> 
+ Module 0<<*MAIN*>>  V15<<dy1>> 
+## Cluster 17 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V14<<dx5>> 
+ Module 109<<x_solve>>  V14<<dx5>> 
+ Module 96<<adi>>  V14<<dx5>> 
+ Module 107<<set_constants>>  V14<<dx5>> 
+ Module 0<<*MAIN*>>  V14<<dx5>> 
+## Cluster 16 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V13<<dx4>> 
+ Module 109<<x_solve>>  V13<<dx4>> 
+ Module 96<<adi>>  V13<<dx4>> 
+ Module 107<<set_constants>>  V13<<dx4>> 
+ Module 0<<*MAIN*>>  V13<<dx4>> 
+## Cluster 15 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V12<<dx3>> 
+ Module 109<<x_solve>>  V12<<dx3>> 
+ Module 96<<adi>>  V12<<dx3>> 
+ Module 107<<set_constants>>  V12<<dx3>> 
+ Module 0<<*MAIN*>>  V12<<dx3>> 
+## Cluster 14 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V11<<dx2>> 
+ Module 109<<x_solve>>  V11<<dx2>> 
+ Module 96<<adi>>  V11<<dx2>> 
+ Module 107<<set_constants>>  V11<<dx2>> 
+ Module 0<<*MAIN*>>  V11<<dx2>> 
+## Cluster 13 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V10<<dx1>> 
+ Module 109<<x_solve>>  V10<<dx1>> 
+ Module 96<<adi>>  V10<<dx1>> 
+ Module 107<<set_constants>>  V10<<dx1>> 
+ Module 0<<*MAIN*>>  V10<<dx1>> 
+## Cluster 12 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V9<<tz3>> 
+ Module 0<<*MAIN*>>  V9<<tz3>> 
+## Cluster 11 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V8<<tz2>> 
+ Module 119<<z_solve>>  V8<<tz2>> 
+ Module 106<<compute_rhs>>  V8<<tz2>> 
+ Module 108<<verify>>  V8<<tz2>> 
+ Module 96<<adi>>  V8<<tz2>> 
+ Module 99<<exact_rhs>>  V8<<tz2>> 
+ Module 107<<set_constants>>  V8<<tz2>> 
+ Module 0<<*MAIN*>>  V8<<tz2>> 
+## Cluster 10 : (0 -->, --> 0)
+ Module 105<<lhsz>>  V7<<tz1>> 
+ Module 119<<z_solve>>  V7<<tz1>> 
+ Module 96<<adi>>  V7<<tz1>> 
+ Module 107<<set_constants>>  V7<<tz1>> 
+ Module 0<<*MAIN*>>  V7<<tz1>> 
+## Cluster 9 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V6<<ty3>> 
+ Module 0<<*MAIN*>>  V6<<ty3>> 
+## Cluster 8 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V5<<ty2>> 
+ Module 116<<y_solve>>  V5<<ty2>> 
+ Module 106<<compute_rhs>>  V5<<ty2>> 
+ Module 108<<verify>>  V5<<ty2>> 
+ Module 96<<adi>>  V5<<ty2>> 
+ Module 99<<exact_rhs>>  V5<<ty2>> 
+ Module 107<<set_constants>>  V5<<ty2>> 
+ Module 0<<*MAIN*>>  V5<<ty2>> 
+## Cluster 7 : (0 -->, --> 0)
+ Module 104<<lhsy>>  V4<<ty1>> 
+ Module 116<<y_solve>>  V4<<ty1>> 
+ Module 96<<adi>>  V4<<ty1>> 
+ Module 107<<set_constants>>  V4<<ty1>> 
+ Module 0<<*MAIN*>>  V4<<ty1>> 
+## Cluster 6 : (0 -->, --> 0)
+ Module 107<<set_constants>>  V3<<tx3>> 
+ Module 0<<*MAIN*>>  V3<<tx3>> 
+## Cluster 5 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V2<<tx2>> 
+ Module 109<<x_solve>>  V2<<tx2>> 
+ Module 106<<compute_rhs>>  V2<<tx2>> 
+ Module 108<<verify>>  V2<<tx2>> 
+ Module 96<<adi>>  V2<<tx2>> 
+ Module 99<<exact_rhs>>  V2<<tx2>> 
+ Module 107<<set_constants>>  V2<<tx2>> 
+ Module 0<<*MAIN*>>  V2<<tx2>> 
+## Cluster 4 : (0 -->, --> 0)
+ Module 103<<lhsx>>  V1<<tx1>> 
+ Module 109<<x_solve>>  V1<<tx1>> 
+ Module 96<<adi>>  V1<<tx1>> 
+ Module 107<<set_constants>>  V1<<tx1>> 
+ Module 0<<*MAIN*>>  V1<<tx1>> 
+## Cluster 3 : (0 -->, --> 0)
+ Module 115<<binvrhs>>  FILE 
+ Module 113<<matmul_sub>>  FILE 
+ Module 112<<matvec_sub>>  FILE 
+ Module 114<<binvcrhs>>  FILE 
+ Module 124<<exact_solution_c2>>  FILE 
+ Module 120<<z_backsubstitute>>  FILE 
+ Module 121<<z_solve_cell>>  FILE 
+ Module 117<<y_backsubstitute>>  FILE 
+ Module 118<<y_solve_cell>>  FILE 
+ Module 110<<x_backsubstitute>>  FILE 
+ Module 111<<x_solve_cell>>  FILE 
+ Module 105<<lhsz>>  FILE 
+ Module 104<<lhsy>>  FILE 
+ Module 103<<lhsx>>  FILE 
+ Module 123<<exact_solution_c1>>  FILE 
+ Module 100<<exact_solution>>  FILE 
+ Module 98<<rhs_norm>>  FILE 
+ Module 97<<error_norm>>  FILE 
+ Module 119<<z_solve>>  FILE 
+ Module 116<<y_solve>>  FILE 
+ Module 109<<x_solve>>  FILE 
+ Module 106<<compute_rhs>>  FILE 
+ Module 95<<add>>  FILE 
+ Module 108<<verify>>  FILE 
+ Module 96<<adi>>  FILE 
+ Module 99<<exact_rhs>>  FILE 
+ Module 102<<lhsinit>>  FILE 
+ Module 101<<initialize>>  FILE 
+ Module 107<<set_constants>>  FILE 
+ Module 0<<*MAIN*>>  FILE 
+## Cluster 2 : (0 -->, --> 0)
+ Module 115<<binvrhs>>  UNINIT 
+ Module 113<<matmul_sub>>  UNINIT 
+ Module 112<<matvec_sub>>  UNINIT 
+ Module 114<<binvcrhs>>  UNINIT 
+ Module 124<<exact_solution_c2>>  UNINIT 
+ Module 120<<z_backsubstitute>>  UNINIT 
+ Module 121<<z_solve_cell>>  UNINIT 
+ Module 117<<y_backsubstitute>>  UNINIT 
+ Module 118<<y_solve_cell>>  UNINIT 
+ Module 110<<x_backsubstitute>>  UNINIT 
+ Module 111<<x_solve_cell>>  UNINIT 
+ Module 105<<lhsz>>  UNINIT 
+ Module 104<<lhsy>>  UNINIT 
+ Module 103<<lhsx>>  UNINIT 
+ Module 123<<exact_solution_c1>>  UNINIT 
+ Module 100<<exact_solution>>  UNINIT 
+ Module 98<<rhs_norm>>  UNINIT 
+ Module 97<<error_norm>>  UNINIT 
+ Module 119<<z_solve>>  UNINIT 
+ Module 116<<y_solve>>  UNINIT 
+ Module 109<<x_solve>>  UNINIT 
+ Module 106<<compute_rhs>>  UNINIT 
+ Module 95<<add>>  UNINIT 
+ Module 108<<verify>>  UNINIT 
+ Module 96<<adi>>  UNINIT 
+ Module 99<<exact_rhs>>  UNINIT 
+ Module 102<<lhsinit>>  UNINIT 
+ Module 101<<initialize>>  UNINIT 
+ Module 107<<set_constants>>  UNINIT 
+ Module 0<<*MAIN*>>  UNINIT 
+## Cluster 1 : (0 -->, --> 0)
+ Module 115<<binvrhs>>  UNKNOWN 
+ Module 113<<matmul_sub>>  UNKNOWN 
+ Module 112<<matvec_sub>>  UNKNOWN 
+ Module 114<<binvcrhs>>  UNKNOWN 
+ Module 124<<exact_solution_c2>>  UNKNOWN 
+ Module 120<<z_backsubstitute>>  UNKNOWN 
+ Module 121<<z_solve_cell>>  UNKNOWN 
+ Module 117<<y_backsubstitute>>  UNKNOWN 
+ Module 118<<y_solve_cell>>  UNKNOWN 
+ Module 110<<x_backsubstitute>>  UNKNOWN 
+ Module 111<<x_solve_cell>>  UNKNOWN 
+ Module 105<<lhsz>>  UNKNOWN 
+ Module 104<<lhsy>>  UNKNOWN 
+ Module 103<<lhsx>>  UNKNOWN 
+ Module 123<<exact_solution_c1>>  UNKNOWN 
+ Module 100<<exact_solution>>  UNKNOWN 
+ Module 98<<rhs_norm>>  UNKNOWN 
+ Module 97<<error_norm>>  UNKNOWN 
+ Module 119<<z_solve>>  UNKNOWN 
+ Module 116<<y_solve>>  UNKNOWN 
+ Module 109<<x_solve>>  UNKNOWN 
+ Module 106<<compute_rhs>>  UNKNOWN 
+ Module 95<<add>>  UNKNOWN 
+ Module 108<<verify>>  UNKNOWN 
+ Module 96<<adi>>  UNKNOWN 
+ Module 99<<exact_rhs>>  UNKNOWN 
+ Module 102<<lhsinit>>  UNKNOWN 
+ Module 101<<initialize>>  UNKNOWN 
+ Module 107<<set_constants>>  UNKNOWN 
+ Module 0<<*MAIN*>>  UNKNOWN 
+### dump of per object write-sharing cluster
+## Cluster 15
+ z_backsubstitute A11
+ z_solve_cell A11
+ z_solve_cell A11
+ z_solve_cell A11
+ y_backsubstitute A11
+ y_solve_cell A11
+ y_solve_cell A11
+ y_solve_cell A11
+ x_backsubstitute A11
+ x_solve_cell A11
+ x_solve_cell A11
+ x_solve_cell A11
+ x_solve_cell A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+ compute_rhs A11
+## Cluster 14
+ compute_rhs A6
+## Cluster 13
+ compute_rhs A8
+## Cluster 12
+ compute_rhs A5
+## Cluster 11
+ compute_rhs A4
+## Cluster 10
+ compute_rhs A3
+## Cluster 9
+ compute_rhs A7
+## Cluster 8
+ verify A58
+## Cluster 7
+ verify A57
+## Cluster 6
+ verify A56
+## Cluster 5
+ verify A55
+## Cluster 4
+ verify A60
+## Cluster 3
+ exact_rhs A9
+ exact_rhs A9
+## Cluster 2
+ z_solve_cell A12
+ z_solve_cell A12
+ z_solve_cell A12
+ z_solve_cell A12
+ z_solve_cell A12
+ z_solve_cell A12
+ z_solve_cell A12
+ z_solve_cell A12
+ z_solve_cell A12
+ y_solve_cell A12
+ y_solve_cell A12
+ y_solve_cell A12
+ y_solve_cell A12
+ y_solve_cell A12
+ y_solve_cell A12
+ y_solve_cell A12
+ y_solve_cell A12
+ y_solve_cell A12
+ x_solve_cell A12
+ x_solve_cell A12
+ x_solve_cell A12
+ x_solve_cell A12
+ x_solve_cell A12
+ x_solve_cell A12
+ x_solve_cell A12
+ x_solve_cell A12
+ x_solve_cell A12
+ x_solve_cell A12
+ lhsz A12
+ lhsy A12
+ lhsx A12
+ lhsinit A12
+ lhsinit A12
+## Cluster 1
+ add A10
+ initialize A10
+ initialize A10
+ initialize A10
+ initialize A10
+ initialize A10
+ initialize A10
+ initialize A10
+ initialize A10
+--- Select resolve write sharing way ---
+ A11<<rhs>> dim : 3 (align$) in z_backsubstitute#120.block1.doall1 :  LOOP 
+ A6<<qs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A8<<square>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A5<<ws>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A4<<vs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A3<<us>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A7<<rho_i>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ A58<<xcedif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+ A57<<xcrdif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+ A56<<xceref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+ A55<<xcrref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+ A60<<xcr>> dim : 0 (align$) in verify#108.block1.doall5 :  LOOP 
+ A9<<forcing>> dim : 3 (align$) in exact_rhs#99.block1.doall5 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A10<<u>> dim : 3 (align$) in add#95.block1.doall1 :  LOOP 
+--- resolve way list ---
+ A11<<rhs>> dim : 3 (align$) in z_backsubstitute#120.block1.doall1 :  LOOP 
+resolve write sharing way : PADDING
+ A6<<qs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+resolve write sharing way : PADDING
+ A8<<square>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+resolve write sharing way : PADDING
+ A5<<ws>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+resolve write sharing way : PADDING
+ A4<<vs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+resolve write sharing way : PADDING
+ A3<<us>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+resolve write sharing way : PADDING
+ A7<<rho_i>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+resolve write sharing way : PADDING
+ A58<<xcedif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+resolve write sharing way : EXPANSION
+ A57<<xcrdif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+resolve write sharing way : EXPANSION
+ A56<<xceref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+resolve write sharing way : EXPANSION
+ A55<<xcrref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+resolve write sharing way : EXPANSION
+ A60<<xcr>> dim : 0 (align$) in verify#108.block1.doall5 :  LOOP 
+resolve write sharing way : EXPANSION
+ A9<<forcing>> dim : 3 (align$) in exact_rhs#99.block1.doall5 :  LOOP 
+resolve write sharing way : PADDING
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+resolve write sharing way : PADDING
+ A10<<u>> dim : 3 (align$) in add#95.block1.doall1 :  LOOP 
+resolve write sharing way : PADDING
+--- apply padding ---
+ Module 115<<binvrhs>>  I2<<1_r>> 
+ Module 112<<matvec_sub>>  I2<<1_avec>> 
+ Module 114<<binvcrhs>>  I3<<1_r>> 
+ Module 120<<z_backsubstitute>>  A11<<rhs>> 
+ Module 121<<z_solve_cell>>  A11<<rhs>> 
+ Module 117<<y_backsubstitute>>  A11<<rhs>> 
+ Module 118<<y_solve_cell>>  A11<<rhs>> 
+ Module 110<<x_backsubstitute>>  A11<<rhs>> 
+ Module 111<<x_solve_cell>>  A11<<rhs>> 
+ Module 98<<rhs_norm>>  A11<<rhs>> 
+ Module 119<<z_solve>>  A11<<rhs>> 
+ Module 116<<y_solve>>  A11<<rhs>> 
+ Module 109<<x_solve>>  A11<<rhs>> 
+ Module 106<<compute_rhs>>  A11<<rhs>> 
+ Module 95<<add>>  A11<<rhs>> 
+ Module 108<<verify>>  A11<<rhs>> 
+ Module 96<<adi>>  A11<<rhs>> 
+ Module 0<<*MAIN*>>  A11<<rhs>> 
+dim : 3
+ A11<<rhs>> dim : 3 (align$) in z_backsubstitute#120.block1.doall1 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in z_solve_cell#121.block1.doall4 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in z_solve_cell#121.block1.doall2 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in y_backsubstitute#117.block1.loop1.doall1 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in y_solve_cell#118.block1.doall4 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in y_solve_cell#118.block1.doall2 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_backsubstitute#110.block1.loop1.doall1 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in x_solve_cell#111.block1.doall2 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall33 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall32 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall30 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall28 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall27 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall25 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall23 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall22 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall20 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall18 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall17 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall15 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall13 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall12 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall10 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall8 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall7 :  LOOP 
+ A11<<rhs>> dim : 2 (align$) in compute_rhs#106.block1.doall5 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall3 :  LOOP 
+ A11<<rhs>> dim : 3 (align$) in compute_rhs#106.block1.doall2 :  LOOP 
+ skip (dim = 1) :  Module 115<<binvrhs>>  I2<<1_r>> 
+ skip (dim = 1) :  Module 112<<matvec_sub>>  I2<<1_avec>> 
+ skip (dim = 1) :  Module 114<<binvcrhs>>  I3<<1_r>> 
+ apply (dim = 4) :  Module 120<<z_backsubstitute>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 121<<z_solve_cell>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 117<<y_backsubstitute>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 118<<y_solve_cell>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 110<<x_backsubstitute>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 111<<x_solve_cell>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 98<<rhs_norm>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 119<<z_solve>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 116<<y_solve>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 109<<x_solve>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 106<<compute_rhs>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 95<<add>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 108<<verify>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 96<<adi>>  A11<<rhs>> 
+ apply (dim = 4) :  Module 0<<*MAIN*>>  A11<<rhs>> 
+ Module 114<<binvcrhs>>  V97<<r>> 
+*double ::   ptr Q12 double;
+ => 
+*double ::   ptr Q39 double;
+ (deref: 1)
+ Module 112<<matvec_sub>>  V96<<avec>> 
+*double ::   ptr Q12 double;
+ => 
+*double ::   ptr Q38 double;
+ (deref: 1)
+ Module 112<<matvec_sub>>  V97<<bvec>> 
+*double ::   ptr Q12 double;
+ => 
+*double ::   ptr Q37 double;
+ (deref: 1)
+ Module 115<<binvrhs>>  V96<<r>> 
+*double ::   ptr Q12 double;
+ => 
+*double ::   ptr Q36 double;
+ (deref: 1)
+  pointer-reference via :  Module 114<<binvcrhs>>  V97<<r>> 
+  pointer-reference via :  Module 112<<matvec_sub>>  V96<<avec>> 
+  pointer-reference via :  Module 112<<matvec_sub>>  V97<<bvec>> 
+  pointer-reference via :  Module 115<<binvrhs>>  V96<<r>> 
+--- apply padding ---
+ Module 106<<compute_rhs>>  A6<<qs>> 
+ Module 108<<verify>>  A6<<qs>> 
+ Module 96<<adi>>  A6<<qs>> 
+ Module 0<<*MAIN*>>  A6<<qs>> 
+dim : 2
+ A6<<qs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ apply (dim = 3) :  Module 106<<compute_rhs>>  A6<<qs>> 
+ apply (dim = 3) :  Module 108<<verify>>  A6<<qs>> 
+ apply (dim = 3) :  Module 96<<adi>>  A6<<qs>> 
+ apply (dim = 3) :  Module 0<<*MAIN*>>  A6<<qs>> 
+--- apply padding ---
+ Module 106<<compute_rhs>>  A8<<square>> 
+ Module 108<<verify>>  A8<<square>> 
+ Module 96<<adi>>  A8<<square>> 
+ Module 0<<*MAIN*>>  A8<<square>> 
+dim : 2
+ A8<<square>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ apply (dim = 3) :  Module 106<<compute_rhs>>  A8<<square>> 
+ apply (dim = 3) :  Module 108<<verify>>  A8<<square>> 
+ apply (dim = 3) :  Module 96<<adi>>  A8<<square>> 
+ apply (dim = 3) :  Module 0<<*MAIN*>>  A8<<square>> 
+--- apply padding ---
+ Module 106<<compute_rhs>>  A5<<ws>> 
+ Module 108<<verify>>  A5<<ws>> 
+ Module 96<<adi>>  A5<<ws>> 
+ Module 0<<*MAIN*>>  A5<<ws>> 
+dim : 2
+ A5<<ws>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ apply (dim = 3) :  Module 106<<compute_rhs>>  A5<<ws>> 
+ apply (dim = 3) :  Module 108<<verify>>  A5<<ws>> 
+ apply (dim = 3) :  Module 96<<adi>>  A5<<ws>> 
+ apply (dim = 3) :  Module 0<<*MAIN*>>  A5<<ws>> 
+--- apply padding ---
+ Module 106<<compute_rhs>>  A4<<vs>> 
+ Module 108<<verify>>  A4<<vs>> 
+ Module 96<<adi>>  A4<<vs>> 
+ Module 0<<*MAIN*>>  A4<<vs>> 
+dim : 2
+ A4<<vs>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ apply (dim = 3) :  Module 106<<compute_rhs>>  A4<<vs>> 
+ apply (dim = 3) :  Module 108<<verify>>  A4<<vs>> 
+ apply (dim = 3) :  Module 96<<adi>>  A4<<vs>> 
+ apply (dim = 3) :  Module 0<<*MAIN*>>  A4<<vs>> 
+--- apply padding ---
+ Module 106<<compute_rhs>>  A3<<us>> 
+ Module 108<<verify>>  A3<<us>> 
+ Module 96<<adi>>  A3<<us>> 
+ Module 0<<*MAIN*>>  A3<<us>> 
+dim : 2
+ A3<<us>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ apply (dim = 3) :  Module 106<<compute_rhs>>  A3<<us>> 
+ apply (dim = 3) :  Module 108<<verify>>  A3<<us>> 
+ apply (dim = 3) :  Module 96<<adi>>  A3<<us>> 
+ apply (dim = 3) :  Module 0<<*MAIN*>>  A3<<us>> 
+--- apply padding ---
+ Module 106<<compute_rhs>>  A7<<rho_i>> 
+ Module 108<<verify>>  A7<<rho_i>> 
+ Module 96<<adi>>  A7<<rho_i>> 
+ Module 0<<*MAIN*>>  A7<<rho_i>> 
+dim : 2
+ A7<<rho_i>> dim : 2 (align$) in compute_rhs#106.block1.doall1 :  LOOP 
+ apply (dim = 3) :  Module 106<<compute_rhs>>  A7<<rho_i>> 
+ apply (dim = 3) :  Module 108<<verify>>  A7<<rho_i>> 
+ apply (dim = 3) :  Module 96<<adi>>  A7<<rho_i>> 
+ apply (dim = 3) :  Module 0<<*MAIN*>>  A7<<rho_i>> 
+--- apply expansion ---
+ Module 108<<verify>>  A58<<xcedif>> 
+dim : 0
+ A58<<xcedif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+ apply (dim = 1) :  Module 108<<verify>>  A58<<xcedif>> 
+--- apply expansion ---
+ Module 108<<verify>>  A57<<xcrdif>> 
+dim : 0
+ A57<<xcrdif>> dim : 0 (align$) in verify#108.block1.doall54 :  LOOP 
+ apply (dim = 1) :  Module 108<<verify>>  A57<<xcrdif>> 
+--- apply expansion ---
+ Module 108<<verify>>  A56<<xceref>> 
+dim : 0
+ A56<<xceref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+ apply (dim = 1) :  Module 108<<verify>>  A56<<xceref>> 
+--- apply expansion ---
+ Module 108<<verify>>  A55<<xcrref>> 
+dim : 0
+ A55<<xcrref>> dim : 0 (align$) in verify#108.block1.doall7 :  LOOP 
+ apply (dim = 1) :  Module 108<<verify>>  A55<<xcrref>> 
+--- apply expansion ---
+ Module 98<<rhs_norm>>  I1<<1_rms>> 
+ Module 108<<verify>>  A60<<xcr>> 
+dim : 0
+ A60<<xcr>> dim : 0 (align$) in verify#108.block1.doall5 :  LOOP 
+ apply (dim = 1) :  Module 98<<rhs_norm>>  I1<<1_rms>> 
+ apply (dim = 1) :  Module 108<<verify>>  A60<<xcr>> 
+ Module 98<<rhs_norm>>  V95<<rms>> 
+*double ::   ptr Q12 double;
+ => 
+[3]*double ::   ptr Q40 double(0:3);
+ (deref: 1)
+  pointer-reference via :  Module 98<<rhs_norm>>  V95<<rms>> 
+--- apply padding ---
+ Module 106<<compute_rhs>>  A9<<forcing>> 
+ Module 108<<verify>>  A9<<forcing>> 
+ Module 96<<adi>>  A9<<forcing>> 
+ Module 99<<exact_rhs>>  A9<<forcing>> 
+ Module 0<<*MAIN*>>  A9<<forcing>> 
+dim : 3
+ A9<<forcing>> dim : 3 (align$) in exact_rhs#99.block1.doall5 :  LOOP 
+ A9<<forcing>> dim : 3 (align$) in exact_rhs#99.block1.doall1 :  LOOP 
+ apply (dim = 4) :  Module 106<<compute_rhs>>  A9<<forcing>> 
+ apply (dim = 4) :  Module 108<<verify>>  A9<<forcing>> 
+ apply (dim = 4) :  Module 96<<adi>>  A9<<forcing>> 
+ apply (dim = 4) :  Module 99<<exact_rhs>>  A9<<forcing>> 
+ apply (dim = 4) :  Module 0<<*MAIN*>>  A9<<forcing>> 
+--- apply padding ---
+ Module 115<<binvrhs>>  I1<<1_lhs>> 
+ Module 113<<matmul_sub>>  I1<<1_ablock>> 
+ Module 112<<matvec_sub>>  I1<<1_ablock>> 
+ Module 114<<binvcrhs>>  I1<<1_lhs>> 
+ Module 120<<z_backsubstitute>>  A12<<lhs>> 
+ Module 121<<z_solve_cell>>  A12<<lhs>> 
+ Module 117<<y_backsubstitute>>  A12<<lhs>> 
+ Module 118<<y_solve_cell>>  A12<<lhs>> 
+ Module 110<<x_backsubstitute>>  A12<<lhs>> 
+ Module 111<<x_solve_cell>>  A12<<lhs>> 
+ Module 105<<lhsz>>  A12<<lhs>> 
+ Module 104<<lhsy>>  A12<<lhs>> 
+ Module 103<<lhsx>>  A12<<lhs>> 
+ Module 119<<z_solve>>  A12<<lhs>> 
+ Module 116<<y_solve>>  A12<<lhs>> 
+ Module 109<<x_solve>>  A12<<lhs>> 
+ Module 96<<adi>>  A12<<lhs>> 
+ Module 102<<lhsinit>>  A12<<lhs>> 
+ Module 0<<*MAIN*>>  A12<<lhs>> 
+dim : 5
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in z_solve_cell#121.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in y_solve_cell#118.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.loop3.doall1 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.doall4 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in x_solve_cell#111.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in lhsz#105.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in lhsy#104.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 4 (align$) in lhsx#103.block1.doall1 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in lhsinit#102.block1.doall2 :  LOOP 
+ A12<<lhs>> dim : 5 (align$) in lhsinit#102.block1.doall1 :  LOOP 
+ skip (dim = 2) :  Module 115<<binvrhs>>  I1<<1_lhs>> 
+ skip (dim = 2) :  Module 113<<matmul_sub>>  I1<<1_ablock>> 
+ skip (dim = 2) :  Module 112<<matvec_sub>>  I1<<1_ablock>> 
+ skip (dim = 2) :  Module 114<<binvcrhs>>  I1<<1_lhs>> 
+ apply (dim = 6) :  Module 120<<z_backsubstitute>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 121<<z_solve_cell>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 117<<y_backsubstitute>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 118<<y_solve_cell>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 110<<x_backsubstitute>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 111<<x_solve_cell>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 105<<lhsz>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 104<<lhsy>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 103<<lhsx>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 119<<z_solve>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 116<<y_solve>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 109<<x_solve>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 96<<adi>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 102<<lhsinit>>  A12<<lhs>> 
+ apply (dim = 6) :  Module 0<<*MAIN*>>  A12<<lhs>> 
+ Module 114<<binvcrhs>>  V95<<lhs>> 
+[4]*double ::   ptr Q14 double(0:4);
+ => 
+[4]*double ::   ptr Q48 double(0:4);
+ (deref: 1)
+ Module 114<<binvcrhs>>  V96<<c>> 
+[4]*double ::   ptr Q14 double(0:4);
+ => 
+[4]*double ::   ptr Q47 double(0:4);
+ (deref: 1)
+ Module 112<<matvec_sub>>  V95<<ablock>> 
+[4]*double ::   ptr Q14 double(0:4);
+ => 
+[4]*double ::   ptr Q46 double(0:4);
+ (deref: 1)
+ Module 113<<matmul_sub>>  V95<<ablock>> 
+[4]*double ::   ptr Q14 double(0:4);
+ => 
+[4]*double ::   ptr Q45 double(0:4);
+ (deref: 1)
+ Module 113<<matmul_sub>>  V96<<bblock>> 
+[4]*double ::   ptr Q14 double(0:4);
+ => 
+[4]*double ::   ptr Q44 double(0:4);
+ (deref: 1)
+ Module 113<<matmul_sub>>  V97<<cblock>> 
+[4]*double ::   ptr Q14 double(0:4);
+ => 
+[4]*double ::   ptr Q43 double(0:4);
+ (deref: 1)
+ Module 115<<binvrhs>>  V95<<lhs>> 
+[4]*double ::   ptr Q14 double(0:4);
+ => 
+[4]*double ::   ptr Q42 double(0:4);
+ (deref: 1)
+  pointer-reference via :  Module 114<<binvcrhs>>  V95<<lhs>> 
+  pointer-reference via :  Module 114<<binvcrhs>>  V96<<c>> 
+  pointer-reference via :  Module 112<<matvec_sub>>  V95<<ablock>> 
+  pointer-reference via :  Module 113<<matmul_sub>>  V95<<ablock>> 
+  pointer-reference via :  Module 113<<matmul_sub>>  V96<<bblock>> 
+  pointer-reference via :  Module 113<<matmul_sub>>  V97<<cblock>> 
+  pointer-reference via :  Module 115<<binvrhs>>  V95<<lhs>> 
+--- apply padding ---
+ Module 105<<lhsz>>  A10<<u>> 
+ Module 104<<lhsy>>  A10<<u>> 
+ Module 103<<lhsx>>  A10<<u>> 
+ Module 97<<error_norm>>  A10<<u>> 
+ Module 119<<z_solve>>  A10<<u>> 
+ Module 116<<y_solve>>  A10<<u>> 
+ Module 109<<x_solve>>  A10<<u>> 
+ Module 106<<compute_rhs>>  A10<<u>> 
+ Module 95<<add>>  A10<<u>> 
+ Module 108<<verify>>  A10<<u>> 
+ Module 96<<adi>>  A10<<u>> 
+ Module 101<<initialize>>  A10<<u>> 
+ Module 0<<*MAIN*>>  A10<<u>> 
+dim : 3
+ A10<<u>> dim : 3 (align$) in add#95.block1.doall1 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall14 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall12 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall10 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall8 :  LOOP 
+ A10<<u>> dim : 2 (align$) in initialize#101.block1.doall6 :  LOOP 
+ A10<<u>> dim : 2 (align$) in initialize#101.block1.doall4 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall2 :  LOOP 
+ A10<<u>> dim : 3 (align$) in initialize#101.block1.doall1 :  LOOP 
+ apply (dim = 4) :  Module 105<<lhsz>>  A10<<u>> 
+ apply (dim = 4) :  Module 104<<lhsy>>  A10<<u>> 
+ apply (dim = 4) :  Module 103<<lhsx>>  A10<<u>> 
+ apply (dim = 4) :  Module 97<<error_norm>>  A10<<u>> 
+ apply (dim = 4) :  Module 119<<z_solve>>  A10<<u>> 
+ apply (dim = 4) :  Module 116<<y_solve>>  A10<<u>> 
+ apply (dim = 4) :  Module 109<<x_solve>>  A10<<u>> 
+ apply (dim = 4) :  Module 106<<compute_rhs>>  A10<<u>> 
+ apply (dim = 4) :  Module 95<<add>>  A10<<u>> 
+ apply (dim = 4) :  Module 108<<verify>>  A10<<u>> 
+ apply (dim = 4) :  Module 96<<adi>>  A10<<u>> 
+ apply (dim = 4) :  Module 101<<initialize>>  A10<<u>> 
+ apply (dim = 4) :  Module 0<<*MAIN*>>  A10<<u>> 
+--- remaining write sharing ---
+--- remaining write sharing ---
+####### reanalyze #######
+#####   call graph  ######
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+A11(V98,V97,V96,V95)
+i2(V98)
+i2(V98)
+i2(V98)
+i2(V98)
+i2(V98)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C2)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C3)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C4)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C5)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+i1(V98,C6)
+##### array reduction ####
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+# insert doacr send/recv #
+##### MT generation ######
+#### Control flow ana2 ###
+# flow-sensitive ptr ana #
+#####   call graph  ######
+###### def/use ana2 ######
+#### set loop bounder2 ###
+## argument def/use ana2 #
+### dataflow analysis2 ###
+##### array symbolic2 ####
+##### in/out analysis2 ###
+##### make dda data2 #####
+#### cost computation2 ###
+#######  paracode  #######
+### Calc program costs ###
+## Make Macro Task Graph #
+####  output Minoru_Q ####
+#### After C Blocking ####
+#### private 1pe var #####
+####  output Minoru_Q ####
+(l.150) loop was not parallelized. (try -seq-factor) (*MAIN*)
+(l.691) loop was recognized as DOALL (initialize)
+(l.692) loop was not parallelized. (try -seq-factor) (initialize)
+(l.693) loop was not parallelized. (try -seq-factor) (initialize)
+(l.694) loop was not parallelized. (try -seq-factor) (initialize)
+(l.706) loop was recognized as DOALL (initialize)
+(l.709) loop was not parallelized. (try -seq-factor) (initialize)
+(l.712) loop was not parallelized. (try -seq-factor) (initialize)
+(l.715) loop was not parallelized. (try -seq-factor) (initialize)
+(l.720) loop was not parallelized. (try -seq-factor) (initialize)
+(l.725) loop was not parallelized. (try -seq-factor) (initialize)
+(l.730) loop was not parallelized. (try -seq-factor) (initialize)
+(l.756) loop was recognized as DOALL (initialize)
+(l.758) loop was not parallelized. (try -seq-factor) (initialize)
+(l.761) loop was not parallelized. (try -seq-factor) (initialize)
+(l.774) loop was recognized as DOALL (initialize)
+(l.776) loop was not parallelized. (try -seq-factor) (initialize)
+(l.779) loop was not parallelized. (try -seq-factor) (initialize)
+(l.791) loop was recognized as DOALL (initialize)
+(l.793) loop was not parallelized. (try -seq-factor) (initialize)
+(l.796) loop was not parallelized. (try -seq-factor) (initialize)
+(l.808) loop was recognized as DOALL (initialize)
+(l.810) loop was not parallelized. (try -seq-factor) (initialize)
+(l.813) loop was not parallelized. (try -seq-factor) (initialize)
+(l.825) loop was recognized as DOALL (initialize)
+(l.827) loop was not parallelized. (try -seq-factor) (initialize)
+(l.830) loop was not parallelized. (try -seq-factor) (initialize)
+(l.842) loop was recognized as DOALL (initialize)
+(l.844) loop was not parallelized. (try -seq-factor) (initialize)
+(l.847) loop was not parallelized. (try -seq-factor) (initialize)
+(l.868) loop was recognized as DOALL (lhsinit)
+(l.869) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.870) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.871) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.872) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.886) loop was recognized as DOALL (lhsinit)
+(l.887) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.888) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.889) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.319) loop was recognized as DOALL (exact_rhs)
+(l.320) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.321) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.322) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.333) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.336) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.339) loop was recognized as DOALL (exact_rhs)
+(l.343) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.349) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.360) loop was recognized as DOALL (exact_rhs)
+(l.397) loop was recognized as DOALL (exact_rhs)
+(l.407) loop was recognized as DOALL (exact_rhs)
+(l.408) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.415) loop was recognized as DOALL (exact_rhs)
+(l.432) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.435) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.438) loop was recognized as DOALL (exact_rhs)
+(l.442) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.448) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.459) loop was recognized as DOALL (exact_rhs)
+(l.496) loop was recognized as DOALL (exact_rhs)
+(l.506) loop was recognized as DOALL (exact_rhs)
+(l.507) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.514) loop was recognized as DOALL (exact_rhs)
+(l.532) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.535) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.538) loop was recognized as DOALL (exact_rhs)
+(l.542) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.548) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.559) loop was recognized as DOALL (exact_rhs)
+(l.596) loop was recognized as DOALL (exact_rhs)
+(l.606) loop was recognized as DOALL (exact_rhs)
+(l.607) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.614) loop was recognized as DOALL (exact_rhs)
+(l.631) loop was recognized as DOALL (exact_rhs)
+(l.632) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.633) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.634) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.2430) loop was recognized as DOALL (verify)
+(l.2437) loop was recognized as DOALL (verify)
+(l.2600) loop was recognized as DOALL (verify)
+(l.2628) loop was not parallelized. (try -seq-factor) (verify)
+(l.2647) loop was not parallelized. (try -seq-factor) (verify)
+(l.198) loop was recognized as DOALL (add)
+(l.199) loop was not parallelized. (try -seq-factor) (add)
+(l.200) loop was not parallelized. (try -seq-factor) (add)
+(l.201) loop was not parallelized. (try -seq-factor) (add)
+(l.1782) loop was recognized as DOALL (compute_rhs)
+(l.1783) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1784) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1805) loop was recognized as DOALL (compute_rhs)
+(l.1806) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1807) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1808) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1819) loop was recognized as DOALL (compute_rhs)
+(l.1820) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1821) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1880) loop was recognized as DOALL (compute_rhs)
+(l.1881) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1882) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1892) loop was recognized as DOALL (compute_rhs)
+(l.1893) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1894) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1903) loop was recognized as DOALL (compute_rhs)
+(l.1904) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1905) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1906) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1918) loop was recognized as DOALL (compute_rhs)
+(l.1919) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1920) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1930) loop was recognized as DOALL (compute_rhs)
+(l.1931) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1932) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1944) loop was recognized as DOALL (compute_rhs)
+(l.1945) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1946) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2000) loop was recognized as DOALL (compute_rhs)
+(l.2001) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2002) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2012) loop was recognized as DOALL (compute_rhs)
+(l.2013) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2014) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2023) loop was recognized as DOALL (compute_rhs)
+(l.2024) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2025) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2026) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2038) loop was recognized as DOALL (compute_rhs)
+(l.2039) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2040) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2050) loop was recognized as DOALL (compute_rhs)
+(l.2051) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2052) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2064) loop was recognized as DOALL (compute_rhs)
+(l.2065) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2066) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2121) loop was recognized as DOALL (compute_rhs)
+(l.2122) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2123) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2133) loop was recognized as DOALL (compute_rhs)
+(l.2134) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2135) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2144) loop was recognized as DOALL (compute_rhs)
+(l.2145) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2146) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2147) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2159) loop was recognized as DOALL (compute_rhs)
+(l.2160) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2161) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2171) loop was recognized as DOALL (compute_rhs)
+(l.2172) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2173) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2182) loop was recognized as DOALL (compute_rhs)
+(l.2183) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2184) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2185) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.237) loop was recognized as DOALL (error_norm)
+(l.241) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.243) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.245) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.249) loop was recognized as DOALL (error_norm)
+(l.257) loop was recognized as DOALL (error_norm)
+(l.258) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.276) loop was recognized as DOALL (rhs_norm)
+(l.280) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.281) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.282) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.283) loop was recognized as DOALL (rhs_norm)
+(l.291) loop was recognized as DOALL (rhs_norm)
+(l.292) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.657) loop was recognized as DOALL (exact_solution)
+(l.916) loop was recognized as DOALL (lhsx)
+(l.917) loop was not parallelized. (try -seq-factor) (lhsx)
+(l.918) loop was not parallelized. (try -seq-factor) (lhsx)
+(l.1011) loop was not parallelized. (try -seq-factor) (lhsx)
+(l.1201) loop was recognized as DOALL (lhsy)
+(l.1202) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1203) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1303) loop was recognized as DOALL (lhsy)
+(l.1304) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1305) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1496) loop was recognized as DOALL (lhsz)
+(l.1497) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.1498) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.1597) loop was recognized as DOALL (lhsz)
+(l.1598) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.1599) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.2751) loop was recognized as DOALL (x_solve_cell)
+(l.2752) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2769) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2771) loop was recognized as DOALL (x_solve_cell)
+(l.2772) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2801) loop was recognized as DOALL (x_solve_cell)
+(l.2802) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2713) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.2715) loop was recognized as DOALL (x_backsubstitute)
+(l.2716) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.2717) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.2718) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.3391) loop was recognized as DOALL (y_solve_cell)
+(l.3392) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3409) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3411) loop was recognized as DOALL (y_solve_cell)
+(l.3412) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3442) loop was recognized as DOALL (y_solve_cell)
+(l.3443) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3353) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3355) loop was recognized as DOALL (y_backsubstitute)
+(l.3356) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3357) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3358) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3552) loop was recognized as DOALL (z_solve_cell)
+(l.3553) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3571) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3573) loop was recognized as DOALL (z_solve_cell)
+(l.3574) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3608) loop was recognized as DOALL (z_solve_cell)
+(l.3609) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3512) loop was recognized as DOALL (z_backsubstitute)
+(l.3513) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.3514) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.3515) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.3516) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.2841) loop was not parallelized. (try -seq-factor) (matvec_sub)
+(l.2869) loop was not parallelized. (try -seq-factor) (matmul_sub)
+(l.150) loop was not parallelized. (try -seq-factor) (*MAIN*)
+(l.691) loop was recognized as DOALL (initialize)
+(l.692) loop was not parallelized. (try -seq-factor) (initialize)
+(l.693) loop was not parallelized. (try -seq-factor) (initialize)
+(l.694) loop was not parallelized. (try -seq-factor) (initialize)
+(l.706) loop was recognized as DOALL (initialize)
+(l.709) loop was not parallelized. (try -seq-factor) (initialize)
+(l.712) loop was not parallelized. (try -seq-factor) (initialize)
+(l.715) loop was not parallelized. (try -seq-factor) (initialize)
+(l.720) loop was not parallelized. (try -seq-factor) (initialize)
+(l.725) loop was not parallelized. (try -seq-factor) (initialize)
+(l.730) loop was not parallelized. (try -seq-factor) (initialize)
+(l.756) loop was recognized as DOALL (initialize)
+(l.758) loop was not parallelized. (try -seq-factor) (initialize)
+(l.761) loop was not parallelized. (try -seq-factor) (initialize)
+(l.774) loop was recognized as DOALL (initialize)
+(l.776) loop was not parallelized. (try -seq-factor) (initialize)
+(l.779) loop was not parallelized. (try -seq-factor) (initialize)
+(l.791) loop was recognized as DOALL (initialize)
+(l.793) loop was not parallelized. (try -seq-factor) (initialize)
+(l.796) loop was not parallelized. (try -seq-factor) (initialize)
+(l.808) loop was recognized as DOALL (initialize)
+(l.810) loop was not parallelized. (try -seq-factor) (initialize)
+(l.813) loop was not parallelized. (try -seq-factor) (initialize)
+(l.825) loop was recognized as DOALL (initialize)
+(l.827) loop was not parallelized. (try -seq-factor) (initialize)
+(l.830) loop was not parallelized. (try -seq-factor) (initialize)
+(l.842) loop was recognized as DOALL (initialize)
+(l.844) loop was not parallelized. (try -seq-factor) (initialize)
+(l.847) loop was not parallelized. (try -seq-factor) (initialize)
+(l.868) loop was recognized as DOALL (lhsinit)
+(l.869) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.870) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.871) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.872) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.886) loop was recognized as DOALL (lhsinit)
+(l.887) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.888) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.889) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.319) loop was recognized as DOALL (exact_rhs)
+(l.320) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.321) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.322) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.333) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.336) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.339) loop was recognized as DOALL (exact_rhs)
+(l.343) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.349) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.360) loop was recognized as DOALL (exact_rhs)
+(l.397) loop was recognized as DOALL (exact_rhs)
+(l.407) loop was recognized as DOALL (exact_rhs)
+(l.408) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.415) loop was recognized as DOALL (exact_rhs)
+(l.432) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.435) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.438) loop was recognized as DOALL (exact_rhs)
+(l.442) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.448) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.459) loop was recognized as DOALL (exact_rhs)
+(l.496) loop was recognized as DOALL (exact_rhs)
+(l.506) loop was recognized as DOALL (exact_rhs)
+(l.507) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.514) loop was recognized as DOALL (exact_rhs)
+(l.532) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.535) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.538) loop was recognized as DOALL (exact_rhs)
+(l.542) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.548) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.559) loop was recognized as DOALL (exact_rhs)
+(l.596) loop was recognized as DOALL (exact_rhs)
+(l.606) loop was recognized as DOALL (exact_rhs)
+(l.607) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.614) loop was recognized as DOALL (exact_rhs)
+(l.631) loop was recognized as DOALL (exact_rhs)
+(l.632) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.633) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.634) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.2430) loop was recognized as DOALL (verify)
+(l.2437) loop was recognized as DOALL (verify)
+(l.2600) loop was recognized as DOALL (verify)
+(l.2628) loop was not parallelized. (try -seq-factor) (verify)
+(l.2647) loop was not parallelized. (try -seq-factor) (verify)
+(l.198) loop was recognized as DOALL (add)
+(l.199) loop was not parallelized. (try -seq-factor) (add)
+(l.200) loop was not parallelized. (try -seq-factor) (add)
+(l.201) loop was not parallelized. (try -seq-factor) (add)
+(l.1782) loop was recognized as DOALL (compute_rhs)
+(l.1783) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1784) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1805) loop was recognized as DOALL (compute_rhs)
+(l.1806) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1807) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1808) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1819) loop was recognized as DOALL (compute_rhs)
+(l.1820) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1821) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1880) loop was recognized as DOALL (compute_rhs)
+(l.1881) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1882) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1892) loop was recognized as DOALL (compute_rhs)
+(l.1893) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1894) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1903) loop was recognized as DOALL (compute_rhs)
+(l.1904) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1905) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1906) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1918) loop was recognized as DOALL (compute_rhs)
+(l.1919) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1920) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1930) loop was recognized as DOALL (compute_rhs)
+(l.1931) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1932) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1944) loop was recognized as DOALL (compute_rhs)
+(l.1945) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1946) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2000) loop was recognized as DOALL (compute_rhs)
+(l.2001) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2002) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2012) loop was recognized as DOALL (compute_rhs)
+(l.2013) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2014) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2023) loop was recognized as DOALL (compute_rhs)
+(l.2024) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2025) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2026) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2038) loop was recognized as DOALL (compute_rhs)
+(l.2039) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2040) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2050) loop was recognized as DOALL (compute_rhs)
+(l.2051) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2052) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2064) loop was recognized as DOALL (compute_rhs)
+(l.2065) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2066) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2121) loop was recognized as DOALL (compute_rhs)
+(l.2122) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2123) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2133) loop was recognized as DOALL (compute_rhs)
+(l.2134) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2135) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2144) loop was recognized as DOALL (compute_rhs)
+(l.2145) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2146) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2147) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2159) loop was recognized as DOALL (compute_rhs)
+(l.2160) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2161) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2171) loop was recognized as DOALL (compute_rhs)
+(l.2172) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2173) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2182) loop was recognized as DOALL (compute_rhs)
+(l.2183) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2184) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2185) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.237) loop was recognized as DOALL (error_norm)
+(l.241) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.243) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.245) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.249) loop was recognized as DOALL (error_norm)
+(l.257) loop was recognized as DOALL (error_norm)
+(l.258) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.276) loop was recognized as DOALL (rhs_norm)
+(l.280) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.281) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.282) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.283) loop was recognized as DOALL (rhs_norm)
+(l.291) loop was recognized as DOALL (rhs_norm)
+(l.292) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.657) loop was recognized as DOALL (exact_solution)
+(l.657) loop was recognized as DOALL (exact_solution_c1)
+(l.916) loop was recognized as DOALL (lhsx)
+(l.917) loop was not parallelized. (try -seq-factor) (lhsx)
+(l.918) loop was not parallelized. (try -seq-factor) (lhsx)
+(l.1011) loop was not parallelized. (try -seq-factor) (lhsx)
+(l.1201) loop was recognized as DOALL (lhsy)
+(l.1202) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1203) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1303) loop was recognized as DOALL (lhsy)
+(l.1304) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1305) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1496) loop was recognized as DOALL (lhsz)
+(l.1497) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.1498) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.1597) loop was recognized as DOALL (lhsz)
+(l.1598) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.1599) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.2751) loop was recognized as DOALL (x_solve_cell)
+(l.2752) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2769) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2771) loop was recognized as DOALL (x_solve_cell)
+(l.2772) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2801) loop was recognized as DOALL (x_solve_cell)
+(l.2802) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2713) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.2715) loop was recognized as DOALL (x_backsubstitute)
+(l.2716) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.2717) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.2718) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.3391) loop was recognized as DOALL (y_solve_cell)
+(l.3392) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3409) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3411) loop was recognized as DOALL (y_solve_cell)
+(l.3412) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3442) loop was recognized as DOALL (y_solve_cell)
+(l.3443) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3353) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3355) loop was recognized as DOALL (y_backsubstitute)
+(l.3356) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3357) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3358) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3552) loop was recognized as DOALL (z_solve_cell)
+(l.3553) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3571) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3573) loop was recognized as DOALL (z_solve_cell)
+(l.3574) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3608) loop was recognized as DOALL (z_solve_cell)
+(l.3609) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3512) loop was recognized as DOALL (z_backsubstitute)
+(l.3513) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.3514) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.3515) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.3516) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.657) loop was recognized as DOALL (exact_solution_c2)
+(l.2841) loop was not parallelized. (try -seq-factor) (matvec_sub)
+(l.2869) loop was not parallelized. (try -seq-factor) (matmul_sub)
+C2<<0>> : C1<<-1>>
+??? : ???
+C2<<0>> : C1<<-1>>
+V95<<i>> : V95<<i>>
+------
+C2<<0>> : C1<<-1>>
+??? : ???
+C2<<0>> : C1<<-1>>
+V95<<i>> : V95<<i>>
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C3<<1>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : (F58[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>-C3<<1>>)]intfunc)
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+(F51[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>+C3<<1>>)]intfunc) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+V95<<i>> : V95<<i>>
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C3<<1>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : (F58[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>-C3<<1>>)]intfunc)
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+(F51[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>+C3<<1>>)]intfunc) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C3<<1>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+V95<<i>> : V95<<i>>
+------
+C3<<1>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C3<<1>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : (F58[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>-C3<<1>>)]intfunc)
+------
+C3<<1>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+(F51[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>+C3<<1>>)]intfunc) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C3<<1>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+V95<<i>> : V95<<i>>
+------
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : (F58[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>-C3<<1>>)]intfunc)
+------
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+(F51[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>+C3<<1>>)]intfunc) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C2<<0>> : (A1<<grid_points>>[C3<<1>>]+C123<<-4>>)
+((V95<<i>>*C4<<2>>)-C3<<1>>) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+V95<<i>> : V95<<i>>
+------
+C2<<0>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : (F58[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>-C3<<1>>)]intfunc)
+C2<<0>> : C1<<-1>>
+(F51[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>+C3<<1>>)]intfunc) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+------
+C2<<0>> : C1<<-1>>
+((V95<<i>>*C4<<2>>)-C3<<1>>) : (F58[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>-C3<<1>>)]intfunc)
+C2<<0>> : C1<<-1>>
+V95<<i>> : V95<<i>>
+------
+C2<<0>> : C1<<-1>>
+(F51[((V95<<i>>*C4<<2>>)-C3<<1>>),(V95<<i>>+C3<<1>>)]intfunc) : ((V95<<i>>*C4<<2>>)-C3<<1>>)
+C2<<0>> : C1<<-1>>
+V95<<i>> : V95<<i>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+C3<<1>> : C1<<-1>>
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : C1<<-1>>
+C2<<0>> : C1<<-1>>
+------
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C3<<1>> : C1<<-1>>
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+C3<<1>> : C1<<-1>>
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+------
+C3<<1>> : C1<<-1>>
+C2<<0>> : C1<<-1>>
+------
+C2<<0>> : (A1<<grid_points>>[C2<<0>>]+C123<<-4>>)
+C2<<0>> : C1<<-1>>
+------
+(l.150) loop was not parallelized. (try -seq-factor) (*MAIN*)
+(l.691) loop was recognized as DOALL (initialize)
+(l.692) loop was not parallelized. (try -seq-factor) (initialize)
+(l.693) loop was not parallelized. (try -seq-factor) (initialize)
+(l.694) loop was not parallelized. (try -seq-factor) (initialize)
+(l.706) loop was recognized as DOALL (initialize)
+(l.709) loop was not parallelized. (try -seq-factor) (initialize)
+(l.712) loop was not parallelized. (try -seq-factor) (initialize)
+(l.715) loop was not parallelized. (try -seq-factor) (initialize)
+(l.720) loop was not parallelized. (try -seq-factor) (initialize)
+(l.725) loop was not parallelized. (try -seq-factor) (initialize)
+(l.730) loop was not parallelized. (try -seq-factor) (initialize)
+(l.756) loop was recognized as DOALL (initialize)
+(l.758) loop was not parallelized. (try -seq-factor) (initialize)
+(l.761) loop was not parallelized. (try -seq-factor) (initialize)
+(l.774) loop was recognized as DOALL (initialize)
+(l.776) loop was not parallelized. (try -seq-factor) (initialize)
+(l.779) loop was not parallelized. (try -seq-factor) (initialize)
+(l.791) loop was recognized as DOALL (initialize)
+(l.793) loop was not parallelized. (try -seq-factor) (initialize)
+(l.796) loop was not parallelized. (try -seq-factor) (initialize)
+(l.808) loop was recognized as DOALL (initialize)
+(l.810) loop was not parallelized. (try -seq-factor) (initialize)
+(l.813) loop was not parallelized. (try -seq-factor) (initialize)
+(l.825) loop was recognized as DOALL (initialize)
+(l.827) loop was not parallelized. (try -seq-factor) (initialize)
+(l.830) loop was not parallelized. (try -seq-factor) (initialize)
+(l.842) loop was recognized as DOALL (initialize)
+(l.844) loop was not parallelized. (try -seq-factor) (initialize)
+(l.847) loop was not parallelized. (try -seq-factor) (initialize)
+(l.868) loop was recognized as DOALL (lhsinit)
+(l.869) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.870) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.871) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.872) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.886) loop was recognized as DOALL (lhsinit)
+(l.887) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.888) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.889) loop was not parallelized. (try -seq-factor) (lhsinit)
+(l.319) loop was recognized as DOALL (exact_rhs)
+(l.320) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.321) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.322) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.333) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.336) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.339) loop was recognized as DOALL (exact_rhs)
+(l.343) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.349) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.360) loop was recognized as DOALL (exact_rhs)
+(l.397) loop was recognized as DOALL (exact_rhs)
+(l.407) loop was recognized as DOALL (exact_rhs)
+(l.408) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.415) loop was recognized as DOALL (exact_rhs)
+(l.432) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.435) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.438) loop was recognized as DOALL (exact_rhs)
+(l.442) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.448) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.459) loop was recognized as DOALL (exact_rhs)
+(l.496) loop was recognized as DOALL (exact_rhs)
+(l.506) loop was recognized as DOALL (exact_rhs)
+(l.507) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.514) loop was recognized as DOALL (exact_rhs)
+(l.532) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.535) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.538) loop was recognized as DOALL (exact_rhs)
+(l.542) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.548) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.559) loop was recognized as DOALL (exact_rhs)
+(l.596) loop was recognized as DOALL (exact_rhs)
+(l.606) loop was recognized as DOALL (exact_rhs)
+(l.607) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.614) loop was recognized as DOALL (exact_rhs)
+(l.631) loop was recognized as DOALL (exact_rhs)
+(l.632) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.633) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.634) loop was not parallelized. (try -seq-factor) (exact_rhs)
+(l.2430) loop was recognized as DOALL (verify)
+(l.2437) loop was recognized as DOALL (verify)
+(l.2600) loop was recognized as DOALL (verify)
+(l.2628) loop was not parallelized. (try -seq-factor) (verify)
+(l.2647) loop was not parallelized. (try -seq-factor) (verify)
+(l.198) loop was recognized as DOALL (add)
+(l.199) loop was not parallelized. (try -seq-factor) (add)
+(l.200) loop was not parallelized. (try -seq-factor) (add)
+(l.201) loop was not parallelized. (try -seq-factor) (add)
+(l.1782) loop was recognized as DOALL (compute_rhs)
+(l.1783) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1784) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1805) loop was recognized as DOALL (compute_rhs)
+(l.1806) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1807) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1808) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1819) loop was recognized as DOALL (compute_rhs)
+(l.1820) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1821) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1880) loop was recognized as DOALL (compute_rhs)
+(l.1881) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1882) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1892) loop was recognized as DOALL (compute_rhs)
+(l.1893) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1894) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1903) loop was recognized as DOALL (compute_rhs)
+(l.1904) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1905) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1906) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1918) loop was recognized as DOALL (compute_rhs)
+(l.1919) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1920) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1930) loop was recognized as DOALL (compute_rhs)
+(l.1931) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1932) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1944) loop was recognized as DOALL (compute_rhs)
+(l.1945) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.1946) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2000) loop was recognized as DOALL (compute_rhs)
+(l.2001) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2002) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2012) loop was recognized as DOALL (compute_rhs)
+(l.2013) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2014) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2023) loop was recognized as DOALL (compute_rhs)
+(l.2024) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2025) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2026) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2038) loop was recognized as DOALL (compute_rhs)
+(l.2039) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2040) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2050) loop was recognized as DOALL (compute_rhs)
+(l.2051) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2052) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2064) loop was recognized as DOALL (compute_rhs)
+(l.2065) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2066) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2121) loop was recognized as DOALL (compute_rhs)
+(l.2122) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2123) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2133) loop was recognized as DOALL (compute_rhs)
+(l.2134) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2135) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2144) loop was recognized as DOALL (compute_rhs)
+(l.2145) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2146) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2147) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2159) loop was recognized as DOALL (compute_rhs)
+(l.2160) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2161) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2171) loop was recognized as DOALL (compute_rhs)
+(l.2172) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2173) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2182) loop was recognized as DOALL (compute_rhs)
+(l.2183) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2184) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.2185) loop was not parallelized. (try -seq-factor) (compute_rhs)
+(l.237) loop was recognized as DOALL (error_norm)
+(l.241) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.243) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.245) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.249) loop was recognized as DOALL (error_norm)
+(l.257) loop was recognized as DOALL (error_norm)
+(l.258) loop was not parallelized. (try -seq-factor) (error_norm)
+(l.276) loop was recognized as DOALL (rhs_norm)
+(l.280) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.281) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.282) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.283) loop was recognized as DOALL (rhs_norm)
+(l.291) loop was recognized as DOALL (rhs_norm)
+(l.292) loop was not parallelized. (try -seq-factor) (rhs_norm)
+(l.657) loop was recognized as DOALL (exact_solution)
+(l.657) loop was recognized as DOALL (exact_solution_c1)
+(l.916) loop was recognized as DOALL (lhsx)
+(l.917) loop was not parallelized. (try -seq-factor) (lhsx)
+(l.918) loop was not parallelized. (try -seq-factor) (lhsx)
+(l.1011) loop was not parallelized. (try -seq-factor) (lhsx)
+(l.1201) loop was recognized as DOALL (lhsy)
+(l.1202) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1203) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1303) loop was recognized as DOALL (lhsy)
+(l.1304) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1305) loop was not parallelized. (try -seq-factor) (lhsy)
+(l.1496) loop was recognized as DOALL (lhsz)
+(l.1497) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.1498) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.1597) loop was recognized as DOALL (lhsz)
+(l.1598) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.1599) loop was not parallelized. (try -seq-factor) (lhsz)
+(l.2751) loop was recognized as DOALL (x_solve_cell)
+(l.2752) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2769) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2771) loop was recognized as DOALL (x_solve_cell)
+(l.2772) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2801) loop was recognized as DOALL (x_solve_cell)
+(l.2802) loop was not parallelized. (try -seq-factor) (x_solve_cell)
+(l.2713) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.2715) loop was recognized as DOALL (x_backsubstitute)
+(l.2716) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.2717) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.2718) loop was not parallelized. (try -seq-factor) (x_backsubstitute)
+(l.3391) loop was recognized as DOALL (y_solve_cell)
+(l.3392) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3409) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3411) loop was recognized as DOALL (y_solve_cell)
+(l.3412) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3442) loop was recognized as DOALL (y_solve_cell)
+(l.3443) loop was not parallelized. (try -seq-factor) (y_solve_cell)
+(l.3353) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3355) loop was recognized as DOALL (y_backsubstitute)
+(l.3356) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3357) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3358) loop was not parallelized. (try -seq-factor) (y_backsubstitute)
+(l.3552) loop was recognized as DOALL (z_solve_cell)
+(l.3553) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3571) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3573) loop was recognized as DOALL (z_solve_cell)
+(l.3574) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3608) loop was recognized as DOALL (z_solve_cell)
+(l.3609) loop was not parallelized. (try -seq-factor) (z_solve_cell)
+(l.3512) loop was recognized as DOALL (z_backsubstitute)
+(l.3513) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.3514) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.3515) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.3516) loop was not parallelized. (try -seq-factor) (z_backsubstitute)
+(l.657) loop was recognized as DOALL (exact_solution_c2)
+(l.2841) loop was not parallelized. (try -seq-factor) (matvec_sub)
+(l.2869) loop was not parallelized. (try -seq-factor) (matmul_sub)
+21.56user 0.81system 0:22.73elapsed 98%CPU (0avgtext+0avgdata 4206456maxresident)k
+0inputs+4800outputs (0major+1052201minor)pagefaults 0swaps

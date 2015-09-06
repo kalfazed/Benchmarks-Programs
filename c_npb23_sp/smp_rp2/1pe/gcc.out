@@ -1,0 +1,1336 @@
+sp.omp.c:41:21: warning: conflicting types for built-in function 'fwrite' [enabled by default]
+ extern unsigned int fwrite( const void* ,
+                     ^
+sp.omp.c:55:14: warning: conflicting types for built-in function 'calloc' [enabled by default]
+ extern void* calloc(unsigned int ,
+              ^
+sp.omp.c:62:12: warning: conflicting types for built-in function 'labs' [enabled by default]
+ extern int labs(int );
+            ^
+sp.omp.c:65:14: warning: conflicting types for built-in function 'malloc' [enabled by default]
+ extern void* malloc(unsigned int );
+              ^
+sp.omp.c:73:14: warning: conflicting types for built-in function 'realloc' [enabled by default]
+ extern void* realloc(void* ,
+              ^
+sp.omp.c: In function 'main':
+sp.omp.c:527:5: warning: unused variable 'retvar' [-Wunused-variable]
+ int retvar;
+     ^
+sp.omp.c: In function 'MAIN_PE0':
+sp.omp.c:569:1: warning: label 'L20002' defined but not used [-Wunused-label]
+ L20002:;
+ ^
+sp.omp.c:565:5: warning: unused variable 'setmt_no' [-Wunused-variable]
+ int setmt_no;
+     ^
+sp.omp.c:559:11: warning: variable 'V121' set but not used [-Wunused-but-set-variable]
+       int V121/* $tmp15 */;
+           ^
+sp.omp.c:557:11: warning: variable 'V119' set but not used [-Wunused-but-set-variable]
+       int V119/* $tmp13 */;
+           ^
+sp.omp.c:556:11: warning: variable 'V118' set but not used [-Wunused-but-set-variable]
+       int V118/* $tmp12 */;
+           ^
+sp.omp.c:554:11: warning: variable 'V116' set but not used [-Wunused-but-set-variable]
+       int V116/* $tmp10 */;
+           ^
+sp.omp.c:553:11: warning: variable 'V115' set but not used [-Wunused-but-set-variable]
+       int V115/* $tmp9 */;
+           ^
+sp.omp.c:552:11: warning: variable 'V114' set but not used [-Wunused-but-set-variable]
+       int V114/* $tmp8 */;
+           ^
+sp.omp.c:551:11: warning: variable 'V113' set but not used [-Wunused-but-set-variable]
+       int V113/* $tmp7 */;
+           ^
+sp.omp.c:550:11: warning: variable 'V112' set but not used [-Wunused-but-set-variable]
+       int V112/* $tmp6 */;
+           ^
+sp.omp.c:548:11: warning: variable 'V110' set but not used [-Wunused-but-set-variable]
+       int V110/* $tmp4 */;
+           ^
+sp.omp.c:546:11: warning: variable 'V108' set but not used [-Wunused-but-set-variable]
+       int V108/* $tmp2 */;
+           ^
+sp.omp.c:545:11: warning: variable 'V107' set but not used [-Wunused-but-set-variable]
+       int V107/* $tmp1 */;
+           ^
+sp.omp.c:544:11: warning: variable 'V106' set but not used [-Wunused-but-set-variable]
+       int V106/* $tmp0 */;
+           ^
+sp.omp.c:537:11: warning: unused variable 'step_NO99' [-Wunused-variable]
+       int step_NO99/* step */;
+           ^
+sp.omp.c: In function 'initialize_PE0':
+sp.omp.c:1496:11: warning: unused variable 'i_NO129' [-Wunused-variable]
+       int i_NO129/* i */;
+           ^
+sp.omp.c:1495:11: warning: unused variable 'j_NO128' [-Wunused-variable]
+       int j_NO128/* j */;
+           ^
+sp.omp.c:1494:11: warning: unused variable 'm_NO127' [-Wunused-variable]
+       int m_NO127/* m */;
+           ^
+sp.omp.c:1493:11: warning: unused variable 'i_NO126' [-Wunused-variable]
+       int i_NO126/* i */;
+           ^
+sp.omp.c:1492:11: warning: unused variable 'j_NO125' [-Wunused-variable]
+       int j_NO125/* j */;
+           ^
+sp.omp.c:1491:11: warning: unused variable 'm_NO124' [-Wunused-variable]
+       int m_NO124/* m */;
+           ^
+sp.omp.c:1490:11: warning: unused variable 'i_NO123' [-Wunused-variable]
+       int i_NO123/* i */;
+           ^
+sp.omp.c:1489:11: warning: unused variable 'k_NO122' [-Wunused-variable]
+       int k_NO122/* k */;
+           ^
+sp.omp.c:1488:11: warning: unused variable 'm_NO121' [-Wunused-variable]
+       int m_NO121/* m */;
+           ^
+sp.omp.c:1487:11: warning: unused variable 'i_NO120' [-Wunused-variable]
+       int i_NO120/* i */;
+           ^
+sp.omp.c:1486:11: warning: unused variable 'k_NO119' [-Wunused-variable]
+       int k_NO119/* k */;
+           ^
+sp.omp.c:1485:11: warning: unused variable 'm_NO118' [-Wunused-variable]
+       int m_NO118/* m */;
+           ^
+sp.omp.c:1484:11: warning: unused variable 'j_NO117' [-Wunused-variable]
+       int j_NO117/* j */;
+           ^
+sp.omp.c:1483:11: warning: unused variable 'k_NO116' [-Wunused-variable]
+       int k_NO116/* k */;
+           ^
+sp.omp.c:1482:11: warning: unused variable 'm_NO115' [-Wunused-variable]
+       int m_NO115/* m */;
+           ^
+sp.omp.c:1481:11: warning: unused variable 'j_NO114' [-Wunused-variable]
+       int j_NO114/* j */;
+           ^
+sp.omp.c:1480:11: warning: unused variable 'k_NO113' [-Wunused-variable]
+       int k_NO113/* k */;
+           ^
+sp.omp.c:1479:11: warning: unused variable 'm_NO112' [-Wunused-variable]
+       int m_NO112/* m */;
+           ^
+sp.omp.c:1478:11: warning: unused variable 'i_NO111' [-Wunused-variable]
+       int i_NO111/* i */;
+           ^
+sp.omp.c:1477:11: warning: unused variable 'j_NO110' [-Wunused-variable]
+       int j_NO110/* j */;
+           ^
+sp.omp.c:1476:11: warning: unused variable 'k_NO109' [-Wunused-variable]
+       int k_NO109/* k */;
+           ^
+sp.omp.c:1475:14: warning: unused variable 'Pzeta_NO108' [-Wunused-variable]
+       double Pzeta_NO108/* Pzeta */;
+              ^
+sp.omp.c:1474:14: warning: unused variable 'Peta_NO107' [-Wunused-variable]
+       double Peta_NO107/* Peta */;
+              ^
+sp.omp.c:1473:14: warning: unused variable 'Pxi_NO106' [-Wunused-variable]
+       double Pxi_NO106/* Pxi */;
+              ^
+sp.omp.c:1469:11: warning: unused variable 'iz_NO102' [-Wunused-variable]
+       int iz_NO102/* iz */;
+           ^
+sp.omp.c:1468:11: warning: unused variable 'iy_NO101' [-Wunused-variable]
+       int iy_NO101/* iy */;
+           ^
+sp.omp.c:1467:11: warning: unused variable 'ix_NO100' [-Wunused-variable]
+       int ix_NO100/* ix */;
+           ^
+sp.omp.c:1466:11: warning: unused variable 'm_NO99' [-Wunused-variable]
+       int m_NO99/* m */;
+           ^
+sp.omp.c: In function 'lhsinit_PE0':
+sp.omp.c:1723:11: warning: unused variable 'n_NO103' [-Wunused-variable]
+       int n_NO103/* n */;
+           ^
+sp.omp.c:1722:11: warning: unused variable 'i_NO102' [-Wunused-variable]
+       int i_NO102/* i */;
+           ^
+sp.omp.c:1721:11: warning: unused variable 'j_NO101' [-Wunused-variable]
+       int j_NO101/* j */;
+           ^
+sp.omp.c:1720:11: warning: unused variable 'k_NO100' [-Wunused-variable]
+       int k_NO100/* k */;
+           ^
+sp.omp.c:1719:11: warning: unused variable 'n_NO99' [-Wunused-variable]
+       int n_NO99/* n */;
+           ^
+sp.omp.c:1718:11: warning: unused variable 'k_NO98' [-Wunused-variable]
+       int k_NO98/* k */;
+           ^
+sp.omp.c:1717:11: warning: unused variable 'j_NO97' [-Wunused-variable]
+       int j_NO97/* j */;
+           ^
+sp.omp.c:1716:11: warning: unused variable 'i_NO96' [-Wunused-variable]
+       int i_NO96/* i */;
+           ^
+sp.omp.c: In function 'exact_rhs_PE0':
+sp.omp.c:1822:11: warning: unused variable 'm_NO143' [-Wunused-variable]
+       int m_NO143/* m */;
+           ^
+sp.omp.c:1821:11: warning: unused variable 'i_NO142' [-Wunused-variable]
+       int i_NO142/* i */;
+           ^
+sp.omp.c:1820:11: warning: unused variable 'j_NO141' [-Wunused-variable]
+       int j_NO141/* j */;
+           ^
+sp.omp.c:1819:11: warning: unused variable 'k_NO140' [-Wunused-variable]
+       int k_NO140/* k */;
+           ^
+sp.omp.c:1818:11: warning: unused variable 'j_NO139' [-Wunused-variable]
+       int j_NO139/* j */;
+           ^
+sp.omp.c:1817:11: warning: unused variable 'i_NO138' [-Wunused-variable]
+       int i_NO138/* i */;
+           ^
+sp.omp.c:1816:11: warning: unused variable 'm_NO137' [-Wunused-variable]
+       int m_NO137/* m */;
+           ^
+sp.omp.c:1815:11: warning: unused variable 'm_NO136' [-Wunused-variable]
+       int m_NO136/* m */;
+           ^
+sp.omp.c:1814:11: warning: unused variable 'k_NO135' [-Wunused-variable]
+       int k_NO135/* k */;
+           ^
+sp.omp.c:1813:11: warning: unused variable 'm_NO134' [-Wunused-variable]
+       int m_NO134/* m */;
+           ^
+sp.omp.c:1812:11: warning: unused variable 'k_NO133' [-Wunused-variable]
+       int k_NO133/* k */;
+           ^
+sp.omp.c:1811:11: warning: unused variable 'k_NO132' [-Wunused-variable]
+       int k_NO132/* k */;
+           ^
+sp.omp.c:1810:11: warning: unused variable 'm_NO131' [-Wunused-variable]
+       int m_NO131/* m */;
+           ^
+sp.omp.c:1809:11: warning: unused variable 'm_NO130' [-Wunused-variable]
+       int m_NO130/* m */;
+           ^
+sp.omp.c:1808:11: warning: unused variable 'k_NO129' [-Wunused-variable]
+       int k_NO129/* k */;
+           ^
+sp.omp.c:1807:11: warning: unused variable 'i_NO128' [-Wunused-variable]
+       int i_NO128/* i */;
+           ^
+sp.omp.c:1806:11: warning: unused variable 'm_NO127' [-Wunused-variable]
+       int m_NO127/* m */;
+           ^
+sp.omp.c:1805:11: warning: unused variable 'm_NO126' [-Wunused-variable]
+       int m_NO126/* m */;
+           ^
+sp.omp.c:1804:11: warning: unused variable 'j_NO125' [-Wunused-variable]
+       int j_NO125/* j */;
+           ^
+sp.omp.c:1803:11: warning: unused variable 'm_NO124' [-Wunused-variable]
+       int m_NO124/* m */;
+           ^
+sp.omp.c:1802:11: warning: unused variable 'j_NO123' [-Wunused-variable]
+       int j_NO123/* j */;
+           ^
+sp.omp.c:1801:11: warning: unused variable 'j_NO122' [-Wunused-variable]
+       int j_NO122/* j */;
+           ^
+sp.omp.c:1800:11: warning: unused variable 'm_NO121' [-Wunused-variable]
+       int m_NO121/* m */;
+           ^
+sp.omp.c:1799:11: warning: unused variable 'm_NO120' [-Wunused-variable]
+       int m_NO120/* m */;
+           ^
+sp.omp.c:1798:11: warning: unused variable 'k_NO119' [-Wunused-variable]
+       int k_NO119/* k */;
+           ^
+sp.omp.c:1797:11: warning: unused variable 'j_NO118' [-Wunused-variable]
+       int j_NO118/* j */;
+           ^
+sp.omp.c:1796:11: warning: unused variable 'm_NO117' [-Wunused-variable]
+       int m_NO117/* m */;
+           ^
+sp.omp.c:1795:11: warning: unused variable 'm_NO116' [-Wunused-variable]
+       int m_NO116/* m */;
+           ^
+sp.omp.c:1794:11: warning: unused variable 'i_NO115' [-Wunused-variable]
+       int i_NO115/* i */;
+           ^
+sp.omp.c:1793:11: warning: unused variable 'm_NO114' [-Wunused-variable]
+       int m_NO114/* m */;
+           ^
+sp.omp.c:1792:11: warning: unused variable 'i_NO113' [-Wunused-variable]
+       int i_NO113/* i */;
+           ^
+sp.omp.c:1791:11: warning: unused variable 'i_NO112' [-Wunused-variable]
+       int i_NO112/* i */;
+           ^
+sp.omp.c:1790:11: warning: unused variable 'm_NO111' [-Wunused-variable]
+       int m_NO111/* m */;
+           ^
+sp.omp.c:1789:11: warning: unused variable 'm_NO110' [-Wunused-variable]
+       int m_NO110/* m */;
+           ^
+sp.omp.c:1788:11: warning: unused variable 'kp1_NO109' [-Wunused-variable]
+       int kp1_NO109/* kp1 */;
+           ^
+sp.omp.c:1787:11: warning: unused variable 'km1_NO108' [-Wunused-variable]
+       int km1_NO108/* km1 */;
+           ^
+sp.omp.c:1786:11: warning: unused variable 'jm1_NO107' [-Wunused-variable]
+       int jm1_NO107/* jm1 */;
+           ^
+sp.omp.c:1785:11: warning: unused variable 'jp1_NO106' [-Wunused-variable]
+       int jp1_NO106/* jp1 */;
+           ^
+sp.omp.c:1784:11: warning: unused variable 'im1_NO105' [-Wunused-variable]
+       int im1_NO105/* im1 */;
+           ^
+sp.omp.c:1783:11: warning: unused variable 'ip1_NO104' [-Wunused-variable]
+       int ip1_NO104/* ip1 */;
+           ^
+sp.omp.c:1782:11: warning: unused variable 'k_NO103' [-Wunused-variable]
+       int k_NO103/* k */;
+           ^
+sp.omp.c:1781:11: warning: unused variable 'j_NO102' [-Wunused-variable]
+       int j_NO102/* j */;
+           ^
+sp.omp.c:1780:11: warning: unused variable 'i_NO101' [-Wunused-variable]
+       int i_NO101/* i */;
+           ^
+sp.omp.c:1779:11: warning: unused variable 'm_NO100' [-Wunused-variable]
+       int m_NO100/* m */;
+           ^
+sp.omp.c: In function 'verify_PE0':
+sp.omp.c:2178:11: warning: unused variable 'm_NO128' [-Wunused-variable]
+       int m_NO128/* m */;
+           ^
+sp.omp.c:2177:11: warning: unused variable 'm_NO127' [-Wunused-variable]
+       int m_NO127/* m */;
+           ^
+sp.omp.c:2176:11: warning: unused variable 'm_NO126' [-Wunused-variable]
+       int m_NO126/* m */;
+           ^
+sp.omp.c:2175:11: warning: unused variable 'm_NO125' [-Wunused-variable]
+       int m_NO125/* m */;
+           ^
+sp.omp.c:2174:11: warning: variable 'V124' set but not used [-Wunused-but-set-variable]
+       int V124/* $tmp22 */;
+           ^
+sp.omp.c:2173:11: warning: variable 'V123' set but not used [-Wunused-but-set-variable]
+       int V123/* $tmp21 */;
+           ^
+sp.omp.c:2172:11: warning: variable 'V122' set but not used [-Wunused-but-set-variable]
+       int V122/* $tmp20 */;
+           ^
+sp.omp.c:2171:11: warning: variable 'V121' set but not used [-Wunused-but-set-variable]
+       int V121/* $tmp19 */;
+           ^
+sp.omp.c:2170:11: warning: variable 'V120' set but not used [-Wunused-but-set-variable]
+       int V120/* $tmp18 */;
+           ^
+sp.omp.c:2169:11: warning: variable 'V119' set but not used [-Wunused-but-set-variable]
+       int V119/* $tmp17 */;
+           ^
+sp.omp.c:2168:11: warning: variable 'V118' set but not used [-Wunused-but-set-variable]
+       int V118/* $tmp16 */;
+           ^
+sp.omp.c:2167:11: warning: variable 'V117' set but not used [-Wunused-but-set-variable]
+       int V117/* $tmp15 */;
+           ^
+sp.omp.c:2166:11: warning: variable 'V116' set but not used [-Wunused-but-set-variable]
+       int V116/* $tmp14 */;
+           ^
+sp.omp.c:2165:11: warning: variable 'V115' set but not used [-Wunused-but-set-variable]
+       int V115/* $tmp13 */;
+           ^
+sp.omp.c:2164:11: warning: variable 'V114' set but not used [-Wunused-but-set-variable]
+       int V114/* $tmp12 */;
+           ^
+sp.omp.c:2163:11: warning: variable 'V113' set but not used [-Wunused-but-set-variable]
+       int V113/* $tmp11 */;
+           ^
+sp.omp.c:2162:11: warning: variable 'V112' set but not used [-Wunused-but-set-variable]
+       int V112/* $tmp10 */;
+           ^
+sp.omp.c:2161:11: warning: variable 'V111' set but not used [-Wunused-but-set-variable]
+       int V111/* $tmp9 */;
+           ^
+sp.omp.c:2160:11: warning: variable 'V110' set but not used [-Wunused-but-set-variable]
+       int V110/* $tmp8 */;
+           ^
+sp.omp.c:2159:11: warning: variable 'V109' set but not used [-Wunused-but-set-variable]
+       int V109/* $tmp7 */;
+           ^
+sp.omp.c:2158:11: warning: variable 'V108' set but not used [-Wunused-but-set-variable]
+       int V108/* $tmp6 */;
+           ^
+sp.omp.c:2157:11: warning: variable 'V107' set but not used [-Wunused-but-set-variable]
+       int V107/* $tmp5 */;
+           ^
+sp.omp.c:2151:11: warning: unused variable 'm_NO101' [-Wunused-variable]
+       int m_NO101/* m */;
+           ^
+sp.omp.c: In function 'exact_solution_PE0':
+sp.omp.c:2516:11: warning: unused variable 'm_NO100' [-Wunused-variable]
+       int m_NO100/* m */;
+           ^
+sp.omp.c: In function 'compute_rhs_PE0':
+sp.omp.c:2616:11: warning: unused variable 'm_NO174' [-Wunused-variable]
+       int m_NO174/* m */;
+           ^
+sp.omp.c:2615:11: warning: unused variable 'i_NO173' [-Wunused-variable]
+       int i_NO173/* i */;
+           ^
+sp.omp.c:2614:11: warning: unused variable 'j_NO172' [-Wunused-variable]
+       int j_NO172/* j */;
+           ^
+sp.omp.c:2613:11: warning: unused variable 'k_NO171' [-Wunused-variable]
+       int k_NO171/* k */;
+           ^
+sp.omp.c:2612:11: warning: unused variable 'm_NO170' [-Wunused-variable]
+       int m_NO170/* m */;
+           ^
+sp.omp.c:2611:11: warning: unused variable 'i_NO169' [-Wunused-variable]
+       int i_NO169/* i */;
+           ^
+sp.omp.c:2610:11: warning: unused variable 'j_NO168' [-Wunused-variable]
+       int j_NO168/* j */;
+           ^
+sp.omp.c:2609:11: warning: unused variable 'm_NO167' [-Wunused-variable]
+       int m_NO167/* m */;
+           ^
+sp.omp.c:2608:11: warning: unused variable 'i_NO166' [-Wunused-variable]
+       int i_NO166/* i */;
+           ^
+sp.omp.c:2607:11: warning: unused variable 'j_NO165' [-Wunused-variable]
+       int j_NO165/* j */;
+           ^
+sp.omp.c:2606:11: warning: unused variable 'm_NO164' [-Wunused-variable]
+       int m_NO164/* m */;
+           ^
+sp.omp.c:2605:11: warning: unused variable 'i_NO163' [-Wunused-variable]
+       int i_NO163/* i */;
+           ^
+sp.omp.c:2604:11: warning: unused variable 'j_NO162' [-Wunused-variable]
+       int j_NO162/* j */;
+           ^
+sp.omp.c:2603:11: warning: unused variable 'k_NO161' [-Wunused-variable]
+       int k_NO161/* k */;
+           ^
+sp.omp.c:2602:11: warning: unused variable 'm_NO160' [-Wunused-variable]
+       int m_NO160/* m */;
+           ^
+sp.omp.c:2601:11: warning: unused variable 'i_NO159' [-Wunused-variable]
+       int i_NO159/* i */;
+           ^
+sp.omp.c:2600:11: warning: unused variable 'j_NO158' [-Wunused-variable]
+       int j_NO158/* j */;
+           ^
+sp.omp.c:2599:11: warning: unused variable 'm_NO157' [-Wunused-variable]
+       int m_NO157/* m */;
+           ^
+sp.omp.c:2598:11: warning: unused variable 'i_NO156' [-Wunused-variable]
+       int i_NO156/* i */;
+           ^
+sp.omp.c:2597:11: warning: unused variable 'j_NO155' [-Wunused-variable]
+       int j_NO155/* j */;
+           ^
+sp.omp.c:2596:11: warning: unused variable 'i_NO154' [-Wunused-variable]
+       int i_NO154/* i */;
+           ^
+sp.omp.c:2595:11: warning: unused variable 'j_NO153' [-Wunused-variable]
+       int j_NO153/* j */;
+           ^
+sp.omp.c:2594:11: warning: unused variable 'k_NO152' [-Wunused-variable]
+       int k_NO152/* k */;
+           ^
+sp.omp.c:2593:11: warning: unused variable 'm_NO151' [-Wunused-variable]
+       int m_NO151/* m */;
+           ^
+sp.omp.c:2592:11: warning: unused variable 'i_NO150' [-Wunused-variable]
+       int i_NO150/* i */;
+           ^
+sp.omp.c:2591:11: warning: unused variable 'k_NO149' [-Wunused-variable]
+       int k_NO149/* k */;
+           ^
+sp.omp.c:2590:11: warning: unused variable 'm_NO148' [-Wunused-variable]
+       int m_NO148/* m */;
+           ^
+sp.omp.c:2589:11: warning: unused variable 'i_NO147' [-Wunused-variable]
+       int i_NO147/* i */;
+           ^
+sp.omp.c:2588:11: warning: unused variable 'k_NO146' [-Wunused-variable]
+       int k_NO146/* k */;
+           ^
+sp.omp.c:2587:11: warning: unused variable 'm_NO145' [-Wunused-variable]
+       int m_NO145/* m */;
+           ^
+sp.omp.c:2586:11: warning: unused variable 'i_NO144' [-Wunused-variable]
+       int i_NO144/* i */;
+           ^
+sp.omp.c:2585:11: warning: unused variable 'j_NO143' [-Wunused-variable]
+       int j_NO143/* j */;
+           ^
+sp.omp.c:2584:11: warning: unused variable 'k_NO142' [-Wunused-variable]
+       int k_NO142/* k */;
+           ^
+sp.omp.c:2583:11: warning: unused variable 'm_NO141' [-Wunused-variable]
+       int m_NO141/* m */;
+           ^
+sp.omp.c:2582:11: warning: unused variable 'i_NO140' [-Wunused-variable]
+       int i_NO140/* i */;
+           ^
+sp.omp.c:2581:11: warning: unused variable 'k_NO139' [-Wunused-variable]
+       int k_NO139/* k */;
+           ^
+sp.omp.c:2580:11: warning: unused variable 'm_NO138' [-Wunused-variable]
+       int m_NO138/* m */;
+           ^
+sp.omp.c:2579:11: warning: unused variable 'i_NO137' [-Wunused-variable]
+       int i_NO137/* i */;
+           ^
+sp.omp.c:2578:11: warning: unused variable 'k_NO136' [-Wunused-variable]
+       int k_NO136/* k */;
+           ^
+sp.omp.c:2577:11: warning: unused variable 'i_NO135' [-Wunused-variable]
+       int i_NO135/* i */;
+           ^
+sp.omp.c:2576:11: warning: unused variable 'j_NO134' [-Wunused-variable]
+       int j_NO134/* j */;
+           ^
+sp.omp.c:2575:11: warning: unused variable 'k_NO133' [-Wunused-variable]
+       int k_NO133/* k */;
+           ^
+sp.omp.c:2574:11: warning: unused variable 'm_NO132' [-Wunused-variable]
+       int m_NO132/* m */;
+           ^
+sp.omp.c:2573:11: warning: unused variable 'j_NO131' [-Wunused-variable]
+       int j_NO131/* j */;
+           ^
+sp.omp.c:2572:11: warning: unused variable 'k_NO130' [-Wunused-variable]
+       int k_NO130/* k */;
+           ^
+sp.omp.c:2571:11: warning: unused variable 'm_NO129' [-Wunused-variable]
+       int m_NO129/* m */;
+           ^
+sp.omp.c:2570:11: warning: unused variable 'j_NO128' [-Wunused-variable]
+       int j_NO128/* j */;
+           ^
+sp.omp.c:2569:11: warning: unused variable 'k_NO127' [-Wunused-variable]
+       int k_NO127/* k */;
+           ^
+sp.omp.c:2568:11: warning: unused variable 'm_NO126' [-Wunused-variable]
+       int m_NO126/* m */;
+           ^
+sp.omp.c:2567:11: warning: unused variable 'i_NO125' [-Wunused-variable]
+       int i_NO125/* i */;
+           ^
+sp.omp.c:2566:11: warning: unused variable 'j_NO124' [-Wunused-variable]
+       int j_NO124/* j */;
+           ^
+sp.omp.c:2565:11: warning: unused variable 'k_NO123' [-Wunused-variable]
+       int k_NO123/* k */;
+           ^
+sp.omp.c:2564:11: warning: unused variable 'm_NO122' [-Wunused-variable]
+       int m_NO122/* m */;
+           ^
+sp.omp.c:2563:11: warning: unused variable 'j_NO121' [-Wunused-variable]
+       int j_NO121/* j */;
+           ^
+sp.omp.c:2562:11: warning: unused variable 'k_NO120' [-Wunused-variable]
+       int k_NO120/* k */;
+           ^
+sp.omp.c:2561:11: warning: unused variable 'm_NO119' [-Wunused-variable]
+       int m_NO119/* m */;
+           ^
+sp.omp.c:2560:11: warning: unused variable 'j_NO118' [-Wunused-variable]
+       int j_NO118/* j */;
+           ^
+sp.omp.c:2559:11: warning: unused variable 'k_NO117' [-Wunused-variable]
+       int k_NO117/* k */;
+           ^
+sp.omp.c:2558:11: warning: unused variable 'i_NO116' [-Wunused-variable]
+       int i_NO116/* i */;
+           ^
+sp.omp.c:2557:11: warning: unused variable 'j_NO115' [-Wunused-variable]
+       int j_NO115/* j */;
+           ^
+sp.omp.c:2556:11: warning: unused variable 'k_NO114' [-Wunused-variable]
+       int k_NO114/* k */;
+           ^
+sp.omp.c:2555:11: warning: unused variable 'i_NO113' [-Wunused-variable]
+       int i_NO113/* i */;
+           ^
+sp.omp.c:2554:11: warning: unused variable 'j_NO112' [-Wunused-variable]
+       int j_NO112/* j */;
+           ^
+sp.omp.c:2553:11: warning: unused variable 'k_NO111' [-Wunused-variable]
+       int k_NO111/* k */;
+           ^
+sp.omp.c:2552:14: warning: unused variable 'wm1_NO110' [-Wunused-variable]
+       double wm1_NO110/* wm1 */;
+              ^
+sp.omp.c:2551:14: warning: unused variable 'wp1_NO109' [-Wunused-variable]
+       double wp1_NO109/* wp1 */;
+              ^
+sp.omp.c:2550:14: warning: unused variable 'wijk_NO108' [-Wunused-variable]
+       double wijk_NO108/* wijk */;
+              ^
+sp.omp.c:2549:14: warning: unused variable 'vm1_NO107' [-Wunused-variable]
+       double vm1_NO107/* vm1 */;
+              ^
+sp.omp.c:2548:14: warning: unused variable 'vp1_NO106' [-Wunused-variable]
+       double vp1_NO106/* vp1 */;
+              ^
+sp.omp.c:2547:14: warning: unused variable 'vijk_NO105' [-Wunused-variable]
+       double vijk_NO105/* vijk */;
+              ^
+sp.omp.c:2546:14: warning: unused variable 'um1_NO104' [-Wunused-variable]
+       double um1_NO104/* um1 */;
+              ^
+sp.omp.c:2545:14: warning: unused variable 'up1_NO103' [-Wunused-variable]
+       double up1_NO103/* up1 */;
+              ^
+sp.omp.c:2544:14: warning: unused variable 'uijk_NO102' [-Wunused-variable]
+       double uijk_NO102/* uijk */;
+              ^
+sp.omp.c:2543:14: warning: unused variable 'rho_inv_NO101' [-Wunused-variable]
+       double rho_inv_NO101/* rho_inv */;
+              ^
+sp.omp.c:2542:14: warning: unused variable 'aux_NO100' [-Wunused-variable]
+       double aux_NO100/* aux */;
+              ^
+sp.omp.c:2541:11: warning: unused variable 'm_NO99' [-Wunused-variable]
+       int m_NO99/* m */;
+           ^
+sp.omp.c: In function 'txinvr_PE0':
+sp.omp.c:3028:14: warning: unused variable 'ac2inv_NO112' [-Wunused-variable]
+       double ac2inv_NO112/* ac2inv */;
+              ^
+sp.omp.c:3027:14: warning: unused variable 'r5_NO111' [-Wunused-variable]
+       double r5_NO111/* r5 */;
+              ^
+sp.omp.c:3026:14: warning: unused variable 'r4_NO110' [-Wunused-variable]
+       double r4_NO110/* r4 */;
+              ^
+sp.omp.c:3025:14: warning: unused variable 'r3_NO109' [-Wunused-variable]
+       double r3_NO109/* r3 */;
+              ^
+sp.omp.c:3024:14: warning: unused variable 'r2_NO108' [-Wunused-variable]
+       double r2_NO108/* r2 */;
+              ^
+sp.omp.c:3023:14: warning: unused variable 'r1_NO107' [-Wunused-variable]
+       double r1_NO107/* r1 */;
+              ^
+sp.omp.c:3022:14: warning: unused variable 'ww_NO106' [-Wunused-variable]
+       double ww_NO106/* ww */;
+              ^
+sp.omp.c:3021:14: warning: unused variable 'vv_NO105' [-Wunused-variable]
+       double vv_NO105/* vv */;
+              ^
+sp.omp.c:3020:14: warning: unused variable 'uu_NO104' [-Wunused-variable]
+       double uu_NO104/* uu */;
+              ^
+sp.omp.c:3019:14: warning: unused variable 'ru1_NO103' [-Wunused-variable]
+       double ru1_NO103/* ru1 */;
+              ^
+sp.omp.c:3018:14: warning: unused variable 'ac_NO102' [-Wunused-variable]
+       double ac_NO102/* ac */;
+              ^
+sp.omp.c:3017:14: warning: unused variable 't3_NO101' [-Wunused-variable]
+       double t3_NO101/* t3 */;
+              ^
+sp.omp.c:3016:14: warning: unused variable 't2_NO100' [-Wunused-variable]
+       double t2_NO100/* t2 */;
+              ^
+sp.omp.c:3015:14: warning: unused variable 't1_NO99' [-Wunused-variable]
+       double t1_NO99/* t1 */;
+              ^
+sp.omp.c:3014:11: warning: unused variable 'k_NO98' [-Wunused-variable]
+       int k_NO98/* k */;
+           ^
+sp.omp.c:3013:11: warning: unused variable 'j_NO97' [-Wunused-variable]
+       int j_NO97/* j */;
+           ^
+sp.omp.c:3012:11: warning: unused variable 'i_NO96' [-Wunused-variable]
+       int i_NO96/* i */;
+           ^
+sp.omp.c: In function 'x_solve_PE0':
+sp.omp.c:3125:11: warning: unused variable 'm_NO131' [-Wunused-variable]
+       int m_NO131/* m */;
+           ^
+sp.omp.c:3124:11: warning: unused variable 'i_NO130' [-Wunused-variable]
+       int i_NO130/* i */;
+           ^
+sp.omp.c:3123:11: warning: unused variable 'j_NO129' [-Wunused-variable]
+       int j_NO129/* j */;
+           ^
+sp.omp.c:3122:11: warning: unused variable 'k_NO128' [-Wunused-variable]
+       int k_NO128/* k */;
+           ^
+sp.omp.c:3121:11: warning: unused variable 'i_NO127' [-Wunused-variable]
+       int i_NO127/* i */;
+           ^
+sp.omp.c:3120:11: warning: unused variable 'm_NO126' [-Wunused-variable]
+       int m_NO126/* m */;
+           ^
+sp.omp.c:3119:11: warning: unused variable 'j_NO125' [-Wunused-variable]
+       int j_NO125/* j */;
+           ^
+sp.omp.c:3118:11: warning: unused variable 'k_NO124' [-Wunused-variable]
+       int k_NO124/* k */;
+           ^
+sp.omp.c:3117:11: warning: unused variable 'm_NO123' [-Wunused-variable]
+       int m_NO123/* m */;
+           ^
+sp.omp.c:3116:11: warning: unused variable 'j_NO122' [-Wunused-variable]
+       int j_NO122/* j */;
+           ^
+sp.omp.c:3115:11: warning: unused variable 'k_NO121' [-Wunused-variable]
+       int k_NO121/* k */;
+           ^
+sp.omp.c:3114:11: warning: unused variable 'm_NO120' [-Wunused-variable]
+       int m_NO120/* m */;
+           ^
+sp.omp.c:3113:11: warning: unused variable 'j_NO119' [-Wunused-variable]
+       int j_NO119/* j */;
+           ^
+sp.omp.c:3112:11: warning: unused variable 'k_NO118' [-Wunused-variable]
+       int k_NO118/* k */;
+           ^
+sp.omp.c:3111:11: warning: unused variable 'm_NO117' [-Wunused-variable]
+       int m_NO117/* m */;
+           ^
+sp.omp.c:3110:11: warning: unused variable 'j_NO116' [-Wunused-variable]
+       int j_NO116/* j */;
+           ^
+sp.omp.c:3109:11: warning: unused variable 'k_NO115' [-Wunused-variable]
+       int k_NO115/* k */;
+           ^
+sp.omp.c:3108:11: warning: unused variable 'i_NO114' [-Wunused-variable]
+       int i_NO114/* i */;
+           ^
+sp.omp.c:3107:11: warning: unused variable 'j_NO113' [-Wunused-variable]
+       int j_NO113/* j */;
+           ^
+sp.omp.c:3106:11: warning: unused variable 'k_NO112' [-Wunused-variable]
+       int k_NO112/* k */;
+           ^
+sp.omp.c:3105:11: warning: unused variable 'j_NO111' [-Wunused-variable]
+       int j_NO111/* j */;
+           ^
+sp.omp.c:3104:11: warning: unused variable 'k_NO110' [-Wunused-variable]
+       int k_NO110/* k */;
+           ^
+sp.omp.c:3103:11: warning: unused variable 'm_NO109' [-Wunused-variable]
+       int m_NO109/* m */;
+           ^
+sp.omp.c:3102:11: warning: unused variable 'm_NO108' [-Wunused-variable]
+       int m_NO108/* m */;
+           ^
+sp.omp.c:3101:11: warning: unused variable 'm_NO107' [-Wunused-variable]
+       int m_NO107/* m */;
+           ^
+sp.omp.c:3100:11: warning: unused variable 'm_NO106' [-Wunused-variable]
+       int m_NO106/* m */;
+           ^
+sp.omp.c:3099:11: warning: unused variable 'm_NO105' [-Wunused-variable]
+       int m_NO105/* m */;
+           ^
+sp.omp.c:3098:14: warning: unused variable 'fac2_NO104' [-Wunused-variable]
+       double fac2_NO104/* fac2 */;
+              ^
+sp.omp.c:3097:14: warning: unused variable 'fac1_NO103' [-Wunused-variable]
+       double fac1_NO103/* fac1 */;
+              ^
+sp.omp.c:3096:11: warning: unused variable 'm_NO102' [-Wunused-variable]
+       int m_NO102/* m */;
+           ^
+sp.omp.c:3092:11: warning: unused variable 'k_NO98' [-Wunused-variable]
+       int k_NO98/* k */;
+           ^
+sp.omp.c:3091:11: warning: unused variable 'j_NO97' [-Wunused-variable]
+       int j_NO97/* j */;
+           ^
+sp.omp.c: In function 'y_solve_PE0':
+sp.omp.c:3405:11: warning: unused variable 'm_NO131' [-Wunused-variable]
+       int m_NO131/* m */;
+           ^
+sp.omp.c:3404:11: warning: unused variable 'j_NO130' [-Wunused-variable]
+       int j_NO130/* j */;
+           ^
+sp.omp.c:3403:11: warning: unused variable 'i_NO129' [-Wunused-variable]
+       int i_NO129/* i */;
+           ^
+sp.omp.c:3402:11: warning: unused variable 'k_NO128' [-Wunused-variable]
+       int k_NO128/* k */;
+           ^
+sp.omp.c:3401:11: warning: unused variable 'm_NO127' [-Wunused-variable]
+       int m_NO127/* m */;
+           ^
+sp.omp.c:3400:11: warning: unused variable 'j_NO126' [-Wunused-variable]
+       int j_NO126/* j */;
+           ^
+sp.omp.c:3399:11: warning: unused variable 'i_NO125' [-Wunused-variable]
+       int i_NO125/* i */;
+           ^
+sp.omp.c:3398:11: warning: unused variable 'k_NO124' [-Wunused-variable]
+       int k_NO124/* k */;
+           ^
+sp.omp.c:3397:11: warning: unused variable 'm_NO123' [-Wunused-variable]
+       int m_NO123/* m */;
+           ^
+sp.omp.c:3396:11: warning: unused variable 'i_NO122' [-Wunused-variable]
+       int i_NO122/* i */;
+           ^
+sp.omp.c:3395:11: warning: unused variable 'k_NO121' [-Wunused-variable]
+       int k_NO121/* k */;
+           ^
+sp.omp.c:3394:11: warning: unused variable 'm_NO120' [-Wunused-variable]
+       int m_NO120/* m */;
+           ^
+sp.omp.c:3393:11: warning: unused variable 'i_NO119' [-Wunused-variable]
+       int i_NO119/* i */;
+           ^
+sp.omp.c:3392:11: warning: unused variable 'k_NO118' [-Wunused-variable]
+       int k_NO118/* k */;
+           ^
+sp.omp.c:3391:11: warning: unused variable 'm_NO117' [-Wunused-variable]
+       int m_NO117/* m */;
+           ^
+sp.omp.c:3390:11: warning: unused variable 'i_NO116' [-Wunused-variable]
+       int i_NO116/* i */;
+           ^
+sp.omp.c:3389:11: warning: unused variable 'k_NO115' [-Wunused-variable]
+       int k_NO115/* k */;
+           ^
+sp.omp.c:3388:11: warning: unused variable 'j_NO114' [-Wunused-variable]
+       int j_NO114/* j */;
+           ^
+sp.omp.c:3387:11: warning: unused variable 'i_NO113' [-Wunused-variable]
+       int i_NO113/* i */;
+           ^
+sp.omp.c:3386:11: warning: unused variable 'k_NO112' [-Wunused-variable]
+       int k_NO112/* k */;
+           ^
+sp.omp.c:3385:11: warning: unused variable 'i_NO111' [-Wunused-variable]
+       int i_NO111/* i */;
+           ^
+sp.omp.c:3384:11: warning: unused variable 'k_NO110' [-Wunused-variable]
+       int k_NO110/* k */;
+           ^
+sp.omp.c:3383:11: warning: unused variable 'm_NO109' [-Wunused-variable]
+       int m_NO109/* m */;
+           ^
+sp.omp.c:3382:11: warning: unused variable 'm_NO108' [-Wunused-variable]
+       int m_NO108/* m */;
+           ^
+sp.omp.c:3381:11: warning: unused variable 'm_NO107' [-Wunused-variable]
+       int m_NO107/* m */;
+           ^
+sp.omp.c:3380:11: warning: unused variable 'm_NO106' [-Wunused-variable]
+       int m_NO106/* m */;
+           ^
+sp.omp.c:3379:11: warning: unused variable 'm_NO105' [-Wunused-variable]
+       int m_NO105/* m */;
+           ^
+sp.omp.c:3378:14: warning: unused variable 'fac2_NO104' [-Wunused-variable]
+       double fac2_NO104/* fac2 */;
+              ^
+sp.omp.c:3377:14: warning: unused variable 'fac1_NO103' [-Wunused-variable]
+       double fac1_NO103/* fac1 */;
+              ^
+sp.omp.c:3376:11: warning: unused variable 'm_NO102' [-Wunused-variable]
+       int m_NO102/* m */;
+           ^
+sp.omp.c:3372:11: warning: unused variable 'k_NO98' [-Wunused-variable]
+       int k_NO98/* k */;
+           ^
+sp.omp.c:3370:11: warning: unused variable 'i_NO96' [-Wunused-variable]
+       int i_NO96/* i */;
+           ^
+sp.omp.c: In function 'z_solve_PE0':
+sp.omp.c:3687:11: warning: unused variable 'm_NO131' [-Wunused-variable]
+       int m_NO131/* m */;
+           ^
+sp.omp.c:3686:11: warning: unused variable 'i_NO130' [-Wunused-variable]
+       int i_NO130/* i */;
+           ^
+sp.omp.c:3685:11: warning: unused variable 'j_NO129' [-Wunused-variable]
+       int j_NO129/* j */;
+           ^
+sp.omp.c:3684:11: warning: unused variable 'k_NO128' [-Wunused-variable]
+       int k_NO128/* k */;
+           ^
+sp.omp.c:3683:11: warning: unused variable 'm_NO127' [-Wunused-variable]
+       int m_NO127/* m */;
+           ^
+sp.omp.c:3682:11: warning: unused variable 'i_NO126' [-Wunused-variable]
+       int i_NO126/* i */;
+           ^
+sp.omp.c:3681:11: warning: unused variable 'j_NO125' [-Wunused-variable]
+       int j_NO125/* j */;
+           ^
+sp.omp.c:3680:11: warning: unused variable 'k_NO124' [-Wunused-variable]
+       int k_NO124/* k */;
+           ^
+sp.omp.c:3679:11: warning: unused variable 'm_NO123' [-Wunused-variable]
+       int m_NO123/* m */;
+           ^
+sp.omp.c:3678:11: warning: unused variable 'i_NO122' [-Wunused-variable]
+       int i_NO122/* i */;
+           ^
+sp.omp.c:3677:11: warning: unused variable 'j_NO121' [-Wunused-variable]
+       int j_NO121/* j */;
+           ^
+sp.omp.c:3676:11: warning: unused variable 'm_NO120' [-Wunused-variable]
+       int m_NO120/* m */;
+           ^
+sp.omp.c:3675:11: warning: unused variable 'i_NO119' [-Wunused-variable]
+       int i_NO119/* i */;
+           ^
+sp.omp.c:3674:11: warning: unused variable 'j_NO118' [-Wunused-variable]
+       int j_NO118/* j */;
+           ^
+sp.omp.c:3673:11: warning: unused variable 'm_NO117' [-Wunused-variable]
+       int m_NO117/* m */;
+           ^
+sp.omp.c:3672:11: warning: unused variable 'i_NO116' [-Wunused-variable]
+       int i_NO116/* i */;
+           ^
+sp.omp.c:3671:11: warning: unused variable 'j_NO115' [-Wunused-variable]
+       int j_NO115/* j */;
+           ^
+sp.omp.c:3670:11: warning: unused variable 'i_NO114' [-Wunused-variable]
+       int i_NO114/* i */;
+           ^
+sp.omp.c:3669:11: warning: unused variable 'j_NO113' [-Wunused-variable]
+       int j_NO113/* j */;
+           ^
+sp.omp.c:3668:11: warning: unused variable 'k_NO112' [-Wunused-variable]
+       int k_NO112/* k */;
+           ^
+sp.omp.c:3667:11: warning: unused variable 'i_NO111' [-Wunused-variable]
+       int i_NO111/* i */;
+           ^
+sp.omp.c:3666:11: warning: unused variable 'j_NO110' [-Wunused-variable]
+       int j_NO110/* j */;
+           ^
+sp.omp.c:3665:11: warning: unused variable 'm_NO109' [-Wunused-variable]
+       int m_NO109/* m */;
+           ^
+sp.omp.c:3664:11: warning: unused variable 'm_NO108' [-Wunused-variable]
+       int m_NO108/* m */;
+           ^
+sp.omp.c:3663:11: warning: unused variable 'm_NO107' [-Wunused-variable]
+       int m_NO107/* m */;
+           ^
+sp.omp.c:3662:11: warning: unused variable 'm_NO106' [-Wunused-variable]
+       int m_NO106/* m */;
+           ^
+sp.omp.c:3661:11: warning: unused variable 'm_NO105' [-Wunused-variable]
+       int m_NO105/* m */;
+           ^
+sp.omp.c:3660:14: warning: unused variable 'fac2_NO104' [-Wunused-variable]
+       double fac2_NO104/* fac2 */;
+              ^
+sp.omp.c:3659:14: warning: unused variable 'fac1_NO103' [-Wunused-variable]
+       double fac1_NO103/* fac1 */;
+              ^
+sp.omp.c:3658:11: warning: unused variable 'm_NO102' [-Wunused-variable]
+       int m_NO102/* m */;
+           ^
+sp.omp.c:3657:11: warning: unused variable 'k2_NO101' [-Wunused-variable]
+       int k2_NO101/* k2 */;
+           ^
+sp.omp.c:3653:11: warning: unused variable 'j_NO97' [-Wunused-variable]
+       int j_NO97/* j */;
+           ^
+sp.omp.c:3652:11: warning: unused variable 'i_NO96' [-Wunused-variable]
+       int i_NO96/* i */;
+           ^
+sp.omp.c: In function 'add_PE0':
+sp.omp.c:3938:11: warning: unused variable 'm_NO99' [-Wunused-variable]
+       int m_NO99/* m */;
+           ^
+sp.omp.c:3937:11: warning: unused variable 'k_NO98' [-Wunused-variable]
+       int k_NO98/* k */;
+           ^
+sp.omp.c:3936:11: warning: unused variable 'j_NO97' [-Wunused-variable]
+       int j_NO97/* j */;
+           ^
+sp.omp.c:3935:11: warning: unused variable 'i_NO96' [-Wunused-variable]
+       int i_NO96/* i */;
+           ^
+sp.omp.c: In function 'error_norm_PE0':
+sp.omp.c:3982:11: warning: unused variable 'm_NO107' [-Wunused-variable]
+       int m_NO107/* m */;
+           ^
+sp.omp.c:3981:11: warning: unused variable 'm_NO106' [-Wunused-variable]
+       int m_NO106/* m */;
+           ^
+sp.omp.c:3980:14: warning: unused variable 'add_NO105' [-Wunused-variable]
+       double add_NO105/* add */;
+              ^
+sp.omp.c:3976:11: warning: unused variable 'd_NO101' [-Wunused-variable]
+       int d_NO101/* d */;
+           ^
+sp.omp.c:3975:11: warning: unused variable 'm_NO100' [-Wunused-variable]
+       int m_NO100/* m */;
+           ^
+sp.omp.c:3974:11: warning: unused variable 'k_NO99' [-Wunused-variable]
+       int k_NO99/* k */;
+           ^
+sp.omp.c:3973:11: warning: unused variable 'j_NO98' [-Wunused-variable]
+       int j_NO98/* j */;
+           ^
+sp.omp.c:3972:11: warning: unused variable 'i_NO97' [-Wunused-variable]
+       int i_NO97/* i */;
+           ^
+sp.omp.c: In function 'rhs_norm_PE0':
+sp.omp.c:4051:11: warning: unused variable 'm_NO104' [-Wunused-variable]
+       int m_NO104/* m */;
+           ^
+sp.omp.c:4050:11: warning: unused variable 'm_NO103' [-Wunused-variable]
+       int m_NO103/* m */;
+           ^
+sp.omp.c:4049:14: warning: unused variable 'add_NO102' [-Wunused-variable]
+       double add_NO102/* add */;
+              ^
+sp.omp.c:4048:11: warning: unused variable 'm_NO101' [-Wunused-variable]
+       int m_NO101/* m */;
+           ^
+sp.omp.c:4047:11: warning: unused variable 'd_NO100' [-Wunused-variable]
+       int d_NO100/* d */;
+           ^
+sp.omp.c:4046:11: warning: unused variable 'k_NO99' [-Wunused-variable]
+       int k_NO99/* k */;
+           ^
+sp.omp.c:4045:11: warning: unused variable 'j_NO98' [-Wunused-variable]
+       int j_NO98/* j */;
+           ^
+sp.omp.c:4044:11: warning: unused variable 'i_NO97' [-Wunused-variable]
+       int i_NO97/* i */;
+           ^
+sp.omp.c: In function 'lhsx_PE0':
+sp.omp.c:4126:11: warning: unused variable 'i_NO117' [-Wunused-variable]
+       int i_NO117/* i */;
+           ^
+sp.omp.c:4125:11: warning: unused variable 'j_NO116' [-Wunused-variable]
+       int j_NO116/* j */;
+           ^
+sp.omp.c:4124:11: warning: unused variable 'k_NO115' [-Wunused-variable]
+       int k_NO115/* k */;
+           ^
+sp.omp.c:4123:11: warning: unused variable 'j_NO114' [-Wunused-variable]
+       int j_NO114/* j */;
+           ^
+sp.omp.c:4122:11: warning: unused variable 'k_NO113' [-Wunused-variable]
+       int k_NO113/* k */;
+           ^
+sp.omp.c:4121:11: warning: unused variable 'i_NO112' [-Wunused-variable]
+       int i_NO112/* i */;
+           ^
+sp.omp.c:4120:11: warning: unused variable 'j_NO111' [-Wunused-variable]
+       int j_NO111/* j */;
+           ^
+sp.omp.c:4119:11: warning: unused variable 'k_NO110' [-Wunused-variable]
+       int k_NO110/* k */;
+           ^
+sp.omp.c:4118:11: warning: unused variable 'j_NO109' [-Wunused-variable]
+       int j_NO109/* j */;
+           ^
+sp.omp.c:4117:11: warning: unused variable 'k_NO108' [-Wunused-variable]
+       int k_NO108/* k */;
+           ^
+sp.omp.c:4116:11: warning: unused variable 'i_NO107' [-Wunused-variable]
+       int i_NO107/* i */;
+           ^
+sp.omp.c:4115:14: warning: unused variable 'V106' [-Wunused-variable]
+       double V106/* $tmp6 */;
+              ^
+sp.omp.c:4114:14: warning: unused variable 'V105' [-Wunused-variable]
+       double V105/* $tmp5 */;
+              ^
+sp.omp.c:4113:14: warning: unused variable 'V104' [-Wunused-variable]
+       double V104/* $tmp4 */;
+              ^
+sp.omp.c:4112:14: warning: unused variable 'V103' [-Wunused-variable]
+       double V103/* $tmp3 */;
+              ^
+sp.omp.c:4111:14: warning: unused variable 'V102' [-Wunused-variable]
+       double V102/* $tmp2 */;
+              ^
+sp.omp.c:4110:14: warning: unused variable 'V101' [-Wunused-variable]
+       double V101/* $tmp1 */;
+              ^
+sp.omp.c:4109:14: warning: unused variable 'V100' [-Wunused-variable]
+       double V100/* $tmp0 */;
+              ^
+sp.omp.c:4108:11: warning: unused variable 'k_NO99' [-Wunused-variable]
+       int k_NO99/* k */;
+           ^
+sp.omp.c:4107:11: warning: unused variable 'j_NO98' [-Wunused-variable]
+       int j_NO98/* j */;
+           ^
+sp.omp.c:4105:14: warning: unused variable 'ru1_NO96' [-Wunused-variable]
+       double ru1_NO96/* ru1 */;
+              ^
+sp.omp.c: In function 'ninvr_PE0':
+sp.omp.c:4321:14: warning: unused variable 't2_NO105' [-Wunused-variable]
+       double t2_NO105/* t2 */;
+              ^
+sp.omp.c:4320:14: warning: unused variable 't1_NO104' [-Wunused-variable]
+       double t1_NO104/* t1 */;
+              ^
+sp.omp.c:4319:14: warning: unused variable 'r5_NO103' [-Wunused-variable]
+       double r5_NO103/* r5 */;
+              ^
+sp.omp.c:4318:14: warning: unused variable 'r4_NO102' [-Wunused-variable]
+       double r4_NO102/* r4 */;
+              ^
+sp.omp.c:4317:14: warning: unused variable 'r3_NO101' [-Wunused-variable]
+       double r3_NO101/* r3 */;
+              ^
+sp.omp.c:4316:14: warning: unused variable 'r2_NO100' [-Wunused-variable]
+       double r2_NO100/* r2 */;
+              ^
+sp.omp.c:4315:14: warning: unused variable 'r1_NO99' [-Wunused-variable]
+       double r1_NO99/* r1 */;
+              ^
+sp.omp.c:4314:11: warning: unused variable 'k_NO98' [-Wunused-variable]
+       int k_NO98/* k */;
+           ^
+sp.omp.c:4313:11: warning: unused variable 'j_NO97' [-Wunused-variable]
+       int j_NO97/* j */;
+           ^
+sp.omp.c:4312:11: warning: unused variable 'i_NO96' [-Wunused-variable]
+       int i_NO96/* i */;
+           ^
+sp.omp.c: In function 'lhsy_PE0':
+sp.omp.c:4390:11: warning: unused variable 'i_NO117' [-Wunused-variable]
+       int i_NO117/* i */;
+           ^
+sp.omp.c:4389:11: warning: unused variable 'j_NO116' [-Wunused-variable]
+       int j_NO116/* j */;
+           ^
+sp.omp.c:4388:11: warning: unused variable 'k_NO115' [-Wunused-variable]
+       int k_NO115/* k */;
+           ^
+sp.omp.c:4387:11: warning: unused variable 'i_NO114' [-Wunused-variable]
+       int i_NO114/* i */;
+           ^
+sp.omp.c:4386:11: warning: unused variable 'k_NO113' [-Wunused-variable]
+       int k_NO113/* k */;
+           ^
+sp.omp.c:4385:11: warning: unused variable 'i_NO112' [-Wunused-variable]
+       int i_NO112/* i */;
+           ^
+sp.omp.c:4384:11: warning: unused variable 'j_NO111' [-Wunused-variable]
+       int j_NO111/* j */;
+           ^
+sp.omp.c:4383:11: warning: unused variable 'k_NO110' [-Wunused-variable]
+       int k_NO110/* k */;
+           ^
+sp.omp.c:4382:11: warning: unused variable 'i_NO109' [-Wunused-variable]
+       int i_NO109/* i */;
+           ^
+sp.omp.c:4381:11: warning: unused variable 'k_NO108' [-Wunused-variable]
+       int k_NO108/* k */;
+           ^
+sp.omp.c:4380:11: warning: unused variable 'j_NO107' [-Wunused-variable]
+       int j_NO107/* j */;
+           ^
+sp.omp.c:4379:14: warning: unused variable 'V106' [-Wunused-variable]
+       double V106/* $tmp6 */;
+              ^
+sp.omp.c:4378:14: warning: unused variable 'V105' [-Wunused-variable]
+       double V105/* $tmp5 */;
+              ^
+sp.omp.c:4377:14: warning: unused variable 'V104' [-Wunused-variable]
+       double V104/* $tmp4 */;
+              ^
+sp.omp.c:4376:14: warning: unused variable 'V103' [-Wunused-variable]
+       double V103/* $tmp3 */;
+              ^
+sp.omp.c:4375:14: warning: unused variable 'V102' [-Wunused-variable]
+       double V102/* $tmp2 */;
+              ^
+sp.omp.c:4374:14: warning: unused variable 'V101' [-Wunused-variable]
+       double V101/* $tmp1 */;
+              ^
+sp.omp.c:4373:14: warning: unused variable 'V100' [-Wunused-variable]
+       double V100/* $tmp0 */;
+              ^
+sp.omp.c:4372:11: warning: unused variable 'k_NO99' [-Wunused-variable]
+       int k_NO99/* k */;
+           ^
+sp.omp.c:4370:11: warning: unused variable 'i_NO97' [-Wunused-variable]
+       int i_NO97/* i */;
+           ^
+sp.omp.c:4369:14: warning: unused variable 'ru1_NO96' [-Wunused-variable]
+       double ru1_NO96/* ru1 */;
+              ^
+sp.omp.c: In function 'pinvr_PE0':
+sp.omp.c:4585:14: warning: unused variable 't2_NO105' [-Wunused-variable]
+       double t2_NO105/* t2 */;
+              ^
+sp.omp.c:4584:14: warning: unused variable 't1_NO104' [-Wunused-variable]
+       double t1_NO104/* t1 */;
+              ^
+sp.omp.c:4583:14: warning: unused variable 'r5_NO103' [-Wunused-variable]
+       double r5_NO103/* r5 */;
+              ^
+sp.omp.c:4582:14: warning: unused variable 'r4_NO102' [-Wunused-variable]
+       double r4_NO102/* r4 */;
+              ^
+sp.omp.c:4581:14: warning: unused variable 'r3_NO101' [-Wunused-variable]
+       double r3_NO101/* r3 */;
+              ^
+sp.omp.c:4580:14: warning: unused variable 'r2_NO100' [-Wunused-variable]
+       double r2_NO100/* r2 */;
+              ^
+sp.omp.c:4579:14: warning: unused variable 'r1_NO99' [-Wunused-variable]
+       double r1_NO99/* r1 */;
+              ^
+sp.omp.c:4578:11: warning: unused variable 'k_NO98' [-Wunused-variable]
+       int k_NO98/* k */;
+           ^
+sp.omp.c:4577:11: warning: unused variable 'j_NO97' [-Wunused-variable]
+       int j_NO97/* j */;
+           ^
+sp.omp.c:4576:11: warning: unused variable 'i_NO96' [-Wunused-variable]
+       int i_NO96/* i */;
+           ^
+sp.omp.c: In function 'lhsz_PE0':
+sp.omp.c:4654:11: warning: unused variable 'i_NO117' [-Wunused-variable]
+       int i_NO117/* i */;
+           ^
+sp.omp.c:4653:11: warning: unused variable 'j_NO116' [-Wunused-variable]
+       int j_NO116/* j */;
+           ^
+sp.omp.c:4652:11: warning: unused variable 'k_NO115' [-Wunused-variable]
+       int k_NO115/* k */;
+           ^
+sp.omp.c:4651:11: warning: unused variable 'i_NO114' [-Wunused-variable]
+       int i_NO114/* i */;
+           ^
+sp.omp.c:4650:11: warning: unused variable 'j_NO113' [-Wunused-variable]
+       int j_NO113/* j */;
+           ^
+sp.omp.c:4649:11: warning: unused variable 'i_NO112' [-Wunused-variable]
+       int i_NO112/* i */;
+           ^
+sp.omp.c:4648:11: warning: unused variable 'j_NO111' [-Wunused-variable]
+       int j_NO111/* j */;
+           ^
+sp.omp.c:4647:11: warning: unused variable 'k_NO110' [-Wunused-variable]
+       int k_NO110/* k */;
+           ^
+sp.omp.c:4646:11: warning: unused variable 'i_NO109' [-Wunused-variable]
+       int i_NO109/* i */;
+           ^
+sp.omp.c:4645:11: warning: unused variable 'j_NO108' [-Wunused-variable]
+       int j_NO108/* j */;
+           ^
+sp.omp.c:4644:11: warning: unused variable 'k_NO107' [-Wunused-variable]
+       int k_NO107/* k */;
+           ^
+sp.omp.c:4643:14: warning: unused variable 'V106' [-Wunused-variable]
+       double V106/* $tmp6 */;
+              ^
+sp.omp.c:4642:14: warning: unused variable 'V105' [-Wunused-variable]
+       double V105/* $tmp5 */;
+              ^
+sp.omp.c:4641:14: warning: unused variable 'V104' [-Wunused-variable]
+       double V104/* $tmp4 */;
+              ^
+sp.omp.c:4640:14: warning: unused variable 'V103' [-Wunused-variable]
+       double V103/* $tmp3 */;
+              ^
+sp.omp.c:4639:14: warning: unused variable 'V102' [-Wunused-variable]
+       double V102/* $tmp2 */;
+              ^
+sp.omp.c:4638:14: warning: unused variable 'V101' [-Wunused-variable]
+       double V101/* $tmp1 */;
+              ^
+sp.omp.c:4637:14: warning: unused variable 'V100' [-Wunused-variable]
+       double V100/* $tmp0 */;
+              ^
+sp.omp.c:4635:11: warning: unused variable 'j_NO98' [-Wunused-variable]
+       int j_NO98/* j */;
+           ^
+sp.omp.c:4634:11: warning: unused variable 'i_NO97' [-Wunused-variable]
+       int i_NO97/* i */;
+           ^
+sp.omp.c:4633:14: warning: unused variable 'ru1_NO96' [-Wunused-variable]
+       double ru1_NO96/* ru1 */;
+              ^
+sp.omp.c: In function 'tzetar_PE0':
+sp.omp.c:4858:14: warning: unused variable 'uzik1_NO114' [-Wunused-variable]
+       double uzik1_NO114/* uzik1 */;
+              ^
+sp.omp.c:4857:14: warning: unused variable 'ac2u_NO113' [-Wunused-variable]
+       double ac2u_NO113/* ac2u */;
+              ^
+sp.omp.c:4856:14: warning: unused variable 'acinv_NO112' [-Wunused-variable]
+       double acinv_NO112/* acinv */;
+              ^
+sp.omp.c:4855:14: warning: unused variable 'btuz_NO111' [-Wunused-variable]
+       double btuz_NO111/* btuz */;
+              ^
+sp.omp.c:4854:14: warning: unused variable 'r5_NO110' [-Wunused-variable]
+       double r5_NO110/* r5 */;
+              ^
+sp.omp.c:4853:14: warning: unused variable 'r4_NO109' [-Wunused-variable]
+       double r4_NO109/* r4 */;
+              ^
+sp.omp.c:4852:14: warning: unused variable 'r3_NO108' [-Wunused-variable]
+       double r3_NO108/* r3 */;
+              ^
+sp.omp.c:4851:14: warning: unused variable 'r2_NO107' [-Wunused-variable]
+       double r2_NO107/* r2 */;
+              ^
+sp.omp.c:4850:14: warning: unused variable 'r1_NO106' [-Wunused-variable]
+       double r1_NO106/* r1 */;
+              ^
+sp.omp.c:4849:14: warning: unused variable 'zvel_NO105' [-Wunused-variable]
+       double zvel_NO105/* zvel */;
+              ^
+sp.omp.c:4848:14: warning: unused variable 'yvel_NO104' [-Wunused-variable]
+       double yvel_NO104/* yvel */;
+              ^
+sp.omp.c:4847:14: warning: unused variable 'xvel_NO103' [-Wunused-variable]
+       double xvel_NO103/* xvel */;
+              ^
+sp.omp.c:4846:14: warning: unused variable 'ac_NO102' [-Wunused-variable]
+       double ac_NO102/* ac */;
+              ^
+sp.omp.c:4845:14: warning: unused variable 't3_NO101' [-Wunused-variable]
+       double t3_NO101/* t3 */;
+              ^
+sp.omp.c:4844:14: warning: unused variable 't2_NO100' [-Wunused-variable]
+       double t2_NO100/* t2 */;
+              ^
+sp.omp.c:4843:14: warning: unused variable 't1_NO99' [-Wunused-variable]
+       double t1_NO99/* t1 */;
+              ^
+sp.omp.c:4842:11: warning: unused variable 'k_NO98' [-Wunused-variable]
+       int k_NO98/* k */;
+           ^
+sp.omp.c:4841:11: warning: unused variable 'j_NO97' [-Wunused-variable]
+       int j_NO97/* j */;
+           ^
+sp.omp.c:4840:11: warning: unused variable 'i_NO96' [-Wunused-variable]
+       int i_NO96/* i */;
+           ^
+/r/homesc2/kisimoto/ceval/c_npb23_sp/smp_rp2/1pe/../../src/c_print_results.c: In function 'c_print_results':
+/r/homesc2/kisimoto/ceval/c_npb23_sp/smp_rp2/1pe/../../src/c_print_results.c:28:11: warning: unused variable 'evalue' [-Wunused-variable]
+     char *evalue="1000";
+           ^

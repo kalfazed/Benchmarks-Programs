@@ -1,0 +1,1 @@
+-Wall -g -I/r/homesc2/kisimoto/ceval/c_npb23_sp/smp_rp2/1pe/../../src -I/r/homesc2/kisimoto/ceval/c_npb23_sp/smp_rp2/1pe/../../../lib/ -O0 -lm

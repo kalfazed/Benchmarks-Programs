@@ -1,0 +1,8 @@
+#######    qrfe    #######
+#######   ompcbe   #######
+#####   initialize   #####
+###### write global ######
+#### write schedulers ####
+###### write modules #####
+barrier_word (word): 0
+sync_word (word): 0

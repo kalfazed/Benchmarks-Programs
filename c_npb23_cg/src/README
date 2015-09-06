@@ -1,0 +1,15 @@
+* 各ファイルの出所
+
+ - cg.c
+ -- NPB23-omp-C/CG/cg.cからコピーしてきた
+
+ - npbparams.h
+ -- NPB23-omp-C/でmake cg CLASS=Bとして生成
+ -- NPB23-omp-C/BT/npbparams.hをコピーしてきた
+ -- CCの名前やオプションなどは生成時のもので、特に意味がない
+
+ - npb-C.h, c_print_results.c, wtime.h, wtime.c, c_timers.c
+ -- NPB23-omp-C/common/からコピーしてきた
+
+ - argv_stub.h
+ -- evalで定番のファイルをコピーしてきた

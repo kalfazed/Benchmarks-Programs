@@ -1,0 +1,253 @@
+ 
+ [MINORU] Fortran Compiler Middle Path
+ Narita Kasahara Kimura Lab. 1992-2009
+
+#######    qrfe    #######
+#######  entry2sub #######
+####### C Blocking #######
+Type_table 9 is changed to 14 on member E2
+Type_table 10 is changed to 14 on member E2
+Type_table 10 is unified into 14
+Type_table 9 is unified into 14
+#####   call graph  ######
+#####   call graph  ######
+rb in 692 is changed to loop
+rb in 694 is changed to loop
+rb in 696 is changed to loop
+rb in 741 is changed to loop
+rb in 743 is changed to loop
+rb in 758 is changed to loop
+rb in 760 is changed to loop
+rb in 775 is changed to loop
+rb in 777 is changed to loop
+rb in 792 is changed to loop
+rb in 794 is changed to loop
+rb in 809 is changed to loop
+rb in 811 is changed to loop
+rb in 826 is changed to loop
+rb in 828 is changed to loop
+rb in 854 is changed to loop
+rb in 855 is changed to loop
+rb in 856 is changed to loop
+rb in 870 is changed to loop
+rb in 871 is changed to loop
+rb in 872 is changed to loop
+rb in 316 is changed to loop
+rb in 317 is changed to loop
+rb in 318 is changed to loop
+rb in 328 is changed to loop
+rb in 330 is changed to loop
+rb in 333 is changed to loop
+rb in 353 is changed to loop
+rb in 401 is changed to loop
+rb in 423 is changed to loop
+rb in 425 is changed to loop
+rb in 428 is changed to loop
+rb in 448 is changed to loop
+rb in 496 is changed to loop
+rb in 519 is changed to loop
+rb in 521 is changed to loop
+rb in 524 is changed to loop
+rb in 545 is changed to loop
+rb in 593 is changed to loop
+rb in 616 is changed to loop
+rb in 617 is changed to loop
+rb in 618 is changed to loop
+rb in 189 is changed to loop
+rb in 190 is changed to loop
+rb in 191 is changed to loop
+rb in 1318 is changed to loop
+rb in 1319 is changed to loop
+rb in 1320 is changed to loop
+rb in 1350 is changed to loop
+rb in 1351 is changed to loop
+rb in 1352 is changed to loop
+rb in 1363 is changed to loop
+rb in 1364 is changed to loop
+rb in 1365 is changed to loop
+rb in 1426 is changed to loop
+rb in 1427 is changed to loop
+rb in 1438 is changed to loop
+rb in 1439 is changed to loop
+rb in 1450 is changed to loop
+rb in 1451 is changed to loop
+rb in 1452 is changed to loop
+rb in 1466 is changed to loop
+rb in 1467 is changed to loop
+rb in 1479 is changed to loop
+rb in 1480 is changed to loop
+rb in 1493 is changed to loop
+rb in 1494 is changed to loop
+rb in 1495 is changed to loop
+rb in 1552 is changed to loop
+rb in 1553 is changed to loop
+rb in 1565 is changed to loop
+rb in 1566 is changed to loop
+rb in 1577 is changed to loop
+rb in 1578 is changed to loop
+rb in 1579 is changed to loop
+rb in 1593 is changed to loop
+rb in 1594 is changed to loop
+rb in 1606 is changed to loop
+rb in 1607 is changed to loop
+rb in 1620 is changed to loop
+rb in 1621 is changed to loop
+rb in 1622 is changed to loop
+rb in 1680 is changed to loop
+rb in 1681 is changed to loop
+rb in 1693 is changed to loop
+rb in 1694 is changed to loop
+rb in 1705 is changed to loop
+rb in 1706 is changed to loop
+rb in 1707 is changed to loop
+rb in 1721 is changed to loop
+rb in 1722 is changed to loop
+rb in 1734 is changed to loop
+rb in 1735 is changed to loop
+rb in 1746 is changed to loop
+rb in 1747 is changed to loop
+rb in 1748 is changed to loop
+rb in 1972 is changed to loop
+rb in 1973 is changed to loop
+rb in 1974 is changed to loop
+rb in 2364 is changed to loop
+rb in 2368 is changed to loop
+rb in 2369 is changed to loop
+rb in 2405 is changed to loop
+rb in 2406 is changed to loop
+rb in 2438 is changed to loop
+rb in 2442 is changed to loop
+rb in 2443 is changed to loop
+rb in 2471 is changed to loop
+rb in 2472 is changed to loop
+rb in 2502 is changed to loop
+rb in 2503 is changed to loop
+rb in 2512 is changed to loop
+rb in 2513 is changed to loop
+rb in 2530 is changed to loop
+rb in 2531 is changed to loop
+rb in 2549 is changed to loop
+rb in 2550 is changed to loop
+rb in 2590 is changed to loop
+rb in 2594 is changed to loop
+rb in 2595 is changed to loop
+rb in 2631 is changed to loop
+rb in 2632 is changed to loop
+rb in 2662 is changed to loop
+rb in 2666 is changed to loop
+rb in 2667 is changed to loop
+rb in 2694 is changed to loop
+rb in 2695 is changed to loop
+rb in 2724 is changed to loop
+rb in 2725 is changed to loop
+rb in 2734 is changed to loop
+rb in 2735 is changed to loop
+rb in 2752 is changed to loop
+rb in 2753 is changed to loop
+rb in 2771 is changed to loop
+rb in 2772 is changed to loop
+rb in 2811 is changed to loop
+rb in 2812 is changed to loop
+rb in 2813 is changed to loop
+rb in 2850 is changed to loop
+rb in 2851 is changed to loop
+rb in 2883 is changed to loop
+rb in 2884 is changed to loop
+rb in 2885 is changed to loop
+rb in 2914 is changed to loop
+rb in 2915 is changed to loop
+rb in 2946 is changed to loop
+rb in 2947 is changed to loop
+rb in 2957 is changed to loop
+rb in 2958 is changed to loop
+rb in 2976 is changed to loop
+rb in 2977 is changed to loop
+rb in 2995 is changed to loop
+rb in 2996 is changed to loop
+rb in 240 is changed to loop
+rb in 242 is changed to loop
+rb in 244 is changed to loop
+rb in 278 is changed to loop
+rb in 279 is changed to loop
+rb in 280 is changed to loop
+rb in 898 is changed to loop
+rb in 899 is changed to loop
+rb in 901 is changed to loop
+rb in 911 is changed to loop
+rb in 927 is changed to loop
+rb in 928 is changed to loop
+rb in 940 is changed to loop
+rb in 941 is changed to loop
+rb in 942 is changed to loop
+rb in 954 is changed to loop
+rb in 955 is changed to loop
+rb in 972 is changed to loop
+rb in 973 is changed to loop
+rb in 974 is changed to loop
+rb in 1012 is changed to loop
+rb in 1013 is changed to loop
+rb in 1015 is changed to loop
+rb in 1025 is changed to loop
+rb in 1041 is changed to loop
+rb in 1042 is changed to loop
+rb in 1056 is changed to loop
+rb in 1057 is changed to loop
+rb in 1058 is changed to loop
+rb in 1070 is changed to loop
+rb in 1071 is changed to loop
+rb in 1087 is changed to loop
+rb in 1088 is changed to loop
+rb in 1089 is changed to loop
+rb in 1127 is changed to loop
+rb in 1128 is changed to loop
+rb in 1130 is changed to loop
+rb in 1140 is changed to loop
+rb in 1156 is changed to loop
+rb in 1157 is changed to loop
+rb in 1170 is changed to loop
+rb in 1171 is changed to loop
+rb in 1172 is changed to loop
+rb in 1184 is changed to loop
+rb in 1185 is changed to loop
+rb in 1201 is changed to loop
+rb in 1202 is changed to loop
+rb in 1203 is changed to loop
+rb in 1238 is changed to loop
+rb in 1239 is changed to loop
+rb in 1240 is changed to loop
+rb in 1277 is changed to loop
+rb in 1278 is changed to loop
+rb in 1279 is changed to loop
+rb in 2021 is changed to loop
+rb in 2022 is changed to loop
+rb in 2023 is changed to loop
+####  output Minoru_Q ####
+#####   call graph  ######
+## specify char length ###
+##### insert ioctl qr ####
+###### Structuring  ######
+#####   call graph  ######
+##remove redundant common#
+#######   inline   #######
+#####   call graph  ######
+#########  subid  ########
+#### Expand & Private ####
+#### Set main PG & PE ####
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+#####   call graph  ######
+#### Control flow ana1 ###
+# flow-sensitive ptr ana #
+#####   call graph  ######
+#### def/use analysis ####
+#### set loop bounder ####
+## argument def/use ana ##
+### dataflow  analysis ###
+### loop index renaming ##
+#####   call graph  ######
+##### array symbolic #####
+Command terminated by signal 2
+2.07user 0.04system 0:02.17elapsed 97%CPU (0avgtext+0avgdata 277976maxresident)k
+0inputs+896outputs (0major+68731minor)pagefaults 0swaps

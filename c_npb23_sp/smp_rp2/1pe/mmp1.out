@@ -1,0 +1,1144 @@
+ 
+ [MINORU] Fortran Compiler Middle Path
+ Narita Kasahara Kimura Lab. 1992-2009
+
+#######    qrfe    #######
+#######  entry2sub #######
+####### C Blocking #######
+Type_table 9 is changed to 14 on member E2
+Type_table 10 is changed to 14 on member E2
+Type_table 10 is unified into 14
+Type_table 9 is unified into 14
+#####   call graph  ######
+#####   call graph  ######
+rb in 692 is changed to loop
+rb in 694 is changed to loop
+rb in 696 is changed to loop
+rb in 741 is changed to loop
+rb in 743 is changed to loop
+rb in 758 is changed to loop
+rb in 760 is changed to loop
+rb in 775 is changed to loop
+rb in 777 is changed to loop
+rb in 792 is changed to loop
+rb in 794 is changed to loop
+rb in 809 is changed to loop
+rb in 811 is changed to loop
+rb in 826 is changed to loop
+rb in 828 is changed to loop
+rb in 854 is changed to loop
+rb in 855 is changed to loop
+rb in 856 is changed to loop
+rb in 870 is changed to loop
+rb in 871 is changed to loop
+rb in 872 is changed to loop
+rb in 316 is changed to loop
+rb in 317 is changed to loop
+rb in 318 is changed to loop
+rb in 328 is changed to loop
+rb in 330 is changed to loop
+rb in 333 is changed to loop
+rb in 353 is changed to loop
+rb in 401 is changed to loop
+rb in 423 is changed to loop
+rb in 425 is changed to loop
+rb in 428 is changed to loop
+rb in 448 is changed to loop
+rb in 496 is changed to loop
+rb in 519 is changed to loop
+rb in 521 is changed to loop
+rb in 524 is changed to loop
+rb in 545 is changed to loop
+rb in 593 is changed to loop
+rb in 616 is changed to loop
+rb in 617 is changed to loop
+rb in 618 is changed to loop
+rb in 189 is changed to loop
+rb in 190 is changed to loop
+rb in 191 is changed to loop
+rb in 1318 is changed to loop
+rb in 1319 is changed to loop
+rb in 1320 is changed to loop
+rb in 1349 is changed to loop
+rb in 1350 is changed to loop
+rb in 1351 is changed to loop
+rb in 1362 is changed to loop
+rb in 1363 is changed to loop
+rb in 1364 is changed to loop
+rb in 1424 is changed to loop
+rb in 1425 is changed to loop
+rb in 1435 is changed to loop
+rb in 1436 is changed to loop
+rb in 1446 is changed to loop
+rb in 1447 is changed to loop
+rb in 1448 is changed to loop
+rb in 1461 is changed to loop
+rb in 1462 is changed to loop
+rb in 1473 is changed to loop
+rb in 1474 is changed to loop
+rb in 1487 is changed to loop
+rb in 1488 is changed to loop
+rb in 1489 is changed to loop
+rb in 1545 is changed to loop
+rb in 1546 is changed to loop
+rb in 1557 is changed to loop
+rb in 1558 is changed to loop
+rb in 1568 is changed to loop
+rb in 1569 is changed to loop
+rb in 1570 is changed to loop
+rb in 1583 is changed to loop
+rb in 1584 is changed to loop
+rb in 1595 is changed to loop
+rb in 1596 is changed to loop
+rb in 1609 is changed to loop
+rb in 1610 is changed to loop
+rb in 1611 is changed to loop
+rb in 1668 is changed to loop
+rb in 1669 is changed to loop
+rb in 1680 is changed to loop
+rb in 1681 is changed to loop
+rb in 1691 is changed to loop
+rb in 1692 is changed to loop
+rb in 1693 is changed to loop
+rb in 1706 is changed to loop
+rb in 1707 is changed to loop
+rb in 1718 is changed to loop
+rb in 1719 is changed to loop
+rb in 1729 is changed to loop
+rb in 1730 is changed to loop
+rb in 1731 is changed to loop
+rb in 1955 is changed to loop
+rb in 1956 is changed to loop
+rb in 1957 is changed to loop
+rb in 2343 is changed to loop
+rb in 2347 is changed to loop
+rb in 2348 is changed to loop
+rb in 2384 is changed to loop
+rb in 2385 is changed to loop
+rb in 2417 is changed to loop
+rb in 2421 is changed to loop
+rb in 2422 is changed to loop
+rb in 2450 is changed to loop
+rb in 2451 is changed to loop
+rb in 2481 is changed to loop
+rb in 2482 is changed to loop
+rb in 2491 is changed to loop
+rb in 2492 is changed to loop
+rb in 2509 is changed to loop
+rb in 2510 is changed to loop
+rb in 2528 is changed to loop
+rb in 2529 is changed to loop
+rb in 2569 is changed to loop
+rb in 2573 is changed to loop
+rb in 2574 is changed to loop
+rb in 2610 is changed to loop
+rb in 2611 is changed to loop
+rb in 2641 is changed to loop
+rb in 2645 is changed to loop
+rb in 2646 is changed to loop
+rb in 2673 is changed to loop
+rb in 2674 is changed to loop
+rb in 2703 is changed to loop
+rb in 2704 is changed to loop
+rb in 2713 is changed to loop
+rb in 2714 is changed to loop
+rb in 2731 is changed to loop
+rb in 2732 is changed to loop
+rb in 2750 is changed to loop
+rb in 2751 is changed to loop
+rb in 2790 is changed to loop
+rb in 2791 is changed to loop
+rb in 2792 is changed to loop
+rb in 2829 is changed to loop
+rb in 2830 is changed to loop
+rb in 2862 is changed to loop
+rb in 2863 is changed to loop
+rb in 2864 is changed to loop
+rb in 2893 is changed to loop
+rb in 2894 is changed to loop
+rb in 2925 is changed to loop
+rb in 2926 is changed to loop
+rb in 2936 is changed to loop
+rb in 2937 is changed to loop
+rb in 2955 is changed to loop
+rb in 2956 is changed to loop
+rb in 2974 is changed to loop
+rb in 2975 is changed to loop
+rb in 240 is changed to loop
+rb in 242 is changed to loop
+rb in 244 is changed to loop
+rb in 278 is changed to loop
+rb in 279 is changed to loop
+rb in 280 is changed to loop
+rb in 898 is changed to loop
+rb in 899 is changed to loop
+rb in 901 is changed to loop
+rb in 911 is changed to loop
+rb in 927 is changed to loop
+rb in 928 is changed to loop
+rb in 940 is changed to loop
+rb in 941 is changed to loop
+rb in 942 is changed to loop
+rb in 954 is changed to loop
+rb in 955 is changed to loop
+rb in 972 is changed to loop
+rb in 973 is changed to loop
+rb in 974 is changed to loop
+rb in 1012 is changed to loop
+rb in 1013 is changed to loop
+rb in 1015 is changed to loop
+rb in 1025 is changed to loop
+rb in 1041 is changed to loop
+rb in 1042 is changed to loop
+rb in 1056 is changed to loop
+rb in 1057 is changed to loop
+rb in 1058 is changed to loop
+rb in 1070 is changed to loop
+rb in 1071 is changed to loop
+rb in 1087 is changed to loop
+rb in 1088 is changed to loop
+rb in 1089 is changed to loop
+rb in 1127 is changed to loop
+rb in 1128 is changed to loop
+rb in 1130 is changed to loop
+rb in 1140 is changed to loop
+rb in 1156 is changed to loop
+rb in 1157 is changed to loop
+rb in 1170 is changed to loop
+rb in 1171 is changed to loop
+rb in 1172 is changed to loop
+rb in 1184 is changed to loop
+rb in 1185 is changed to loop
+rb in 1201 is changed to loop
+rb in 1202 is changed to loop
+rb in 1203 is changed to loop
+rb in 1238 is changed to loop
+rb in 1239 is changed to loop
+rb in 1240 is changed to loop
+rb in 1277 is changed to loop
+rb in 1278 is changed to loop
+rb in 1279 is changed to loop
+rb in 2004 is changed to loop
+rb in 2005 is changed to loop
+rb in 2006 is changed to loop
+####  output Minoru_Q ####
+#####   call graph  ######
+## specify char length ###
+##### insert ioctl qr ####
+###### Structuring  ######
+#####   call graph  ######
+##remove redundant common#
+#######   inline   #######
+#####   call graph  ######
+#########  subid  ########
+#### Expand & Private ####
+#### Set main PG & PE ####
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+#####   call graph  ######
+#### Control flow ana1 ###
+# flow-sensitive ptr ana #
+#####   call graph  ######
+#### def/use analysis ####
+#### set loop bounder ####
+## argument def/use ana ##
+### dataflow  analysis ###
+### loop index renaming ##
+#####   call graph  ######
+##### array symbolic #####
+##### in/out analysis1 ###
+##### make dda data1 #####
+####### do loop dda ######
+#####   call graph  ######
+###### block cyclic ######
+#### cost computation ####
+## Pseudo program costs ##
+### Check Vpp Directive ##
+##### Remaking HMDF ######
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+#### Control flow ana ####
+#########  subid  ########
+# flow-sensitive ptr ana #
+#####   call graph  ######
+###### def/use ana #######
+#### set loop bounder ####
+## argument def/use ana ##
+### dataflow analysis ####
+##### array symbolic #####
+##### in/out analysis ####
+##### make dda data ######
+####### do loop dda ######
+#### Make pseudo MTG #####
+## add Lad by hmdf info ##
+##### array reduction ####
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+# insert doacr send/recv #
+##### MT generation ######
+#### Control flow ana2 ###
+# flow-sensitive ptr ana #
+#####   call graph  ######
+###### def/use ana2 ######
+#### set loop bounder2 ###
+## argument def/use ana2 #
+### dataflow analysis2 ###
+##### array symbolic2 ####
+##### in/out analysis2 ###
+##### make dda data2 #####
+#### cost computation2 ###
+#######  paracode  #######
+### Calc program costs ###
+## Make Macro Task Graph #
+####  output Minoru_Q ####
+#### After C Blocking ####
+#### private 1pe var #####
+####  output Minoru_Q ####
+(l.138) include SUBROUTINE_CALL 
+(l.138) loop has import func call 
+(l.676) loop was recognized as DOALL (initialize)
+(l.677) outer loop is DOALL or DOSUM 
+(l.678) outer loop is DOALL or DOSUM 
+(l.692) include upwards-exposed use of A65<<Pface>> 
+(l.692) A65<<Pface>>has loop carried dependence 
+(l.694) include upwards-exposed use of A65<<Pface>> 
+(l.694) A65<<Pface>>has loop carried dependence 
+(l.696) include upwards-exposed use of A65<<Pface>> 
+(l.696) A65<<Pface>>has loop carried dependence 
+(l.699) loop was recognized as DOALL (initialize)
+(l.704) loop was recognized as DOALL (initialize)
+(l.709) loop was recognized as DOALL (initialize)
+(l.714) loop was recognized as DOALL (initialize)
+(l.741) include upwards-exposed use of A66<<temp>> 
+(l.741) A66<<temp>>has loop carried dependence 
+(l.743) include upwards-exposed use of A66<<temp>> 
+(l.743) A66<<temp>>has loop carried dependence 
+(l.746) loop was recognized as DOALL (initialize)
+(l.758) include upwards-exposed use of A66<<temp>> 
+(l.758) A66<<temp>>has loop carried dependence 
+(l.760) include upwards-exposed use of A66<<temp>> 
+(l.760) A66<<temp>>has loop carried dependence 
+(l.763) loop was recognized as DOALL (initialize)
+(l.775) include upwards-exposed use of A66<<temp>> 
+(l.775) A66<<temp>>has loop carried dependence 
+(l.777) include upwards-exposed use of A66<<temp>> 
+(l.777) A66<<temp>>has loop carried dependence 
+(l.780) loop was recognized as DOALL (initialize)
+(l.792) include upwards-exposed use of A66<<temp>> 
+(l.792) A66<<temp>>has loop carried dependence 
+(l.794) include upwards-exposed use of A66<<temp>> 
+(l.794) A66<<temp>>has loop carried dependence 
+(l.797) loop was recognized as DOALL (initialize)
+(l.809) include upwards-exposed use of A66<<temp>> 
+(l.809) A66<<temp>>has loop carried dependence 
+(l.811) include upwards-exposed use of A66<<temp>> 
+(l.811) A66<<temp>>has loop carried dependence 
+(l.814) loop was recognized as DOALL (initialize)
+(l.826) include upwards-exposed use of A66<<temp>> 
+(l.826) A66<<temp>>has loop carried dependence 
+(l.828) include upwards-exposed use of A66<<temp>> 
+(l.828) A66<<temp>>has loop carried dependence 
+(l.831) loop was recognized as DOALL (initialize)
+(l.852) loop was recognized as DOALL (lhsinit)
+(l.854) outer loop is DOALL or DOSUM 
+(l.855) outer loop is DOALL or DOSUM 
+(l.856) outer loop is DOALL or DOSUM 
+(l.868) loop was recognized as DOALL (lhsinit)
+(l.870) outer loop is DOALL or DOSUM 
+(l.871) outer loop is DOALL or DOSUM 
+(l.872) outer loop is DOALL or DOSUM 
+(l.315) loop was recognized as DOALL (exact_rhs)
+(l.316) outer loop is DOALL or DOSUM 
+(l.317) outer loop is DOALL or DOSUM 
+(l.318) outer loop is DOALL or DOSUM 
+(l.328) A65<<dtemp>>has loop carried dependence 
+(l.328) A21<<ue>>has loop carried dependence 
+(l.328) A22<<buf>>has loop carried dependence 
+(l.328) A19<<cuf>>has loop carried dependence 
+(l.328) A22<<buf>>has loop carried dependence 
+(l.328) A20<<q>>has loop carried dependence 
+(l.330) A65<<dtemp>>has loop carried dependence 
+(l.330) A21<<ue>>has loop carried dependence 
+(l.330) A22<<buf>>has loop carried dependence 
+(l.330) A19<<cuf>>has loop carried dependence 
+(l.330) A22<<buf>>has loop carried dependence 
+(l.330) A20<<q>>has loop carried dependence 
+(l.333) include upwards-exposed use of A65<<dtemp>> 
+(l.333) A65<<dtemp>>has loop carried dependence 
+(l.337) loop was recognized as DOALL (exact_rhs)
+(l.343) loop was recognized as DOALL (exact_rhs)
+(l.353) loop was recognized as DOALL (exact_rhs)
+(l.390) loop was recognized as DOALL (exact_rhs)
+(l.400) loop was recognized as DOALL (exact_rhs)
+(l.401) outer loop is DOALL or DOSUM 
+(l.408) loop was recognized as DOALL (exact_rhs)
+(l.423) A65<<dtemp>>has loop carried dependence 
+(l.423) A21<<ue>>has loop carried dependence 
+(l.423) A22<<buf>>has loop carried dependence 
+(l.423) A19<<cuf>>has loop carried dependence 
+(l.423) A22<<buf>>has loop carried dependence 
+(l.423) A20<<q>>has loop carried dependence 
+(l.425) A65<<dtemp>>has loop carried dependence 
+(l.425) A21<<ue>>has loop carried dependence 
+(l.425) A22<<buf>>has loop carried dependence 
+(l.425) A19<<cuf>>has loop carried dependence 
+(l.425) A22<<buf>>has loop carried dependence 
+(l.425) A20<<q>>has loop carried dependence 
+(l.428) include upwards-exposed use of A65<<dtemp>> 
+(l.428) A65<<dtemp>>has loop carried dependence 
+(l.432) loop was recognized as DOALL (exact_rhs)
+(l.437) loop was recognized as DOALL (exact_rhs)
+(l.448) loop was recognized as DOALL (exact_rhs)
+(l.485) loop was recognized as DOALL (exact_rhs)
+(l.495) loop was recognized as DOALL (exact_rhs)
+(l.496) outer loop is DOALL or DOSUM 
+(l.503) loop was recognized as DOALL (exact_rhs)
+(l.519) A65<<dtemp>>has loop carried dependence 
+(l.519) A21<<ue>>has loop carried dependence 
+(l.519) A22<<buf>>has loop carried dependence 
+(l.519) A19<<cuf>>has loop carried dependence 
+(l.519) A22<<buf>>has loop carried dependence 
+(l.519) A20<<q>>has loop carried dependence 
+(l.521) A65<<dtemp>>has loop carried dependence 
+(l.521) A21<<ue>>has loop carried dependence 
+(l.521) A22<<buf>>has loop carried dependence 
+(l.521) A19<<cuf>>has loop carried dependence 
+(l.521) A22<<buf>>has loop carried dependence 
+(l.521) A20<<q>>has loop carried dependence 
+(l.524) include upwards-exposed use of A65<<dtemp>> 
+(l.524) A65<<dtemp>>has loop carried dependence 
+(l.528) loop was recognized as DOALL (exact_rhs)
+(l.534) loop was recognized as DOALL (exact_rhs)
+(l.545) loop was recognized as DOALL (exact_rhs)
+(l.582) loop was recognized as DOALL (exact_rhs)
+(l.592) loop was recognized as DOALL (exact_rhs)
+(l.593) outer loop is DOALL or DOSUM 
+(l.600) loop was recognized as DOALL (exact_rhs)
+(l.615) loop was recognized as DOALL (exact_rhs)
+(l.616) outer loop is DOALL or DOSUM 
+(l.617) outer loop is DOALL or DOSUM 
+(l.618) outer loop is DOALL or DOSUM 
+(l.2071) loop was recognized as DOALL (verify)
+(l.2078) loop was recognized as DOALL (verify)
+(l.2244) loop was recognized as DOALL (verify)
+(l.2274) loop has import func call 
+(l.2293) loop has import func call 
+(l.188) loop was recognized as DOALL (add)
+(l.189) outer loop is DOALL or DOSUM 
+(l.190) outer loop is DOALL or DOSUM 
+(l.191) outer loop is DOALL or DOSUM 
+(l.1318) loop was recognized as DOALL (compute_rhs)
+(l.1319) outer loop is DOALL or DOSUM 
+(l.1320) outer loop is DOALL or DOSUM 
+(l.1347) loop was recognized as DOALL (compute_rhs)
+(l.1349) outer loop is DOALL or DOSUM 
+(l.1350) outer loop is DOALL or DOSUM 
+(l.1351) outer loop is DOALL or DOSUM 
+(l.1362) loop was recognized as DOALL (compute_rhs)
+(l.1363) outer loop is DOALL or DOSUM 
+(l.1364) outer loop is DOALL or DOSUM 
+(l.1422) loop was recognized as DOALL (compute_rhs)
+(l.1424) outer loop is DOALL or DOSUM 
+(l.1425) outer loop is DOALL or DOSUM 
+(l.1433) loop was recognized as DOALL (compute_rhs)
+(l.1435) outer loop is DOALL or DOSUM 
+(l.1436) outer loop is DOALL or DOSUM 
+(l.1444) loop was recognized as DOALL (compute_rhs)
+(l.1446) outer loop is DOALL or DOSUM 
+(l.1447) outer loop is DOALL or DOSUM 
+(l.1448) outer loop is DOALL or DOSUM 
+(l.1459) loop was recognized as DOALL (compute_rhs)
+(l.1461) outer loop is DOALL or DOSUM 
+(l.1462) outer loop is DOALL or DOSUM 
+(l.1471) loop was recognized as DOALL (compute_rhs)
+(l.1473) outer loop is DOALL or DOSUM 
+(l.1474) outer loop is DOALL or DOSUM 
+(l.1487) loop was recognized as DOALL (compute_rhs)
+(l.1488) outer loop is DOALL or DOSUM 
+(l.1489) outer loop is DOALL or DOSUM 
+(l.1543) loop was recognized as DOALL (compute_rhs)
+(l.1545) outer loop is DOALL or DOSUM 
+(l.1546) outer loop is DOALL or DOSUM 
+(l.1555) loop was recognized as DOALL (compute_rhs)
+(l.1557) outer loop is DOALL or DOSUM 
+(l.1558) outer loop is DOALL or DOSUM 
+(l.1566) loop was recognized as DOALL (compute_rhs)
+(l.1568) outer loop is DOALL or DOSUM 
+(l.1569) outer loop is DOALL or DOSUM 
+(l.1570) outer loop is DOALL or DOSUM 
+(l.1581) loop was recognized as DOALL (compute_rhs)
+(l.1583) outer loop is DOALL or DOSUM 
+(l.1584) outer loop is DOALL or DOSUM 
+(l.1593) loop was recognized as DOALL (compute_rhs)
+(l.1595) outer loop is DOALL or DOSUM 
+(l.1596) outer loop is DOALL or DOSUM 
+(l.1609) loop was recognized as DOALL (compute_rhs)
+(l.1610) outer loop is DOALL or DOSUM 
+(l.1611) outer loop is DOALL or DOSUM 
+(l.1666) loop was recognized as DOALL (compute_rhs)
+(l.1668) outer loop is DOALL or DOSUM 
+(l.1669) outer loop is DOALL or DOSUM 
+(l.1678) loop was recognized as DOALL (compute_rhs)
+(l.1680) outer loop is DOALL or DOSUM 
+(l.1681) outer loop is DOALL or DOSUM 
+(l.1689) loop was recognized as DOALL (compute_rhs)
+(l.1691) outer loop is DOALL or DOSUM 
+(l.1692) outer loop is DOALL or DOSUM 
+(l.1693) outer loop is DOALL or DOSUM 
+(l.1704) loop was recognized as DOALL (compute_rhs)
+(l.1706) outer loop is DOALL or DOSUM 
+(l.1707) outer loop is DOALL or DOSUM 
+(l.1716) loop was recognized as DOALL (compute_rhs)
+(l.1718) outer loop is DOALL or DOSUM 
+(l.1719) outer loop is DOALL or DOSUM 
+(l.1727) loop was recognized as DOALL (compute_rhs)
+(l.1729) outer loop is DOALL or DOSUM 
+(l.1730) outer loop is DOALL or DOSUM 
+(l.1731) outer loop is DOALL or DOSUM 
+(l.1955) loop was recognized as DOALL (txinvr)
+(l.1956) outer loop is DOALL or DOSUM 
+(l.1957) outer loop is DOALL or DOSUM 
+(l.2343) A14<<lhs>>has loop carried dependence 
+(l.2343) A12<<rhs>>has loop carried dependence 
+(l.2343) A14<<lhs>>has loop carried dependence 
+(l.2343) A12<<rhs>>has loop carried dependence 
+(l.2343) A14<<lhs>>has loop carried dependence 
+(l.2343) A12<<rhs>>has loop carried dependence 
+(l.2347) loop was recognized as DOALL (x_solve)
+(l.2348) outer loop is DOALL or DOSUM 
+(l.2352) outer loop is DOALL or DOSUM 
+(l.2359) outer loop is DOALL or DOSUM 
+(l.2367) outer loop is DOALL or DOSUM 
+(l.2384) loop was recognized as DOALL (x_solve)
+(l.2385) outer loop is DOALL or DOSUM 
+(l.2389) outer loop is DOALL or DOSUM 
+(l.2396) outer loop is DOALL or DOSUM 
+(l.2405) outer loop is DOALL or DOSUM 
+(l.2415) include upwards-exposed use of A14<<lhs>> 
+(l.2415) A14<<lhs>>has loop carried dependence 
+(l.2417) A14<<lhs>>has loop carried dependence 
+(l.2417) A12<<rhs>>has loop carried dependence 
+(l.2417) A14<<lhs>>has loop carried dependence 
+(l.2417) A12<<rhs>>has loop carried dependence 
+(l.2417) A14<<lhs>>has loop carried dependence 
+(l.2417) A12<<rhs>>has loop carried dependence 
+(l.2421) loop was recognized as DOALL (x_solve)
+(l.2422) outer loop is DOALL or DOSUM 
+(l.2450) loop was recognized as DOALL (x_solve)
+(l.2451) outer loop is DOALL or DOSUM 
+(l.2479) loop was recognized as DOALL (x_solve)
+(l.2481) outer loop is DOALL or DOSUM 
+(l.2482) outer loop is DOALL or DOSUM 
+(l.2489) loop was recognized as DOALL (x_solve)
+(l.2491) outer loop is DOALL or DOSUM 
+(l.2492) outer loop is DOALL or DOSUM 
+(l.2504) A12<<rhs>>has loop carried dependence 
+(l.2508) loop was recognized as DOALL (x_solve)
+(l.2509) outer loop is DOALL or DOSUM 
+(l.2510) outer loop is DOALL or DOSUM 
+(l.2522) loop was recognized as DOALL (x_solve)
+(l.2524) A12<<rhs>>has loop carried dependence 
+(l.2528) outer loop is DOALL or DOSUM 
+(l.2529) outer loop is DOALL or DOSUM 
+(l.2569) A14<<lhs>>has loop carried dependence 
+(l.2569) A12<<rhs>>has loop carried dependence 
+(l.2569) A14<<lhs>>has loop carried dependence 
+(l.2569) A12<<rhs>>has loop carried dependence 
+(l.2569) A14<<lhs>>has loop carried dependence 
+(l.2569) A12<<rhs>>has loop carried dependence 
+(l.2573) loop was recognized as DOALL (y_solve)
+(l.2574) outer loop is DOALL or DOSUM 
+(l.2578) outer loop is DOALL or DOSUM 
+(l.2585) outer loop is DOALL or DOSUM 
+(l.2593) outer loop is DOALL or DOSUM 
+(l.2610) loop was recognized as DOALL (y_solve)
+(l.2611) outer loop is DOALL or DOSUM 
+(l.2615) outer loop is DOALL or DOSUM 
+(l.2622) outer loop is DOALL or DOSUM 
+(l.2630) outer loop is DOALL or DOSUM 
+(l.2639) include upwards-exposed use of A14<<lhs>> 
+(l.2639) A14<<lhs>>has loop carried dependence 
+(l.2641) A14<<lhs>>has loop carried dependence 
+(l.2641) A12<<rhs>>has loop carried dependence 
+(l.2641) A14<<lhs>>has loop carried dependence 
+(l.2641) A12<<rhs>>has loop carried dependence 
+(l.2641) A14<<lhs>>has loop carried dependence 
+(l.2641) A12<<rhs>>has loop carried dependence 
+(l.2645) loop was recognized as DOALL (y_solve)
+(l.2646) outer loop is DOALL or DOSUM 
+(l.2673) loop was recognized as DOALL (y_solve)
+(l.2674) outer loop is DOALL or DOSUM 
+(l.2701) loop was recognized as DOALL (y_solve)
+(l.2703) outer loop is DOALL or DOSUM 
+(l.2704) outer loop is DOALL or DOSUM 
+(l.2711) loop was recognized as DOALL (y_solve)
+(l.2713) outer loop is DOALL or DOSUM 
+(l.2714) outer loop is DOALL or DOSUM 
+(l.2726) loop was recognized as DOALL (y_solve)
+(l.2727) A12<<rhs>>has loop carried dependence 
+(l.2731) outer loop is DOALL or DOSUM 
+(l.2732) outer loop is DOALL or DOSUM 
+(l.2744) loop was recognized as DOALL (y_solve)
+(l.2746) A12<<rhs>>has loop carried dependence 
+(l.2750) outer loop is DOALL or DOSUM 
+(l.2751) outer loop is DOALL or DOSUM 
+(l.2790) loop was recognized as DOALL (z_solve)
+(l.2791) outer loop is DOALL or DOSUM 
+(l.2792) A14<<lhs>>has loop carried dependence 
+(l.2792) A12<<rhs>>has loop carried dependence 
+(l.2792) A14<<lhs>>has loop carried dependence 
+(l.2792) A12<<rhs>>has loop carried dependence 
+(l.2792) A14<<lhs>>has loop carried dependence 
+(l.2792) A12<<rhs>>has loop carried dependence 
+(l.2798) outer loop is DOALL or DOSUM 
+(l.2805) outer loop is DOALL or DOSUM 
+(l.2813) outer loop is DOALL or DOSUM 
+(l.2829) loop was recognized as DOALL (z_solve)
+(l.2830) outer loop is DOALL or DOSUM 
+(l.2834) outer loop is DOALL or DOSUM 
+(l.2841) outer loop is DOALL or DOSUM 
+(l.2850) outer loop is DOALL or DOSUM 
+(l.2859) include upwards-exposed use of A14<<lhs>> 
+(l.2859) A14<<lhs>>has loop carried dependence 
+(l.2862) loop was recognized as DOALL (z_solve)
+(l.2863) outer loop is DOALL or DOSUM 
+(l.2864) A14<<lhs>>has loop carried dependence 
+(l.2864) A12<<rhs>>has loop carried dependence 
+(l.2864) A14<<lhs>>has loop carried dependence 
+(l.2864) A12<<rhs>>has loop carried dependence 
+(l.2864) A14<<lhs>>has loop carried dependence 
+(l.2864) A12<<rhs>>has loop carried dependence 
+(l.2893) loop was recognized as DOALL (z_solve)
+(l.2894) outer loop is DOALL or DOSUM 
+(l.2923) loop was recognized as DOALL (z_solve)
+(l.2925) outer loop is DOALL or DOSUM 
+(l.2926) outer loop is DOALL or DOSUM 
+(l.2933) loop was recognized as DOALL (z_solve)
+(l.2936) outer loop is DOALL or DOSUM 
+(l.2937) outer loop is DOALL or DOSUM 
+(l.2953) loop was recognized as DOALL (z_solve)
+(l.2955) outer loop is DOALL or DOSUM 
+(l.2956) outer loop is DOALL or DOSUM 
+(l.2957) A12<<rhs>>has loop carried dependence 
+(l.2971) loop was recognized as DOALL (z_solve)
+(l.2974) outer loop is DOALL or DOSUM 
+(l.2975) outer loop is DOALL or DOSUM 
+(l.2976) A12<<rhs>>has loop carried dependence 
+(l.236) loop was recognized as DOALL (error_norm)
+(l.240) include upwards-exposed use of A65<<u_exact>> 
+(l.240) A65<<u_exact>>has loop carried dependence 
+(l.240) I1<<1_rms>>has loop carried dependence 
+(l.242) include upwards-exposed use of A65<<u_exact>> 
+(l.242) A65<<u_exact>>has loop carried dependence 
+(l.242) I1<<1_rms>>has loop carried dependence 
+(l.244) include upwards-exposed use of A65<<u_exact>> 
+(l.244) A65<<u_exact>>has loop carried dependence 
+(l.244) I1<<1_rms>>has loop carried dependence 
+(l.247) loop was recognized as DOALL (error_norm)
+(l.255) loop was recognized as DOALL (error_norm)
+(l.256) I1<<1_rms>>has loop carried dependence 
+(l.274) loop was recognized as DOALL (rhs_norm)
+(l.278) I1<<1_rms>>has loop carried dependence 
+(l.279) I1<<1_rms>>has loop carried dependence 
+(l.280) I1<<1_rms>>has loop carried dependence 
+(l.281) loop was recognized as DOALL (rhs_norm)
+(l.289) loop was recognized as DOALL (rhs_norm)
+(l.290) I1<<1_rms>>has loop carried dependence 
+(l.641) loop was recognized as DOALL (exact_solution)
+(l.898) include upwards-exposed use of A15<<cv>> 
+(l.898) include upwards-exposed use of A16<<rhon>> 
+(l.898) A15<<cv>>has loop carried dependence 
+(l.898) A16<<rhon>>has loop carried dependence 
+(l.899) include upwards-exposed use of A15<<cv>> 
+(l.899) include upwards-exposed use of A16<<rhon>> 
+(l.899) A15<<cv>>has loop carried dependence 
+(l.899) A16<<rhon>>has loop carried dependence 
+(l.901) loop was recognized as DOALL (lhsx)
+(l.911) loop was recognized as DOALL (lhsx)
+(l.927) loop was recognized as DOALL (lhsx)
+(l.928) outer loop is DOALL or DOSUM 
+(l.940) loop was recognized as DOALL (lhsx)
+(l.941) outer loop is DOALL or DOSUM 
+(l.942) outer loop is DOALL or DOSUM 
+(l.954) loop was recognized as DOALL (lhsx)
+(l.955) outer loop is DOALL or DOSUM 
+(l.972) loop was recognized as DOALL (lhsx)
+(l.973) outer loop is DOALL or DOSUM 
+(l.974) outer loop is DOALL or DOSUM 
+(l.1012) include upwards-exposed use of A15<<cv>> 
+(l.1012) include upwards-exposed use of A18<<rhoq>> 
+(l.1012) A15<<cv>>has loop carried dependence 
+(l.1012) A18<<rhoq>>has loop carried dependence 
+(l.1013) include upwards-exposed use of A15<<cv>> 
+(l.1013) include upwards-exposed use of A18<<rhoq>> 
+(l.1013) A15<<cv>>has loop carried dependence 
+(l.1013) A18<<rhoq>>has loop carried dependence 
+(l.1015) loop was recognized as DOALL (lhsy)
+(l.1025) loop was recognized as DOALL (lhsy)
+(l.1041) loop was recognized as DOALL (lhsy)
+(l.1042) outer loop is DOALL or DOSUM 
+(l.1056) loop was recognized as DOALL (lhsy)
+(l.1057) outer loop is DOALL or DOSUM 
+(l.1058) outer loop is DOALL or DOSUM 
+(l.1070) loop was recognized as DOALL (lhsy)
+(l.1071) outer loop is DOALL or DOSUM 
+(l.1087) loop was recognized as DOALL (lhsy)
+(l.1088) outer loop is DOALL or DOSUM 
+(l.1089) outer loop is DOALL or DOSUM 
+(l.1127) include upwards-exposed use of A15<<cv>> 
+(l.1127) include upwards-exposed use of A17<<rhos>> 
+(l.1127) A15<<cv>>has loop carried dependence 
+(l.1127) A17<<rhos>>has loop carried dependence 
+(l.1128) include upwards-exposed use of A15<<cv>> 
+(l.1128) include upwards-exposed use of A17<<rhos>> 
+(l.1128) A15<<cv>>has loop carried dependence 
+(l.1128) A17<<rhos>>has loop carried dependence 
+(l.1130) loop was recognized as DOALL (lhsz)
+(l.1140) loop was recognized as DOALL (lhsz)
+(l.1156) loop was recognized as DOALL (lhsz)
+(l.1157) outer loop is DOALL or DOSUM 
+(l.1170) loop was recognized as DOALL (lhsz)
+(l.1171) outer loop is DOALL or DOSUM 
+(l.1172) outer loop is DOALL or DOSUM 
+(l.1184) loop was recognized as DOALL (lhsz)
+(l.1185) outer loop is DOALL or DOSUM 
+(l.1201) loop was recognized as DOALL (lhsz)
+(l.1202) outer loop is DOALL or DOSUM 
+(l.1203) outer loop is DOALL or DOSUM 
+(l.1238) loop was recognized as DOALL (ninvr)
+(l.1239) outer loop is DOALL or DOSUM 
+(l.1240) outer loop is DOALL or DOSUM 
+(l.1277) loop was recognized as DOALL (pinvr)
+(l.1278) outer loop is DOALL or DOSUM 
+(l.1279) outer loop is DOALL or DOSUM 
+(l.2004) loop was recognized as DOALL (tzetar)
+(l.2005) outer loop is DOALL or DOSUM 
+(l.2006) outer loop is DOALL or DOSUM 
+(l.138) include SUBROUTINE_CALL 
+(l.138) loop has import func call 
+(l.676) loop was recognized as DOALL (initialize)
+(l.677) outer loop is DOALL or DOSUM 
+(l.678) outer loop is DOALL or DOSUM 
+(l.692) include upwards-exposed use of A65<<Pface>> 
+(l.692) A65<<Pface>>has loop carried dependence 
+(l.694) include upwards-exposed use of A65<<Pface>> 
+(l.694) A65<<Pface>>has loop carried dependence 
+(l.696) include upwards-exposed use of A65<<Pface>> 
+(l.696) A65<<Pface>>has loop carried dependence 
+(l.699) loop was recognized as DOALL (initialize)
+(l.704) loop was recognized as DOALL (initialize)
+(l.709) loop was recognized as DOALL (initialize)
+(l.714) loop was recognized as DOALL (initialize)
+(l.741) include upwards-exposed use of A66<<temp>> 
+(l.741) A66<<temp>>has loop carried dependence 
+(l.743) include upwards-exposed use of A66<<temp>> 
+(l.743) A66<<temp>>has loop carried dependence 
+(l.746) loop was recognized as DOALL (initialize)
+(l.758) include upwards-exposed use of A66<<temp>> 
+(l.758) A66<<temp>>has loop carried dependence 
+(l.760) include upwards-exposed use of A66<<temp>> 
+(l.760) A66<<temp>>has loop carried dependence 
+(l.763) loop was recognized as DOALL (initialize)
+(l.775) include upwards-exposed use of A66<<temp>> 
+(l.775) A66<<temp>>has loop carried dependence 
+(l.777) include upwards-exposed use of A66<<temp>> 
+(l.777) A66<<temp>>has loop carried dependence 
+(l.780) loop was recognized as DOALL (initialize)
+(l.792) include upwards-exposed use of A66<<temp>> 
+(l.792) A66<<temp>>has loop carried dependence 
+(l.794) include upwards-exposed use of A66<<temp>> 
+(l.794) A66<<temp>>has loop carried dependence 
+(l.797) loop was recognized as DOALL (initialize)
+(l.809) include upwards-exposed use of A66<<temp>> 
+(l.809) A66<<temp>>has loop carried dependence 
+(l.811) include upwards-exposed use of A66<<temp>> 
+(l.811) A66<<temp>>has loop carried dependence 
+(l.814) loop was recognized as DOALL (initialize)
+(l.826) include upwards-exposed use of A66<<temp>> 
+(l.826) A66<<temp>>has loop carried dependence 
+(l.828) include upwards-exposed use of A66<<temp>> 
+(l.828) A66<<temp>>has loop carried dependence 
+(l.831) loop was recognized as DOALL (initialize)
+(l.852) loop was recognized as DOALL (lhsinit)
+(l.854) outer loop is DOALL or DOSUM 
+(l.855) outer loop is DOALL or DOSUM 
+(l.856) outer loop is DOALL or DOSUM 
+(l.868) loop was recognized as DOALL (lhsinit)
+(l.870) outer loop is DOALL or DOSUM 
+(l.871) outer loop is DOALL or DOSUM 
+(l.872) outer loop is DOALL or DOSUM 
+(l.315) loop was recognized as DOALL (exact_rhs)
+(l.316) outer loop is DOALL or DOSUM 
+(l.317) outer loop is DOALL or DOSUM 
+(l.318) outer loop is DOALL or DOSUM 
+(l.328) A65<<dtemp>>has loop carried dependence 
+(l.328) A21<<ue>>has loop carried dependence 
+(l.328) A22<<buf>>has loop carried dependence 
+(l.328) A19<<cuf>>has loop carried dependence 
+(l.328) A22<<buf>>has loop carried dependence 
+(l.328) A20<<q>>has loop carried dependence 
+(l.330) A65<<dtemp>>has loop carried dependence 
+(l.330) A21<<ue>>has loop carried dependence 
+(l.330) A22<<buf>>has loop carried dependence 
+(l.330) A19<<cuf>>has loop carried dependence 
+(l.330) A22<<buf>>has loop carried dependence 
+(l.330) A20<<q>>has loop carried dependence 
+(l.333) include upwards-exposed use of A65<<dtemp>> 
+(l.333) A65<<dtemp>>has loop carried dependence 
+(l.337) loop was recognized as DOALL (exact_rhs)
+(l.343) loop was recognized as DOALL (exact_rhs)
+(l.353) loop was recognized as DOALL (exact_rhs)
+(l.390) loop was recognized as DOALL (exact_rhs)
+(l.400) loop was recognized as DOALL (exact_rhs)
+(l.401) outer loop is DOALL or DOSUM 
+(l.408) loop was recognized as DOALL (exact_rhs)
+(l.423) A65<<dtemp>>has loop carried dependence 
+(l.423) A21<<ue>>has loop carried dependence 
+(l.423) A22<<buf>>has loop carried dependence 
+(l.423) A19<<cuf>>has loop carried dependence 
+(l.423) A22<<buf>>has loop carried dependence 
+(l.423) A20<<q>>has loop carried dependence 
+(l.425) A65<<dtemp>>has loop carried dependence 
+(l.425) A21<<ue>>has loop carried dependence 
+(l.425) A22<<buf>>has loop carried dependence 
+(l.425) A19<<cuf>>has loop carried dependence 
+(l.425) A22<<buf>>has loop carried dependence 
+(l.425) A20<<q>>has loop carried dependence 
+(l.428) include upwards-exposed use of A65<<dtemp>> 
+(l.428) A65<<dtemp>>has loop carried dependence 
+(l.432) loop was recognized as DOALL (exact_rhs)
+(l.437) loop was recognized as DOALL (exact_rhs)
+(l.448) loop was recognized as DOALL (exact_rhs)
+(l.485) loop was recognized as DOALL (exact_rhs)
+(l.495) loop was recognized as DOALL (exact_rhs)
+(l.496) outer loop is DOALL or DOSUM 
+(l.503) loop was recognized as DOALL (exact_rhs)
+(l.519) A65<<dtemp>>has loop carried dependence 
+(l.519) A21<<ue>>has loop carried dependence 
+(l.519) A22<<buf>>has loop carried dependence 
+(l.519) A19<<cuf>>has loop carried dependence 
+(l.519) A22<<buf>>has loop carried dependence 
+(l.519) A20<<q>>has loop carried dependence 
+(l.521) A65<<dtemp>>has loop carried dependence 
+(l.521) A21<<ue>>has loop carried dependence 
+(l.521) A22<<buf>>has loop carried dependence 
+(l.521) A19<<cuf>>has loop carried dependence 
+(l.521) A22<<buf>>has loop carried dependence 
+(l.521) A20<<q>>has loop carried dependence 
+(l.524) include upwards-exposed use of A65<<dtemp>> 
+(l.524) A65<<dtemp>>has loop carried dependence 
+(l.528) loop was recognized as DOALL (exact_rhs)
+(l.534) loop was recognized as DOALL (exact_rhs)
+(l.545) loop was recognized as DOALL (exact_rhs)
+(l.582) loop was recognized as DOALL (exact_rhs)
+(l.592) loop was recognized as DOALL (exact_rhs)
+(l.593) outer loop is DOALL or DOSUM 
+(l.600) loop was recognized as DOALL (exact_rhs)
+(l.615) loop was recognized as DOALL (exact_rhs)
+(l.616) outer loop is DOALL or DOSUM 
+(l.617) outer loop is DOALL or DOSUM 
+(l.618) outer loop is DOALL or DOSUM 
+(l.2071) loop was recognized as DOALL (verify)
+(l.2078) loop was recognized as DOALL (verify)
+(l.2244) loop was recognized as DOALL (verify)
+(l.2274) loop has import func call 
+(l.2293) loop has import func call 
+(l.188) loop was recognized as DOALL (add)
+(l.189) outer loop is DOALL or DOSUM 
+(l.190) outer loop is DOALL or DOSUM 
+(l.191) outer loop is DOALL or DOSUM 
+(l.1318) loop was recognized as DOALL (compute_rhs)
+(l.1319) outer loop is DOALL or DOSUM 
+(l.1320) outer loop is DOALL or DOSUM 
+(l.1347) loop was recognized as DOALL (compute_rhs)
+(l.1349) outer loop is DOALL or DOSUM 
+(l.1350) outer loop is DOALL or DOSUM 
+(l.1351) outer loop is DOALL or DOSUM 
+(l.1362) loop was recognized as DOALL (compute_rhs)
+(l.1363) outer loop is DOALL or DOSUM 
+(l.1364) outer loop is DOALL or DOSUM 
+(l.1422) loop was recognized as DOALL (compute_rhs)
+(l.1424) outer loop is DOALL or DOSUM 
+(l.1425) outer loop is DOALL or DOSUM 
+(l.1433) loop was recognized as DOALL (compute_rhs)
+(l.1435) outer loop is DOALL or DOSUM 
+(l.1436) outer loop is DOALL or DOSUM 
+(l.1444) loop was recognized as DOALL (compute_rhs)
+(l.1446) outer loop is DOALL or DOSUM 
+(l.1447) outer loop is DOALL or DOSUM 
+(l.1448) outer loop is DOALL or DOSUM 
+(l.1459) loop was recognized as DOALL (compute_rhs)
+(l.1461) outer loop is DOALL or DOSUM 
+(l.1462) outer loop is DOALL or DOSUM 
+(l.1471) loop was recognized as DOALL (compute_rhs)
+(l.1473) outer loop is DOALL or DOSUM 
+(l.1474) outer loop is DOALL or DOSUM 
+(l.1487) loop was recognized as DOALL (compute_rhs)
+(l.1488) outer loop is DOALL or DOSUM 
+(l.1489) outer loop is DOALL or DOSUM 
+(l.1543) loop was recognized as DOALL (compute_rhs)
+(l.1545) outer loop is DOALL or DOSUM 
+(l.1546) outer loop is DOALL or DOSUM 
+(l.1555) loop was recognized as DOALL (compute_rhs)
+(l.1557) outer loop is DOALL or DOSUM 
+(l.1558) outer loop is DOALL or DOSUM 
+(l.1566) loop was recognized as DOALL (compute_rhs)
+(l.1568) outer loop is DOALL or DOSUM 
+(l.1569) outer loop is DOALL or DOSUM 
+(l.1570) outer loop is DOALL or DOSUM 
+(l.1581) loop was recognized as DOALL (compute_rhs)
+(l.1583) outer loop is DOALL or DOSUM 
+(l.1584) outer loop is DOALL or DOSUM 
+(l.1593) loop was recognized as DOALL (compute_rhs)
+(l.1595) outer loop is DOALL or DOSUM 
+(l.1596) outer loop is DOALL or DOSUM 
+(l.1609) loop was recognized as DOALL (compute_rhs)
+(l.1610) outer loop is DOALL or DOSUM 
+(l.1611) outer loop is DOALL or DOSUM 
+(l.1666) loop was recognized as DOALL (compute_rhs)
+(l.1668) outer loop is DOALL or DOSUM 
+(l.1669) outer loop is DOALL or DOSUM 
+(l.1678) loop was recognized as DOALL (compute_rhs)
+(l.1680) outer loop is DOALL or DOSUM 
+(l.1681) outer loop is DOALL or DOSUM 
+(l.1689) loop was recognized as DOALL (compute_rhs)
+(l.1691) outer loop is DOALL or DOSUM 
+(l.1692) outer loop is DOALL or DOSUM 
+(l.1693) outer loop is DOALL or DOSUM 
+(l.1704) loop was recognized as DOALL (compute_rhs)
+(l.1706) outer loop is DOALL or DOSUM 
+(l.1707) outer loop is DOALL or DOSUM 
+(l.1716) loop was recognized as DOALL (compute_rhs)
+(l.1718) outer loop is DOALL or DOSUM 
+(l.1719) outer loop is DOALL or DOSUM 
+(l.1727) loop was recognized as DOALL (compute_rhs)
+(l.1729) outer loop is DOALL or DOSUM 
+(l.1730) outer loop is DOALL or DOSUM 
+(l.1731) outer loop is DOALL or DOSUM 
+(l.1955) loop was recognized as DOALL (txinvr)
+(l.1956) outer loop is DOALL or DOSUM 
+(l.1957) outer loop is DOALL or DOSUM 
+(l.2343) A14<<lhs>>has loop carried dependence 
+(l.2343) A12<<rhs>>has loop carried dependence 
+(l.2343) A14<<lhs>>has loop carried dependence 
+(l.2343) A12<<rhs>>has loop carried dependence 
+(l.2343) A14<<lhs>>has loop carried dependence 
+(l.2343) A12<<rhs>>has loop carried dependence 
+(l.2347) loop was recognized as DOALL (x_solve)
+(l.2348) outer loop is DOALL or DOSUM 
+(l.2352) outer loop is DOALL or DOSUM 
+(l.2359) outer loop is DOALL or DOSUM 
+(l.2367) outer loop is DOALL or DOSUM 
+(l.2384) loop was recognized as DOALL (x_solve)
+(l.2385) outer loop is DOALL or DOSUM 
+(l.2389) outer loop is DOALL or DOSUM 
+(l.2396) outer loop is DOALL or DOSUM 
+(l.2405) outer loop is DOALL or DOSUM 
+(l.2415) include upwards-exposed use of A14<<lhs>> 
+(l.2415) A14<<lhs>>has loop carried dependence 
+(l.2417) A14<<lhs>>has loop carried dependence 
+(l.2417) A12<<rhs>>has loop carried dependence 
+(l.2417) A14<<lhs>>has loop carried dependence 
+(l.2417) A12<<rhs>>has loop carried dependence 
+(l.2417) A14<<lhs>>has loop carried dependence 
+(l.2417) A12<<rhs>>has loop carried dependence 
+(l.2421) loop was recognized as DOALL (x_solve)
+(l.2422) outer loop is DOALL or DOSUM 
+(l.2450) loop was recognized as DOALL (x_solve)
+(l.2451) outer loop is DOALL or DOSUM 
+(l.2479) loop was recognized as DOALL (x_solve)
+(l.2481) outer loop is DOALL or DOSUM 
+(l.2482) outer loop is DOALL or DOSUM 
+(l.2489) loop was recognized as DOALL (x_solve)
+(l.2491) outer loop is DOALL or DOSUM 
+(l.2492) outer loop is DOALL or DOSUM 
+(l.2504) A12<<rhs>>has loop carried dependence 
+(l.2508) loop was recognized as DOALL (x_solve)
+(l.2509) outer loop is DOALL or DOSUM 
+(l.2510) outer loop is DOALL or DOSUM 
+(l.2522) loop was recognized as DOALL (x_solve)
+(l.2524) A12<<rhs>>has loop carried dependence 
+(l.2528) outer loop is DOALL or DOSUM 
+(l.2529) outer loop is DOALL or DOSUM 
+(l.2569) A14<<lhs>>has loop carried dependence 
+(l.2569) A12<<rhs>>has loop carried dependence 
+(l.2569) A14<<lhs>>has loop carried dependence 
+(l.2569) A12<<rhs>>has loop carried dependence 
+(l.2569) A14<<lhs>>has loop carried dependence 
+(l.2569) A12<<rhs>>has loop carried dependence 
+(l.2573) loop was recognized as DOALL (y_solve)
+(l.2574) outer loop is DOALL or DOSUM 
+(l.2578) outer loop is DOALL or DOSUM 
+(l.2585) outer loop is DOALL or DOSUM 
+(l.2593) outer loop is DOALL or DOSUM 
+(l.2610) loop was recognized as DOALL (y_solve)
+(l.2611) outer loop is DOALL or DOSUM 
+(l.2615) outer loop is DOALL or DOSUM 
+(l.2622) outer loop is DOALL or DOSUM 
+(l.2630) outer loop is DOALL or DOSUM 
+(l.2639) include upwards-exposed use of A14<<lhs>> 
+(l.2639) A14<<lhs>>has loop carried dependence 
+(l.2641) A14<<lhs>>has loop carried dependence 
+(l.2641) A12<<rhs>>has loop carried dependence 
+(l.2641) A14<<lhs>>has loop carried dependence 
+(l.2641) A12<<rhs>>has loop carried dependence 
+(l.2641) A14<<lhs>>has loop carried dependence 
+(l.2641) A12<<rhs>>has loop carried dependence 
+(l.2645) loop was recognized as DOALL (y_solve)
+(l.2646) outer loop is DOALL or DOSUM 
+(l.2673) loop was recognized as DOALL (y_solve)
+(l.2674) outer loop is DOALL or DOSUM 
+(l.2701) loop was recognized as DOALL (y_solve)
+(l.2703) outer loop is DOALL or DOSUM 
+(l.2704) outer loop is DOALL or DOSUM 
+(l.2711) loop was recognized as DOALL (y_solve)
+(l.2713) outer loop is DOALL or DOSUM 
+(l.2714) outer loop is DOALL or DOSUM 
+(l.2726) loop was recognized as DOALL (y_solve)
+(l.2727) A12<<rhs>>has loop carried dependence 
+(l.2731) outer loop is DOALL or DOSUM 
+(l.2732) outer loop is DOALL or DOSUM 
+(l.2744) loop was recognized as DOALL (y_solve)
+(l.2746) A12<<rhs>>has loop carried dependence 
+(l.2750) outer loop is DOALL or DOSUM 
+(l.2751) outer loop is DOALL or DOSUM 
+(l.2790) loop was recognized as DOALL (z_solve)
+(l.2791) outer loop is DOALL or DOSUM 
+(l.2792) A14<<lhs>>has loop carried dependence 
+(l.2792) A12<<rhs>>has loop carried dependence 
+(l.2792) A14<<lhs>>has loop carried dependence 
+(l.2792) A12<<rhs>>has loop carried dependence 
+(l.2792) A14<<lhs>>has loop carried dependence 
+(l.2792) A12<<rhs>>has loop carried dependence 
+(l.2798) outer loop is DOALL or DOSUM 
+(l.2805) outer loop is DOALL or DOSUM 
+(l.2813) outer loop is DOALL or DOSUM 
+(l.2829) loop was recognized as DOALL (z_solve)
+(l.2830) outer loop is DOALL or DOSUM 
+(l.2834) outer loop is DOALL or DOSUM 
+(l.2841) outer loop is DOALL or DOSUM 
+(l.2850) outer loop is DOALL or DOSUM 
+(l.2859) include upwards-exposed use of A14<<lhs>> 
+(l.2859) A14<<lhs>>has loop carried dependence 
+(l.2862) loop was recognized as DOALL (z_solve)
+(l.2863) outer loop is DOALL or DOSUM 
+(l.2864) A14<<lhs>>has loop carried dependence 
+(l.2864) A12<<rhs>>has loop carried dependence 
+(l.2864) A14<<lhs>>has loop carried dependence 
+(l.2864) A12<<rhs>>has loop carried dependence 
+(l.2864) A14<<lhs>>has loop carried dependence 
+(l.2864) A12<<rhs>>has loop carried dependence 
+(l.2893) loop was recognized as DOALL (z_solve)
+(l.2894) outer loop is DOALL or DOSUM 
+(l.2923) loop was recognized as DOALL (z_solve)
+(l.2925) outer loop is DOALL or DOSUM 
+(l.2926) outer loop is DOALL or DOSUM 
+(l.2933) loop was recognized as DOALL (z_solve)
+(l.2936) outer loop is DOALL or DOSUM 
+(l.2937) outer loop is DOALL or DOSUM 
+(l.2953) loop was recognized as DOALL (z_solve)
+(l.2955) outer loop is DOALL or DOSUM 
+(l.2956) outer loop is DOALL or DOSUM 
+(l.2957) A12<<rhs>>has loop carried dependence 
+(l.2971) loop was recognized as DOALL (z_solve)
+(l.2974) outer loop is DOALL or DOSUM 
+(l.2975) outer loop is DOALL or DOSUM 
+(l.2976) A12<<rhs>>has loop carried dependence 
+(l.236) loop was recognized as DOALL (error_norm)
+(l.240) include upwards-exposed use of A65<<u_exact>> 
+(l.240) A65<<u_exact>>has loop carried dependence 
+(l.240) I1<<1_rms>>has loop carried dependence 
+(l.242) include upwards-exposed use of A65<<u_exact>> 
+(l.242) A65<<u_exact>>has loop carried dependence 
+(l.242) I1<<1_rms>>has loop carried dependence 
+(l.244) include upwards-exposed use of A65<<u_exact>> 
+(l.244) A65<<u_exact>>has loop carried dependence 
+(l.244) I1<<1_rms>>has loop carried dependence 
+(l.247) loop was recognized as DOALL (error_norm)
+(l.255) loop was recognized as DOALL (error_norm)
+(l.256) I1<<1_rms>>has loop carried dependence 
+(l.274) loop was recognized as DOALL (rhs_norm)
+(l.278) I1<<1_rms>>has loop carried dependence 
+(l.279) I1<<1_rms>>has loop carried dependence 
+(l.280) I1<<1_rms>>has loop carried dependence 
+(l.281) loop was recognized as DOALL (rhs_norm)
+(l.289) loop was recognized as DOALL (rhs_norm)
+(l.290) I1<<1_rms>>has loop carried dependence 
+(l.641) loop was recognized as DOALL (exact_solution)
+(l.898) include upwards-exposed use of A15<<cv>> 
+(l.898) include upwards-exposed use of A16<<rhon>> 
+(l.898) A15<<cv>>has loop carried dependence 
+(l.898) A16<<rhon>>has loop carried dependence 
+(l.899) include upwards-exposed use of A15<<cv>> 
+(l.899) include upwards-exposed use of A16<<rhon>> 
+(l.899) A15<<cv>>has loop carried dependence 
+(l.899) A16<<rhon>>has loop carried dependence 
+(l.901) loop was recognized as DOALL (lhsx)
+(l.911) loop was recognized as DOALL (lhsx)
+(l.927) loop was recognized as DOALL (lhsx)
+(l.928) outer loop is DOALL or DOSUM 
+(l.940) loop was recognized as DOALL (lhsx)
+(l.941) outer loop is DOALL or DOSUM 
+(l.942) outer loop is DOALL or DOSUM 
+(l.954) loop was recognized as DOALL (lhsx)
+(l.955) outer loop is DOALL or DOSUM 
+(l.972) loop was recognized as DOALL (lhsx)
+(l.973) outer loop is DOALL or DOSUM 
+(l.974) outer loop is DOALL or DOSUM 
+(l.1012) include upwards-exposed use of A15<<cv>> 
+(l.1012) include upwards-exposed use of A18<<rhoq>> 
+(l.1012) A15<<cv>>has loop carried dependence 
+(l.1012) A18<<rhoq>>has loop carried dependence 
+(l.1013) include upwards-exposed use of A15<<cv>> 
+(l.1013) include upwards-exposed use of A18<<rhoq>> 
+(l.1013) A15<<cv>>has loop carried dependence 
+(l.1013) A18<<rhoq>>has loop carried dependence 
+(l.1015) loop was recognized as DOALL (lhsy)
+(l.1025) loop was recognized as DOALL (lhsy)
+(l.1041) loop was recognized as DOALL (lhsy)
+(l.1042) outer loop is DOALL or DOSUM 
+(l.1056) loop was recognized as DOALL (lhsy)
+(l.1057) outer loop is DOALL or DOSUM 
+(l.1058) outer loop is DOALL or DOSUM 
+(l.1070) loop was recognized as DOALL (lhsy)
+(l.1071) outer loop is DOALL or DOSUM 
+(l.1087) loop was recognized as DOALL (lhsy)
+(l.1088) outer loop is DOALL or DOSUM 
+(l.1089) outer loop is DOALL or DOSUM 
+(l.1127) include upwards-exposed use of A15<<cv>> 
+(l.1127) include upwards-exposed use of A17<<rhos>> 
+(l.1127) A15<<cv>>has loop carried dependence 
+(l.1127) A17<<rhos>>has loop carried dependence 
+(l.1128) include upwards-exposed use of A15<<cv>> 
+(l.1128) include upwards-exposed use of A17<<rhos>> 
+(l.1128) A15<<cv>>has loop carried dependence 
+(l.1128) A17<<rhos>>has loop carried dependence 
+(l.1130) loop was recognized as DOALL (lhsz)
+(l.1140) loop was recognized as DOALL (lhsz)
+(l.1156) loop was recognized as DOALL (lhsz)
+(l.1157) outer loop is DOALL or DOSUM 
+(l.1170) loop was recognized as DOALL (lhsz)
+(l.1171) outer loop is DOALL or DOSUM 
+(l.1172) outer loop is DOALL or DOSUM 
+(l.1184) loop was recognized as DOALL (lhsz)
+(l.1185) outer loop is DOALL or DOSUM 
+(l.1201) loop was recognized as DOALL (lhsz)
+(l.1202) outer loop is DOALL or DOSUM 
+(l.1203) outer loop is DOALL or DOSUM 
+(l.1238) loop was recognized as DOALL (ninvr)
+(l.1239) outer loop is DOALL or DOSUM 
+(l.1240) outer loop is DOALL or DOSUM 
+(l.1277) loop was recognized as DOALL (pinvr)
+(l.1278) outer loop is DOALL or DOSUM 
+(l.1279) outer loop is DOALL or DOSUM 
+(l.2004) loop was recognized as DOALL (tzetar)
+(l.2005) outer loop is DOALL or DOSUM 
+(l.2006) outer loop is DOALL or DOSUM 
+11.50user 0.34system 0:12.04elapsed 98%CPU (0avgtext+0avgdata 856232maxresident)k
+0inputs+2952outputs (0major+297162minor)pagefaults 0swaps

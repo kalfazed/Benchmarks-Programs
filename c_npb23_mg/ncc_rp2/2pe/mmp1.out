@@ -1,0 +1,2531 @@
+ 
+ [MINORU] Fortran Compiler Middle Path
+ Narita Kasahara Kimura Lab. 1992-2009
+
+#######    qrfe    #######
+#######  entry2sub #######
+####### C Blocking #######
+Type_table 9 is changed to 56 on member E2
+Type_table 10 is changed to 56 on member E2
+Type_table 16 is changed to 76 on member E1
+Type_table 18 is changed to 78 on member E2
+Type_table 21 is changed to 76 on member E3
+Type_table 23 is changed to 78 on member E1
+Type_table 25 is changed to 78 on member E2
+Type_table 27 is changed to 78 on member E1
+Type_table 29 is changed to 78 on member E2
+Type_table 31 is changed to 78 on member E3
+Type_table 33 is changed to 78 on member E1
+Type_table 35 is changed to 78 on member E5
+Type_table 37 is changed to 78 on member E1
+Type_table 39 is changed to 78 on member E5
+Type_table 41 is changed to 78 on member E1
+Type_table 43 is changed to 78 on member E1
+Type_table 45 is changed to 78 on member E1
+Type_table 47 is changed to 78 on member E1
+Type_table 49 is changed to 78 on member E1
+Type_table 53 is changed to 78 on member E1
+Type_table 55 is changed to 78 on member E1
+Type_table 59 is changed to 76 on V19
+Type_table 61 is changed to 78 on V20
+Type_table 64 is changed to 76 on V21
+Type_table 67 is changed to 76 on T58
+Type_table 69 is changed to 78 on T61
+Type_table 59 is changed to 76 on T63
+Type_table 70 is changed to 79 on T67
+Type_table 59 is changed to 76 on T69
+Type_table 58 is changed to 78 on T70
+Type_table 58 is changed to 78 on T72
+Type_table 59 is changed to 76 on T78
+Type_table 58 is changed to 78 on T79
+Type_table 58 is changed to 78 on T81
+Type_table 57 is changed to 79 on T82
+Type_table 57 is changed to 79 on T84
+Type_table 72 is changed to 78 on T89
+Type_table 73 is changed to 79 on T93
+Type_table 61 is changed to 78 on T95
+Type_table 61 is changed to 78 on T101
+Type_table 60 is changed to 79 on T102
+Type_table 60 is changed to 79 on T104
+Type_table 64 is changed to 76 on T115
+Type_table 64 is changed to 76 on T121
+Type_table 63 is changed to 78 on T122
+Type_table 63 is changed to 78 on T124
+Type_table 64 is changed to 76 on T130
+Type_table 63 is changed to 78 on T131
+Type_table 63 is changed to 78 on T133
+Type_table 62 is changed to 79 on T134
+Type_table 62 is changed to 79 on T136
+Type_table 59 is changed to 76 on T140
+Type_table 58 is changed to 78 on T141
+Type_table 64 is changed to 76 on T149
+Type_table 63 is changed to 78 on T150
+Type_table 59 is changed to 76 on T152
+Type_table 58 is changed to 78 on T153
+Type_table 64 is changed to 76 on T157
+Type_table 63 is changed to 78 on T158
+Type_table 64 is changed to 76 on T163
+Type_table 63 is changed to 78 on T164
+Type_table 59 is changed to 76 on T166
+Type_table 58 is changed to 78 on T167
+Type_table 59 is changed to 76 on T172
+Type_table 58 is changed to 78 on T173
+Type_table 64 is changed to 76 on T176
+Type_table 63 is changed to 78 on T177
+Type_table 59 is changed to 76 on T179
+Type_table 58 is changed to 78 on T180
+Type_table 64 is changed to 76 on T184
+Type_table 63 is changed to 78 on T185
+Type_table 64 is changed to 76 on T190
+Type_table 63 is changed to 78 on T191
+Type_table 59 is changed to 76 on T193
+Type_table 58 is changed to 78 on T194
+Type_table 64 is changed to 76 on T198
+Type_table 63 is changed to 78 on T199
+Type_table 53 is changed to 78 on V11
+Type_table 53 is changed to 78 on T2
+Type_table 52 is changed to 79 on T3
+Type_table 52 is changed to 79 on T5
+Type_table 47 is changed to 78 on V11
+Type_table 47 is changed to 78 on T25
+Type_table 46 is changed to 79 on T26
+Type_table 46 is changed to 79 on T28
+Type_table 47 is changed to 78 on T40
+Type_table 46 is changed to 79 on T41
+Type_table 46 is changed to 79 on T43
+Type_table 47 is changed to 78 on T50
+Type_table 46 is changed to 79 on T51
+Type_table 46 is changed to 79 on T53
+Type_table 47 is changed to 78 on T63
+Type_table 46 is changed to 79 on T64
+Type_table 46 is changed to 79 on T66
+Type_table 47 is changed to 78 on T73
+Type_table 46 is changed to 79 on T74
+Type_table 46 is changed to 79 on T76
+Type_table 47 is changed to 78 on T86
+Type_table 46 is changed to 79 on T87
+Type_table 46 is changed to 79 on T89
+Type_table 47 is changed to 78 on T95
+Type_table 46 is changed to 79 on T96
+Type_table 46 is changed to 79 on T98
+Type_table 47 is changed to 78 on T112
+Type_table 46 is changed to 79 on T113
+Type_table 46 is changed to 79 on T115
+Type_table 47 is changed to 78 on T121
+Type_table 46 is changed to 79 on T122
+Type_table 46 is changed to 79 on T124
+Type_table 47 is changed to 78 on T140
+Type_table 46 is changed to 79 on T141
+Type_table 46 is changed to 79 on T143
+Type_table 47 is changed to 78 on T148
+Type_table 46 is changed to 79 on T149
+Type_table 46 is changed to 79 on T151
+Type_table 47 is changed to 78 on T156
+Type_table 46 is changed to 79 on T157
+Type_table 46 is changed to 79 on T159
+Type_table 41 is changed to 78 on V11
+Type_table 41 is changed to 78 on T7
+Type_table 40 is changed to 79 on T8
+Type_table 40 is changed to 79 on T10
+Type_table 41 is changed to 78 on T16
+Type_table 40 is changed to 79 on T17
+Type_table 40 is changed to 79 on T19
+Type_table 41 is changed to 78 on T27
+Type_table 40 is changed to 79 on T28
+Type_table 40 is changed to 79 on T30
+Type_table 27 is changed to 78 on V11
+Type_table 29 is changed to 78 on V12
+Type_table 31 is changed to 78 on V13
+Type_table 27 is changed to 78 on T4
+Type_table 26 is changed to 79 on T5
+Type_table 26 is changed to 79 on T8
+Type_table 27 is changed to 78 on T14
+Type_table 26 is changed to 79 on T15
+Type_table 26 is changed to 79 on T18
+Type_table 27 is changed to 78 on T26
+Type_table 26 is changed to 79 on T27
+Type_table 26 is changed to 79 on T29
+Type_table 27 is changed to 78 on T37
+Type_table 26 is changed to 79 on T38
+Type_table 26 is changed to 79 on T40
+Type_table 27 is changed to 78 on T48
+Type_table 26 is changed to 79 on T49
+Type_table 26 is changed to 79 on T52
+Type_table 27 is changed to 78 on T59
+Type_table 26 is changed to 79 on T60
+Type_table 26 is changed to 79 on T63
+Type_table 27 is changed to 78 on T71
+Type_table 26 is changed to 79 on T72
+Type_table 26 is changed to 79 on T75
+Type_table 27 is changed to 78 on T83
+Type_table 26 is changed to 79 on T84
+Type_table 26 is changed to 79 on T87
+Type_table 29 is changed to 78 on T95
+Type_table 28 is changed to 79 on T96
+Type_table 28 is changed to 79 on T98
+Type_table 27 is changed to 78 on T106
+Type_table 26 is changed to 79 on T107
+Type_table 26 is changed to 79 on T109
+Type_table 31 is changed to 78 on T132
+Type_table 30 is changed to 79 on T133
+Type_table 30 is changed to 79 on T135
+Type_table 16 is changed to 76 on V11
+Type_table 18 is changed to 78 on V12
+Type_table 21 is changed to 76 on V13
+Type_table 21 is changed to 76 on T5
+Type_table 20 is changed to 78 on T6
+Type_table 21 is changed to 76 on T8
+Type_table 20 is changed to 78 on T9
+Type_table 16 is changed to 76 on T12
+Type_table 15 is changed to 78 on T13
+Type_table 16 is changed to 76 on T15
+Type_table 15 is changed to 78 on T16
+Type_table 21 is changed to 76 on T18
+Type_table 20 is changed to 78 on T19
+Type_table 16 is changed to 76 on T25
+Type_table 15 is changed to 78 on T26
+Type_table 16 is changed to 76 on T28
+Type_table 15 is changed to 78 on T29
+Type_table 16 is changed to 76 on T31
+Type_table 15 is changed to 78 on T32
+Type_table 21 is changed to 76 on T34
+Type_table 20 is changed to 78 on T35
+Type_table 21 is changed to 76 on T37
+Type_table 20 is changed to 78 on T38
+Type_table 16 is changed to 76 on T40
+Type_table 15 is changed to 78 on T41
+Type_table 16 is changed to 76 on T43
+Type_table 15 is changed to 78 on T44
+Type_table 21 is changed to 76 on T46
+Type_table 20 is changed to 78 on T47
+Type_table 16 is changed to 76 on T51
+Type_table 15 is changed to 78 on T52
+Type_table 16 is changed to 76 on T54
+Type_table 15 is changed to 78 on T55
+Type_table 21 is changed to 76 on T57
+Type_table 20 is changed to 78 on T58
+Type_table 16 is changed to 76 on T60
+Type_table 15 is changed to 78 on T61
+Type_table 16 is changed to 76 on T63
+Type_table 15 is changed to 78 on T64
+Type_table 21 is changed to 76 on T66
+Type_table 20 is changed to 78 on T67
+Type_table 33 is changed to 78 on V11
+Type_table 35 is changed to 78 on V15
+Type_table 33 is changed to 78 on T14
+Type_table 32 is changed to 79 on T15
+Type_table 32 is changed to 79 on T17
+Type_table 33 is changed to 78 on T24
+Type_table 32 is changed to 79 on T25
+Type_table 32 is changed to 79 on T28
+Type_table 33 is changed to 78 on T35
+Type_table 32 is changed to 79 on T36
+Type_table 32 is changed to 79 on T39
+Type_table 33 is changed to 78 on T47
+Type_table 32 is changed to 79 on T48
+Type_table 32 is changed to 79 on T51
+Type_table 33 is changed to 78 on T58
+Type_table 32 is changed to 79 on T59
+Type_table 32 is changed to 79 on T61
+Type_table 33 is changed to 78 on T68
+Type_table 32 is changed to 79 on T69
+Type_table 32 is changed to 79 on T71
+Type_table 33 is changed to 78 on T78
+Type_table 32 is changed to 79 on T79
+Type_table 32 is changed to 79 on T82
+Type_table 33 is changed to 78 on T90
+Type_table 32 is changed to 79 on T91
+Type_table 32 is changed to 79 on T94
+Type_table 33 is changed to 78 on T104
+Type_table 32 is changed to 79 on T105
+Type_table 32 is changed to 79 on T107
+Type_table 33 is changed to 78 on T115
+Type_table 32 is changed to 79 on T116
+Type_table 32 is changed to 79 on T118
+Type_table 33 is changed to 78 on T126
+Type_table 32 is changed to 79 on T127
+Type_table 32 is changed to 79 on T130
+Type_table 33 is changed to 78 on T139
+Type_table 32 is changed to 79 on T140
+Type_table 32 is changed to 79 on T143
+Type_table 33 is changed to 78 on T152
+Type_table 32 is changed to 79 on T153
+Type_table 32 is changed to 79 on T155
+Type_table 33 is changed to 78 on T163
+Type_table 32 is changed to 79 on T164
+Type_table 32 is changed to 79 on T167
+Type_table 33 is changed to 78 on T175
+Type_table 32 is changed to 79 on T176
+Type_table 32 is changed to 79 on T179
+Type_table 33 is changed to 78 on T188
+Type_table 32 is changed to 79 on T189
+Type_table 32 is changed to 79 on T192
+Type_table 33 is changed to 78 on T201
+Type_table 32 is changed to 79 on T202
+Type_table 32 is changed to 79 on T205
+Type_table 33 is changed to 78 on T214
+Type_table 32 is changed to 79 on T215
+Type_table 32 is changed to 79 on T218
+Type_table 33 is changed to 78 on T225
+Type_table 32 is changed to 79 on T226
+Type_table 32 is changed to 79 on T229
+Type_table 35 is changed to 78 on T249
+Type_table 34 is changed to 79 on T250
+Type_table 34 is changed to 79 on T252
+Type_table 23 is changed to 78 on V11
+Type_table 25 is changed to 78 on V12
+Type_table 23 is changed to 78 on T4
+Type_table 22 is changed to 79 on T5
+Type_table 22 is changed to 79 on T8
+Type_table 23 is changed to 78 on T14
+Type_table 22 is changed to 79 on T15
+Type_table 22 is changed to 79 on T18
+Type_table 23 is changed to 78 on T26
+Type_table 22 is changed to 79 on T27
+Type_table 22 is changed to 79 on T29
+Type_table 23 is changed to 78 on T37
+Type_table 22 is changed to 79 on T38
+Type_table 22 is changed to 79 on T40
+Type_table 23 is changed to 78 on T48
+Type_table 22 is changed to 79 on T49
+Type_table 22 is changed to 79 on T52
+Type_table 23 is changed to 78 on T59
+Type_table 22 is changed to 79 on T60
+Type_table 22 is changed to 79 on T63
+Type_table 23 is changed to 78 on T71
+Type_table 22 is changed to 79 on T72
+Type_table 22 is changed to 79 on T75
+Type_table 23 is changed to 78 on T83
+Type_table 22 is changed to 79 on T84
+Type_table 22 is changed to 79 on T87
+Type_table 25 is changed to 78 on T95
+Type_table 24 is changed to 79 on T96
+Type_table 24 is changed to 79 on T98
+Type_table 23 is changed to 78 on T106
+Type_table 22 is changed to 79 on T107
+Type_table 22 is changed to 79 on T109
+Type_table 23 is changed to 78 on T119
+Type_table 22 is changed to 79 on T120
+Type_table 22 is changed to 79 on T122
+Type_table 23 is changed to 78 on T129
+Type_table 22 is changed to 79 on T130
+Type_table 22 is changed to 79 on T132
+Type_table 25 is changed to 78 on T151
+Type_table 24 is changed to 79 on T152
+Type_table 24 is changed to 79 on T154
+Type_table 37 is changed to 78 on V11
+Type_table 39 is changed to 78 on V15
+Type_table 37 is changed to 78 on T8
+Type_table 36 is changed to 79 on T9
+Type_table 36 is changed to 79 on T12
+Type_table 37 is changed to 78 on T18
+Type_table 36 is changed to 79 on T19
+Type_table 36 is changed to 79 on T21
+Type_table 37 is changed to 78 on T29
+Type_table 36 is changed to 79 on T30
+Type_table 36 is changed to 79 on T32
+Type_table 37 is changed to 78 on T38
+Type_table 36 is changed to 79 on T39
+Type_table 36 is changed to 79 on T41
+Type_table 37 is changed to 78 on T49
+Type_table 36 is changed to 79 on T50
+Type_table 36 is changed to 79 on T53
+Type_table 37 is changed to 78 on T60
+Type_table 36 is changed to 79 on T61
+Type_table 36 is changed to 79 on T63
+Type_table 39 is changed to 78 on T73
+Type_table 38 is changed to 79 on T74
+Type_table 38 is changed to 79 on T77
+Type_table 37 is changed to 78 on T84
+Type_table 36 is changed to 79 on T85
+Type_table 36 is changed to 79 on T87
+Type_table 39 is changed to 78 on T95
+Type_table 38 is changed to 79 on T96
+Type_table 38 is changed to 79 on T99
+Type_table 39 is changed to 78 on T106
+Type_table 38 is changed to 79 on T107
+Type_table 38 is changed to 79 on T110
+Type_table 37 is changed to 78 on T118
+Type_table 36 is changed to 79 on T119
+Type_table 36 is changed to 79 on T121
+Type_table 37 is changed to 78 on T128
+Type_table 36 is changed to 79 on T129
+Type_table 36 is changed to 79 on T131
+Type_table 39 is changed to 78 on T141
+Type_table 38 is changed to 79 on T142
+Type_table 38 is changed to 79 on T145
+Type_table 39 is changed to 78 on T154
+Type_table 38 is changed to 79 on T155
+Type_table 38 is changed to 79 on T159
+Type_table 39 is changed to 78 on T169
+Type_table 38 is changed to 79 on T170
+Type_table 38 is changed to 79 on T174
+Type_table 39 is changed to 78 on T181
+Type_table 38 is changed to 79 on T182
+Type_table 38 is changed to 79 on T186
+Type_table 39 is changed to 78 on T199
+Type_table 38 is changed to 79 on T200
+Type_table 38 is changed to 79 on T204
+Type_table 39 is changed to 78 on T214
+Type_table 38 is changed to 79 on T215
+Type_table 38 is changed to 79 on T218
+Type_table 39 is changed to 78 on T229
+Type_table 38 is changed to 79 on T230
+Type_table 38 is changed to 79 on T233
+Type_table 39 is changed to 78 on T241
+Type_table 38 is changed to 79 on T242
+Type_table 38 is changed to 79 on T245
+Type_table 39 is changed to 78 on T259
+Type_table 38 is changed to 79 on T260
+Type_table 38 is changed to 79 on T263
+Type_table 39 is changed to 78 on T273
+Type_table 38 is changed to 79 on T274
+Type_table 38 is changed to 79 on T278
+Type_table 39 is changed to 78 on T289
+Type_table 38 is changed to 79 on T290
+Type_table 38 is changed to 79 on T294
+Type_table 39 is changed to 78 on T302
+Type_table 38 is changed to 79 on T303
+Type_table 38 is changed to 79 on T307
+Type_table 39 is changed to 78 on T321
+Type_table 38 is changed to 79 on T322
+Type_table 38 is changed to 79 on T326
+Type_table 39 is changed to 78 on T342
+Type_table 38 is changed to 79 on T343
+Type_table 38 is changed to 79 on T348
+Type_table 37 is changed to 78 on T358
+Type_table 36 is changed to 79 on T359
+Type_table 36 is changed to 79 on T362
+Type_table 39 is changed to 78 on T373
+Type_table 38 is changed to 79 on T374
+Type_table 38 is changed to 79 on T379
+Type_table 39 is changed to 78 on T391
+Type_table 38 is changed to 79 on T392
+Type_table 38 is changed to 79 on T397
+Type_table 37 is changed to 78 on T407
+Type_table 36 is changed to 79 on T408
+Type_table 36 is changed to 79 on T411
+Type_table 37 is changed to 78 on T418
+Type_table 36 is changed to 79 on T419
+Type_table 36 is changed to 79 on T422
+Type_table 39 is changed to 78 on T435
+Type_table 38 is changed to 79 on T436
+Type_table 38 is changed to 79 on T441
+Type_table 39 is changed to 78 on T454
+Type_table 38 is changed to 79 on T455
+Type_table 38 is changed to 79 on T460
+Type_table 37 is changed to 78 on T470
+Type_table 36 is changed to 79 on T471
+Type_table 36 is changed to 79 on T473
+Type_table 37 is changed to 78 on T481
+Type_table 36 is changed to 79 on T482
+Type_table 36 is changed to 79 on T485
+Type_table 39 is changed to 78 on T498
+Type_table 38 is changed to 79 on T499
+Type_table 38 is changed to 79 on T504
+Type_table 39 is changed to 78 on T516
+Type_table 38 is changed to 79 on T517
+Type_table 38 is changed to 79 on T522
+Type_table 37 is changed to 78 on T532
+Type_table 36 is changed to 79 on T533
+Type_table 36 is changed to 79 on T535
+Type_table 37 is changed to 78 on T542
+Type_table 36 is changed to 79 on T543
+Type_table 36 is changed to 79 on T546
+Type_table 37 is changed to 78 on T554
+Type_table 36 is changed to 79 on T555
+Type_table 36 is changed to 79 on T557
+Type_table 37 is changed to 78 on T566
+Type_table 36 is changed to 79 on T567
+Type_table 36 is changed to 79 on T570
+Type_table 39 is changed to 78 on T583
+Type_table 38 is changed to 79 on T584
+Type_table 38 is changed to 79 on T589
+Type_table 39 is changed to 78 on T603
+Type_table 38 is changed to 79 on T604
+Type_table 38 is changed to 79 on T609
+Type_table 37 is changed to 78 on T618
+Type_table 36 is changed to 79 on T619
+Type_table 36 is changed to 79 on T622
+Type_table 37 is changed to 78 on T630
+Type_table 36 is changed to 79 on T631
+Type_table 36 is changed to 79 on T634
+Type_table 39 is changed to 78 on T647
+Type_table 38 is changed to 79 on T648
+Type_table 38 is changed to 79 on T653
+Type_table 39 is changed to 78 on T665
+Type_table 38 is changed to 79 on T666
+Type_table 38 is changed to 79 on T671
+Type_table 37 is changed to 78 on T680
+Type_table 36 is changed to 79 on T681
+Type_table 36 is changed to 79 on T684
+Type_table 37 is changed to 78 on T690
+Type_table 36 is changed to 79 on T691
+Type_table 36 is changed to 79 on T694
+Type_table 37 is changed to 78 on T703
+Type_table 36 is changed to 79 on T704
+Type_table 36 is changed to 79 on T707
+Type_table 37 is changed to 78 on T715
+Type_table 36 is changed to 79 on T716
+Type_table 36 is changed to 79 on T719
+Type_table 39 is changed to 78 on T732
+Type_table 38 is changed to 79 on T733
+Type_table 38 is changed to 79 on T738
+Type_table 39 is changed to 78 on T751
+Type_table 38 is changed to 79 on T752
+Type_table 38 is changed to 79 on T757
+Type_table 37 is changed to 78 on T766
+Type_table 36 is changed to 79 on T767
+Type_table 36 is changed to 79 on T769
+Type_table 37 is changed to 78 on T776
+Type_table 36 is changed to 79 on T777
+Type_table 36 is changed to 79 on T780
+Type_table 37 is changed to 78 on T789
+Type_table 36 is changed to 79 on T790
+Type_table 36 is changed to 79 on T792
+Type_table 37 is changed to 78 on T801
+Type_table 36 is changed to 79 on T802
+Type_table 36 is changed to 79 on T805
+Type_table 39 is changed to 78 on T818
+Type_table 38 is changed to 79 on T819
+Type_table 38 is changed to 79 on T824
+Type_table 39 is changed to 78 on T836
+Type_table 38 is changed to 79 on T837
+Type_table 38 is changed to 79 on T842
+Type_table 37 is changed to 78 on T851
+Type_table 36 is changed to 79 on T852
+Type_table 36 is changed to 79 on T854
+Type_table 37 is changed to 78 on T860
+Type_table 36 is changed to 79 on T861
+Type_table 36 is changed to 79 on T864
+Type_table 37 is changed to 78 on T871
+Type_table 36 is changed to 79 on T872
+Type_table 36 is changed to 79 on T874
+Type_table 37 is changed to 78 on T882
+Type_table 36 is changed to 79 on T883
+Type_table 36 is changed to 79 on T886
+Type_table 37 is changed to 78 on T895
+Type_table 36 is changed to 79 on T896
+Type_table 36 is changed to 79 on T898
+Type_table 37 is changed to 78 on T906
+Type_table 36 is changed to 79 on T907
+Type_table 36 is changed to 79 on T910
+Type_table 37 is changed to 78 on T918
+Type_table 36 is changed to 79 on T919
+Type_table 36 is changed to 79 on T921
+Type_table 37 is changed to 78 on T930
+Type_table 36 is changed to 79 on T931
+Type_table 36 is changed to 79 on T934
+Type_table 39 is changed to 78 on T947
+Type_table 38 is changed to 79 on T948
+Type_table 38 is changed to 79 on T953
+Type_table 45 is changed to 78 on V11
+Type_table 45 is changed to 78 on T4
+Type_table 44 is changed to 79 on T5
+Type_table 44 is changed to 79 on T7
+Type_table 45 is changed to 78 on T12
+Type_table 44 is changed to 79 on T13
+Type_table 44 is changed to 79 on T15
+Type_table 45 is changed to 78 on T21
+Type_table 44 is changed to 79 on T22
+Type_table 44 is changed to 79 on T24
+Type_table 45 is changed to 78 on T31
+Type_table 44 is changed to 79 on T32
+Type_table 44 is changed to 79 on T34
+Type_table 45 is changed to 78 on T39
+Type_table 44 is changed to 79 on T40
+Type_table 44 is changed to 79 on T41
+Type_table 45 is changed to 78 on T47
+Type_table 44 is changed to 79 on T48
+Type_table 44 is changed to 79 on T51
+Type_table 45 is changed to 78 on T56
+Type_table 44 is changed to 79 on T57
+Type_table 44 is changed to 79 on T60
+Type_table 45 is changed to 78 on T66
+Type_table 44 is changed to 79 on T67
+Type_table 44 is changed to 79 on T68
+Type_table 45 is changed to 78 on T72
+Type_table 44 is changed to 79 on T73
+Type_table 44 is changed to 79 on T75
+Type_table 45 is changed to 78 on T82
+Type_table 44 is changed to 79 on T83
+Type_table 44 is changed to 79 on T85
+Type_table 45 is changed to 78 on T91
+Type_table 44 is changed to 79 on T92
+Type_table 44 is changed to 79 on T94
+Type_table 45 is changed to 78 on T99
+Type_table 44 is changed to 79 on T100
+Type_table 44 is changed to 79 on T102
+Type_table 43 is changed to 78 on V11
+Type_table 49 is changed to 78 on V11
+Type_table 49 is changed to 78 on T6
+Type_table 48 is changed to 79 on T7
+Type_table 48 is changed to 79 on T9
+Type_table 14 is changed to 79 on Type_table 15
+Type_table 15 is changed to 78 on Type_table 16
+Type_table 17 is changed to 79 on Type_table 18
+Type_table 19 is changed to 79 on Type_table 20
+Type_table 20 is changed to 78 on Type_table 21
+Type_table 22 is changed to 79 on Type_table 23
+Type_table 24 is changed to 79 on Type_table 25
+Type_table 26 is changed to 79 on Type_table 27
+Type_table 28 is changed to 79 on Type_table 29
+Type_table 30 is changed to 79 on Type_table 31
+Type_table 32 is changed to 79 on Type_table 33
+Type_table 34 is changed to 79 on Type_table 35
+Type_table 36 is changed to 79 on Type_table 37
+Type_table 38 is changed to 79 on Type_table 39
+Type_table 40 is changed to 79 on Type_table 41
+Type_table 42 is changed to 79 on Type_table 43
+Type_table 44 is changed to 79 on Type_table 45
+Type_table 46 is changed to 79 on Type_table 47
+Type_table 48 is changed to 79 on Type_table 49
+Type_table 52 is changed to 79 on Type_table 53
+Type_table 54 is changed to 79 on Type_table 55
+Type_table 57 is changed to 79 on Type_table 58
+Type_table 58 is changed to 78 on Type_table 59
+Type_table 60 is changed to 79 on Type_table 61
+Type_table 62 is changed to 79 on Type_table 63
+Type_table 63 is changed to 78 on Type_table 64
+Type_table 65 is changed to 79 on Type_table 66
+Type_table 66 is changed to 78 on Type_table 67
+Type_table 68 is changed to 79 on Type_table 69
+Type_table 71 is changed to 79 on Type_table 72
+Type_table 74 is changed to 79 on Type_table 75
+Type_table 75 is changed to 78 on Type_table 76
+Type_table 77 is changed to 79 on Type_table 78
+Type_table 67 is unified into 76
+Type_table 64 is unified into 76
+Type_table 59 is unified into 76
+Type_table 21 is unified into 76
+Type_table 16 is unified into 76
+Type_table 75 is unified into 78
+Type_table 72 is unified into 78
+Type_table 69 is unified into 78
+Type_table 66 is unified into 78
+Type_table 63 is unified into 78
+Type_table 61 is unified into 78
+Type_table 58 is unified into 78
+Type_table 55 is unified into 78
+Type_table 53 is unified into 78
+Type_table 49 is unified into 78
+Type_table 47 is unified into 78
+Type_table 45 is unified into 78
+Type_table 43 is unified into 78
+Type_table 41 is unified into 78
+Type_table 39 is unified into 78
+Type_table 37 is unified into 78
+Type_table 35 is unified into 78
+Type_table 33 is unified into 78
+Type_table 31 is unified into 78
+Type_table 29 is unified into 78
+Type_table 27 is unified into 78
+Type_table 25 is unified into 78
+Type_table 23 is unified into 78
+Type_table 20 is unified into 78
+Type_table 18 is unified into 78
+Type_table 15 is unified into 78
+Type_table 77 is unified into 79
+Type_table 74 is unified into 79
+Type_table 73 is unified into 79
+Type_table 71 is unified into 79
+Type_table 70 is unified into 79
+Type_table 68 is unified into 79
+Type_table 65 is unified into 79
+Type_table 62 is unified into 79
+Type_table 60 is unified into 79
+Type_table 57 is unified into 79
+Type_table 54 is unified into 79
+Type_table 52 is unified into 79
+Type_table 48 is unified into 79
+Type_table 46 is unified into 79
+Type_table 44 is unified into 79
+Type_table 42 is unified into 79
+Type_table 40 is unified into 79
+Type_table 38 is unified into 79
+Type_table 36 is unified into 79
+Type_table 34 is unified into 79
+Type_table 32 is unified into 79
+Type_table 30 is unified into 79
+Type_table 28 is unified into 79
+Type_table 26 is unified into 79
+Type_table 24 is unified into 79
+Type_table 22 is unified into 79
+Type_table 19 is unified into 79
+Type_table 17 is unified into 79
+Type_table 14 is unified into 79
+Type_table 10 is unified into 56
+Type_table 9 is unified into 56
+#####   call graph  ######
+#####   call graph  ######
+#####   call graph  ######
+rb in 209 is changed to loop
+rb in 212 is changed to loop
+rb in 219 is changed to loop
+rb in 222 is changed to loop
+rb in 231 is changed to loop
+rb in 234 is changed to loop
+rb in 413 is changed to loop
+####  output Minoru_Q ####
+#####   call graph  ######
+## specify char length ###
+##### insert ioctl qr ####
+###### Structuring  ######
+#####   call graph  ######
+##remove redundant common#
+#######   inline   #######
+#####   call graph  ######
+#########  subid  ########
+#### Expand & Private ####
+#### Set main PG & PE ####
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+#####   call graph  ######
+#### Control flow ana1 ###
+# flow-sensitive ptr ana #
+#####   call graph  ######
+#####   call graph  ######
+#### def/use analysis ####
+#### set loop bounder ####
+## argument def/use ana ##
+### dataflow  analysis ###
+### loop index renaming ##
+#####   call graph  ######
+#####   call graph  ######
+##### array symbolic #####
+###### array in out ######
+##### in/out analysis1 ###
+##### make dda data1 #####
+####### do loop dda ######
+A1(V15)
+A2(V15)
+A3(V15)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T148,T143,T139)
+i6(T148,T143,T139)
+i6(T148,T143,T139)
+i6(T148,T143,T139)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T207,T202,T197)
+i6(T207,T202,T197)
+i6(T207,T202,T197)
+i6(T207,T202,T197)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T266,T261,T257)
+i6(T266,T261,T257)
+i6(T266,T261,T257)
+i6(T266,T261,T257)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T329,T324,T319)
+i6(T329,T324,T319)
+i6(T329,T324,T319)
+i6(T329,T324,T319)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T148,T143,T139)
+i6(T148,T143,T139)
+i6(T148,T143,T139)
+i6(T148,T143,T139)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T207,T202,T197)
+i6(T207,T202,T197)
+i6(T207,T202,T197)
+i6(T207,T202,T197)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T266,T261,T257)
+i6(T266,T261,T257)
+i6(T266,T261,T257)
+i6(T266,T261,T257)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T329,T324,T319)
+i6(T329,T324,T319)
+i6(T329,T324,T319)
+i6(T329,T324,T319)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T148,T143,T139)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T207,T202,T197)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T266,T261,T257)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T329,T324,T319)
+#####   call graph  ######
+#####   call graph  ######
+###### block cyclic ######
+#### cost computation ####
+## Pseudo program costs ##
+### Check Vpp Directive ##
+##### Remaking HMDF ######
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+ ** shared argument : module 96 <mg3P> : v19 <k>
+#### Control flow ana ####
+#########  subid  ########
+# flow-sensitive ptr ana #
+#####   call graph  ######
+#####   call graph  ######
+###### def/use ana #######
+#### set loop bounder ####
+## argument def/use ana ##
+### dataflow analysis ####
+##### array symbolic #####
+##### in/out analysis ####
+##### make dda data ######
+####### do loop dda ######
+A1(V15)
+A2(V15)
+A3(V15)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T148,T143,T139)
+i6(T148,T143,T139)
+i6(T148,T143,T139)
+i6(T148,T143,T139)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T207,T202,T197)
+i6(T207,T202,T197)
+i6(T207,T202,T197)
+i6(T207,T202,T197)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T266,T261,T257)
+i6(T266,T261,T257)
+i6(T266,T261,T257)
+i6(T266,T261,T257)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T329,T324,T319)
+i6(T329,T324,T319)
+i6(T329,T324,T319)
+i6(T329,T324,T319)
+i6(T101,T97,T93)
+i6(T101,T97,T93)
+i6(T148,T143,T139)
+i6(T176,T172,T167)
+i6(T176,T172,T167)
+i6(T207,T202,T197)
+i6(T235,T231,T227)
+i6(T235,T231,T227)
+i6(T266,T261,T257)
+i6(T296,T292,T287)
+i6(T296,T292,T287)
+i6(T329,T324,T319)
+#### Make pseudo MTG #####
+## add Lad by hmdf info ##
+#flow-insensitive ptr ana#
+#####   call graph  ######
+#####   call graph  ######
+### DETECT WRITE SHARE ###
+
+--- parallel_section_lists ---
+*MAIN*#0.block1.doall24 :  LOOP 
+zran3#104.block1.doall9 :  LOOP 
+zran3#104.block1.doall14 :  LOOP 
+zero3#108.block1.doall1 :  LOOP 
+resid#98.block1.doall1 :  LOOP 
+rprj3#99.block1.doall11 :  LOOP 
+psinv#97.block1.doall1 :  LOOP 
+interp#100.block1.doall7 :  LOOP 
+interp#100.block1.doall19 :  LOOP 
+interp#100.block1.doall20 :  LOOP 
+resid_c1#111.block1.doall1 :  LOOP 
+comm3#103.block1.doall1 :  LOOP 
+comm3#103.block1.doall2 :  LOOP 
+comm3#103.block1.doall3 :  LOOP 
+
+
+--- in detect write sharing one section ---
+*MAIN*#0.block1.doall24 :  LOOP 
+A4<<debug_vec>>
+V78<<i>> : V78<<i>>
+
+
+
+!do(V78,C5,C11,C6);
+
+--- detected write sharing list in loop  ---
+ A4<<debug_vec>> dim : 0 (align$) in *MAIN*#0.block1.doall24 :  LOOP 
+
+--- in detect write sharing one section ---
+zran3#104.block1.doall9 :  LOOP 
+A54<<ten>>
+C5<<0>> : C6<<1>>
+V35<<i>> : V35<<i>>
+
+
+A55<<j1>>
+C5<<0>> : C6<<1>>
+V35<<i>> : V35<<i>>
+
+
+A56<<j2>>
+C5<<0>> : C6<<1>>
+V35<<i>> : V35<<i>>
+
+
+A57<<j3>>
+C5<<0>> : C6<<1>>
+V35<<i>> : V35<<i>>
+
+
+
+!do(V35,C5,C13,C6);
+
+--- detected write sharing list in loop  ---
+ A54<<ten>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A55<<j1>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A56<<j2>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A57<<j3>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+
+--- in detect write sharing one section ---
+zran3#104.block1.doall14 :  LOOP 
+I3<<3_z>>
+C5<<0>> : (V12<<n1>>-C6<<1>>)
+C5<<0>> : (V13<<n2>>-C6<<1>>)
+V42<<i3>> : V42<<i3>>
+
+
+
+!do(V42,C5,T168,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+zero3#108.block1.doall1 :  LOOP 
+I3<<3_z>>
+C5<<0>> : (V12<<n1>>-C6<<1>>)
+C5<<0>> : (V13<<n2>>-C6<<1>>)
+V17<<i3>> : V17<<i3>>
+
+
+
+!do(V17,C5,T9,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+resid#98.block1.doall1 :  LOOP 
+A56<<u1>>
+C5<<0>> : (V14<<n1>>-C6<<1>>)
+
+
+A57<<u2>>
+C5<<0>> : (V14<<n1>>-C6<<1>>)
+
+
+I9<<3_r>>
+C6<<1>> : (V14<<n1>>+C3<<-2>>)
+C6<<1>> : (V15<<n2>>+C3<<-2>>)
+V19<<i3>> : V19<<i3>>
+
+
+
+!do(V19,C6,T142,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+rprj3#99.block1.doall11 :  LOOP 
+A56<<x1>>
+(C7<<2>>-V26<<d1>>) : (((V16<<m1j>>*C7<<2>>)-C7<<2>>)-V26<<d1>>)
+
+
+A57<<y1>>
+(C7<<2>>-V26<<d1>>) : (((V16<<m1j>>*C7<<2>>)-C7<<2>>)-V26<<d1>>)
+
+
+I6<<3_s>>
+C6<<1>> : (V16<<m1j>>+C3<<-2>>)
+C6<<1>> : (V17<<m2j>>+C3<<-2>>)
+V20<<j3>> : V20<<j3>>
+
+
+
+!do(V20,C6,T261,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+psinv#97.block1.doall1 :  LOOP 
+A56<<r1>>
+C5<<0>> : (V13<<n1>>-C6<<1>>)
+
+
+A57<<r2>>
+C5<<0>> : (V13<<n1>>-C6<<1>>)
+
+
+I6<<3_u>>
+C6<<1>> : (V13<<n1>>+C3<<-2>>)
+C6<<1>> : (V14<<n2>>+C3<<-2>>)
+V18<<i3>> : V18<<i3>>
+
+
+
+!do(V18,C6,T161,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+interp#100.block1.doall7 :  LOOP 
+A57<<z1>>
+C5<<0>> : (V12<<mm1>>-C6<<1>>)
+
+
+A58<<z2>>
+C5<<0>> : (V12<<mm1>>-C6<<1>>)
+
+
+A59<<z3>>
+C5<<0>> : (V12<<mm1>>-C6<<1>>)
+
+
+I6<<3_u>>
+C5<<0>> : ((V12<<mm1>>*C7<<2>>)+C2<<-3>>)
+C5<<0>> : ((V13<<mm2>>*C7<<2>>)+C2<<-3>>)
+(C7<<2>>*V20<<i3>>) : ((C7<<2>>*V20<<i3>>)+C6<<1>>)
+
+
+
+!do(V20,C5,T965,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+interp#100.block1.doall19 :  LOOP 
+I6<<3_u>>
+(V23<<d1>>-C6<<1>>) : (F58[(((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V23<<d1>>),(C4<<-1>>*V26<<t1>>)]intfunc)
+(V24<<d2>>-C6<<1>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V24<<d2>>)
+(((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>) : (((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>)
+
+(F51[(V23<<d1>>-C6<<1>>),(((V12<<mm1>>*C7<<2>>)+C3<<-2>>)-V26<<t1>>)]intfunc) : (((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V23<<d1>>)
+(V24<<d2>>-C6<<1>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V24<<d2>>)
+(((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>) : (((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>)
+
+(C6<<1>>-V26<<t1>>) : (((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V26<<t1>>)
+(V24<<d2>>-C6<<1>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V24<<d2>>)
+(((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>) : (((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>)
+
+(V23<<d1>>-C6<<1>>) : (F58[(((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V23<<d1>>),(C4<<-1>>*V26<<t1>>)]intfunc)
+(C6<<1>>-V27<<t2>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V27<<t2>>)
+(((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>) : (((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>)
+
+(F51[(V23<<d1>>-C6<<1>>),(((V12<<mm1>>*C7<<2>>)+C3<<-2>>)-V26<<t1>>)]intfunc) : (((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V23<<d1>>)
+(C6<<1>>-V27<<t2>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V27<<t2>>)
+(((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>) : (((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>)
+
+(C6<<1>>-V26<<t1>>) : (((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V26<<t1>>)
+(C6<<1>>-V27<<t2>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V27<<t2>>)
+(((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>) : (((C7<<2>>*V40<<i3>>)-V25<<d3>>)-C6<<1>>)
+
+
+
+!do(V40,V25,T335,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+interp#100.block1.doall20 :  LOOP 
+I6<<3_u>>
+(V23<<d1>>-C6<<1>>) : (F58[(((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V23<<d1>>),(C4<<-1>>*V26<<t1>>)]intfunc)
+(V24<<d2>>-C6<<1>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V24<<d2>>)
+(((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>) : (((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>)
+
+(F51[(V23<<d1>>-C6<<1>>),(((V12<<mm1>>*C7<<2>>)+C3<<-2>>)-V26<<t1>>)]intfunc) : (((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V23<<d1>>)
+(V24<<d2>>-C6<<1>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V24<<d2>>)
+(((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>) : (((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>)
+
+(C6<<1>>-V26<<t1>>) : (((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V26<<t1>>)
+(V24<<d2>>-C6<<1>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V24<<d2>>)
+(((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>) : (((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>)
+
+(V23<<d1>>-C6<<1>>) : (F58[(((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V23<<d1>>),(C4<<-1>>*V26<<t1>>)]intfunc)
+(C6<<1>>-V27<<t2>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V27<<t2>>)
+(((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>) : (((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>)
+
+(F51[(V23<<d1>>-C6<<1>>),(((V12<<mm1>>*C7<<2>>)+C3<<-2>>)-V26<<t1>>)]intfunc) : (((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V23<<d1>>)
+(C6<<1>>-V27<<t2>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V27<<t2>>)
+(((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>) : (((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>)
+
+(C6<<1>>-V26<<t1>>) : (((V12<<mm1>>*C7<<2>>)+C2<<-3>>)-V26<<t1>>)
+(C6<<1>>-V27<<t2>>) : (((V13<<mm2>>*C7<<2>>)+C2<<-3>>)-V27<<t2>>)
+(((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>) : (((C7<<2>>*V47<<i3>>)-V28<<t3>>)-C6<<1>>)
+
+
+
+!do(V47,C6,T596,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+resid_c1#111.block1.doall1 :  LOOP 
+A56<<u1>>
+C5<<0>> : (V14<<n1>>-C6<<1>>)
+
+
+A57<<u2>>
+C5<<0>> : (V14<<n1>>-C6<<1>>)
+
+
+I6<<3_v>>
+C6<<1>> : (V14<<n1>>+C3<<-2>>)
+C6<<1>> : (V15<<n2>>+C3<<-2>>)
+V19<<i3>> : V19<<i3>>
+
+
+
+!do(V19,C6,T142,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+comm3#103.block1.doall1 :  LOOP 
+I3<<3_u>>
+(V12<<n1>>-C6<<1>>) : (V12<<n1>>-C6<<1>>)
+C6<<1>> : (V13<<n2>>+C3<<-2>>)
+V18<<i3>> : V18<<i3>>
+
+C5<<0>> : C5<<0>>
+C6<<1>> : (V13<<n2>>+C3<<-2>>)
+V18<<i3>> : V18<<i3>>
+
+
+
+!do(V18,C6,T106,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+comm3#103.block1.doall2 :  LOOP 
+I3<<3_u>>
+C5<<0>> : (V12<<n1>>-C6<<1>>)
+(V13<<n2>>-C6<<1>>) : (V13<<n2>>-C6<<1>>)
+V19<<i3>> : V19<<i3>>
+
+C5<<0>> : (V12<<n1>>-C6<<1>>)
+C5<<0>> : C5<<0>>
+V19<<i3>> : V19<<i3>>
+
+
+
+!do(V19,C6,T108,C6);
+
+--- detected write sharing list in loop  ---
+
+--- in detect write sharing one section ---
+comm3#103.block1.doall3 :  LOOP 
+I3<<3_u>>
+C5<<0>> : (V12<<n1>>-C6<<1>>)
+V21<<i2>> : V21<<i2>>
+(V14<<n3>>-C6<<1>>) : (V14<<n3>>-C6<<1>>)
+
+C5<<0>> : (V12<<n1>>-C6<<1>>)
+V21<<i2>> : V21<<i2>>
+C5<<0>> : C5<<0>>
+
+
+
+!do(V21,C5,T110,C6);
+
+--- detected write sharing list in loop  ---
+
+--- write sharing statistics ---
+ A4<<debug_vec>> dim : 0 (align$) in *MAIN*#0.block1.doall24 :  LOOP 
+ A54<<ten>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A55<<j1>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A56<<j2>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A57<<j3>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+
+### RESOLVE WRITE SHARE ##
+## Cluster 147 : (0 -->, --> 100)
+ Module 101<<norm2u3>>  V16<<rnmu>> 
+## Cluster 146 : (0 -->, --> 99)
+ Module 101<<norm2u3>>  V15<<rnm2>> 
+## Cluster 145 : (111 -->, --> 89)
+ Module 101<<norm2u3>>  V11<<r>> 
+ Module 105<<showall>>  V11<<z>> 
+ Module 102<<rep_nrm>>  V11<<u>> 
+ Module 103<<comm3>>  V11<<u>> 
+ Module 111<<resid_c1>>  V11<<u>> 
+ Module 100<<interp>>  V15<<u>> 
+ Module 100<<interp>>  V11<<z>> 
+ Module 97<<psinv>>  V12<<u>> 
+ Module 98<<resid>>  V12<<v>> 
+ Module 98<<resid>>  V11<<u>> 
+ Module 108<<zero3>>  V11<<z>> 
+ Module 96<<mg3P>>  I1<<1_u>> 
+ Module 0<<*MAIN*>>  H1<<$heap_alloc$*MAIN*_204>> 
+ Module 0<<*MAIN*>>  V55<<$tmp19>> 
+ Module 96<<mg3P>>  V12<<v>> 
+ Module 104<<zran3>>  V11<<z>> 
+ Module 0<<*MAIN*>>  V58<<$tmp22>> 
+ Module 0<<*MAIN*>>  V20<<v>> 
+ Module 111<<resid_c1>>  V13<<r>> 
+ Module 111<<resid_c1>>  V12<<v>> 
+ Module 97<<psinv>>  V11<<r>> 
+ Module 99<<rprj3>>  V15<<s>> 
+ Module 99<<rprj3>>  V11<<r>> 
+ Module 98<<resid>>  V13<<r>> 
+ Module 96<<mg3P>>  I8<<1_r>> 
+ Module 0<<*MAIN*>>  H8<<$heap_alloc$*MAIN*_226>> 
+ Module 0<<*MAIN*>>  V62<<$tmp26>> 
+## Cluster 141 : (0 -->, --> 75)
+ Module 102<<rep_nrm>>  V15<<title>> 
+## Cluster 138 : (0 -->, --> 0)
+ Module 111<<resid_c1>>  I9<<3_r>> 
+## Cluster 137 : (0 -->, --> 0)
+ Module 111<<resid_c1>>  I8<<2_r>> 
+## Cluster 136 : (0 -->, --> 0)
+ Module 111<<resid_c1>>  I7<<1_r>> 
+## Cluster 135 : (0 -->, --> 101)
+ Module 111<<resid_c1>>  V17<<a>> 
+ Module 98<<resid>>  V17<<a>> 
+ Module 96<<mg3P>>  V14<<a>> 
+## Cluster 131 : (0 -->, --> 110)
+ Module 107<<bubble>>  V14<<j3>> 
+## Cluster 130 : (0 -->, --> 109)
+ Module 107<<bubble>>  V13<<j2>> 
+## Cluster 129 : (0 -->, --> 108)
+ Module 107<<bubble>>  V12<<j1>> 
+## Cluster 128 : (0 -->, --> 107)
+ Module 107<<bubble>>  V11<<ten>> 
+## Cluster 125 : (0 -->, --> 102)
+ Module 97<<psinv>>  V16<<c>> 
+ Module 96<<mg3P>>  V15<<c>> 
+## Cluster 111 : (0 -->, --> 145)
+ Module 96<<mg3P>>  V11<<u>> 
+ Module 0<<*MAIN*>>  V54<<$tmp18>> 
+ Module 0<<*MAIN*>>  V19<<u>> 
+ Module 96<<mg3P>>  V13<<r>> 
+ Module 0<<*MAIN*>>  V61<<$tmp25>> 
+ Module 0<<*MAIN*>>  V21<<r>> 
+## Cluster 110 : (131 -->, --> 0)
+ Module 107<<bubble>>  I4<<1_j3>> 
+ Module 104<<zran3>>  A57<<j3>> 
+## Cluster 109 : (130 -->, --> 0)
+ Module 107<<bubble>>  I3<<1_j2>> 
+ Module 104<<zran3>>  A56<<j2>> 
+## Cluster 108 : (129 -->, --> 0)
+ Module 107<<bubble>>  I2<<1_j1>> 
+ Module 104<<zran3>>  A55<<j1>> 
+## Cluster 107 : (128 -->, --> 0)
+ Module 107<<bubble>>  I1<<1_ten>> 
+ Module 104<<zran3>>  A54<<ten>> 
+## Cluster 105 : (0 -->, --> 87)
+ Module 95<<setup>>  V13<<n3>> 
+## Cluster 104 : (0 -->, --> 86)
+ Module 95<<setup>>  V12<<n2>> 
+## Cluster 103 : (0 -->, --> 85)
+ Module 95<<setup>>  V11<<n1>> 
+## Cluster 102 : (125 -->, --> 0)
+ Module 97<<psinv>>  I7<<1_c>> 
+ Module 96<<mg3P>>  I13<<1_c>> 
+ Module 0<<*MAIN*>>  A55<<c>> 
+## Cluster 101 : (135 -->, --> 0)
+ Module 111<<resid_c1>>  I10<<1_a>> 
+ Module 98<<resid>>  I10<<1_a>> 
+ Module 96<<mg3P>>  I12<<1_a>> 
+ Module 0<<*MAIN*>>  A54<<a>> 
+## Cluster 100 : (147 -->, --> 0)
+ Module 101<<norm2u3>>  I5<<1_rnmu>> 
+ Module 0<<*MAIN*>>  V23<<rnmu>> 
+ Module 102<<rep_nrm>>  V18<<rnmu>> 
+## Cluster 99 : (146 -->, --> 0)
+ Module 101<<norm2u3>>  I4<<1_rnm2>> 
+ Module 0<<*MAIN*>>  V22<<rnm2>> 
+ Module 102<<rep_nrm>>  V17<<rnm2>> 
+## Cluster 91 : (90 -->, --> 0)
+ Module 101<<norm2u3>>  I3<<3_r>> 
+ Module 105<<showall>>  I3<<3_z>> 
+ Module 102<<rep_nrm>>  I3<<3_u>> 
+ Module 103<<comm3>>  I3<<3_u>> 
+ Module 111<<resid_c1>>  I3<<3_u>> 
+ Module 100<<interp>>  I3<<3_z>> 
+ Module 100<<interp>>  I6<<3_u>> 
+ Module 97<<psinv>>  I6<<3_u>> 
+ Module 98<<resid>>  I3<<3_u>> 
+ Module 98<<resid>>  I6<<3_v>> 
+ Module 108<<zero3>>  I3<<3_z>> 
+ Module 96<<mg3P>>  I4<<4_u>> 
+ Module 0<<*MAIN*>>  H4<<$heap_alloc$*MAIN*_213>> 
+ Module 96<<mg3P>>  I7<<3_v>> 
+ Module 104<<zran3>>  I3<<3_z>> 
+ Module 0<<*MAIN*>>  H7<<$heap_alloc$*MAIN*_223>> 
+ Module 111<<resid_c1>>  I6<<3_v>> 
+ Module 97<<psinv>>  I3<<3_r>> 
+ Module 99<<rprj3>>  I3<<3_r>> 
+ Module 99<<rprj3>>  I6<<3_s>> 
+ Module 98<<resid>>  I9<<3_r>> 
+ Module 96<<mg3P>>  I11<<4_r>> 
+ Module 0<<*MAIN*>>  H11<<$heap_alloc$*MAIN*_235>> 
+## Cluster 90 : (89 -->, --> 91)
+ Module 101<<norm2u3>>  I2<<2_r>> 
+ Module 105<<showall>>  I2<<2_z>> 
+ Module 102<<rep_nrm>>  I2<<2_u>> 
+ Module 103<<comm3>>  I2<<2_u>> 
+ Module 111<<resid_c1>>  I2<<2_u>> 
+ Module 100<<interp>>  I2<<2_z>> 
+ Module 100<<interp>>  I5<<2_u>> 
+ Module 97<<psinv>>  I5<<2_u>> 
+ Module 98<<resid>>  I2<<2_u>> 
+ Module 98<<resid>>  I5<<2_v>> 
+ Module 108<<zero3>>  I2<<2_z>> 
+ Module 96<<mg3P>>  I3<<3_u>> 
+ Module 0<<*MAIN*>>  H3<<$heap_alloc$*MAIN*_210>> 
+ Module 0<<*MAIN*>>  V57<<$tmp21>> 
+ Module 96<<mg3P>>  I6<<2_v>> 
+ Module 104<<zran3>>  I2<<2_z>> 
+ Module 0<<*MAIN*>>  H6<<$heap_alloc$*MAIN*_220>> 
+ Module 0<<*MAIN*>>  V60<<$tmp24>> 
+ Module 111<<resid_c1>>  I5<<2_v>> 
+ Module 97<<psinv>>  I2<<2_r>> 
+ Module 99<<rprj3>>  I2<<2_r>> 
+ Module 99<<rprj3>>  I5<<2_s>> 
+ Module 98<<resid>>  I8<<2_r>> 
+ Module 96<<mg3P>>  I10<<3_r>> 
+ Module 0<<*MAIN*>>  H10<<$heap_alloc$*MAIN*_232>> 
+ Module 0<<*MAIN*>>  V64<<$tmp28>> 
+## Cluster 89 : (145 -->, --> 90)
+ Module 101<<norm2u3>>  I1<<1_r>> 
+ Module 105<<showall>>  I1<<1_z>> 
+ Module 102<<rep_nrm>>  I1<<1_u>> 
+ Module 103<<comm3>>  I1<<1_u>> 
+ Module 111<<resid_c1>>  I1<<1_u>> 
+ Module 100<<interp>>  I1<<1_z>> 
+ Module 100<<interp>>  I4<<1_u>> 
+ Module 97<<psinv>>  I4<<1_u>> 
+ Module 98<<resid>>  I1<<1_u>> 
+ Module 98<<resid>>  I4<<1_v>> 
+ Module 108<<zero3>>  I1<<1_z>> 
+ Module 96<<mg3P>>  I2<<2_u>> 
+ Module 0<<*MAIN*>>  H2<<$heap_alloc$*MAIN*_207>> 
+ Module 0<<*MAIN*>>  V56<<$tmp20>> 
+ Module 96<<mg3P>>  I5<<1_v>> 
+ Module 104<<zran3>>  I1<<1_z>> 
+ Module 0<<*MAIN*>>  H5<<$heap_alloc$*MAIN*_217>> 
+ Module 0<<*MAIN*>>  V59<<$tmp23>> 
+ Module 111<<resid_c1>>  I4<<1_v>> 
+ Module 97<<psinv>>  I1<<1_r>> 
+ Module 99<<rprj3>>  I1<<1_r>> 
+ Module 99<<rprj3>>  I4<<1_s>> 
+ Module 98<<resid>>  I7<<1_r>> 
+ Module 96<<mg3P>>  I9<<2_r>> 
+ Module 0<<*MAIN*>>  H9<<$heap_alloc$*MAIN*_229>> 
+ Module 0<<*MAIN*>>  V63<<$tmp27>> 
+## Cluster 87 : (105 -->, --> 0)
+ Module 95<<setup>>  I3<<1_n3>> 
+ Module 0<<*MAIN*>>  V27<<n3>> 
+## Cluster 86 : (104 -->, --> 0)
+ Module 95<<setup>>  I2<<1_n2>> 
+ Module 0<<*MAIN*>>  V26<<n2>> 
+## Cluster 85 : (103 -->, --> 0)
+ Module 95<<setup>>  I1<<1_n1>> 
+ Module 0<<*MAIN*>>  V25<<n1>> 
+## Cluster 84 : (0 -->, --> 0)
+ Module 105<<showall>>  A53<<.45fake>> 
+ Module 111<<resid_c1>>  A53<<.45fake>> 
+ Module 100<<interp>>  A53<<.45fake>> 
+ Module 97<<psinv>>  A53<<.45fake>> 
+ Module 99<<rprj3>>  A53<<.45fake>> 
+ Module 98<<resid>>  A53<<.45fake>> 
+ Module 96<<mg3P>>  A53<<.45fake>> 
+ Module 0<<*MAIN*>>  A53<<.45fake>> 
+## Cluster 83 : (0 -->, --> 0)
+ Module 105<<showall>>  A52<<.44fake>> 
+ Module 111<<resid_c1>>  A52<<.44fake>> 
+ Module 100<<interp>>  A52<<.44fake>> 
+ Module 97<<psinv>>  A52<<.44fake>> 
+ Module 99<<rprj3>>  A52<<.44fake>> 
+ Module 98<<resid>>  A52<<.44fake>> 
+ Module 96<<mg3P>>  A52<<.44fake>> 
+ Module 0<<*MAIN*>>  A52<<.44fake>> 
+## Cluster 82 : (0 -->, --> 0)
+ Module 105<<showall>>  A51<<.43fake>> 
+ Module 111<<resid_c1>>  A51<<.43fake>> 
+ Module 100<<interp>>  A51<<.43fake>> 
+ Module 97<<psinv>>  A51<<.43fake>> 
+ Module 99<<rprj3>>  A51<<.43fake>> 
+ Module 98<<resid>>  A51<<.43fake>> 
+ Module 96<<mg3P>>  A51<<.43fake>> 
+ Module 0<<*MAIN*>>  A51<<.43fake>> 
+## Cluster 81 : (0 -->, --> 0)
+ Module 105<<showall>>  A50<<.42fake>> 
+ Module 111<<resid_c1>>  A50<<.42fake>> 
+ Module 100<<interp>>  A50<<.42fake>> 
+ Module 97<<psinv>>  A50<<.42fake>> 
+ Module 99<<rprj3>>  A50<<.42fake>> 
+ Module 98<<resid>>  A50<<.42fake>> 
+ Module 96<<mg3P>>  A50<<.42fake>> 
+ Module 0<<*MAIN*>>  A50<<.42fake>> 
+## Cluster 80 : (0 -->, --> 0)
+ Module 105<<showall>>  A49<<.41fake>> 
+ Module 111<<resid_c1>>  A49<<.41fake>> 
+ Module 100<<interp>>  A49<<.41fake>> 
+ Module 97<<psinv>>  A49<<.41fake>> 
+ Module 99<<rprj3>>  A49<<.41fake>> 
+ Module 98<<resid>>  A49<<.41fake>> 
+ Module 96<<mg3P>>  A49<<.41fake>> 
+ Module 0<<*MAIN*>>  A49<<.41fake>> 
+## Cluster 79 : (0 -->, --> 0)
+ Module 102<<rep_nrm>>  A48<<.40fake>> 
+ Module 111<<resid_c1>>  A48<<.40fake>> 
+ Module 100<<interp>>  A48<<.40fake>> 
+ Module 97<<psinv>>  A48<<.40fake>> 
+ Module 99<<rprj3>>  A48<<.40fake>> 
+ Module 98<<resid>>  A48<<.40fake>> 
+ Module 96<<mg3P>>  A48<<.40fake>> 
+ Module 0<<*MAIN*>>  A48<<.40fake>> 
+## Cluster 75 : (141 -->, --> 0)
+ Module 102<<rep_nrm>>  I4<<1_title>> 
+ Module 111<<resid_c1>>  A44<<.36fake>> 
+ Module 98<<resid>>  A44<<.36fake>> 
+ Module 96<<mg3P>>  A44<<.36fake>> 
+ Module 0<<*MAIN*>>  A44<<.36fake>> 
+ Module 99<<rprj3>>  A45<<.37fake>> 
+ Module 96<<mg3P>>  A45<<.37fake>> 
+ Module 0<<*MAIN*>>  A45<<.37fake>> 
+ Module 97<<psinv>>  A43<<.35fake>> 
+ Module 96<<mg3P>>  A43<<.35fake>> 
+ Module 0<<*MAIN*>>  A43<<.35fake>> 
+ Module 100<<interp>>  A46<<.38fake>> 
+ Module 96<<mg3P>>  A46<<.38fake>> 
+ Module 0<<*MAIN*>>  A46<<.38fake>> 
+ Module 100<<interp>>  A47<<.39fake>> 
+ Module 96<<mg3P>>  A47<<.39fake>> 
+ Module 0<<*MAIN*>>  A47<<.39fake>> 
+## Cluster 73 : (0 -->, --> 0)
+ Module 95<<setup>>  A42<<.34fake>> 
+ Module 0<<*MAIN*>>  A42<<.34fake>> 
+## Cluster 72 : (0 -->, --> 0)
+ Module 95<<setup>>  A41<<.33fake>> 
+ Module 0<<*MAIN*>>  A41<<.33fake>> 
+## Cluster 71 : (0 -->, --> 0)
+ Module 95<<setup>>  A40<<.32fake>> 
+ Module 0<<*MAIN*>>  A40<<.32fake>> 
+## Cluster 70 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A39<<.31fake>> 
+## Cluster 69 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A38<<.30fake>> 
+## Cluster 68 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A37<<.29fake>> 
+## Cluster 67 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A36<<.28fake>> 
+## Cluster 66 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A35<<.27fake>> 
+## Cluster 65 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A34<<.26fake>> 
+## Cluster 64 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A33<<.25fake>> 
+## Cluster 63 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A32<<.24fake>> 
+## Cluster 62 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A31<<.23fake>> 
+## Cluster 61 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A30<<.22fake>> 
+## Cluster 60 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A29<<.21fake>> 
+## Cluster 59 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A28<<.20fake>> 
+## Cluster 58 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A27<<.19fake>> 
+## Cluster 57 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A26<<.18fake>> 
+## Cluster 56 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A25<<.17fake>> 
+## Cluster 55 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A24<<.16fake>> 
+## Cluster 54 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A23<<.15fake>> 
+## Cluster 53 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A22<<.14fake>> 
+## Cluster 52 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A21<<.13fake>> 
+## Cluster 51 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A20<<.12fake>> 
+## Cluster 50 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A19<<.11fake>> 
+## Cluster 49 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A18<<.10fake>> 
+## Cluster 48 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A17<<.9fake>> 
+## Cluster 47 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A16<<.8fake>> 
+## Cluster 46 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A15<<.7fake>> 
+## Cluster 45 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A14<<.6fake>> 
+## Cluster 44 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A13<<.5fake>> 
+## Cluster 43 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A12<<.4fake>> 
+## Cluster 42 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A11<<.3fake>> 
+## Cluster 41 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A10<<.2fake>> 
+## Cluster 40 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A9<<.1fake>> 
+## Cluster 39 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  A8<<.0fake>> 
+## Cluster 38 : (0 -->, --> 0)
+ Module 96<<mg3P>>  A7<<m3>> 
+ Module 95<<setup>>  A7<<m3>> 
+ Module 0<<*MAIN*>>  A7<<m3>> 
+## Cluster 37 : (0 -->, --> 0)
+ Module 96<<mg3P>>  A6<<m2>> 
+ Module 95<<setup>>  A6<<m2>> 
+ Module 0<<*MAIN*>>  A6<<m2>> 
+## Cluster 36 : (0 -->, --> 0)
+ Module 96<<mg3P>>  A5<<m1>> 
+ Module 95<<setup>>  A5<<m1>> 
+ Module 0<<*MAIN*>>  A5<<m1>> 
+## Cluster 35 : (0 -->, --> 0)
+ Module 111<<resid_c1>>  A4<<debug_vec>> 
+ Module 100<<interp>>  A4<<debug_vec>> 
+ Module 97<<psinv>>  A4<<debug_vec>> 
+ Module 99<<rprj3>>  A4<<debug_vec>> 
+ Module 98<<resid>>  A4<<debug_vec>> 
+ Module 96<<mg3P>>  A4<<debug_vec>> 
+ Module 95<<setup>>  A4<<debug_vec>> 
+ Module 0<<*MAIN*>>  A4<<debug_vec>> 
+## Cluster 34 : (0 -->, --> 0)
+ Module 102<<rep_nrm>>  A3<<nz>> 
+ Module 111<<resid_c1>>  A3<<nz>> 
+ Module 100<<interp>>  A3<<nz>> 
+ Module 97<<psinv>>  A3<<nz>> 
+ Module 99<<rprj3>>  A3<<nz>> 
+ Module 98<<resid>>  A3<<nz>> 
+ Module 96<<mg3P>>  A3<<nz>> 
+ Module 95<<setup>>  A3<<nz>> 
+ Module 0<<*MAIN*>>  A3<<nz>> 
+## Cluster 33 : (0 -->, --> 0)
+ Module 102<<rep_nrm>>  A2<<ny>> 
+ Module 111<<resid_c1>>  A2<<ny>> 
+ Module 100<<interp>>  A2<<ny>> 
+ Module 97<<psinv>>  A2<<ny>> 
+ Module 99<<rprj3>>  A2<<ny>> 
+ Module 98<<resid>>  A2<<ny>> 
+ Module 96<<mg3P>>  A2<<ny>> 
+ Module 95<<setup>>  A2<<ny>> 
+ Module 0<<*MAIN*>>  A2<<ny>> 
+## Cluster 32 : (0 -->, --> 0)
+ Module 102<<rep_nrm>>  A1<<nx>> 
+ Module 111<<resid_c1>>  A1<<nx>> 
+ Module 100<<interp>>  A1<<nx>> 
+ Module 97<<psinv>>  A1<<nx>> 
+ Module 99<<rprj3>>  A1<<nx>> 
+ Module 98<<resid>>  A1<<nx>> 
+ Module 96<<mg3P>>  A1<<nx>> 
+ Module 95<<setup>>  A1<<nx>> 
+ Module 0<<*MAIN*>>  A1<<nx>> 
+## Cluster 20 : (0 -->, --> 3)
+ Module 0<<*MAIN*>>  V34<<fp>> 
+## Cluster 16 : (15 -->, --> 0)
+ Module 0<<*MAIN*>>  I2<<2_argv>> 
+## Cluster 15 : (14 -->, --> 16)
+ Module 0<<*MAIN*>>  I1<<1_argv>> 
+## Cluster 14 : (0 -->, --> 15)
+ Module 0<<*MAIN*>>  V12<<argv>> 
+## Cluster 13 : (0 -->, --> 0)
+ Module 101<<norm2u3>>  V10<<s>> 
+ Module 102<<rep_nrm>>  V10<<s>> 
+ Module 111<<resid_c1>>  V10<<s>> 
+ Module 100<<interp>>  V10<<s>> 
+ Module 97<<psinv>>  V10<<s>> 
+ Module 99<<rprj3>>  V10<<s>> 
+ Module 98<<resid>>  V10<<s>> 
+ Module 96<<mg3P>>  V10<<s>> 
+ Module 0<<*MAIN*>>  V10<<s>> 
+## Cluster 12 : (0 -->, --> 0)
+ Module 104<<zran3>>  V9<<ie3>> 
+ Module 95<<setup>>  V9<<ie3>> 
+ Module 0<<*MAIN*>>  V9<<ie3>> 
+## Cluster 11 : (0 -->, --> 0)
+ Module 104<<zran3>>  V8<<ie2>> 
+ Module 95<<setup>>  V8<<ie2>> 
+ Module 0<<*MAIN*>>  V8<<ie2>> 
+## Cluster 10 : (0 -->, --> 0)
+ Module 104<<zran3>>  V7<<ie1>> 
+ Module 95<<setup>>  V7<<ie1>> 
+ Module 0<<*MAIN*>>  V7<<ie1>> 
+## Cluster 9 : (0 -->, --> 0)
+ Module 104<<zran3>>  V6<<is3>> 
+ Module 95<<setup>>  V6<<is3>> 
+ Module 0<<*MAIN*>>  V6<<is3>> 
+## Cluster 8 : (0 -->, --> 0)
+ Module 104<<zran3>>  V5<<is2>> 
+ Module 95<<setup>>  V5<<is2>> 
+ Module 0<<*MAIN*>>  V5<<is2>> 
+## Cluster 7 : (0 -->, --> 0)
+ Module 104<<zran3>>  V4<<is1>> 
+ Module 95<<setup>>  V4<<is1>> 
+ Module 0<<*MAIN*>>  V4<<is1>> 
+## Cluster 6 : (0 -->, --> 0)
+ Module 96<<mg3P>>  V3<<lb>> 
+ Module 0<<*MAIN*>>  V3<<lb>> 
+## Cluster 5 : (0 -->, --> 0)
+ Module 96<<mg3P>>  V2<<lt>> 
+ Module 0<<*MAIN*>>  V2<<lt>> 
+## Cluster 4 : (0 -->, --> 0)
+ Module 0<<*MAIN*>>  V1<<Class>> 
+## Cluster 3 : (20 -->, --> 0)
+ Module 101<<norm2u3>>  FILE 
+ Module 105<<showall>>  FILE 
+ Module 102<<rep_nrm>>  FILE 
+ Module 103<<comm3>>  FILE 
+ Module 111<<resid_c1>>  FILE 
+ Module 107<<bubble>>  FILE 
+ Module 106<<power>>  FILE 
+ Module 100<<interp>>  FILE 
+ Module 97<<psinv>>  FILE 
+ Module 99<<rprj3>>  FILE 
+ Module 98<<resid>>  FILE 
+ Module 108<<zero3>>  FILE 
+ Module 96<<mg3P>>  FILE 
+ Module 104<<zran3>>  FILE 
+ Module 95<<setup>>  FILE 
+ Module 0<<*MAIN*>>  FILE 
+## Cluster 2 : (0 -->, --> 0)
+ Module 101<<norm2u3>>  UNINIT 
+ Module 105<<showall>>  UNINIT 
+ Module 102<<rep_nrm>>  UNINIT 
+ Module 103<<comm3>>  UNINIT 
+ Module 111<<resid_c1>>  UNINIT 
+ Module 107<<bubble>>  UNINIT 
+ Module 106<<power>>  UNINIT 
+ Module 100<<interp>>  UNINIT 
+ Module 97<<psinv>>  UNINIT 
+ Module 99<<rprj3>>  UNINIT 
+ Module 98<<resid>>  UNINIT 
+ Module 108<<zero3>>  UNINIT 
+ Module 96<<mg3P>>  UNINIT 
+ Module 104<<zran3>>  UNINIT 
+ Module 95<<setup>>  UNINIT 
+ Module 0<<*MAIN*>>  UNINIT 
+## Cluster 1 : (0 -->, --> 0)
+ Module 101<<norm2u3>>  UNKNOWN 
+ Module 105<<showall>>  UNKNOWN 
+ Module 102<<rep_nrm>>  UNKNOWN 
+ Module 103<<comm3>>  UNKNOWN 
+ Module 111<<resid_c1>>  UNKNOWN 
+ Module 107<<bubble>>  UNKNOWN 
+ Module 106<<power>>  UNKNOWN 
+ Module 100<<interp>>  UNKNOWN 
+ Module 97<<psinv>>  UNKNOWN 
+ Module 99<<rprj3>>  UNKNOWN 
+ Module 98<<resid>>  UNKNOWN 
+ Module 108<<zero3>>  UNKNOWN 
+ Module 96<<mg3P>>  UNKNOWN 
+ Module 104<<zran3>>  UNKNOWN 
+ Module 95<<setup>>  UNKNOWN 
+ Module 0<<*MAIN*>>  UNKNOWN 
+### dump of per object write-sharing cluster
+## Cluster 5
+ zran3 A57
+## Cluster 4
+ zran3 A56
+## Cluster 3
+ zran3 A55
+## Cluster 2
+ zran3 A54
+## Cluster 1
+ *MAIN* A4
+--- Select resolve write sharing way ---
+ A57<<j3>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A56<<j2>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A55<<j1>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A54<<ten>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ A4<<debug_vec>> dim : 0 (align$) in *MAIN*#0.block1.doall24 :  LOOP 
+--- resolve way list ---
+ A57<<j3>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+resolve write sharing way : PADDING
+ A56<<j2>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+resolve write sharing way : PADDING
+ A55<<j1>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+resolve write sharing way : PADDING
+ A54<<ten>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+resolve write sharing way : PADDING
+ A4<<debug_vec>> dim : 0 (align$) in *MAIN*#0.block1.doall24 :  LOOP 
+resolve write sharing way : EXPANSION
+--- apply padding ---
+ Module 107<<bubble>>  I4<<1_j3>> 
+ Module 104<<zran3>>  A57<<j3>> 
+dim : 1
+ A57<<j3>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ apply (dim = 2) :  Module 107<<bubble>>  I4<<1_j3>> 
+ apply (dim = 2) :  Module 104<<zran3>>  A57<<j3>> 
+ Module 107<<bubble>>  V14<<j3>> 
+[1]*int ::   ptr Q51 int(0:1);
+ => 
+[7]*int ::   ptr Q80 int(0:7);
+ (deref: 1)
+  pointer-reference via :  Module 107<<bubble>>  V14<<j3>> 
+--- apply padding ---
+ Module 107<<bubble>>  I3<<1_j2>> 
+ Module 104<<zran3>>  A56<<j2>> 
+dim : 1
+ A56<<j2>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ apply (dim = 2) :  Module 107<<bubble>>  I3<<1_j2>> 
+ apply (dim = 2) :  Module 104<<zran3>>  A56<<j2>> 
+ Module 107<<bubble>>  V13<<j2>> 
+[1]*int ::   ptr Q51 int(0:1);
+ => 
+[7]*int ::   ptr Q80 int(0:7);
+ (deref: 1)
+  pointer-reference via :  Module 107<<bubble>>  V13<<j2>> 
+--- apply padding ---
+ Module 107<<bubble>>  I2<<1_j1>> 
+ Module 104<<zran3>>  A55<<j1>> 
+dim : 1
+ A55<<j1>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ apply (dim = 2) :  Module 107<<bubble>>  I2<<1_j1>> 
+ apply (dim = 2) :  Module 104<<zran3>>  A55<<j1>> 
+ Module 107<<bubble>>  V12<<j1>> 
+[1]*int ::   ptr Q51 int(0:1);
+ => 
+[7]*int ::   ptr Q80 int(0:7);
+ (deref: 1)
+  pointer-reference via :  Module 107<<bubble>>  V12<<j1>> 
+--- apply padding ---
+ Module 107<<bubble>>  I1<<1_ten>> 
+ Module 104<<zran3>>  A54<<ten>> 
+dim : 1
+ A54<<ten>> dim : 1 (align$) in zran3#104.block1.doall9 :  LOOP 
+ apply (dim = 2) :  Module 107<<bubble>>  I1<<1_ten>> 
+ apply (dim = 2) :  Module 104<<zran3>>  A54<<ten>> 
+ Module 107<<bubble>>  V11<<ten>> 
+[1]*double ::   ptr Q50 double(0:1);
+ => 
+[3]*double ::   ptr Q95 double(0:3);
+ (deref: 1)
+  pointer-reference via :  Module 107<<bubble>>  V11<<ten>> 
+--- apply expansion ---
+ Module 111<<resid_c1>>  A4<<debug_vec>> 
+ Module 100<<interp>>  A4<<debug_vec>> 
+ Module 97<<psinv>>  A4<<debug_vec>> 
+ Module 99<<rprj3>>  A4<<debug_vec>> 
+ Module 98<<resid>>  A4<<debug_vec>> 
+ Module 96<<mg3P>>  A4<<debug_vec>> 
+ Module 95<<setup>>  A4<<debug_vec>> 
+ Module 0<<*MAIN*>>  A4<<debug_vec>> 
+dim : 0
+ A4<<debug_vec>> dim : 0 (align$) in *MAIN*#0.block1.doall24 :  LOOP 
+ apply (dim = 1) :  Module 111<<resid_c1>>  A4<<debug_vec>> 
+ apply (dim = 2) :  Module 100<<interp>>  A4<<debug_vec>> 
+ apply (dim = 2) :  Module 97<<psinv>>  A4<<debug_vec>> 
+ apply (dim = 2) :  Module 99<<rprj3>>  A4<<debug_vec>> 
+ apply (dim = 2) :  Module 98<<resid>>  A4<<debug_vec>> 
+ apply (dim = 2) :  Module 96<<mg3P>>  A4<<debug_vec>> 
+ apply (dim = 2) :  Module 95<<setup>>  A4<<debug_vec>> 
+ apply (dim = 2) :  Module 0<<*MAIN*>>  A4<<debug_vec>> 
+--- remaining write sharing ---
+--- remaining write sharing ---
+####### reanalyze #######
+#####   call graph  ######
+A1(V15)
+A2(V15)
+A3(V15)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(V31,V21,V20)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T207,T202,T197)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T266,T261,T257)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T329,T324,T319)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T101,T97,T93)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T148,T143,T139)
+i3(T176,T172,T167)
+i3(T176,T172,T167)
+i3(T207,T202,T197)
+i3(T235,T231,T227)
+i3(T235,T231,T227)
+i3(T266,T261,T257)
+i3(T296,T292,T287)
+i3(T296,T292,T287)
+i3(T329,T324,T319)
+i3(T383,T377,T371)
+i3(T383,T377,T371)
+i3(T383,T377,T371)
+i3(T445,T439,T433)
+i3(T445,T439,T433)
+i3(T445,T439,T433)
+i3(T383,T377,T371)
+i3(T445,T439,T433)
+i3(T445,T439,T433)
+i3(T508,T502,T496)
+i3(T508,T502,T496)
+i3(T508,T502,T496)
+i3(T508,T502,T496)
+i3(T508,T502,T496)
+i3(T508,T502,T496)
+i3(T593,T587,T581)
+i3(T593,T587,T581)
+i3(T593,T587,T581)
+i3(T593,T587,T581)
+i3(T593,T587,T581)
+i3(T593,T587,T581)
+i3(T508,T502,T496)
+i3(T508,T502,T496)
+i3(T593,T587,T581)
+i3(T593,T587,T581)
+i3(T593,T587,T581)
+i3(T593,T587,T581)
+i3(T657,T651,T645)
+i3(T657,T651,T645)
+i3(T657,T651,T645)
+i3(T657,T651,T645)
+i3(T657,T651,T645)
+i3(T657,T651,T645)
+i3(T742,T736,T730)
+i3(T742,T736,T730)
+i3(T742,T736,T730)
+i3(T742,T736,T730)
+i3(T742,T736,T730)
+i3(T742,T736,T730)
+i3(T657,T651,T645)
+i3(T657,T651,T645)
+i3(T742,T736,T730)
+i3(T742,T736,T730)
+i3(T742,T736,T730)
+i3(T742,T736,T730)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T828,T822,T816)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+i3(T957,T951,T945)
+##### array reduction ####
+###### Define  HMDF ######
+####### Extend  SB #######
+#####   call graph  ######
+### SET DEPTH & MTG_ID ###
+# insert doacr send/recv #
+##### MT generation ######
+#### Control flow ana2 ###
+# flow-sensitive ptr ana #
+#####   call graph  ######
+###### def/use ana2 ######
+#### set loop bounder2 ###
+## argument def/use ana2 #
+### dataflow analysis2 ###
+##### array symbolic2 ####
+##### in/out analysis2 ###
+##### make dda data2 #####
+#### cost computation2 ###
+#######  paracode  #######
+### Calc program costs ###
+## Make Macro Task Graph #
+####  output Minoru_Q ####
+#### After C Blocking ####
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7463 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7452 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7452 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7452 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7463 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7452 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7452 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7463 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7452 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7452 : [Warning] malloc without cast
+/homesc2/kisimoto/minoru/mp/mp_c_block.c : line 7452 : [Warning] malloc without cast
+#### private 1pe var #####
+####  output Minoru_Q ####
+(l.128) loop has import func call 
+(l.141) loop was recognized as DOALL (*MAIN*)
+(l.286) include upwards-exposed use of V10<<s>> 
+(l.286) A48<<.40fake>>has loop carried dependence 
+(l.286) A45<<.37fake>>has loop carried dependence 
+(l.286) A49<<.41fake>>has loop carried dependence 
+(l.286) A50<<.42fake>>has loop carried dependence 
+(l.286) A51<<.43fake>>has loop carried dependence 
+(l.286) A52<<.44fake>>has loop carried dependence 
+(l.286) A53<<.45fake>>has loop carried dependence 
+(l.286) A43<<.35fake>>has loop carried dependence 
+(l.286) A46<<.38fake>>has loop carried dependence 
+(l.286) A47<<.39fake>>has loop carried dependence 
+(l.286) A44<<.36fake>>has loop carried dependence 
+(l.286) H11<<$heap_alloc$*MAIN*_235>>has loop carried dependence 
+(l.286) H4<<$heap_alloc$*MAIN*_213>>has loop carried dependence 
+(l.286) A48<<.40fake>>has loop carried dependence 
+(l.286) A44<<.36fake>>has loop carried dependence 
+(l.286) A49<<.41fake>>has loop carried dependence 
+(l.286) A50<<.42fake>>has loop carried dependence 
+(l.286) A51<<.43fake>>has loop carried dependence 
+(l.286) A52<<.44fake>>has loop carried dependence 
+(l.286) A53<<.45fake>>has loop carried dependence 
+(l.286) H11<<$heap_alloc$*MAIN*_235>>has loop carried dependence 
+(l.363) A1<<nx>>has loop carried dependence 
+(l.363) A2<<ny>>has loop carried dependence 
+(l.363) A3<<nz>>has loop carried dependence 
+(l.369) loop was recognized as DOALL (setup)
+(l.991) loop has import func call 
+(l.993) loop has import func call 
+(l.1009) loop was recognized as DOALL (zran3)
+(l.1019) include upwards-exposed use of A54<<ten>> 
+(l.1019) include upwards-exposed use of A55<<j1>> 
+(l.1019) include upwards-exposed use of A56<<j2>> 
+(l.1019) include upwards-exposed use of A57<<j3>> 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1020) include upwards-exposed use of A54<<ten>> 
+(l.1020) include upwards-exposed use of A55<<j1>> 
+(l.1020) include upwards-exposed use of A56<<j2>> 
+(l.1020) include upwards-exposed use of A57<<j3>> 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1021) include upwards-exposed use of A54<<ten>> 
+(l.1021) include upwards-exposed use of A55<<j1>> 
+(l.1021) include upwards-exposed use of A56<<j2>> 
+(l.1021) include upwards-exposed use of A57<<j3>> 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1045) include upwards-exposed use of V18<<i0>> 
+(l.1045) include upwards-exposed use of V21<<i1>> 
+(l.1107) loop was recognized as DOALL (zran3)
+(l.1108) outer loop is DOALL or DOSUM 
+(l.1109) outer loop is DOALL or DOSUM 
+(l.1114) I3<<3_z>>has loop carried dependence 
+(l.1117) I3<<3_z>>has loop carried dependence 
+(l.413) include upwards-exposed use of V10<<s>> 
+(l.413) A48<<.40fake>>has loop carried dependence 
+(l.413) A45<<.37fake>>has loop carried dependence 
+(l.413) A49<<.41fake>>has loop carried dependence 
+(l.413) A50<<.42fake>>has loop carried dependence 
+(l.413) A51<<.43fake>>has loop carried dependence 
+(l.413) A52<<.44fake>>has loop carried dependence 
+(l.413) A53<<.45fake>>has loop carried dependence 
+(l.413) I11<<4_r>>has loop carried dependence 
+(l.1261) loop was recognized as DOALL (zero3)
+(l.1262) outer loop is DOALL or DOSUM 
+(l.1263) outer loop is DOALL or DOSUM 
+(l.539) loop was recognized as DOALL (resid)
+(l.540) outer loop is DOALL or DOSUM 
+(l.540) A54<<u1>>has loop carried dependence 
+(l.540) A55<<u2>>has loop carried dependence 
+(l.541) outer loop is DOALL or DOSUM 
+(l.547) outer loop is DOALL or DOSUM 
+(l.620) loop was recognized as DOALL (rprj3)
+(l.623) outer loop is DOALL or DOSUM 
+(l.623) A54<<x1>>has loop carried dependence 
+(l.623) A55<<y1>>has loop carried dependence 
+(l.627) outer loop is DOALL or DOSUM 
+(l.636) outer loop is DOALL or DOSUM 
+(l.475) loop was recognized as DOALL (psinv)
+(l.476) outer loop is DOALL or DOSUM 
+(l.476) A54<<r1>>has loop carried dependence 
+(l.476) A55<<r2>>has loop carried dependence 
+(l.477) outer loop is DOALL or DOSUM 
+(l.483) outer loop is DOALL or DOSUM 
+(l.696) loop was recognized as DOALL (interp)
+(l.697) outer loop is DOALL or DOSUM 
+(l.697) A54<<z1>>has loop carried dependence 
+(l.697) A55<<z2>>has loop carried dependence 
+(l.697) A56<<z3>>has loop carried dependence 
+(l.698) outer loop is DOALL or DOSUM 
+(l.703) outer loop is DOALL or DOSUM 
+(l.709) outer loop is DOALL or DOSUM 
+(l.715) outer loop is DOALL or DOSUM 
+(l.721) outer loop is DOALL or DOSUM 
+(l.755) loop was recognized as DOALL (interp)
+(l.756) outer loop is DOALL or DOSUM 
+(l.757) outer loop is DOALL or DOSUM 
+(l.762) outer loop is DOALL or DOSUM 
+(l.768) outer loop is DOALL or DOSUM 
+(l.769) outer loop is DOALL or DOSUM 
+(l.774) outer loop is DOALL or DOSUM 
+(l.783) loop was recognized as DOALL (interp)
+(l.784) outer loop is DOALL or DOSUM 
+(l.785) outer loop is DOALL or DOSUM 
+(l.790) outer loop is DOALL or DOSUM 
+(l.797) outer loop is DOALL or DOSUM 
+(l.798) outer loop is DOALL or DOSUM 
+(l.804) outer loop is DOALL or DOSUM 
+(l.1203) include OUTER_JUMP 
+(l.0) include OUTER_JUMP 
+(l.539) loop was recognized as DOALL (resid_c1)
+(l.540) outer loop is DOALL or DOSUM 
+(l.540) A54<<u1>>has loop carried dependence 
+(l.540) A55<<u2>>has loop carried dependence 
+(l.541) outer loop is DOALL or DOSUM 
+(l.547) outer loop is DOALL or DOSUM 
+(l.919) loop was recognized as DOALL (comm3)
+(l.920) outer loop is DOALL or DOSUM 
+(l.928) loop was recognized as DOALL (comm3)
+(l.929) outer loop is DOALL or DOSUM 
+(l.937) loop was recognized as DOALL (comm3)
+(l.938) outer loop is DOALL or DOSUM 
+(l.1144) loop has import func call 
+(l.1145) loop has import func call 
+(l.1146) loop has import func call 
+(l.854) loop has import func call 
+(l.855) loop has import func call 
+(l.856) loop has import func call 
+(l.128) loop has import func call 
+(l.141) loop was recognized as DOALL (*MAIN*)
+(l.286) include upwards-exposed use of V10<<s>> 
+(l.286) A48<<.40fake>>has loop carried dependence 
+(l.286) A45<<.37fake>>has loop carried dependence 
+(l.286) A49<<.41fake>>has loop carried dependence 
+(l.286) A50<<.42fake>>has loop carried dependence 
+(l.286) A51<<.43fake>>has loop carried dependence 
+(l.286) A52<<.44fake>>has loop carried dependence 
+(l.286) A53<<.45fake>>has loop carried dependence 
+(l.286) A43<<.35fake>>has loop carried dependence 
+(l.286) A46<<.38fake>>has loop carried dependence 
+(l.286) A47<<.39fake>>has loop carried dependence 
+(l.286) A44<<.36fake>>has loop carried dependence 
+(l.286) H11<<$heap_alloc$*MAIN*_235>>has loop carried dependence 
+(l.286) H4<<$heap_alloc$*MAIN*_213>>has loop carried dependence 
+(l.286) A48<<.40fake>>has loop carried dependence 
+(l.286) A44<<.36fake>>has loop carried dependence 
+(l.286) A49<<.41fake>>has loop carried dependence 
+(l.286) A50<<.42fake>>has loop carried dependence 
+(l.286) A51<<.43fake>>has loop carried dependence 
+(l.286) A52<<.44fake>>has loop carried dependence 
+(l.286) A53<<.45fake>>has loop carried dependence 
+(l.286) H11<<$heap_alloc$*MAIN*_235>>has loop carried dependence 
+(l.363) A1<<nx>>has loop carried dependence 
+(l.363) A2<<ny>>has loop carried dependence 
+(l.363) A3<<nz>>has loop carried dependence 
+(l.369) loop was recognized as DOALL (setup)
+(l.991) loop has import func call 
+(l.993) loop has import func call 
+(l.1009) loop was recognized as DOALL (zran3)
+(l.1019) include upwards-exposed use of A54<<ten>> 
+(l.1019) include upwards-exposed use of A55<<j1>> 
+(l.1019) include upwards-exposed use of A56<<j2>> 
+(l.1019) include upwards-exposed use of A57<<j3>> 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1020) include upwards-exposed use of A54<<ten>> 
+(l.1020) include upwards-exposed use of A55<<j1>> 
+(l.1020) include upwards-exposed use of A56<<j2>> 
+(l.1020) include upwards-exposed use of A57<<j3>> 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1021) include upwards-exposed use of A54<<ten>> 
+(l.1021) include upwards-exposed use of A55<<j1>> 
+(l.1021) include upwards-exposed use of A56<<j2>> 
+(l.1021) include upwards-exposed use of A57<<j3>> 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1045) include upwards-exposed use of V18<<i0>> 
+(l.1045) include upwards-exposed use of V21<<i1>> 
+(l.1107) loop was recognized as DOALL (zran3)
+(l.1108) outer loop is DOALL or DOSUM 
+(l.1109) outer loop is DOALL or DOSUM 
+(l.1114) I3<<3_z>>has loop carried dependence 
+(l.1117) I3<<3_z>>has loop carried dependence 
+(l.413) include upwards-exposed use of V10<<s>> 
+(l.413) A48<<.40fake>>has loop carried dependence 
+(l.413) A45<<.37fake>>has loop carried dependence 
+(l.413) A49<<.41fake>>has loop carried dependence 
+(l.413) A50<<.42fake>>has loop carried dependence 
+(l.413) A51<<.43fake>>has loop carried dependence 
+(l.413) A52<<.44fake>>has loop carried dependence 
+(l.413) A53<<.45fake>>has loop carried dependence 
+(l.413) I11<<4_r>>has loop carried dependence 
+(l.1261) loop was recognized as DOALL (zero3)
+(l.1262) outer loop is DOALL or DOSUM 
+(l.1263) outer loop is DOALL or DOSUM 
+(l.539) loop was recognized as DOALL (resid)
+(l.540) outer loop is DOALL or DOSUM 
+(l.541) outer loop is DOALL or DOSUM 
+(l.547) outer loop is DOALL or DOSUM 
+(l.620) loop was recognized as DOALL (rprj3)
+(l.623) outer loop is DOALL or DOSUM 
+(l.627) outer loop is DOALL or DOSUM 
+(l.636) outer loop is DOALL or DOSUM 
+(l.475) loop was recognized as DOALL (psinv)
+(l.476) outer loop is DOALL or DOSUM 
+(l.477) outer loop is DOALL or DOSUM 
+(l.483) outer loop is DOALL or DOSUM 
+(l.696) loop was recognized as DOALL (interp)
+(l.697) outer loop is DOALL or DOSUM 
+(l.698) outer loop is DOALL or DOSUM 
+(l.703) outer loop is DOALL or DOSUM 
+(l.709) outer loop is DOALL or DOSUM 
+(l.715) outer loop is DOALL or DOSUM 
+(l.721) outer loop is DOALL or DOSUM 
+(l.755) loop was recognized as DOALL (interp)
+(l.756) outer loop is DOALL or DOSUM 
+(l.757) outer loop is DOALL or DOSUM 
+(l.762) outer loop is DOALL or DOSUM 
+(l.768) outer loop is DOALL or DOSUM 
+(l.769) outer loop is DOALL or DOSUM 
+(l.774) outer loop is DOALL or DOSUM 
+(l.783) loop was recognized as DOALL (interp)
+(l.784) outer loop is DOALL or DOSUM 
+(l.785) outer loop is DOALL or DOSUM 
+(l.790) outer loop is DOALL or DOSUM 
+(l.797) outer loop is DOALL or DOSUM 
+(l.798) outer loop is DOALL or DOSUM 
+(l.804) outer loop is DOALL or DOSUM 
+(l.1203) include OUTER_JUMP 
+(l.0) include OUTER_JUMP 
+(l.539) loop was recognized as DOALL (resid_c1)
+(l.540) outer loop is DOALL or DOSUM 
+(l.541) outer loop is DOALL or DOSUM 
+(l.547) outer loop is DOALL or DOSUM 
+(l.919) loop was recognized as DOALL (comm3)
+(l.920) outer loop is DOALL or DOSUM 
+(l.928) loop was recognized as DOALL (comm3)
+(l.929) outer loop is DOALL or DOSUM 
+(l.937) loop was recognized as DOALL (comm3)
+(l.938) outer loop is DOALL or DOSUM 
+(l.1144) loop has import func call 
+(l.1145) loop has import func call 
+(l.1146) loop has import func call 
+(l.854) loop has import func call 
+(l.855) loop has import func call 
+(l.856) loop has import func call 
+(l.128) loop has import func call 
+(l.141) loop was recognized as DOALL (*MAIN*)
+(l.286) include upwards-exposed use of V10<<s>> 
+(l.286) A48<<.40fake>>has loop carried dependence 
+(l.286) A45<<.37fake>>has loop carried dependence 
+(l.286) A49<<.41fake>>has loop carried dependence 
+(l.286) A50<<.42fake>>has loop carried dependence 
+(l.286) A51<<.43fake>>has loop carried dependence 
+(l.286) A52<<.44fake>>has loop carried dependence 
+(l.286) A53<<.45fake>>has loop carried dependence 
+(l.286) A43<<.35fake>>has loop carried dependence 
+(l.286) A46<<.38fake>>has loop carried dependence 
+(l.286) A47<<.39fake>>has loop carried dependence 
+(l.286) A44<<.36fake>>has loop carried dependence 
+(l.286) H11<<$heap_alloc$*MAIN*_235>>has loop carried dependence 
+(l.286) H4<<$heap_alloc$*MAIN*_213>>has loop carried dependence 
+(l.286) A48<<.40fake>>has loop carried dependence 
+(l.286) A44<<.36fake>>has loop carried dependence 
+(l.286) A49<<.41fake>>has loop carried dependence 
+(l.286) A50<<.42fake>>has loop carried dependence 
+(l.286) A51<<.43fake>>has loop carried dependence 
+(l.286) A52<<.44fake>>has loop carried dependence 
+(l.286) A53<<.45fake>>has loop carried dependence 
+(l.286) H11<<$heap_alloc$*MAIN*_235>>has loop carried dependence 
+(l.363) A1<<nx>>has loop carried dependence 
+(l.363) A2<<ny>>has loop carried dependence 
+(l.363) A3<<nz>>has loop carried dependence 
+(l.369) loop was recognized as DOALL (setup)
+(l.991) loop has import func call 
+(l.993) loop has import func call 
+(l.1009) loop was recognized as DOALL (zran3)
+(l.1019) include upwards-exposed use of A54<<ten>> 
+(l.1019) include upwards-exposed use of A55<<j1>> 
+(l.1019) include upwards-exposed use of A56<<j2>> 
+(l.1019) include upwards-exposed use of A57<<j3>> 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1019) A54<<ten>>has loop carried dependence 
+(l.1019) A55<<j1>>has loop carried dependence 
+(l.1019) A56<<j2>>has loop carried dependence 
+(l.1019) A57<<j3>>has loop carried dependence 
+(l.1020) include upwards-exposed use of A54<<ten>> 
+(l.1020) include upwards-exposed use of A55<<j1>> 
+(l.1020) include upwards-exposed use of A56<<j2>> 
+(l.1020) include upwards-exposed use of A57<<j3>> 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1020) A54<<ten>>has loop carried dependence 
+(l.1020) A55<<j1>>has loop carried dependence 
+(l.1020) A56<<j2>>has loop carried dependence 
+(l.1020) A57<<j3>>has loop carried dependence 
+(l.1021) include upwards-exposed use of A54<<ten>> 
+(l.1021) include upwards-exposed use of A55<<j1>> 
+(l.1021) include upwards-exposed use of A56<<j2>> 
+(l.1021) include upwards-exposed use of A57<<j3>> 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1021) A54<<ten>>has loop carried dependence 
+(l.1021) A55<<j1>>has loop carried dependence 
+(l.1021) A56<<j2>>has loop carried dependence 
+(l.1021) A57<<j3>>has loop carried dependence 
+(l.1045) include upwards-exposed use of V18<<i0>> 
+(l.1045) include upwards-exposed use of V21<<i1>> 
+(l.1107) loop was recognized as DOALL (zran3)
+(l.1108) outer loop is DOALL or DOSUM 
+(l.1109) outer loop is DOALL or DOSUM 
+(l.1114) I3<<3_z>>has loop carried dependence 
+(l.1117) I3<<3_z>>has loop carried dependence 
+(l.413) include upwards-exposed use of V10<<s>> 
+(l.413) A48<<.40fake>>has loop carried dependence 
+(l.413) A45<<.37fake>>has loop carried dependence 
+(l.413) A49<<.41fake>>has loop carried dependence 
+(l.413) A50<<.42fake>>has loop carried dependence 
+(l.413) A51<<.43fake>>has loop carried dependence 
+(l.413) A52<<.44fake>>has loop carried dependence 
+(l.413) A53<<.45fake>>has loop carried dependence 
+(l.413) I11<<4_r>>has loop carried dependence 
+(l.1261) loop was recognized as DOALL (zero3)
+(l.1262) outer loop is DOALL or DOSUM 
+(l.1263) outer loop is DOALL or DOSUM 
+(l.539) loop was recognized as DOALL (resid)
+(l.540) outer loop is DOALL or DOSUM 
+(l.541) outer loop is DOALL or DOSUM 
+(l.547) outer loop is DOALL or DOSUM 
+(l.620) loop was recognized as DOALL (rprj3)
+(l.623) I3<<3_r>>has loop carried dependence 
+(l.627) outer loop is DOALL or DOSUM 
+(l.636) I3<<3_r>>has loop carried dependence 
+(l.475) loop was recognized as DOALL (psinv)
+(l.476) outer loop is DOALL or DOSUM 
+(l.477) outer loop is DOALL or DOSUM 
+(l.483) outer loop is DOALL or DOSUM 
+(l.696) loop was recognized as DOALL (interp)
+(l.697) I3<<3_z>>has loop carried dependence 
+(l.698) outer loop is DOALL or DOSUM 
+(l.703) I3<<3_z>>has loop carried dependence 
+(l.709) outer loop is DOALL or DOSUM 
+(l.715) outer loop is DOALL or DOSUM 
+(l.721) outer loop is DOALL or DOSUM 
+(l.755) loop was recognized as DOALL (interp)
+(l.756) I3<<3_z>>has loop carried dependence 
+(l.757) I3<<3_z>>has loop carried dependence 
+(l.762) I3<<3_z>>has loop carried dependence 
+(l.768) I3<<3_z>>has loop carried dependence 
+(l.769) I3<<3_z>>has loop carried dependence 
+(l.774) I3<<3_z>>has loop carried dependence 
+(l.783) loop was recognized as DOALL (interp)
+(l.784) I3<<3_z>>has loop carried dependence 
+(l.785) I3<<3_z>>has loop carried dependence 
+(l.790) I3<<3_z>>has loop carried dependence 
+(l.797) I3<<3_z>>has loop carried dependence 
+(l.798) I3<<3_z>>has loop carried dependence 
+(l.804) I3<<3_z>>has loop carried dependence 
+(l.1203) include OUTER_JUMP 
+(l.0) include OUTER_JUMP 
+(l.539) loop was recognized as DOALL (resid_c1)
+(l.540) outer loop is DOALL or DOSUM 
+(l.541) outer loop is DOALL or DOSUM 
+(l.547) outer loop is DOALL or DOSUM 
+(l.919) loop was recognized as DOALL (comm3)
+(l.920) outer loop is DOALL or DOSUM 
+(l.928) loop was recognized as DOALL (comm3)
+(l.929) outer loop is DOALL or DOSUM 
+(l.937) loop was recognized as DOALL (comm3)
+(l.938) outer loop is DOALL or DOSUM 
+(l.1144) loop has import func call 
+(l.1145) loop has import func call 
+(l.1146) loop has import func call 
+(l.854) loop has import func call 
+(l.855) loop has import func call 
+(l.856) loop has import func call 
+78.23user 0.20system 1:18.57elapsed 99%CPU (0avgtext+0avgdata 1151712maxresident)k
+0inputs+2160outputs (0major+287191minor)pagefaults 0swaps
