@@ -1,0 +1,157 @@
+# for FORTRAN
+
+AUTO_SUFFIX = .auto
+
+# G77 rules
+ifndef G77_BASE_OPT
+G77_BASE_OPT = -g
+endif
+ifndef G77_OPT
+G77_OPT = $(G77_BASE_OPT)
+endif
+
+G77 = g77
+
+ref:
+	@make -e CC=$(G77) -e CC_BASE_OPT='$(G77_BASE_OPT)' -e CC_OPT='$(G77_OPT)' ccref
+
+refout:
+	@make -e CC=$(G77) -e CC_BASE_OPT='$(G77_BASE_OPT)' -e CC_OPT='$(G77_OPT)' ccrefout
+
+g77:
+	@make -e CC=$(G77) -e CC_BASE_OPT='$(G77_BASE_OPT)' -e CC_OPT='$(G77_OPT)' cc
+
+diff:
+	@make -e CC=$(G77) -e CC_BASE_OPT='$(G77_BASE_OPT)' -e CC_OPT='$(G77_OPT)' ccdiff
+
+out:
+	@make -e CC=$(G77) -e CC_BASE_OPT='$(G77_BASE_OPT)' -e CC_OPT='$(G77_OPT)' ccout
+
+
+# XLF rules
+ifndef XLF_BASE_OPT
+XLF_BASE_OPT = -Wl,-relax -g
+endif
+
+ifdef XLF_FAST
+XLF_OPT_LEVEL = $(XLC_FAST)
+XLF_QSMP_NOOPT =
+else
+ifdef FAST
+XLF_OPT_LEVEL = -O5
+XLF_QSMP_NOOPT = 
+else
+XLF_OPT_LEVEL = -O0
+XLF_QSMP_NOOPT = :noopt
+endif
+endif
+
+ifndef XLF_OPT
+ifeq ($(PE), 1)
+XLF_OPT = $(XLF_BASE_OPT) $(XLF_OPT_LEVEL)
+else
+XLF_OPT = $(XLF_BASE_OPT) $(XLF_OPT_LEVEL) -qsmp=noauto$(XLF_QSMP_NOOPT)
+endif
+
+endif
+
+ifeq ($(PE), 1)
+XLF = xlf
+else
+XLF = xlf_r
+endif
+
+ifndef XLF_AUTO_OPT
+XLF_AUTO_OPT = $(XLF_BASE_OPT) $(XLF_OPT_LEVEL) -qsmp=auto
+endif
+
+xlfref:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_OPT)' ccref
+
+xlfrefout:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_OPT)' ccrefout
+
+xlfreftime:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_OPT)' ccreftime
+
+xlfauto:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_AUTO_OPT)' -e EXE_SUFFIX=$(AUTO_SUFFIX) ccref
+
+xlfautoout:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_AUTO_OPT)' -e EXE_SUFFIX=$(AUTO_SUFFIX)ccrefout
+
+xlfautotime:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_AUTO_OPT)' -e EXE_SUFFIX=$(AUTO_SUFFIX)ccreftime
+
+xlf:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_OPT)' cc
+
+xlfdiff:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_OPT)' ccdiff
+
+xlfout:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_OPT)' ccout
+
+xlftime:
+	@make -e CC=$(XLF) -e CC_BASE_OPT='$(XLF_BASE_OPT)' -e CC_OPT='$(XLF_OPT)' cctime
+
+
+# IFORT rules
+ifndef IFORT_BASE_OPT
+IFORT_BASE_OPT = -align all -g 
+endif
+
+ifdef IFORT_FAST
+IFORT_OPT_LEVEL = $(IFORT_FAST)
+else
+ifdef FAST
+IFORT_OPT_LEVEL = -fast
+else
+IFORT_OPT_LEVEL = -O0
+endif
+endif
+
+ifndef IFORT_OPT
+ifeq ($(PE), 1)
+IFORT_OPT = $(IFORT_BASE_OPT) $(IFORT_OPT_LEVEL)
+else
+IFORT_OPT = $(IFORT_BASE_OPT) $(IFORT_OPT_LEVEL) -openmp
+endif
+
+endif
+
+ifndef IFORT_AUTO_OPT
+IFORT_AUTO_OPT = $(IFORT_BASE_OPT) $(IFORT_OPT_LEVEL) -parallel
+endif
+
+IFORT = ifort
+
+ifortref:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_OPT)' ccref
+
+ifortrefout:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_OPT)' ccrefout
+
+ifortreftime:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_OPT)' ccreftime
+
+ifortauto:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_AUTO_OPT)' -e EXE_SUFFIX=$(AUTO_SUFFIX) ccref
+
+ifortautoout:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_AUTO_OPT)' -e EXE_SUFFIX=$(AUTO_SUFFIX) ccrefout
+
+ifortautotime:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_AUTO_OPT)' -e EXE_SUFFIX=$(AUTO_SUFFIX) ccreftime
+
+ifort:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_OPT)' cc
+
+ifortdiff:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_OPT)' ccdiff
+
+ifortout:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_OPT)' ccout
+
+iforttime:
+	@make -e CC=$(IFORT) -e CC_BASE_OPT='$(IFORT_BASE_OPT)' -e CC_OPT='$(IFORT_OPT)' cctime

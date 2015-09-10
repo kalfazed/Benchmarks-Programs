@@ -1,0 +1,25 @@
+tomatoout: $(SRCBASE).tomato.out
+$(SRCBASE).tomato.out: stamp_bin
+ifdef INPUTFILE
+	@ln -s $(INPUTFILE)  . 2> /dev/null || true
+endif
+	@if [ -f $(APPLYDIR)/$(SRCBASE).in ]; then \
+		fusin < $(APPLYDIR)/$(SRCBASE).in > $(SRCBASE).tomato.out & \
+		sleep 1; \
+		tomato @$(APPLYDIR)/opt_test $(SRCBASE).[0-9] > $(SRCBASE).tomato.log 2>&1; \
+	else \
+		fusin > $(SRCBASE).tomato.out & \
+		sleep 1; \
+		tomato @$(APPLYDIR)/opt_test $(SRCBASE).[0-9] > $(SRCBASE).tomato.log 2>&1; \
+	fi
+
+tomatodiff: tomato.diff
+tomato.diff: tomatoout
+	@if [ -f $(APPLYDIR)/$(SRCBASE).tomato.out ]; then \
+		diff $(SRCBASE).tomato.out $(APPLYDIR)/$(SRCBASE).tomato.out > tomato.diff; \
+		wc -l tomato.diff; \
+	else \
+		diff $(SRCBASE).tomato.out $(APPLYDIR)/$(SRCBASE).out > tomato.diff; \
+		wc -l tomato.diff; \
+	fi
+

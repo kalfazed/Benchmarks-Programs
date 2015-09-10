@@ -1,0 +1,734 @@
+ifdef PESTAGE
+MP_OPT$(PESTAGE) += -p $(PE)
+else
+ifdef PE
+MP_OPTION += -p $(PE)
+endif
+endif
+
+## cfe2
+ifdef CFE2
+MP_OPTION += -cfe2
+endif
+
+## Constant Table
+ifdef HEXCONST
+MP_OPTION += -hexconst
+endif
+
+ifdef SORT_CONST
+MP_OPTION += -sort-const
+endif
+
+## memory size
+ifdef LM_SIZE
+MP_OPTION += -lm-size $(LM_SIZE)
+endif
+ifdef DSM_SIZE
+MP_OPTION += -dsm-size $(DSM_SIZE)
+endif
+
+## cache size
+ifdef CACHE_SIZE
+MP_OPTION += -cache-size $(CACHE_SIZE)
+endif
+ifdef CACHE_ASSOC
+MP_OPTION += -cache-assoc $(CACHE_ASSOC)
+endif
+ifdef CACHE_PROCS
+MP_OPTION += -cache-procs $(CACHE_PROCS)
+endif
+ifdef CACHE_LINE_SIZE
+MP_OPTION += -cache-line-size $(CACHE_LINE_SIZE)
+endif
+
+## cost
+ifdef FLAG_SEND_COST
+MP_OPTION += -flag-send-cost $(FLAG_SEND_COST)
+endif
+ifdef FLAG_RECEIVE_COST
+MP_OPTION += -flag-receive-cost $(FLAG_RECEIVE_COST)
+endif
+ifdef DATA_SEND_COST
+MP_OPTION += -data-send-cost $(DATA_SEND_COST)
+endif
+ifdef DATA_RECEIVE_COST
+MP_OPTION += -data-receive-cost $(DATA_RECEIVE_COST)
+endif
+ifdef COMMON_COST
+MP_OPTION += -common-cost $(COMMON_COST)
+endif
+ifdef LOCAL_COST
+MP_OPTION += -local-cost $(LOCAL_COST)
+endif
+
+ifdef CSM_LATENCY
+MP_OPTION += -cmp-csm-latency $(CSM_LATENCY)
+endif
+ifdef LDM_LATENCY
+MP_OPTION += -cmp-ldm-latency $(LDM_LATENCY)
+endif
+ifdef DSM_LATENCY
+MP_OPTION += -cmp-dsm-latency $(DSM_LATENCY)
+endif
+ifdef REMOTE_DSM_LATENCY
+MP_OPTION += -cmp-rdsm-latency $(REMOTE_DSM_LATENCY)
+endif
+ifdef BURST_LATENCY
+MP_OPTION += -cmp-burst-latency $(BURST_LATENCY)
+endif
+
+ifdef COST_ARCH
+MP_OPTION += -cost-arch $(COST_ARCH)
+endif
+
+ifdef LOOP_COST_BY_UD
+MP_OPTION += -loop-cost-by-ud
+endif
+
+ifdef DEFAULT_LOOP_COUNT
+MP_OPTION += -default-loop-count $(DEFAULT_LOOP_COUNT)
+endif
+
+ifdef ESTIMATE_WO_ARR_SIZE
+MP_OPTION += -estimate-wo-arr-size
+endif
+
+
+## C
+ifdef PA
+MP_OPTION += -pa
+endif
+
+ifdef PA_OUTPUT_INFO
+MP_OPTION += -pa-output-info $(PA_OUTPUT_INFO)
+endif
+
+ifdef CIPA
+MP_OPTION += -cipa
+endif
+
+ifdef FIPA
+MP_OPTION += -fipa
+endif
+
+ifdef IGNORE_SIDE_EFFECT_OF_IMPORT
+MP_OPTION += -ignore-side-effect-of-import
+endif
+
+ifdef FORCE_NO_POINTER
+MP_OPTION += -force-no-pointer
+endif
+
+ifdef REORDER_BLOCKS
+MP_OPTION += -reorder-blocks
+endif
+
+ifdef RB2LOOP
+MP_OPTION += -rb2loop
+endif
+
+ifdef DEBUG_C_BLOCKING
+MP_OPTION += -debug-c-blocking
+endif
+
+
+## Array symbolic analysis
+ifdef ARRAY_SYM
+MP_OPTION += -array-sym
+endif
+
+ifdef ARRAY_SYM_PA
+MP_OPTION += -array-sym-pa
+endif
+
+ifdef ADJUST_ARRAY_SYM
+MP_OPTION += -adjust-array-sym
+endif
+
+ifdef ARRAY_DEPENDENCE_RANGE
+MP_OPTION += -array-dependence-range
+endif
+
+ifdef SYM
+MP_OPTION += -sym
+endif
+
+ifdef IND
+MP_OPTION += -ind
+endif
+
+ifdef NOUSE_ARRAY_RANGE_DEP_ANALY
+MP_OPTION += -nouse-array-range-dep-analy
+endif
+
+ifdef SUBTRACT_ONLY_COMPARABLE
+MP_OPTION += -subtract-only-comparable
+endif
+
+ifdef ARRAY_LMAD
+MP_OPTION += -array-lmad-full -array-lmad
+endif
+
+ifdef ARRAY_LMAD_ONLY
+MP_OPTION += -array-lmad
+endif
+
+ifdef RP1_DMA_RESTRICT
+MP_OPTION += -rp1-dma-restrict
+endif
+
+ifdef RP1_DMA_FORCE_RESTRICT
+MP_OPTION += -rp1-dma-force-restrict
+endif
+
+
+## hmdf
+ifdef AUTO_HMDF
+MP_OPTION += -auto-hmdf
+endif
+ifdef AUTO_HMDF_STAGE
+MP_OPT$(AUTO_HMDF) += -auto-hmdf
+endif
+
+
+ifdef ONLY_HMDF
+MP_OPTION += -only-hmdf
+endif
+
+ifdef READ_HMDF_DIRECTIVE
+MP_OPTION += -read-hmdf-directive
+endif
+
+ifdef PMTG
+MP_OPTION += -Pmtg
+endif
+
+ifdef PALLMTG
+MP_OPTION += -Pallmtg
+endif
+
+ifdef SPLIT_LAYER
+MP_OPTION += -split-layer
+endif
+
+ifdef SPLIT_LAYER_SINGLE_PROC_LAYER
+MP_OPTION += -split-single-proc-layer
+endif
+
+ifdef REMAKE_HMDF
+MP_OPTION += -remake-hmdf
+endif
+
+ifdef CTRL_LAYER
+MP_OPTION += -ctrl-layer
+endif
+
+ifdef CTRL_LAYER_ALL
+MP_OPTION += -ctrl-layer-all
+endif
+
+ifdef HMDF_OUTPUT_INFO
+MP_OPTION += -hmdf-output-info $(HMDF_OUTPUT_INFO)
+endif
+
+## lad
+ifdef PALIGNDECOMP
+MP_OPTION += -Paligndecomp
+endif
+
+ifdef LAD_IIYM
+MP_OPTION += -lad-iiym
+endif
+
+ifdef LAD_CAM
+MP_OPTION += -lad-cam
+endif
+
+ifdef LOCALIZE_WITH_PA
+MP_OPTION += -localize-with-pa
+endif
+
+ifdef LAD_DIST_REM
+MP_OPTION += -lad-dist-rem
+endif
+
+ifdef LAD_ADJUST_SIL_OR_SIU
+MP_OPTION += -lad-adjust-sil-or-siu
+endif
+
+ifdef LAD_SB
+MP_OPTION += -lad-dlg-car-sb
+endif
+
+ifdef LAD_DLG_FUSION
+MP_OPTION += -lad-dlg-fusion
+endif
+
+ifdef LAD_SEQ_LOOP
+MP_OPTION += -lad-seq-loop 
+endif
+
+ifdef LAD_CALL_LOOP
+MP_OPTION += -lad-call-loop
+endif
+
+ifdef LAD_IGNORE_INPUT_DEP
+MP_OPTION += -lad-ignore-input-dep
+endif
+
+ifdef LAD_YA_DECOMPOSED_BY_SIZE
+MP_OPTION += -lad-ya-decomposed-by-size
+endif
+
+ifdef LAD_MULTI_DIM
+MP_OPTION += -lad-multi-dim
+endif
+
+ifdef LAD_YA_TEMPL
+MP_OPTION += -lad-ya-templ
+endif
+
+ifdef LAD_YA_SELECT_LOCAL_ARRAY
+MP_OPTION += -lad-ya-select-local-array
+endif
+
+ifdef LAD_YA_NOT_INCLUDE_IO_TLG
+MP_OPTION += -lad-ya-not-include-io-tlg
+endif
+
+ifdef LAD_IGNORE_MULTI_INDEXES
+MP_OPTION += -lad-ignore-multi-indexes
+endif
+
+ifdef LAD_SM
+MP_OPTION += -lad-sm -lad-sm-pe $(PE)
+endif
+
+ifdef LAD_SM_STEP
+MP_OPTION += -lad-sm-step $(LAD_SM_STEP)
+endif
+
+ifdef LAD_SM_PEELING
+MP_OPTION += -lad-sm-peeling
+endif
+
+ifdef LAD_SM_CMP
+MP_OPTION += -lad-sm-cmp
+endif
+
+ifdef LAD_SM_LIMIT_ITER
+MP_OPTION += -lad-sm-limit-iter
+endif
+
+ifdef LAD_SM_LIMIT_ITER_TH
+MP_OPTION += -lad-sm-limit-iter-th $(LAD_SM_LIMIT_ITER_TH)
+endif
+
+ifdef CMP_LAD_SM_STEP_AUTO
+MP_OPTION += -cmp-lad-sm-step-auto
+endif
+
+ifdef LAD_SM_SINGLE_LOOP
+MP_OPTION += -lad-sm-single-loop
+endif
+
+ifdef LAD_SM_CMP_DEBUG
+MP_OPTION += -lad-sm-cmp-debug
+endif
+
+ifdef LAD_SM_WEIGHT
+MP_OPTION += -lad-sm-weight $(LAD_SM_WEIGHT)
+endif
+
+ifdef NO_DIST_AFTER_DIV
+MP_OPTION += -no-dist-after-div
+endif
+
+ifdef LAD_SELECT_TLG_BY_CACHE
+MP_OPTION += -lad-select-tlg-by-cache
+endif
+
+ifdef LAD_NO_CAR
+MP_OPTION += -lad-no-car
+endif
+
+ifdef LAD_MULTI_MODULE_DIV
+MP_OPTION += -lad-multi-module-div
+endif
+
+ifdef LAD_MAKE_TOTAL_DATA_SIZE_SEMTREE
+MP_OPTION += -lad-make-total-data-size-semtree
+endif
+
+
+## local memory
+ifdef CMP_CO
+MP_OPTION += -cmp-co
+endif
+
+ifdef CMP_DLG
+MP_OPTION += -cmp-dlg
+endif
+
+ifdef CMP_STASCHE
+MP_OPTION += -cmp-stasche
+endif
+
+ifdef CMP_TEMPL
+MP_OPTION += -cmp-templ
+endif
+
+ifdef CMP_NOTEMPL
+MP_OPTION += -cmp-notempl
+endif
+
+ifdef CMP_ANALY
+MP_OPTION += -cmp-analy
+endif
+
+ifdef CMP_SCALAR
+MP_OPTION += -cmp-scalar
+endif
+
+ifdef CMP_SCALAR_NO_SEND
+MP_OPTION += -cmp-scalar-no-send
+endif
+
+ifdef CMP_SEND
+MP_OPTION += -cmp-send
+endif
+
+ifdef CMP_NO_GLOBAL
+MP_OPTION += -cmp-no-global
+endif
+
+ifdef CMP_NO_TEMPLATIZE
+MP_OPTION += -cmp-no-templatize
+endif
+
+ifdef CMP_TEMPLATIZE_ALL
+MP_OPTION += -cmp-templatize-all
+endif
+
+ifdef CMP_YA_TEMPL
+MP_OPTION += -cmp-ya-templ
+endif
+
+ifdef DEC2ARG
+MP_OPTION += -cmp-dec2arg
+endif
+
+ifdef CMP_UNLIMIT
+MP_OPTION += -cmp-unlimit
+endif
+
+ifdef CMP_FORCE_TEMPLATE
+MP_OPTION += -cmp-force-template
+endif
+
+ifdef CMP_READ_COST
+MP_OPTION += -cmp-read-cost $(READCOST)
+endif
+
+ifdef CMP_READ_SCHE
+MP_OPTION += -cmp-read-sche $(READSCHE)
+endif
+
+ifdef CMP_PLPS
+MP_OPTION += -cmp-plps
+endif
+
+ifdef CMP_LRU_DISCARD
+MP_OPTION += -cmp-lru-discard
+endif
+
+ifdef CMP_MRU_ALLOC
+MP_OPTION += -cmp-mru-alloc
+endif
+
+ifdef CMP_NOLOCAL_SINGLE_BLOCK
+MP_OPTION += -cmp-nolocal-single-block
+endif
+
+ifdef CMP_MULTI_LEVEL_LATENCY
+MP_OPTION += -cmp-multi-level-latency $(CMP_MULTI_LEVEL_LATENCY)
+endif
+
+ifdef CMP_MULTI_LEVEL_SIZE
+MP_OPTION += -cmp-multi-level-size $(CMP_MULTI_LEVEL_SIZE)
+endif
+
+ifdef CMP_MULTI_LEVEL_KIND
+MP_OPTION += -cmp-multi-level-kind $(CMP_MULTI_LEVEL_KIND)
+endif
+
+ifdef CMP_MULTI_LEVEL_SELECT
+MP_OPTION += -cmp-multi-level-select $(CMP_MULTI_LEVEL_SELECT)
+endif
+
+ifdef CMP_SUCCESSIVE_DLG
+MP_OPTION += -cmp-successive-dlg
+endif
+
+ifdef CMP_MANAGE_FLG
+MP_OPTION += -cmp-manage-flg
+endif
+
+ifdef CMP_HORIZONTAL_SCHE
+MP_OPTION += -cmp-horizontal-sche
+endif
+
+ifdef CMP_REMAKE_ALL_LAYER
+MP_OPTION += -cmp-remake-all-layer
+endif
+
+ifdef ADD_COMMON_DEC_TO_CALLER
+MP_OPTION += -add-common-dec-to-caller
+endif
+
+ifdef CMP_CHANGE_SUBSCRIPT
+MP_OPTION += -cmp-change-subscript
+endif
+
+ifdef CMP_ONE_PE_HIE
+MP_OPTION += -cmp-one-pe-hie
+endif
+
+ifdef CMP_COPY_LOOP_TO_DT
+MP_OPTION += -cmp-copy-loop-to-dt
+endif
+
+ifdef CMP_STATIC_SLOT_ASSIGN
+MP_OPTION += -cmp-static-slot-assign
+endif
+
+ifdef CMP_STATIC_SCALAR_MANAGE
+MP_OPTION += -cmp-static-scalar-manage
+endif
+
+ifdef CMP_FIX_SLOT_NO_DLG
+MP_OPTION += -cmp-fix-slot-no-dlg
+endif
+
+ifdef CMP_LOCALIZE
+MP_OPTION += -cmp-localize
+endif
+
+## misc
+ifdef NO_FINE
+MP_OPTION += -no-fine
+endif
+
+ifdef PRIVATE_1PE_VAR_SCALAR_ONLY
+MP_OPTION += -private-1pe-var-scalar-only 
+endif
+
+ifdef PRIVATE_1PE_VAR
+MP_OPTION += -private-1pe-var
+endif
+
+ifdef SHRINK_LM_VAR
+MP_OPTION += -shrink-lm-var
+endif
+
+ifdef NO_LOOP_DIV
+MP_OPTION += -no-loop-div
+endif
+
+# low-power
+ifdef READ_COST_DIRECTIVE
+MP_OPTION += -read-cost-directive
+endif
+
+ifdef LOW_POWER
+MP_OPTION += -low-power
+endif
+
+ifdef LOW_POWER_DLINE_DIRECTIVE
+MP_OPTION += -low-power-dline-directive
+endif
+
+ifdef LOW_POWER_DLINE
+MP_OPTION += -low-power-dline $(LOW_POWER_DLINE)
+endif
+
+ifdef LOW_POWER_NO_CONTROL_FV
+MP_OPTION += -low-power-no-control-fv
+endif
+
+ifdef LOW_POWER_SYMMETRIC_FV
+MP_OPTION += -low-power-symmetric-fv
+endif
+
+ifdef LOW_POWER_ARCHI
+MP_OPTION += -low-power-archi $(LOW_POWER_ARCHI)
+endif
+
+ifdef LOW_POWER_NO_CONTROL_FV
+MP_OPTION += -low-power-no-control-fv
+endif
+
+ifdef LOW_POWER_FOR_PARALLEL_LOOP
+MP_OPTION += -low-power-for-parallel-loop
+endif
+
+ifdef LOW_POWER_FOR_PARALLEL_LOOP_PWROFF
+MP_OPTION += -low-power-for-parallel-loop-pwroff
+endif
+
+ifdef LOW_POWER_FOR_PARALLEL_LOOP_CLKOFF
+MP_OPTION += -low-power-for-parallel-loop-clkoff
+endif
+
+ifdef LOW_POWER_FOR_PARALLEL_LOOP_RATIO
+MP_OPTION += -low-power-for-parallel-loop-ratio $(LOW_POWER_FOR_PARALLEL_LOOP_RATIO)
+endif
+
+ifdef LOW_POWER_OUTPUT_INFO
+MP_OPTION += -low-power-output-info $(LOW_POWER_OUTPUT_INFO)
+endif
+
+# non-coherent cache
+ifdef DETECT_WRITE_SHARING
+MP_OPTION += -detect-write-sharing
+endif
+
+ifdef RESOLVE_WRITE_SHARING
+MP_OPTION += -resolve-write-sharing
+endif
+
+ifdef ARRAY_EXPANSION_THREASHOLD
+MP_OPTION += -array-expansion-threashold $(ARRAY_EXPANSION_THREASHOLD)
+endif
+
+ifdef ARRAY_EXPANSION_NOLIMIT
+MP_OPTION += -array-expansion-nolimit
+endif
+
+ifdef DOALL_ALIGNCACHE
+MP_OPTION += -doall-aligncache
+endif
+
+# doacr
+ifdef SCALAR_EXPANSION
+MP_OPTION += -scalar-expansion
+endif
+
+ifdef LOOP_DIST_BLOCK
+MP_OPTION += -loop-dist-block
+endif
+
+ifdef LOOP_DIST_BLOCK_STATIC
+MP_OPTION += -loop-dist-block-static
+endif
+
+#dosum
+ifdef NO_REDUCTION
+MP_OPTION += -no-reduction
+endif
+
+## ??
+ifdef CACHEOPT
+MP_OPTION += -co
+endif
+
+ifdef PADDING
+MP_OPTION += -padding
+endif
+
+ifdef IND
+MP_OPTION += -ind
+endif
+
+ifdef CT
+MP_OPTION += -ct
+endif
+
+ifdef FBPA
+MP_OPTION += -fbpa
+endif
+
+ifdef LP64
+MP_OPTION += -lp64
+endif
+
+## debug
+ifdef SEQ_FACTOR
+MP_OPTION += -seq-factor
+endif
+
+ifdef LOOP_REPORT
+MP_OPTION += -loop-report
+endif
+
+ifdef LOCALIZE_VERBOSE
+MP_OPTION += -localize-verbose $(LOCALIZE_VERBOSE)
+endif
+
+MP_OPTION += $(OPT_MP_ADD)
+
+## const pass stage version
+ifdef LICFIRST
+MP_OPT1 += -loop-interchange -change-dim
+endif
+
+ifdef LADIPASECOND
+MP_OPT2 += -Paligndecomp -lad-iiym -lad-ipa
+endif
+
+ifdef PEELINGTHIRD
+MP_OPT3 += -Paligndecomp -lad-iiym -peeling -lad-no-directive -no-loop-div
+endif
+
+## free pass stage version
+ifdef LIC
+MP_OPT$(LIC)  += -loop-interchange -change-dim
+endif
+
+ifdef ONLYLIC
+MP_OPT$(ONLYLIC)  += -loop-interchange
+endif
+
+ifdef LADIPA
+#MP_OPT$(LADIPA) += -Paligndecomp -lad-iiym -lad-ipa
+MP_OPT$(LADIPA) += -Paligndecomp -lad-cam -lad-ipa
+endif
+
+ifdef PEELING
+#MP_OPT$(PEELING) += -Paligndecomp -lad-iiym -peeling -lad-no-directive -no-loop-div
+MP_OPT$(PEELING) += -Paligndecomp -lad-cam -peeling -lad-no-directive -no-loop-div
+endif
+
+ifdef MPTIMES
+MP_OPT$(MPTIMES) += $(MP_OPTION)
+MP_OPT_LAST = $(MP_OPT$(MPTIMES))
+
+else ## MPTIMES ##
+MPTIMES = 1
+ifdef MPTWOTIMES
+override MPTIMES = 2 
+ifndef MP_OPT2
+MP_OPT2 += $(MP_OPTION)
+endif
+else
+ifdef MPTHREETIMES
+override MPTIMES = 3
+ifndef MP_OPT3
+MP_OPT3 += $(MP_OPTION)
+endif
+else
+ifdef MPFOURTIMES
+override MPTIMES = 4
+ifndef MP_OPT4
+MP_OPT4 += $(MP_OPTION)
+endif
+endif
+endif
+endif
+
+ifndef MP_OPT1
+MP_OPT1 += $(MP_OPTION)
+endif
+
+endif ## MPTIMES  ##

@@ -1,0 +1,142 @@
+## common rules ##
+
+ORGSRC = $(SRCDIR)/$(SRCBASE).$(LANG_SUFFIX)
+REFSRC = $(EXEDIR)/$(CC)/$(SRCBASE).$(LANG_SUFFIX)
+REFBIN = $(EXEDIR)/$(CC)/$(SRCBASE).$(CC)$(EXE_SUFFIX)
+REFOUT = $(OUTPUTDIR)/$(SRCBASE).$(CC)$(EXE_SUFFIX).out
+REFROU = $(EXEDIR)/$(CC)/$(SRCBASE).$(CC)$(EXE_SUFFIX).run.out
+REFCOU = $(EXEDIR)/$(CC)/$(SRCBASE).$(CC)$(EXE_SUFFIX).comp.out
+REFOPT = $(EXEDIR)/$(CC)/$(SRCBASE).$(CC)$(EXE_SUFFIX).opt
+
+TARSRC = $(SRCBASE).omp.$(LANG_SUFFIX)
+TARBIN = $(SRCBASE).omp.$(CC)
+TAROUT = $(SRCBASE).omp.$(CC).out
+TARROU = $(SRCBASE).omp.$(CC).run.out
+TAROPT = $(SRCBASE).omp.$(CC).opt
+
+define cmpr_opt
+	@if [ ! -f $1 ]; then \
+		echo '$(CC_OPT)' > $1; \
+	else \
+		echo '$(CC_OPT)' | diff - $1 > /dev/null; \
+		if [ $$? != 0 ]; then \
+			echo '$(CC_OPT)' > $1; \
+		fi \
+	fi
+endef
+
+
+####################################
+###    native compiler rules     ###
+####################################
+
+ccref: 
+	$(call cmpr_opt, $(REFOPT))
+	make $(SILENT) -e CC='$(CC)' -e CC_OPT='$(CC_OPT)' ccrefbody
+ccrefbody: $(REFBIN)
+$(REFBIN): $(REFSRC) $(EXSRC) $(EXHEAD) $(INCSRC) $(INCHEAD) $(REFOPT)
+	$(CC)  $(REFSRC) $(EXSRC) -o $(REFBIN) $(CC_OPT) $(CC_NATIVE_OPT) 1> $(REFCOU) 2>&1
+$(REFSRC): $(ORGSRC)
+	cat $(ORGSRC) > $(REFSRC)
+#ifdef STRUCT_SHELL
+#	$(STRUCT_SHELL) $(REFSRC)
+#endif
+
+ccrefout:
+	$(call cmpr_opt, $(REFOPT))
+	make $(SILENT) -e CC='$(CC)' -e CC_OPT='$(CC_OPT)' ccrefoutbody
+ccrefoutbody: $(REFOUT)
+$(REFOUT): $(REFBIN)
+ifdef RUN_ARG
+ifdef RUN_STDIN
+	$(TIME) $(REFBIN) $(RUN_ARG) < $(RUN_STDIN) > $(REFROU) 2>&1
+else
+	$(TIME) $(REFBIN) $(RUN_ARG) > $(REFROU) 2>&1
+endif
+else
+ifdef RUN_STDIN
+	$(TIME) $(REFBIN) < $(RUN_STDIN) > $(REFROU) 2>&1
+else
+ifdef IOARG
+ifdef INPUTFILE
+	$(TIME) $(REFBIN) $(INPUTFILE) $(REFOUT) > $(REFROU) 2>&1
+else
+	$(TIME) $(REFBIN) $(REFOUT) > $(REFROU) 2>&1
+endif
+else
+	if [ -f $(INPUTDIR)/$(SRCBASE).in ]; then \
+		$(TIME) $(REFBIN) < $(INPUTDIR)/$(SRCBASE).in > $(REFOUT) 2>$(REFROU); \
+	else \
+		$(TIME) $(REFBIN) > $(REFOUT) 2>$(REFROU); \
+	fi
+endif
+endif
+endif
+
+ccreftime:
+	@if [ -f $(REFOUT) ]; then \
+		rm $(REFOUT); \
+	fi
+	@make -e CC='$(CC)' -e CC_OPT='$(CC_OPT)' ccrefout
+
+
+####################################
+###      OSCAR output rules      ###
+####################################
+
+cc:
+	$(call cmpr_opt, $(TAROPT))
+	make $(SILENT) -e CC='$(CC)' -e CC_OPT='$(CC_OPT)' ccbody
+ccbody: $(TARBIN)
+$(TARBIN): $(EXSRC) $(EXHEAD) $(INCSRC) $(INCHEAD) $(TAROPT)
+	$(CC) $(TARSRC) $(EXSRC) -o $(TARBIN) $(CC_OPT)  > $(CC).out 2>&1
+
+# rule incorrect?
+ccdiff:: ccrefout
+#ccdiff:: ccout
+ccdiff:: $(CC).diff
+$(CC).diff: ccout
+	diff $(TAROUT) $(REFOUT) > $(CC).diff; \
+	wc -l $(CC).diff
+
+ccout:
+	$(call cmpr_opt, $(TAROPT))
+	make $(SILENT) -e CC='$(CC)' -e CC_OPT='$(CC_OPT)' ccoutbody
+ccoutbody: $(TAROUT)
+$(TAROUT): $(TARBIN)
+ifdef RUN_ARG
+ifdef RUN_STDIN
+	$(TIME) ./$(TARBIN) $(RUN_ARG) < $(RUN_STDIN) > $(TARROU) 2>&1
+else
+	$(TIME) ./$(TARBIN) $(RUN_ARG) > $(TARROU) 2>&1
+endif
+else
+ifdef RUN_STDIN
+	$(TIME) ./$(TARBIN) < $(RUN_STDIN) > $(TARROU) 2>&1
+else
+ifdef IOARG
+ifdef INPUTFILE
+	$(TIME) ./$(TARBIN) $(INPUTFILE) $(TAROUT) > $(TARROU) 2>&1 
+else
+	$(TIME) ./$(TARBIN) $(TAROUT) > $(TARROU) 2>&1
+endif
+else
+ifeq ($SRC), $(SRCBASE).f)
+ifdef INPUTFILE
+	@ln -s $(INPUTFILE) . 2> /dev/null || true
+endif
+endif
+	if [ -f $(INPUTDIR)/$(SRCBASE).in ]; then \
+		$(TIME) ./$(TARBIN) < $(INPUTDIR)/$(SRCBASE).in > $(TAROUT) 2>$(TARROU); \
+	else \
+		$(TIME) ./$(TARBIN) > $(TAROUT) 2>$(TARROU); \
+	fi
+endif
+endif
+endif
+
+cctime: 
+	@if [ -f $(TAROUT) ]; then \
+		rm $(TAROUT); \
+	fi
+	@make -e CC='$(CC)' -e CC_OPT='$(CC_OPT)' ccout

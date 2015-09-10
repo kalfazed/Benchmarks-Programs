@@ -1,0 +1,187 @@
+# for C 
+
+AUTO_SUFFIX = .auto
+
+# GCC rules
+ifndef GCC_BASE_OPT
+GCC_BASE_OPT = -lm -Wall -g -I$(SRCDIR) -I$(LIBDIR)/
+endif
+
+ifdef FAST
+GCC_OPT_LEVEL = -O3
+else
+GCC_OPT_LEVEL = -O0
+endif
+
+ifndef GCC_OPT
+
+ifeq ($(PE), 1)
+GCC_OPT = $(GCC_BASE_OPT) $(GCC_OPT_LEVEL)
+else
+GCC_OPT = $(GCC_BASE_OPT) $(GCC_OPT_LEVEL) -fopenmp
+endif
+
+endif
+
+GCC = gcc
+
+cref:
+	@make $(SILENT) -e CC=$(GCC) -e CC_OPT='$(GCC_OPT)' ccref
+
+crefout:
+	@make $(SILENT) -e CC=$(GCC) -e CC_OPT='$(GCC_OPT)' ccrefout
+
+creftime:
+	@make $(SILENT) -e CC=$(GCC) -e CC_OPT='$(GCC_OPT)' ccreftime
+
+gcc:
+	@make $(SILENT) -e CC=$(GCC) -e CC_OPT='$(GCC_OPT)' cc
+
+cdiff:
+	@make $(SILENT) -e CC=$(GCC) -e CC_OPT='$(GCC_OPT)' ccdiff
+
+cout:
+	@make $(SILENT) -e CC=$(GCC) -e CC_OPT='$(GCC_OPT)' ccout
+
+ctime:
+	@make $(SILENT) -e CC=$(GCC) -e CC_OPT='$(GCC_OPT)' cctime
+
+	
+# XLC rules
+ifndef XLC_BASE_OPT
+XLC_BASE_OPT = -lm -g -bmaxdata:0x80000000 -I$(SRCDIR) -I$(LIBDIR)/
+endif
+
+ifdef XLC_FAST
+XLC_OPT_LEVEL = $(XLC_FAST)
+XLC_QSMP_NOOPT =
+else
+ifdef FAST
+XLC_OPT_LEVEL = -O5
+XLC_QSMP_NOOPT = 
+else
+XLC_OPT_LEVEL = -O0
+XLC_QSMP_NOOPT = :noopt
+endif
+endif
+
+ifeq ($PE), 1)
+XLC_QSMP_NOAUTO=
+else
+XLC_QSMP_NOAUTO = -qsmp=noauto$(XLC_QSMP_NOOPT)
+endif
+
+ifndef XLC_OPT
+
+XLC_OPT = $(XLC_BASE_OPT) $(XLC_OPT_LEVEL) $(XLC_QSMP_NOAUTO)
+
+endif
+
+ifeq ($(PE), 1)
+XLC = xlc
+else
+XLC = xlc_r
+endif
+
+ifndef XLC_AUTO_OPT
+XLC_AUTO_OPT = $(XLC_BASE_OPT) $(XLC_OPT_LEVEL) -qsmp=auto
+endif
+
+xlcref:
+	@make $(SILENT) -e CC=$(XLC) -e CC_OPT='$(XLC_OPT)' ccref
+
+xlcrefout:
+	@make $(SILENT) -e CC=$(XLC) -e CC_OPT='$(XLC_OPT)' ccrefout
+
+xlcreftime:
+	@make $(SILENT) -e CC=$(XLC) -e CC_OPT='$(XLC_OPT)' ccreftime
+
+xlc:
+	@make $(SILENT) -e CC=$(XLC) -e CC_OPT='$(XLC_OPT)' cc
+
+xlcdiff:
+	@make $(SILENT) -e CC=$(XLC) -e CC_OPT='$(XLC_OPT)' ccdiff
+
+xlcout:
+	@make $(SILENT) -e CC=$(XLC) -e CC_OPT='$(XLC_OPT)' ccout
+
+xlctime:
+	@make $(SILENT) -e CC=$(XLC) -e CC_OPT='$(XLC_OPT)' cctime
+
+xlcauto:
+	@make $(SILENT) -e XLC_OPT='$(XLC_AUTO_OPT)' \
+	      		-e EXE_SUFFIX=$(AUTO_SUFFIX) xlcref
+
+xlcautoout:
+	@make $(SILENT) -e XLC_OPT='$(XLC_AUTO_OPT)' \
+	      		-e EXE_SUFFIX=$(AUTO_SUFFIX) xlcrefout
+
+xlcautotime:
+	@make $(SILENT) -e XLC_OPT='$(XLC_AUTO_OPT)' \
+	      		-e EXE_SUFFIX=$(AUTO_SUFFIX) xlcreftime
+
+
+# ICC rules
+ifndef ICC_BASE_OPT
+ICC_BASE_OPT = -lm -g -I$(SRCDIR) -I$(LIBDIR)/
+endif
+
+ifdef ICC_FAST
+ICC_OPT_LEVEL = $(ICC_FAST)
+else
+ifdef FAST
+ICC_OPT_LEVEL = -O3 -xHOST 
+#-fast
+else
+ICC_OPT_LEVEL = -O0
+endif
+endif
+
+ifndef ICC_OPT
+
+ifeq ($(PE), 1)
+ICC_OPT = $(ICC_BASE_OPT) $(ICC_OPT_LEVEL) -openmp
+else
+ICC_OPT = $(ICC_BASE_OPT) $(ICC_OPT_LEVEL) -openmp 
+endif
+
+endif
+
+ifndef ICC_AUTO_OPT
+ICC_AUTO_OPT = $(ICC_BASE_OPT) $(ICC_OPT_LEVEL) -parallel
+endif
+
+ICC = icc
+
+iccref:
+	@make $(SILENT) -e CC=$(ICC) -e CC_OPT='$(ICC_OPT)' ccref
+
+iccrefout:
+	@make $(SILENT) -e CC=$(ICC) -e CC_OPT='$(ICC_OPT)' ccrefout
+
+iccreftime:
+	@make $(SILENT) -e CC=$(ICC) -e CC_OPT='$(ICC_OPT)' ccreftime
+
+icc:
+	@make $(SILENT) -e CC=$(ICC) -e CC_OPT='$(ICC_OPT)' cc
+
+iccdiff:
+	@make $(SILENT) -e CC=$(ICC) -e CC_OPT='$(ICC_OPT)' ccdiff
+
+iccout:
+	@make $(SILENT) -e CC=$(ICC) -e CC_OPT='$(ICC_OPT)' ccout
+
+icctime:
+	@make $(SILENT) -e CC=$(ICC) -e CC_OPT='$(ICC_OPT)' cctime
+
+iccauto:
+	@make $(SILENT) -e ICC_OPT='$(ICC_AUTO_OPT)' \
+	      		-e EXE_SUFFIX=$(AUTO_SUFFIX) iccref
+
+iccautoout:
+	@make $(SILENT) -e ICC_OPT='$(ICC_AUTO_OPT)' \
+	      		-e EXE_SUFFIX=$(AUTO_SUFFIX) iccrefout
+
+iccautotime:
+	@make $(SILENT) -e ICC_OPT='$(ICC_AUTO_OPT)' \
+	      		-e EXE_SUFFIX=$(AUTO_SUFFIX) iccreftime

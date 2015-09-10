@@ -1,0 +1,173 @@
+BASE_OMPCBE_OPT = -c-sche 
+#--goto-return
+
+ifdef CFE2
+BASE_OMPCBE_OPT += --cfe2
+endif
+
+ifdef WHILE
+BASE_OMPCBE_OPT += --while
+endif
+
+ifdef IF
+BASE_OMPCBE_OPT += --if
+endif
+
+ifdef LITERAL
+ifndef CMP
+NO_CMP_CBE_OPT += --literal
+endif
+endif
+
+ifdef NO_STRUCT
+BASE_OMPCBE_OPT += --no-struct
+endif
+
+ifdef ICC_NO_MAIN_RETURN
+BASE_OMPCBE_OPT += --icc-no-main-return
+endif
+
+ifdef SET_ARGV_FUNC
+BASE_OMPCBE_OPT += --set-argv-func
+endif
+
+
+ifdef CMP
+BASE_OMPCBE_OPT += --cmp --short-name
+endif
+
+ifdef DMA_FLG_MAP
+BASE_OMPCBE_OPT += --dma-flg-map
+endif
+
+ifdef SCALAR_MAP
+BASE_OMPCBE_OPT += --scalar-map
+endif
+
+ifdef B_ONCHIPSHARED
+BASE_OMPCBE_OPT += --b-onchipshared
+endif
+
+ifdef B_DSM
+BASE_OMPCBE_OPT += --b-dsm
+endif
+
+ifdef STASCHE_MAP
+BASE_OMPCBE_OPT += --stasche-map
+endif
+
+ifdef BARRIER_TYPE
+BASE_OMPCBE_OPT += -b $(BARRIER_TYPE)
+else
+BASE_OMPCBE_OPT += -b 5
+endif
+
+ifdef BARRIER_CACHE
+BASE_OMPCBE_OPT += --barrier-cache
+endif
+
+ifdef FVCONTROL
+BASE_OMPCBE_OPT += --fvcontrol
+endif
+
+ifdef SHUTDOWN_NOUSE_PE
+BASE_OMPCBE_OPT += --shutdown-nouse-pe $(SHUTDOWN_NOUSE_PE)
+endif
+
+ifdef INCLUDE_LOCK_FUNCS
+BASE_OMPCBE_OPT += --include-lock-funks
+endif
+
+ifdef LOCK_BY_LIB
+BASE_OMPCBE_OPT += --lock-by-lib
+endif
+
+ifdef EXECUTIONS
+BASE_OMPCBE_OPT += --executions
+endif
+
+ifdef REALTIME
+BASE_OMPCBE_OPT += --realtime
+endif
+
+ifdef NCC_PADDING
+BASE_OMPCBE_OPT += --padding
+endif
+
+ifdef SHC_ALIGNDATA
+BASE_OMPCBE_OPT += --shc-aligndata
+endif
+
+ifdef CACHE_LINE_SIZE
+BASE_OMPCBE_OPT += --cache-line-size $(CACHE_LINE_SIZE)
+endif
+
+
+ifdef LINE_NO
+BASE_OMPCBE_OPT += --line-no
+endif
+
+ifndef OMPCBE_OPT
+ifeq ($(PE), 1)
+OMPCBE_OPT = $(BASE_OMPCBE_OPT) $(OPT_OMPCBE_ADD)
+else
+OMPCBE_OPT = $(BASE_OMPCBE_OPT) \
+             --volatile --flush \
+             $(OPT_OMPCBE_ADD)
+
+ifdef BUSY_WAIT_FLUSH
+OMPCBE_OPT += --busy-wait-flush
+endif ## PE ##
+
+ifdef NON_VOLATILE_PRIV
+OMPCBE_OPT += --non-volatile-priv
+endif
+
+endif ## ifeq($(PE), 1) ##
+endif ## OMPCBE_OPT ##
+
+ifndef BCSMCBE_OPT
+BCSMCBE_OPT = $(OMPCBE_OPT) --b-onchipshared $(OPT_BCSMCBE_ADD)
+endif
+
+ifndef BDSMCBE_OPT
+BDSMCBE_OPT = $(OMPCBE_OPT) -b 7 --b-dsm --cmp $(OPT_BDSMCBE_ADD)
+endif
+
+ifndef BRP2BARCBE_OPT
+BRP2BARCBE_OPT = $(OMPCBE_OPT) --use-rp2barrier $(OPT_BRP2BARCBE_ADD)
+endif
+
+ifndef APICBE_OPT
+APICBE_OPT = $(BASE_OMPCBE_OPT) \
+             --volatile --volatile-shared
+ifdef SH4A
+APICBE_OPT += --executions --no-main
+endif
+
+ifdef SHC_SECTION
+APICBE_OPT += --shc-section
+endif
+
+ifdef DMA_RP1_DTU_DIRECT
+APICBE_OPT += --dma-rp1-dtu-direct
+endif
+
+ifdef DMA_NO_DIRECTIVE
+APICBE_OPT += --dma-no-directive
+endif
+
+ifdef LP64
+BASE_OMPCBE_OPT += -lp64
+endif
+
+APICBE_OPT += $(OPT_APICBE_ADD)
+
+endif
+
+
+ifndef LOOPCBE_OPT
+LOOPCBE_OPT = $(OMPCBE_OPT) \
+              --no-main \
+              $(OPT_LOOPCBE_ADD)
+endif

@@ -1,0 +1,44 @@
+# set ompfbe options
+
+ifndef OMPFBE_OPT
+ifdef CMP
+OMPFBE_OPT += --cmp --short-name
+endif
+
+ifdef B
+OMPFBE_OPT += -b $(B)
+endif
+
+ifdef LOCALIZE
+OMPFBE_OPT += --localize
+endif
+
+ifdef BARRIERCACHE
+OMPFBE_OPT += --barrier-cache
+endif
+
+ifdef CACHELINESIZE
+OMPFBE_OPT += --cache-line-size $(CACHELINESIZE)
+endif
+
+ifdef NOBWF
+
+ifeq ($(PE), 1)
+OMPFBE_OPT += $(OPT_OMPFBE_ADD)
+else
+OMPFBE_OPT += --flush --volatile \
+             $(OPT_OMPFBE_ADD)
+endif
+
+else
+
+ifeq ($(PE), 1)
+OMPFBE_OPT += $(OPT_OMPFBE_ADD)
+else
+OMPFBE_OPT += --busy-wait-flush --flush --volatile \
+             $(OPT_OMPFBE_ADD)
+endif
+
+endif
+
+endif

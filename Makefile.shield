@@ -1,0 +1,11 @@
+# set shield options
+
+ifndef BE_LM_SIZE
+BE_LM_SIZE = 0x80000
+endif
+
+ifndef SHIELD_OPT
+SHIELD_OPT = -n --csm-size 0x4000000 --ldm-size $(BE_LM_SIZE) \
+             $(OPT_SHIELD_ADD)
+endif
+
